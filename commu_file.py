@@ -16,8 +16,8 @@ class commutnicate_app():
         self.setFTP_connect()
         #write info -> ini file when start class
         self.setDevice_name("EMU-B20MC")
-        self.setModbus_connect() #get all device ip
-        self.commamd_complexDeviceINFO("device",self.MOd_ip)
+        # self.setModbus_connect() #get all device ip
+        # self.commamd_complexDeviceINFO("device",self.MOd_ip)
         
     def setPrintData(self,data): #set data in list form to data
         self.dataToINI = data
@@ -56,17 +56,21 @@ class commutnicate_app():
         self.type_connection = con_type
         if(self.type_connection == "Modbus"): 
             self.client_connect1 = Mod.Modbus_connect()
-            self.client_connect1.connect_client(ip)
+            return self.client_connect1.connect_client(ip)
         elif(self.type_connection =="MQTT"): #undev. MQTT
             pass
         else :
             print("unknow type\n")
 
-    def disconnect(self):
+    def disconnect_FTP(self):
+        self.client_connectFTP.disconnect()
+
+    def disconnect_brige(self):
         if(self.type_connection == "Modbus"):
             self.client_connect1.disconect()
         elif(self.type_connection =="MQTT"):
             pass
+        print("disconnect done")
 
     def get_least_firmwareVer(self): #check FTP detail 
         version = self.client_connectFTP.check_firmware_ver_server()
@@ -147,11 +151,14 @@ class commutnicate_app():
 
     def commamd_complexDeviceINFO(self,type,allIP): #get initIP connect&get device info& print ini
         for ip in allIP:
-            self.connnection_brige(type,ip) #connect device
-            mac,id,st,ver= self.getInfo_device() #get info
-            self.setPrintData([ip,mac,id,st[0],st[1],st[2],st[3],st[4],st[5],st[6],st[7],ver]) #compack info
-            self.command_print_ini("device","C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/") #write ini
-
+            statusconnect = self.connnection_brige(type,ip) #connect device
+            if(statusconnect == "connect"):
+                mac,id,st,ver= self.getInfo_device() #get info
+                self.setPrintData([ip,mac,id,st[0],st[1],st[2],st[3],st[4],st[5],st[6],st[7],ver]) #compack info
+                self.command_print_ini("device","C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/") #write ini
+                self.disconnect_brige()
+            else:
+                print(statusconnect)
 if __name__ == "__main__":
     ip = '*****'
     user = '*****'

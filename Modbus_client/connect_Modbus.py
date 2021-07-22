@@ -13,7 +13,11 @@ class Modbus_connect():
     #connect Modbus TCP client
     def connect_client(self,ip_add):
         self.Client_Modbus = ModbusTcpClient(ip_add)
-        print("status modbus connect:",client)
+        print("status modbus connect:",self.Client_Modbus)
+        if(self.Client_Modbus == True): #check connection
+            return "connect"
+        else:
+            return "unable_connect"
 
     def disconect(self):
         self.Client_Modbus.close()

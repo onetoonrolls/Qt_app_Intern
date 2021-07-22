@@ -93,6 +93,7 @@ Item {
                 onClicked: {
                     internal.getAllitemlist(listmodelId)
                     print("send IP to python")
+                    contextNoti.text = "Processing to python backend"
                     UpdatbackEnd.updateFirmware(internal.typeConnect)
                 }
             }
@@ -712,6 +713,9 @@ Item {
                 })
 
             }
+            function onSetContexNoti(context){
+                contextNoti.text = context
+            }
         }
     }
 }
@@ -722,6 +726,6 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.5}D{i:81}D{i:88}
+    D{i:0;formeditorZoom:0.5}
 }
 ##^##*/

@@ -16,6 +16,7 @@ class Connect_page(QObject):
     setBoolDeviceClear = Signal(bool)
     setBoolStatClear = Signal(bool)
     setContextStatus = Signal(str,str,str)
+    setContexNoti = Signal(str)
     
     def __init__(self):
         QObject.__init__(self)
@@ -25,9 +26,10 @@ class Connect_page(QObject):
         self.updateIP =[]
 
         self.commu = commu.commutnicate_app()
-        self.commu.setDevice_name_log("EMU-B20MC")
+        self.commu.setDevice_name("EMU-B20MC")
         #self.commu.setFTP_connect()
         #self.commu.connection_FTP()
+        #self.commu.disconnect_FTP()
              
     @Slot(bool)
     def refreshmentStatus(self, isState):
@@ -47,13 +49,19 @@ class Connect_page(QObject):
             for i in self.updateIP:
                 data = [i,"02/05/9999","0x0000"]
                 # self.commu.setModbus_connect(i)
-                # self.commu.connnection_brige("Modbus") #test modbus
-                # self.commu.command_update_firmware()
-                # self.commu.disconnect()
-                print("update IP: ",i)
-                #add print to log.ini 
-                self.commu.setPrintData(data)
-                self.commu.command_print_ini("log","C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/") 
+                # statusConnect = self.commu.connnection_brige("Modbus") #test modbus
+                #if(statusConnect == "connect"):
+                    # self.commu.command_update_firmware()
+                    #print("update IP: ",i)
+                    #add print to log.ini 
+                    #self.commu.setPrintData(data)
+                    #self.commu.command_print_ini("log","C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/") 
+                    # self.commu.disconnect()
+                    #self.setContexNoti.emit("Update Ip : "+ i +" done")
+                #elif(statusConnect == "unable_connect")
+                    #self.setContexNoti.emit("Ip : "+ i +statusConnect)
+                    
+            self.setContexNoti.emit("Update Ip : "+ i +" done")
 
     @Slot(str)        
     def getUpdateIP(self, ip):
