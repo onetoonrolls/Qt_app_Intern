@@ -23,7 +23,7 @@ class commutnicate_app():
         self.dataToINI = data
 
     def setFTP_connect(self):
-        Initread,key= self.getINI_file("C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/initConfig.ini")
+        Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
         Initread = self.command_unpack_json(Initread)
         #print("FTP init :",Initread[0])
         
@@ -33,9 +33,9 @@ class commutnicate_app():
         self.FTP_port = Initread[0]["port"]
 
     def setModbus_connect(self):
-        Initread,key= self.getINI_file("C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/initConfig.ini")
+        Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
         Initread = self.command_unpack_json(Initread)
-        #print("ip modbus : ",Initread[1])
+        print("ip modbus : ",Initread[1])
         
         for i in range(len(Initread[1])):
             #print(Initread[1]["initip-"+str(i+1)])
@@ -187,9 +187,9 @@ if __name__ == "__main__":
     # V = c.command_unpack_json(readINI)
     # print("v output : ",V)
 
-    c.setFTP_connect()
-    print(c.FTP_ip,c.FTP_user,c.FTP_psw,c.FTP_port)
+    # c.setFTP_connect()
+    # print(c.FTP_ip,c.FTP_user,c.FTP_psw,c.FTP_port)
 
-    c.setModbus_connect()
-    print(c.MOd_ip)
+    # c.setModbus_connect()
+    # print(c.MOd_ip)
 

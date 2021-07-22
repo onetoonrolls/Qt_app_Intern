@@ -1,5 +1,5 @@
 import configparser
-   
+import os
 class ini_config():
    
     def __init__(self):
@@ -76,7 +76,7 @@ class ini_config():
     def clearAllsection(self,type):
         data =  configparser.ConfigParser()
         print("current read file: ",self.path_read)
-        data.read(self.path_read)
+        data.read(os.path.abspath(self.path_read))
         for section in data.sections():
             print("section :",section)
             data.remove_section(section)
@@ -93,11 +93,12 @@ class ini_config():
             print("file name : ",file_name)
         else:
             print("type NULL ")
-        with open(file_name, 'w') as configfile: #write file
+        with open(os.path.abspath(file_name), 'w') as configfile: #write file
             data.write(configfile)
             print("clear complete")
 
     def setPath(self,read,write): #if string same = same path,if string NULL = no change path
+
         if(read =="same"):
             read = write
         elif(read =="NULL"):
@@ -171,7 +172,7 @@ class ini_config():
             elif(type == "initConfig"): #undev
                 pass
 
-        with open(file_name, 'w') as configfile: #write file
+        with open(os.path.abspath(file_name), 'w') as configfile: #write file
             data.write(configfile)
             print("ini file printed")
         self.setClear()
@@ -184,7 +185,7 @@ class ini_config():
         print("current read file: ",self.path_read)
         dic_con = {} #original convert data form
         
-        data.read(self.path_read)
+        data.read(os.path.abspath(self.path_read))
         #print(data.read(self.path_read))
         #return all section in .ini file
         for section in data.sections():

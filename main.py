@@ -3,7 +3,6 @@ import os
 from pathlib import Path
 import sys
 import commu_file as commu
-import json
 
 from PySide2.QtGui import QGuiApplication
 from PySide2.QtQml import QQmlApplicationEngine
@@ -34,7 +33,7 @@ class Connect_page(QObject):
     @Slot(bool)
     def refreshmentStatus(self, isState):
         self.setBoolStatClear.emit(isState)
-        self.Table_data,self.Table_head = self.commu.getINI_file("C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/log.ini")
+        self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/log.ini")
         list_obj = self.commu.command_unpack_json(self.Table_data)
         #print("list obj : ",list_obj)
         for i in list_obj:
@@ -44,6 +43,7 @@ class Connect_page(QObject):
     def updateFirmware(self, type):
         if(type == ""):
             print("type connection from QML is NULL")
+            self.setContexNoti.emit("type connection from QML is NULL")
         else:
             print("connect type : ",type)
             for i in self.updateIP:
@@ -55,7 +55,7 @@ class Connect_page(QObject):
                     #print("update IP: ",i)
                     #add print to log.ini 
                     #self.commu.setPrintData(data)
-                    #self.commu.command_print_ini("log","C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/") 
+                    #self.commu.command_print_ini("log","INI_config/ini_storage/") 
                     # self.commu.disconnect()
                     #self.setContexNoti.emit("Update Ip : "+ i +" done")
                 #elif(statusConnect == "unable_connect")
@@ -75,10 +75,10 @@ class Connect_page(QObject):
     def refreshmentTable(self, isState): #refresh table
         self.setBoolDeviceClear.emit(isState)  #call in main.qml to toggle state device botton
         # self.commu.setDevice_name("EMU-B20MC")
-        # self.commu.conmmand_clearINI("device","C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/config_EMU-B20MC.ini","C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/")
+        # self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
         # getIP = self.commu.getInitIP()
         # self.commu.commamd_complexDeviceINFO("device",getIP)
-        self.Table_data,self.Table_head = self.commu.getINI_file("C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/config_EMU-B20MC.ini")
+        self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
         list_obj = self.commu.command_unpack_json(self.Table_data)
         for i in list_obj:
             self.setContextTable.emit(i["ip"],i["mac"],i["id"],i["mes"],i["sdc"],i["ntp"],i["tcp"],i["c_version"]) #call in homepage.qml to change device data table
