@@ -49,7 +49,7 @@ class Connect_page(QObject):
             for i in self.updateIP:
                 data = [i,"02/05/9999","0x0000"]
                 # self.commu.setModbus_connect(i)
-                # statusConnect = self.commu.connnection_brige("Modbus") #test modbus
+                # statusConnect = self.commu.connnection_brige("Modbus") 
                 #if(statusConnect == "connect"):
                     # self.commu.command_update_firmware()
                     #print("update IP: ",i)
