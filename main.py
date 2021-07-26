@@ -48,18 +48,19 @@ class Connect_page(QObject):
             print("connect type : ",type)
             for i in self.updateIP:
                 data = [i,"02/05/9999","0x0000"]
-                # self.commu.setModbus_connect(i)
-                # statusConnect = self.commu.connnection_brige("Modbus") 
-                #if(statusConnect == "connect"):
-                    # self.commu.command_update_firmware()
-                    #print("update IP: ",i)
+                self.commu.setModbus_connect(i)
+                statusConnect = self.commu.connnection_brige("Modbus") 
+                if(statusConnect == "connect"):
+                    #self.commu.command_update_firmware()
+                    print("update IP: ",i)
                     #add print to log.ini 
                     #self.commu.setPrintData(data)
                     #self.commu.command_print_ini("log","INI_config/ini_storage/") 
-                    # self.commu.disconnect()
-                    #self.setContexNoti.emit("Update Ip : "+ i +" done")
-                #elif(statusConnect == "unable_connect")
-                    #self.setContexNoti.emit("Ip : "+ i +statusConnect)
+                    self.commu.disconnect_brige()
+                    self.setContexNoti.emit("Update Ip : "+ i +" done")
+                elif(statusConnect == "unable_connect"):
+                    print("unable connect")
+                    self.setContexNoti.emit("Ip : "+ i +statusConnect)
                     
             self.setContexNoti.emit("Update Ip : "+ i +" done")
 

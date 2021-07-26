@@ -10,11 +10,11 @@ class Modbus_connect():
         for i in range(result) :
             print("round"+str(i)+": "+hex(result[i]))
 
-    #connect Modbus TCP client
+     #connect Modbus TCP client
     def connect_client(self,ip_add):
         self.Client_Modbus = ModbusTcpClient(ip_add)
         print("status modbus connect:",self.Client_Modbus)
-        if(self.Client_Modbus == True): #check connection
+        if(self.Client_Modbus.connect()): #check connection
             return "connect"
         else:
             return "unable_connect"
