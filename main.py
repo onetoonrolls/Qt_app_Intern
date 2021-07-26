@@ -61,7 +61,7 @@ class Connect_page(QObject):
                 elif(statusConnect == "unable_connect"):
                     print("unable connect")
                     self.setContexNoti.emit("Ip : "+ i +statusConnect)
-                    
+                    #
             self.setContexNoti.emit("Update Ip : "+ i +" done")
 
     @Slot(str)        
