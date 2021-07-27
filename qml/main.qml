@@ -8,8 +8,8 @@ import "../qml/controls"
 
 Window {
     id: window
-    width: 1980
-    height: 1080
+    width: Screen.desktopAvailableWidth//1980 px
+    height: Screen.desktopAvailableHeight //1080
     minimumWidth: 800
     minimumHeight: 580
     visible: true
@@ -452,12 +452,27 @@ Window {
         target: backend
 
     }
+
+    MouseArea {
+        id: resizetop
+        width: 1800
+        height: 10
+        anchors.left: parent.left
+        anchors.top: parent.top
+        anchors.topMargin: 10
+        anchors.leftMargin: 10
+        cursorShape: Qt.SizeVerCursor
+        DragHandler {
+            target: null
+            onActiveChanged: if(active){window.startSystemResize(Qt.TopEdge)}
+        }
+    }
 }
 
 
 
 /*##^##
 Designer {
-    D{i:0;autoSize:true;height:480;width:640}
+    D{i:0;formeditorZoom:0.9}D{i:36}
 }
 ##^##*/

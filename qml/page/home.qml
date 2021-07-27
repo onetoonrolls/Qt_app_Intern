@@ -1,12 +1,12 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
-//import QtQuick.Studio.Effects 1.0
+import QtQuick.Window 2.15
 import Qt.labs.qmlmodels 1.0
 
 
 Item {
-    width: 1881
-    height: 980
+    width: Screen.desktopAvailableWidth-100
+    height: Screen.desktopAvailableHeight-100
 
     Rectangle {
         id: rectangle

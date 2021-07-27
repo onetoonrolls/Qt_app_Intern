@@ -1,10 +1,12 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 import Qt.labs.qmlmodels 1.0
+import QtQuick.Window 2.15
 
 Item {
-    width: 1881
-    height: 980
+
+    width: Screen.desktopAvailableWidth-99
+    height: Screen.desktopAvailableHeight-100
 
     QtObject{
         id: internal
@@ -60,18 +62,16 @@ Item {
 
         Label {
             id: updatepage
-            x: 0
-            y: 0
             width: 263
             height: 46
             color: "#ffffff"
             text: qsTr("Update page")
-            anchors.verticalCenter: parent.verticalCenter
+            anchors.left: parent.left
+            anchors.top: parent.top
             horizontalAlignment: Text.AlignHCenter
-            anchors.verticalCenterOffset: -467
-            anchors.horizontalCenterOffset: -809
+            anchors.topMargin: 0
+            anchors.leftMargin: 0
             font.pointSize: 20
-            anchors.horizontalCenter: parent.horizontalCenter
         }
 
         Row {
@@ -139,9 +139,11 @@ Item {
 
         VerticalHeaderView {
             id: verticalHeader
+            x: deviceTable.x-30
+            y: deviceTable.y
+            width: 30
             syncView: tableView
             clip: true
-            width: contentWidth
             height: tableView.height
             anchors.right: deviceTable.left
             anchors.top: updatepage.bottom
@@ -217,19 +219,10 @@ Item {
 
             TableView {
                 id: tableView
-                x: 0
-                y: 29
-                anchors.left: parent.left
-                anchors.right: parent.right
-                anchors.top: parent.top
-                anchors.bottom: parent.bottom
-                anchors.rightMargin: 0
+                anchors.fill: parent
                 synchronousDrag: false
                 pixelAligned: false
                 boundsBehavior: Flickable.StopAtBounds
-                anchors.bottomMargin: 0
-                anchors.leftMargin: 0
-                anchors.topMargin: 0
                 columnSpacing: 1
                 rowSpacing: 1
                 clip: true
@@ -301,11 +294,11 @@ Item {
 
         VerticalHeaderView {
             id: statusVerticalHeader
-            x: 198
-            y: 379
+            x: notiTable.x-30
+            y: notiTable.y
+            width: 30
             syncView: tableStatus
             clip: true
-            width: contentWidth
             height: tableStatus.height
             anchors.right: notiTable.left
             anchors.top: nitoUpStatuscontext.bottom
@@ -397,6 +390,8 @@ Item {
                     id: tablestatusVerticalBar;
                     x: 1200
                     height: tableStatus.height
+                    anchors.right: parent.right
+                    anchors.rightMargin: 373
                     active: true
                     policy:ScrollBar.AlwaysOn
                 }
@@ -446,7 +441,7 @@ Item {
         Rectangle {
             id: updateOption
             y: 612
-            height: 243
+            height: 154
             color: "#00000000"
             border.color: "#00000000"
             anchors.left: parent.left
@@ -726,6 +721,6 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.5}
+    D{i:0;formeditorZoom:0.66}D{i:3}D{i:26}
 }
 ##^##*/

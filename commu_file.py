@@ -16,8 +16,6 @@ class commutnicate_app():
         self.setFTP_connect()
         #write info -> ini file when start class
         self.setDevice_name("EMU-B20MC")
-        # self.setModbus_connect() #get all device ip
-        # self.commamd_complexDeviceINFO("device",self.MOd_ip)
         
     def setPrintData(self,data): #set data in list form to data
         self.dataToINI = data
@@ -32,14 +30,20 @@ class commutnicate_app():
         self.FTP_psw = Initread[0]["password"]
         self.FTP_port = Initread[0]["port"]
 
-    def setModbus_connect(self):
-        Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
-        Initread = self.command_unpack_json(Initread)
-        print("ip modbus : ",Initread[1])
-        
-        for i in range(len(Initread[1])):
-            #print(Initread[1]["initip-"+str(i+1)])
-            self.MOd_ip.append(Initread[1]["initip-"+str(i+1)])
+    def setModbus_connect(self,ip): #set ip to connect modbus device from app
+        if(ip == ""):
+            Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
+            Initread = self.command_unpack_json(Initread)
+            print("ip modbus : ",Initread[1])
+            
+            for i in range(len(Initread[1])):
+                #print(Initread[1]["initip-"+str(i+1)])
+                self.MOd_ip.append(Initread[1]["initip-"+str(i+1)])
+        elif(type(ip)== int):
+            print("ip is int not string")
+        else:
+            self.MOd_ip.append(ip)
+            #
     
     def setDevice_name(self,device_name):
         self.device_name = device_name
@@ -101,7 +105,7 @@ class commutnicate_app():
         data,key =self.client_configParser.read_INI_to_Json()
         return data,key
     
-    def getInitIP(self):
+    def getconnectIP(self):
         return self.MOd_ip
 
     def conmmand_clearINI(self,type,readPath,writePath):
