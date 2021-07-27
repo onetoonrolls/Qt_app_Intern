@@ -476,7 +476,7 @@ Item {
                     }*/
 
                     delegate: Item {
-                        width: parent.width
+                        width: 100
                         height: 50
                         Row {
                             spacing: 5
