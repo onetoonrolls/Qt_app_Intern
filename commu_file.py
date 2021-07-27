@@ -9,7 +9,7 @@ class commutnicate_app():
         self.FTP_user = "****"
         self.FTP_psw = "****"
         self.dataToINI = []
-        self.device_name ="" #EMU-B20MC,EMU-B20SM
+        self.device_name ="EMU-B20MC" #EMU-B20MC,EMU-B20SM
         self.MOd_ip =[]
         self.type_connection = "Modbus"
         self.client_configParser = ini.ini_config()
@@ -31,7 +31,7 @@ class commutnicate_app():
         self.FTP_port = Initread[0]["port"]
 
     def setModbus_connect(self,ip): #set ip to connect modbus device from app
-        if(ip == ""):
+        if(ip == "init"):
             Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
             Initread = self.command_unpack_json(Initread)
             print("ip modbus : ",Initread[1])
@@ -51,6 +51,9 @@ class commutnicate_app():
     def setPath_ini(self,read,write):
         self.client_configParser.setPath(read,write)
 
+    def setClearMod_ip(self):
+        self.MOd_ip = []
+        print("clear Modbus ip done")
     def connection_FTP(self):
         self.client_connectFTP = FTP.FTP_client()
         self.client_connectFTP.connect(self.FTP_ip,self.FTP_user,self.FTP_psw)
@@ -137,7 +140,7 @@ class commutnicate_app():
         self.client_configParser.setPath("NULL",writePath)
         if(typeSelect == "device"):
             #self.client_configParser.setDevice_name(self.device_name)
-            self.client_configParser.setDevice_info(self.dataToINI[0],self.dataToINI[1],self.dataToINI[2],self.dataToINI[3],self.dataToINI[4],self.dataToINI[5],self.dataToINI[6],self.dataToINI[7])
+            self.client_configParser.setDevice_info(self.dataToINI[0],self.dataToINI[1],self.dataToINI[2],[self.dataToINI[3],self.dataToINI[4],self.dataToINI[5],self.dataToINI[6]],self.dataToINI[7])
         elif(typeSelect == "log"):
             self.client_configParser.setLog(self.dataToINI[0],self.dataToINI[1],self.dataToINI[2])
         elif(typeSelect == "initConfig"):
@@ -158,11 +161,12 @@ class commutnicate_app():
             statusconnect = self.connnection_brige(type,ip) #connect device
             if(statusconnect == "connect"):
                 mac,id,st,ver= self.getInfo_device() #get info
-                self.setPrintData([ip,mac,id,st[0],st[1],st[2],st[3],st[4],st[5],st[6],st[7],ver]) #compack info
-                self.command_print_ini("device","C:/Users/oneto/Desktop/qt-test/qt_py/INI_config/ini_storage/") #write ini
+                self.setPrintData([ip,mac,id,st[0],st[1],st[2],st[3],ver]) #compack info
+                self.command_print_ini("device","INI_config/ini_storage/") #write ini
                 self.disconnect_brige()
             else:
                 print(statusconnect)
+            
 if __name__ == "__main__":
     ip = '*****'
     user = '*****'

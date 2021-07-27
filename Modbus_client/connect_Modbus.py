@@ -5,6 +5,9 @@ from pymodbus.file_message import WriteFileRecordRequest
 
 class Modbus_connect():
     
+    def __init__(self) :
+        self.hex_mac = ""
+
     #test display list from module
     def print_outputFrom_register(result):
         for i in range(result) :
@@ -24,19 +27,26 @@ class Modbus_connect():
         
     #convert to mac(HEX) to string
     def mac_convertTOstring(self,mac):
-        hex_mac = str(hex(mac[0])+hex(mac[1])+hex(mac[2]))
-        hex_mac = "0x"+self.uppercase_string(hex_mac.replace("0x",""))
-        # hex_mac = hex_mac.upper
-        return hex_mac
+        #print("mac :",mac)
+        for i in mac:
+            #print("type i ",type(i))
+            try:
+                one_mac = hex(i)
+                self.hex_mac += one_mac
+            except:
+                pass
+        #print(self.hex_mac)
+        self.hex_mac = "0x"+self.uppercase_string(self.hex_mac.replace("0x",""))
+        return self.hex_mac
 
     #convert status to string
-    def status_convert(stu):
+    def status_convert(self,stu):
         if(stu == hex(0)):
-            return "normal status"
+            return "normal"
         elif(stu == hex(99)):
-            return "abnormal status"
+            return "abnormal"
 
-    def uppercase_string(word):
+    def uppercase_string(self,word):
         NWord =""
         for i in word:
             switcher = {
@@ -75,6 +85,7 @@ class Modbus_connect():
     def status_read(self):
         status_addr = 0x038A
         status = self.Client_Modbus.read_input_registers(status_addr,4).registers
+        
         MES_sta = self.status_convert(hex(status[0]))
         SDC_sta = self.status_convert(hex(status[1]))
         NTP_sta = self.status_convert(hex(status[2]))
@@ -100,13 +111,17 @@ if __name__ == "__main__":
     
     path = '/ini/EMU-B20MC'
     #connect client
-    ip = '******'
-    '''
-    client = connect_client(ip)
-    print(client) #test status connect
+    ip = '172.16.5.129'
+    
+    M = Modbus_connect()
+    print(M.connect_client(ip)) #test status connect
     #test read
-    mac = mac_read()
-    print("\nmac: "+ mac)
+    #mac = M.mac_read()
+    #print("\nmac: ",mac)
+    M.disconect()
+    print(M.connect_client(ip))
+    M.disconect()
+    '''
     device_ID = device_id_read()
     print("\ndevice ID: "+str(device_ID))
     firmVersion = fireware_read()
