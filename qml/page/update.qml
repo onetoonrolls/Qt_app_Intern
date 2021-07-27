@@ -162,6 +162,7 @@ Item {
                 id: tableHori_header
                 x: 0
                 y: -1
+                syncView: tableView
                 width: tableView.width
                 height: 30
                 anchors.bottom: tableView.top
@@ -172,7 +173,7 @@ Item {
                 columnSpacing: 1
                 rowSpacing: 1
                 clip: true
-                syncDirection: Qt.Vertical | Qt.Horizontal
+                syncDirection: Qt.Horizontal
                 model: TableModel {
                     TableModelColumn { display: "keyvalue1" }
                     TableModelColumn { display: "keyvalue2" }
@@ -319,6 +320,7 @@ Item {
                 id: tablestatusHori_header
                 x: 0
                 y: -22
+                syncView: tableStatus
                 width: tableStatus.width
                 height: 30
                 anchors.bottom: tableStatus.top
@@ -329,7 +331,7 @@ Item {
                 columnSpacing: 1
                 rowSpacing: 1
                 clip: true
-                syncDirection: Qt.Vertical | Qt.Horizontal
+                syncDirection: Qt.Horizontal
                 model: TableModel {
                     TableModelColumn { display: "keyvalue1" }
                     TableModelColumn { display: "keyvalue2" }
@@ -718,6 +720,6 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.33}
+    D{i:0;formeditorZoom:0.75}
 }
 ##^##*/

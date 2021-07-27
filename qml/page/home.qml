@@ -58,6 +58,7 @@ Item {
                 id: tableHori_header
                 x: 0
                 y: -1
+                syncView: tableView
                 width: tableView.width
                 height: 30
                 anchors.bottom: tableView.top
@@ -68,7 +69,7 @@ Item {
                 columnSpacing: 1
                 rowSpacing: 1
                 clip: true
-                syncDirection: Qt.Vertical | Qt.Horizontal
+                syncDirection: Qt.Horizontal
                 model: TableModel {
                     TableModelColumn { display: "keyvalue1" }
                     TableModelColumn { display: "keyvalue2" }
