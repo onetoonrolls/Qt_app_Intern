@@ -58,6 +58,7 @@ class Connect_page(QObject):
                     #self.commu.command_print_ini("log","INI_config/ini_storage/") 
                     #self.commu.disconnect_brige()
                     #self.setContexNoti.emit("Update Ip : "+ i +" done")
+                    #print("Update Ip : "+ i +" done")
                 #elif(statusConnect == "unable_connect"):
                     #print("unable connect")
                     #self.setContexNoti.emit("Ip : "+ i +statusConnect)

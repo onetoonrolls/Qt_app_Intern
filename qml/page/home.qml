@@ -5,7 +5,7 @@ import Qt.labs.qmlmodels 1.0
 
 
 Item {
-    width: Screen.desktopAvailableWidth-100
+    width: Screen.desktopAvailableWidth-99
     height: Screen.desktopAvailableHeight-100
 
     Rectangle {

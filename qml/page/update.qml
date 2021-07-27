@@ -76,14 +76,11 @@ Item {
 
         Row {
             id: confirmBtn
-            x: 1200
-            width: 681
+            x: 1312
+            y: 382
+            width: 501
             height: 82
-            anchors.right: parent.right
-            anchors.top: updateOption.bottom
-            anchors.topMargin: 20
             spacing: 18
-            anchors.rightMargin: 0
 
             Button {
                 id: updateNow
@@ -721,6 +718,6 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.66}D{i:3}D{i:26}
+    D{i:0;formeditorZoom:0.33}
 }
 ##^##*/
