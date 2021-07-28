@@ -4,9 +4,10 @@ import Qt.labs.qmlmodels 1.0
 import QtQuick.Window 2.15
 
 Item {
-
-    width: 1821
-    height: 930
+    width: Screen.desktopAvailableWidth -69
+    height: Screen.desktopAvailableHeight -108
+    //width: 1821
+    //height: 930
 
     QtObject{
         id: internal
@@ -76,13 +77,14 @@ Item {
 
         Row {
             id: confirmBtn
-            x: 1157
+            x: 1277
+            y: 849
             width: 501
             height: 82
             anchors.right: parent.right
-            anchors.top: updateOption.bottom
-            anchors.topMargin: 30
-            anchors.rightMargin: 163
+            anchors.bottom: parent.bottom
+            anchors.bottomMargin: 30
+            anchors.rightMargin: 30
             spacing: 18
 
             Button {
@@ -159,8 +161,8 @@ Item {
             anchors.left: parent.left
             anchors.right: parent.right
             anchors.top: updatepage.bottom
-            anchors.topMargin: 29
             anchors.rightMargin: 65
+            anchors.topMargin: 29
             anchors.leftMargin: 73
 
             TableView{
@@ -239,7 +241,7 @@ Item {
                     clip: true
                     anchors.rightMargin: 0
                     active: true
-                    policy:ScrollBar.AlwaysOnS
+                    //policy:ScrollBar.AlwaysOnS
                 }
 
                 model: TableModel {
@@ -283,8 +285,8 @@ Item {
             anchors.left: nitoUpStatus.right
             anchors.right: parent.right
             anchors.top: deviceTable.bottom
-            anchors.topMargin: 10
             anchors.rightMargin: 65
+            anchors.topMargin: 10
             anchors.leftMargin: 1
 
             Label{
@@ -301,27 +303,24 @@ Item {
         VerticalHeaderView {
             id: statusVerticalHeader
             x: notiTable.x-30
-            y: notiTable.y
+            y: 383
             width: 30
             syncView: tableStatus
             clip: true
             height: tableStatus.height
             anchors.right: notiTable.left
-            anchors.top: nitoUpStatuscontext.bottom
-            anchors.topMargin: 48
             anchors.rightMargin: 0
         }
 
         Rectangle {
             id: notiTable
-            y: 368
+            y: notiTable.y
+            width: 1264
             height: 200
             color: "#00000000"
             border.color: "#00000000"
             anchors.left: parent.left
-            anchors.right: parent.right
             anchors.top: nitoUpStatus.bottom
-            anchors.rightMargin: 65
             anchors.leftMargin: 73
             anchors.topMargin: 40
 
@@ -376,14 +375,7 @@ Item {
 
             TableView {
                 id: tableStatus
-                anchors.left: parent.left
-                anchors.right: parent.right
-                anchors.top: parent.top
-                anchors.bottom: parent.bottom
-                anchors.rightMargin: 518
-                anchors.leftMargin: 0
-                anchors.bottomMargin: 0
-                anchors.topMargin: 8
+                anchors.fill: parent
                 contentWidth: 900
                 synchronousDrag: false
                 pixelAligned: false
@@ -401,7 +393,7 @@ Item {
                     clip: true
                     anchors.rightMargin: 0
                     active: true
-                    policy:ScrollBar.AlwaysOnS
+                    //policy:ScrollBar.AlwaysOnS
                 }
 
                 model: TableModel {
@@ -436,13 +428,12 @@ Item {
         Rectangle {
             id: updateOption
             y: 612
+            width: 1500
             height: 154
             color: "#00000000"
             border.color: "#00000000"
             anchors.left: parent.left
-            anchors.right: parent.right
             anchors.top: notiTable.bottom
-            anchors.rightMargin: 65
             anchors.leftMargin: 73
             anchors.topMargin: 13
 
@@ -703,6 +694,6 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.33}
+    D{i:0;formeditorZoom:0.33}D{i:4}D{i:11}D{i:41}D{i:55}D{i:44}
 }
 ##^##*/

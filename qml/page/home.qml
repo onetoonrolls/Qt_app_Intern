@@ -5,8 +5,10 @@ import Qt.labs.qmlmodels 1.0
 
 
 Item {
-    width: 1821
-    height: 930
+    width: Screen.desktopAvailableWidth -69
+    height: Screen.desktopAvailableHeight -108
+    //width: 1821
+    //height: 1000
 
     Rectangle {
         id: rectangle
@@ -31,18 +33,18 @@ Item {
 
         VerticalHeaderView {
             id: verticalHeader
+            width: 30
             syncView: tableView
             clip: true
-            width: contentWidth
             height: tableView.height
-            anchors.right: rectangle1.left
+            anchors.right: tableDevice.left
             anchors.top: homepage.bottom
             anchors.topMargin: 29
             anchors.rightMargin: 0
         }
 
         Rectangle {
-            id: rectangle1
+            id: tableDevice
             x: 77
             y: 70
             height: 217
@@ -50,9 +52,9 @@ Item {
             anchors.left: parent.left
             anchors.right: parent.right
             anchors.top: homepage.bottom
+            anchors.rightMargin: 65
             anchors.topMargin: 29
             anchors.leftMargin: 73
-            anchors.rightMargin: 65
 
             TableView{
                 id: tableHori_header
@@ -134,7 +136,7 @@ Item {
                     anchors.right: parent.right
                     anchors.rightMargin: 0
                     active: true
-                    policy:ScrollBar.AlwaysOnS
+                    //policy:ScrollBar.AlwaysOnS
                     clip: true
                 }
 
@@ -207,6 +209,6 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.33}
+    D{i:0;formeditorZoom:0.33}D{i:4}
 }
 ##^##*/

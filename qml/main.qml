@@ -150,7 +150,8 @@ Window {
                         onClicked: {
                             update.isActMenu = false
                             btnHome.isActMenu = true
-                            stackView.push(Qt.resolvedUrl("../qml/page/home.qml"))
+
+                            stackView.replace(Qt.createComponent(Qt.resolvedUrl("../qml/page/home.qml")))
                             backend.refreshmentTable(btnHome.autoRepeat)
                         }
 
@@ -166,7 +167,8 @@ Window {
                         onClicked: {
                             btnHome.isActMenu = false
                             update.isActMenu = true
-                            stackView.push(Qt.resolvedUrl("../qml/page/update.qml"))
+                            stackView.replace(Qt.createComponent(Qt.resolvedUrl("../qml/page/update.qml")))
+                            //stackView.replace(Qt.resolvedUrl("../qml/page/update.qml"))
                             backend.refreshmentTable(update.autoRepeat)
                             backend.refreshmentStatus(update.autoRepeat)
                         }
@@ -253,26 +255,14 @@ Window {
                     z:2
                     id: stackView
                     anchors.fill: parent
-                    //1821 123
-                    //900
-                    initialItem: Qt.resolvedUrl("../qml/page/home.qml")
-                    Flickable{
-                        id: flickable
-                        anchors.fill: parent
-                        clip: true
-                        ScrollBar.vertical: ScrollBar {
-                            width: 20
-
-                                            height: stackView.height
-                                            anchors.right: parent.right
-                                            clip: true
-                                            anchors.rightMargin: 0
-                                            active: true
-                                            policy:ScrollBar.AlwaysOn
-                                            interactive: true
-                                        }
-                    }
-
+                    initialItem: Qt.createComponent(Qt.resolvedUrl("../qml/page/home.qml"))
+                    
+                    BusyIndicator {
+                            width: 500
+                            height: 500
+                            anchors.centerIn: parent
+                            running: stackView.busy 
+                        }
                 }
 
             }
