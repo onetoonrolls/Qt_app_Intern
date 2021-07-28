@@ -114,13 +114,13 @@ if __name__ == "__main__":
     ip = '172.16.5.129'
     
     M = Modbus_connect()
-    print(M.connect_client(ip)) #test status connect
-    #test read
-    #mac = M.mac_read()
-    #print("\nmac: ",mac)
-    M.disconect()
-    print(M.connect_client(ip))
-    M.disconect()
+    # print(M.connect_client(ip)) #test status connect
+    # #test read
+    # #mac = M.mac_read()
+    # #print("\nmac: ",mac)
+    # M.disconect()
+    # print(M.connect_client(ip))
+    # M.disconect()
     '''
     device_ID = device_id_read()
     print("\ndevice ID: "+str(device_ID))

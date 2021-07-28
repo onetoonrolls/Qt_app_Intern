@@ -225,7 +225,7 @@ if __name__ == "__main__":
     # print("\nkey INI file : ",keyReadINI)
     # print("\nobj INI file : ",readINI)
 
-    a.setPath("INI_config/ini_storage/config_EMU-B20SM.ini","INI_config/ini_storage/")
-    a.setDevice_name("EMU-B20SM")
-    a.clearAllsection("device")
+    # a.setPath("INI_config/ini_storage/config_EMU-B20SM.ini","INI_config/ini_storage/")
+    # a.setDevice_name("EMU-B20SM")
+    # a.clearAllsection("device")
 

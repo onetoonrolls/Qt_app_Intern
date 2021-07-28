@@ -134,8 +134,8 @@ if __name__ == "__main__":
     #test class
     client_FTP = FTP_client()
     #client_FTP.setdefaultvalue()
-    client_FTP.connect(ip,user,pws)
-    client_FTP.change_type_object()
+    # client_FTP.connect(ip,user,pws)
+    # client_FTP.change_type_object()
     #firmware_ver = client_FTP.check_firmware_ver_server()
     #print(firmware_ver)
     #client_FTP.check_path()
@@ -149,8 +149,8 @@ if __name__ == "__main__":
     
     client_FTP.check_path()
     '''
-    client_FTP.sort_detail("EMU-B20MC")
-    client_FTP.disconnect()
+    # client_FTP.sort_detail("EMU-B20MC")
+    # client_FTP.disconnect()
     
 
     
