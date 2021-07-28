@@ -253,7 +253,7 @@ Window {
                     z:2
                     id: stackView
                     anchors.fill: parent
-                    //1821
+                    //1821 123
                     //900
                     initialItem: Qt.resolvedUrl("../qml/page/home.qml")
                     Flickable{
