@@ -248,15 +248,18 @@ Window {
                 anchors.bottomMargin: 8
                 anchors.topMargin: 0
                 z:2
-
-                StackView {
-                    id: stackView
-                    width: display.width
-                    height: display.width
+                ScrollView{
                     anchors.fill: parent
-                    initialItem: Qt.resolvedUrl("../qml/page/home.qml")
-                    
+                    clip: true
+                    StackView {
+                        id: stackView
+                        width: 1821
+                        height: 892
+                        initialItem: Qt.resolvedUrl("../qml/page/home.qml")
+
+                    }
                 }
+
             }
 
             Rectangle {
@@ -473,6 +476,6 @@ Window {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.9}D{i:36}
+    D{i:0;formeditorZoom:0.33}D{i:18}D{i:16}
 }
 ##^##*/

@@ -49,11 +49,8 @@ Item {
             }
         }
     }
-    ScrollView{
-        anchors.fill: parent
-        clip: true
 
-        Rectangle {
+    Rectangle {
         id: bg
         color: "#202020"
         border.color: "#00000000"
@@ -652,8 +649,6 @@ Item {
                 }
             }
         }
-
-    }
     
         Connections{
             target: UpdatbackEnd

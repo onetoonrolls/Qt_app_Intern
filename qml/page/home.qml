@@ -8,11 +8,7 @@ Item {
     width: Screen.desktopAvailableWidth-99
     height: Screen.desktopAvailableHeight-100
 
-    ScrollView{
-        anchors.fill: parent
-        clip: true
-
-        Rectangle {
+    Rectangle {
         id: rectangle
         width: 1880
         color: "#202020"
@@ -175,10 +171,7 @@ Item {
             }
         }
     }
-
-    }
     
-
     Connections{
         target: homeBackend
 
