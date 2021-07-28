@@ -5,8 +5,8 @@ import Qt.labs.qmlmodels 1.0
 
 
 Item {
-    width: Screen.desktopAvailableWidth-99
-    height: Screen.desktopAvailableHeight-100
+    width: 1821
+    height: 930
 
     Rectangle {
         id: rectangle
@@ -171,7 +171,7 @@ Item {
             }
         }
     }
-    
+
     Connections{
         target: homeBackend
 

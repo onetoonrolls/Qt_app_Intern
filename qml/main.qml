@@ -247,17 +247,32 @@ Window {
                 anchors.leftMargin: 0
                 anchors.bottomMargin: 8
                 anchors.topMargin: 0
-                z:2
-                ScrollView{
-                    anchors.fill: parent
-                    clip: true
-                    StackView {
-                        id: stackView
-                        width: 1821
-                        height: 892
-                        initialItem: Qt.resolvedUrl("../qml/page/home.qml")
 
+
+                StackView {
+                    z:2
+                    id: stackView
+                    anchors.fill: parent
+                    //1821
+                    //900
+                    initialItem: Qt.resolvedUrl("../qml/page/home.qml")
+                    Flickable{
+                        id: flickable
+                        anchors.fill: parent
+                        clip: true
+                        ScrollBar.vertical: ScrollBar {
+                            width: 20
+
+                                            height: stackView.height
+                                            anchors.right: parent.right
+                                            clip: true
+                                            anchors.rightMargin: 0
+                                            active: true
+                                            policy:ScrollBar.AlwaysOn
+                                            interactive: true
+                                        }
                     }
+
                 }
 
             }
@@ -476,6 +491,6 @@ Window {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.33}D{i:18}D{i:16}
+    D{i:0;formeditorZoom:0.5}D{i:17}D{i:16}
 }
 ##^##*/

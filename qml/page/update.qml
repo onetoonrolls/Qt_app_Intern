@@ -5,8 +5,8 @@ import QtQuick.Window 2.15
 
 Item {
 
-    width: Screen.desktopAvailableWidth-99
-    height: Screen.desktopAvailableHeight-100
+    width: 1821
+    height: 930
 
     QtObject{
         id: internal
@@ -703,6 +703,6 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.33}D{i:5}
+    D{i:0;formeditorZoom:0.33}
 }
 ##^##*/
