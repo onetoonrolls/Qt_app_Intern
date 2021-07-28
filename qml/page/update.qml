@@ -49,9 +49,12 @@ Item {
             }
         }
     }
+    ScrollView{
+        anchors.fill: parent
+        clip: true
 
-    Rectangle {
-        id: rectangle
+        Rectangle {
+        id: bg
         color: "#202020"
         border.color: "#00000000"
         anchors.fill: parent
@@ -76,10 +79,13 @@ Item {
 
         Row {
             id: confirmBtn
-            x: 1312
-            y: 382
+            x: 1157
             width: 501
             height: 82
+            anchors.right: parent.right
+            anchors.top: updateOption.bottom
+            anchors.topMargin: 30
+            anchors.rightMargin: 163
             spacing: 18
 
             Button {
@@ -124,7 +130,8 @@ Item {
             anchors.topMargin: 10
             anchors.leftMargin: 73
             Label{
-                width: 263
+                y: 0
+                width: 341
                 height: 46
                 color: "#ffffff"
                 text: "Notification Update"
@@ -147,6 +154,7 @@ Item {
             anchors.topMargin: 29
             anchors.rightMargin: 0
         }
+
         Rectangle {
             id: deviceTable
             height: 217
@@ -212,7 +220,6 @@ Item {
                         }
                     }
                 }
-
             }
 
             TableView {
@@ -229,9 +236,13 @@ Item {
                 //TableViewColumn{}
 
                 ScrollBar.vertical: ScrollBar {
-                    id: tableVerticalBar;
+                    id: tableVerticalBar
+                    height: tableView.height
+                    anchors.right: parent.right
+                    clip: true
+                    anchors.rightMargin: 0
                     active: true
-                    policy:ScrollBar.AlwaysOn
+                    policy:ScrollBar.AlwaysOnS
                 }
 
                 model: TableModel {
@@ -303,6 +314,7 @@ Item {
             anchors.topMargin: 48
             anchors.rightMargin: 0
         }
+
         Rectangle {
             id: notiTable
             y: 368
@@ -363,7 +375,6 @@ Item {
                         }
                     }
                 }
-
             }
 
             TableView {
@@ -372,7 +383,7 @@ Item {
                 anchors.right: parent.right
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
-                anchors.rightMargin: 99
+                anchors.rightMargin: 518
                 anchors.leftMargin: 0
                 anchors.bottomMargin: 0
                 anchors.topMargin: 8
@@ -386,13 +397,14 @@ Item {
                 syncDirection: Qt.Vertical | Qt.Horizontal
 
                 ScrollBar.vertical: ScrollBar {
-                    id: tablestatusVerticalBar;
+                    id: tablestatusVerticalBar
                     x: 1200
                     height: tableStatus.height
                     anchors.right: parent.right
-                    anchors.rightMargin: 373
+                    clip: true
+                    anchors.rightMargin: 0
                     active: true
-                    policy:ScrollBar.AlwaysOn
+                    policy:ScrollBar.AlwaysOnS
                 }
 
                 model: TableModel {
@@ -400,20 +412,7 @@ Item {
                     TableModelColumn { display: "mac" }
                     TableModelColumn { display: "date"}
                     TableModelColumn { display: "error"}
-                    /*rows: [
-                        {
-                            "ip": "125.30.1.1",
-                            "mac": "0xD5D5D5D",
-                            "statusUpdata": "normal",
-                            "error" :"0x0000"
-                        },
-                        {
-                            "ip": "125.30.10.2",
-                            "mac": "0xF5F5F5F5",
-                            "statusUpdata": "normal",
-                            "error" :"0x0000"
-                        }
-                    ]*/
+
                 }
                 delegate:  DelegateChooser{
                     DelegateChoice{
@@ -453,8 +452,8 @@ Item {
             Rectangle {
                 id: selectDevice
                 x: 0
+                width: 450
                 height: 200
-                width: parent.width/2
                 color: "#00000000"
                 border.color: "#00000000"
                 anchors.left: parent.left
@@ -463,7 +462,7 @@ Item {
                 anchors.leftMargin: 0
                 ComboBox {
                     id: comboboxId
-                    width: parent.width / 2
+                    width: 421
                     height: 50
                     font.pointSize: 15
                     displayText: "Select IP Devices"
@@ -514,19 +513,6 @@ Item {
                         }
                     }
                 }
-                Rectangle{
-                    id : headListitem
-                    height: 50
-                    color: "#efbfbf"
-                    width: parent.width / 2
-                    anchors.left: comboboxId.right
-                    Label{
-                        color: "#202020"
-                        text: "Selected IP Device"
-                        font.pointSize: 20
-
-                    }
-                }
                 ListModel {
                     id: listmodelId
                 }
@@ -535,10 +521,8 @@ Item {
                     //id: headListitem
                     width: 200
                     height: 150
-                    anchors.left: comboboxId.right
-                    anchors.right: parent.right
+                    visible: false
                     anchors.top: comboboxId.bottom
-                    anchors.rightMargin: 0
                     anchors.topMargin: 0
                     clip: true
                     model: listmodelId
@@ -657,7 +641,8 @@ Item {
                 anchors.top: parent.top
                 anchors.topMargin: 0
                 Label {
-                    width: 263
+                    y: 0
+                    width: 372
                     height: 46
                     color: "#ffffff"
                     text: "Device selection section"
@@ -667,6 +652,9 @@ Item {
                 }
             }
         }
+
+    }
+    
         Connections{
             target: UpdatbackEnd
 
@@ -720,6 +708,6 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.75}
+    D{i:0;formeditorZoom:0.33}D{i:5}
 }
 ##^##*/

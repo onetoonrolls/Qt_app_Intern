@@ -8,7 +8,11 @@ Item {
     width: Screen.desktopAvailableWidth-99
     height: Screen.desktopAvailableHeight-100
 
-    Rectangle {
+    ScrollView{
+        anchors.fill: parent
+        clip: true
+
+        Rectangle {
         id: rectangle
         width: 1880
         color: "#202020"
@@ -107,7 +111,6 @@ Item {
                         }
                     }
                 }
-
             }
 
             TableView {
@@ -130,22 +133,14 @@ Item {
                 clip: true
                 syncDirection: Qt.Vertical | Qt.Horizontal
 
-                //TableViewColumn{}
-
                 ScrollBar.vertical: ScrollBar {
                     id: tableVerticalBar;
+                    anchors.right: parent.right
+                    anchors.rightMargin: 0
                     active: true
-                    policy:ScrollBar.AlwaysOn
+                    policy:ScrollBar.AlwaysOnS
+                    clip: true
                 }
-                /*ScrollBar.horizontal:  ScrollBar {
-                    id: tableHorizontal;
-                    anchors.top: parent.top
-                    wheelEnabled: false
-                    spacing: 0
-                    anchors.topMargin: 202
-                    active: true
-                    policy:ScrollBar.AlwaysOn
-                }*/
 
                 model: TableModel {
                     TableModelColumn { display: "ip"  }
@@ -157,30 +152,8 @@ Item {
                     TableModelColumn { display: "tcp" }
                     TableModelColumn { display: "c_ver" }
                 
-                /*rows: [
-                        {
-                            
-                        "ip": "125.30.1.1",
-                        "mac": "0xD5D5D5D",
-                        "id":"0x0009",
-                        "mes":"nor",
-                        "sdc":"nor",
-                        "ntp":"nor",
-                        "tcp":"nor",
-                        "c_ver":"0x123"
-                        },
-                        {
-                        "ip": "125.30.1.2",
-                        "mac": "0xD5D5E5E",
-                        "id":"0x0009",
-                        "mes":"nor",
-                        "sdc":"nor",
-                        "ntp":"nor",
-                        "tcp":"nor",
-                        "c_ver":"0x123"
-                    }
-                    ]*/
                 }
+
                 delegate:  DelegateChooser{
                     DelegateChoice{
                         //row: 0
@@ -202,6 +175,9 @@ Item {
             }
         }
     }
+
+    }
+    
 
     Connections{
         target: homeBackend
