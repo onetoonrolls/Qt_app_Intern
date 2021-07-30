@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import sys
 import commu_file as commu
+import logging
 
 from PySide2.QtGui import QGuiApplication
 from PySide2.QtQml import QQmlApplicationEngine
@@ -24,6 +25,8 @@ class Connect_page(QObject):
         self.date ="07/555/2077"
         self.updateIP =[]
 
+        logging.basicConfig(filename="config_debug.txt", level=logging.DEBUG,
+                        format='%(asctime)s:%(levelname)s:%(message)s')
         self.commu = commu.commutnicate_app()
         self.commu.setDevice_name("EMU-B20MC")
         #self.commu.setFTP_connect()
@@ -35,45 +38,45 @@ class Connect_page(QObject):
         self.setBoolStatClear.emit(isState)
         self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/log.ini")
         list_obj = self.commu.command_unpack_json(self.Table_data)
-        #print("list obj : ",list_obj)
+        
         for i in list_obj:
             self.setContextStatus.emit(i["ip"],i["date"],i["error"])
 
     @Slot(str)
     def updateFirmware(self, type):
         if(type == ""):
-            print("type connection from QML is NULL")
+            logging.info("type connection from QML is NULL")
             self.setContexNoti.emit("type connection from QML is NULL")
         else:
-            print("connect type : ",type)
+            logging.info("connect type : ",type)
             for ip in self.updateIP:
                 data = [ip,"no avalible","no avalible"]
                 self.commu.setModbus_connect(ip)
-                print(self.commu.getconnectIP())
+                #logging.info(self.commu.getconnectIP())
                 statusConnect = self.commu.connnection_brige(type,ip) 
                 if(statusConnect == "connect"):
                      #self.commu.command_update_firmware()
-                     print("update IP: ",ip)
+                     #print("update IP: ",ip)
                      #add print to log.ini 
                      self.commu.setPrintData(data)
                      self.commu.command_print_ini("log","INI_config/ini_storage/") 
                      self.commu.disconnect_brige()
                      self.setContexNoti.emit("Update Ip : "+ ip +" done")
-                     print("Update Ip : "+ ip +" done")
+                     logging.info("Update Ip : "+ ip +" done")
                 elif(statusConnect == "unable_connect"):
-                     print("unable connect")
+                     logging.info("unable connect")
                      self.setContexNoti.emit("Ip : "+ ip +statusConnect)
-            #print("connect ip :",self.commu.getconnectIP())
+            
             self.setContexNoti.emit("Update Ip : "+ ip +" done")
             self.commu.setClearMod_ip()
 
     @Slot(str)        
     def getUpdateIP(self, ip):
         if(ip == ""):
-            print("ip is NULL")
+            logging.info("ip is NULL")
         else:
                 self.updateIP.append(ip)
-                print("IP rev.")
+                logging.info("IP rev.")
     
     @Slot(bool)
     def refreshmentTable(self, isState): #refresh table
@@ -81,14 +84,14 @@ class Connect_page(QObject):
         self.commu.setDevice_name("EMU-B20MC")
         self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
         self.commu.setModbus_connect("init")
-        #print("connect ip : ",self.commu.getconnectIP())
+        
         self.commu.commamd_complexDeviceINFO("Modbus",self.commu.getconnectIP())
         self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
         list_obj = self.commu.command_unpack_json(self.Table_data)
         for i in list_obj:
             self.setContextTable.emit(i["ip"],i["mac"],i["id"],i["mes"],i["sdc"],i["ntp"],i["tcp"],i["c_version"]) #call in homepage.qml to change device data table
         if(isState == True):
-            print("init table done")
+            logging.info("init table done")
         self.commu.setClearMod_ip()
 
 if __name__ == "__main__":
@@ -107,5 +110,5 @@ if __name__ == "__main__":
         print("check root run error")
         sys.exit(-1)
     backEnd.refreshmentTable(True)
-    print(backEnd.updateIP)
+    #print(backEnd.updateIP)
     sys.exit(app.exec_())

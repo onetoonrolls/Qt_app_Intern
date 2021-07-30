@@ -1,5 +1,7 @@
 import configparser
 import os
+import logging
+
 class ini_config():
    
     def __init__(self):
@@ -17,6 +19,8 @@ class ini_config():
         self.device_info = {}
         self.path_write = "INI_config/ini_storage/"
         self.path_read = "INI_config/ini_storage/example.ini"
+        logging.basicConfig(filename="config_debug.txt", level=logging.DEBUG,
+                        format='%(asctime)s:%(levelname)s:%(message)s')
 
     def setDevice_name(self,device):
         self.device_name = device
@@ -75,27 +79,27 @@ class ini_config():
         
     def clearAllsection(self,type):
         data =  configparser.ConfigParser()
-        print("current read file: ",self.path_read)
+        logging.info("current read file: ",self.path_read)
         data.read(os.path.abspath(self.path_read))
         for section in data.sections():
-            print("section :",section)
+            logging.info("section :",section)
             data.remove_section(section)
         
-        print("write path :",self.path_write)
+        logging.info("write path :",self.path_write)
         if(type == "device"):
             file_name = self.path_write+'config_'+self.device_name+'.ini'
-            print("file name : ",file_name)
+            logging.info("file name : ",file_name)
         elif(type == "log"):
             file_name = self.path_write+'log.ini'
-            print("file name : ",file_name)
+            logging.info("file name : ",file_name)
         elif(type == "initConfig"):
             file_name = self.path_write+'initConfig.ini'
-            print("file name : ",file_name)
+            logging.info("file name : ",file_name)
         else:
-            print("type NULL ")
+            logging.info("type NULL ")
         with open(os.path.abspath(file_name), 'w') as configfile: #write file
             data.write(configfile)
-            print("clear complete")
+            logging.info("clear complete")
 
     def setPath(self,read,write): #if string same = same path,if string NULL = no change path
 
@@ -112,21 +116,21 @@ class ini_config():
 
     def ini_print(self,type):
         data =  configparser.ConfigParser() #inherit parser object
-        print("write path :",self.path_write)
+        logging.info("write path :",self.path_write)
         if(type == "device"):
             file_name = self.path_write+'config_'+self.device_name+'.ini'
-            print("file name : ",file_name)
+            logging.info("file name : ",file_name)
         elif(type == "log"):
             file_name = self.path_write+'log.ini'
-            print("file name : ",file_name)
+            logging.info("file name : ",file_name)
         elif(type == "initConfig"):
             file_name = self.path_write+'initConfig.ini'
-            print("file name : ",file_name)
+            logging.info("file name : ",file_name)
         else:
-            print("type NULL ")
+            logging.info("type NULL ")
         self.setPath("same",file_name)
         data.read(self.path_read)
-        print(data.sections())
+        
         if(data.sections() !=[]): #check data not overwrite
             for section in data.sections(): #get old data
                 for key,value in data.items(section):
@@ -174,29 +178,29 @@ class ini_config():
 
         with open(os.path.abspath(file_name), 'w') as configfile: #write file
             data.write(configfile)
-            print("ini file printed")
+            logging.info("ini file printed")
         self.setClear()
-        print("clear done")
+        logging.info("clear done")
 
     #convert .ini file to Json
     def read_INI_to_Json(self):
         data =  configparser.ConfigParser() #inherit parser object
         key_obj = []
-        print("current read file: ",self.path_read)
+        logging.info("current read file: ",self.path_read)
         dic_con = {} #original convert data form
         
         data.read(os.path.abspath(self.path_read))
-        #print(data.read(self.path_read))
+        
         #return all section in .ini file
         for section in data.sections():
-            print("section",section)
+            logging.info("section",section)
             
             if(section.find("EMU") !=-1):
                 key_obj = ["ip","mac","id","mes","sdc","ntp","TCP","c_ver"]
             elif(section.find("log") !=-1):
                 key_obj = ["ip","date","error"]
             else:
-                print("section invaild")
+                logging.info("section invaild")
             dic_con[section] ={}
             for key,value in data.items(section):
                 dic_con[section][key]=value

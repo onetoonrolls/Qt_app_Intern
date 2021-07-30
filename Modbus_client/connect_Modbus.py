@@ -2,6 +2,7 @@ from os import path
 from pymodbus import client
 from pymodbus.client.sync import ModbusSerialClient, ModbusTcpClient
 from pymodbus.file_message import WriteFileRecordRequest
+import logging
 
 class Modbus_connect():
     
@@ -16,7 +17,7 @@ class Modbus_connect():
      #connect Modbus TCP client
     def connect_client(self,ip_add):
         self.Client_Modbus = ModbusTcpClient(ip_add)
-        print("status modbus connect:",self.Client_Modbus)
+        #print("status modbus connect:",self.Client_Modbus)
         if(self.Client_Modbus.connect()): #check connection
             return "connect"
         else:

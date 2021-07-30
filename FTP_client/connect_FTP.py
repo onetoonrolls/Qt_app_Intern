@@ -1,7 +1,12 @@
 from ftplib import FTP
 import json
+import logging
 
 class FTP_client():
+
+    def __init__(self):
+        logging.basicConfig(filename="config_edit_log.txt", level=logging.DEBUG,
+                        format='%(asctime)s:%(levelname)s:%(message)s')
 
     def connect(self,ip,user,psw):
         self.client_FTP = FTP(ip,user,psw)
@@ -15,10 +20,10 @@ class FTP_client():
     def check_file(self,check_word): #check name file return boolean
         for listword in self.list_all_file():
             if(listword.find(check_word) == -1):
-                print("file not exist")
+                logging.info("file not exist")
                 return False
             else :
-                print("file exist")
+                logging.info("file exist")
                 return True
 
     def search_file(self,check_word): #check& find name file retrun list or string
@@ -26,12 +31,12 @@ class FTP_client():
         if(self.check_file(check_word)):
             for FTPfilename in self.list_all_file(): 
                 if(FTPfilename.find(check_word) > -1): #check name in list all file ->not macth =-1
-                    print ("return value: "+FTPfilename)
+                    logging.info("return value: "+FTPfilename)
                     transferfile.append(FTPfilename) 
             return transferfile
 
     def check_path(self): #check current path
-        print(self.client_FTP.pwd())
+        logging.info(self.client_FTP.pwd())
 
     def change_type_object(self,type="utf-8"): #setting return form type
         self.encoding = type
@@ -43,12 +48,12 @@ class FTP_client():
                 pass
             else:
                 self.client_FTP.cwd(i)
-        #print(path)
-        print(self.client_FTP.pwd())
+        
+        logging.info(self.client_FTP.pwd())
     
     def read_file(self,namefile): #read file in desktop path
         with open(self.Path_Download+namefile,'rb') as file:
-            print("open "+namefile)
+            logging.info("open "+namefile)
             return file.read()
 
     def back_to_root(self): #move to root path server
@@ -59,7 +64,7 @@ class FTP_client():
         with open(write_file, "wb") as file:
             # use FTP's RETR command to download the file
             self.client_FTP.retrbinary(f"RETR {filename}", file.write)
-        print("download "+filename+" done")
+        logging.info("download "+filename+" done")
 
     def check_firmware_ver_server(self): #check update firmware from detail.txt in server
         self.back_to_root() #reset path server
@@ -107,16 +112,16 @@ class FTP_client():
             obj_date_one["month"] = date_T[0][5:6]
             obj_date_one["year"] = date_T[0][0:4]
 
-            #print("obj_date round "+str(i)+" : ",obj_date_one)
+            
             ojb_one["mac"] = mac[i]
             ojb_one["date"] = obj_date_one
-            #print("list_ojb_one "+str(i)+" : ",ojb_one)
+            
             list_obj.append(ojb_one) #store info in list from
         
         #list_obj = json.dumps(list_obj)
         
-        print("\nkey_json : ",key_json)
-        print("\nlist_obj : ",list_obj)
+        logging.info("\nkey_json : ",key_json)
+        logging.info("\nlist_obj : ",list_obj)
 
         return list_obj,key_json
         
