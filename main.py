@@ -48,24 +48,24 @@ class Connect_page(QObject):
             logging.info("type connection from QML is NULL")
             self.setContexNoti.emit("type connection from QML is NULL")
         else:
-            logging.info("connect type : ",type)
+            logging.info("connect type : "+type)
             for ip in self.updateIP:
                 data = [ip,"no avalible","no avalible"]
-                self.commu.setModbus_connect(ip)
-                #logging.info(self.commu.getconnectIP())
-                statusConnect = self.commu.connnection_brige(type,ip) 
-                if(statusConnect == "connect"):
-                     #self.commu.command_update_firmware()
-                     #print("update IP: ",ip)
-                     #add print to log.ini 
-                     self.commu.setPrintData(data)
-                     self.commu.command_print_ini("log","INI_config/ini_storage/") 
-                     self.commu.disconnect_brige()
-                     self.setContexNoti.emit("Update Ip : "+ ip +" done")
-                     logging.info("Update Ip : "+ ip +" done")
-                elif(statusConnect == "unable_connect"):
-                     logging.info("unable connect")
-                     self.setContexNoti.emit("Ip : "+ ip +statusConnect)
+                # self.commu.setModbus_connect(ip)
+                # #logging.info(self.commu.getconnectIP())
+                # statusConnect = self.commu.connnection_brige(type,ip) 
+                # if(statusConnect == "connect"):
+                #      #self.commu.command_update_firmware()
+                #      #print("update IP: ",ip)
+                #      #add print to log.ini 
+                #      self.commu.setPrintData(data)
+                #      self.commu.command_print_ini("log","INI_config/ini_storage/") 
+                #      self.commu.disconnect_brige()
+                #      self.setContexNoti.emit("Update Ip : "+ ip +" done")
+                #      logging.info("Update Ip : "+ ip +" done")
+                # elif(statusConnect == "unable_connect"):
+                #      logging.info("unable connect")
+                #      self.setContexNoti.emit("Ip : "+ ip +statusConnect)
             
             self.setContexNoti.emit("Update Ip : "+ ip +" done")
             self.commu.setClearMod_ip()
@@ -75,24 +75,24 @@ class Connect_page(QObject):
         if(ip == ""):
             logging.info("ip is NULL")
         else:
-                self.updateIP.append(ip)
-                logging.info("IP rev.")
+            self.updateIP.append(ip)
+            logging.info("IP rev.")
     
     @Slot(bool)
     def refreshmentTable(self, isState): #refresh table
         self.setBoolDeviceClear.emit(isState)  #call in main.qml to toggle state device botton
-        self.commu.setDevice_name("EMU-B20MC")
-        self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
-        self.commu.setModbus_connect("init")
+        # self.commu.setDevice_name("EMU-B20MC")
+        # self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
+        # self.commu.setModbus_connect("init")
         
-        self.commu.commamd_complexDeviceINFO("Modbus",self.commu.getconnectIP())
-        self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
-        list_obj = self.commu.command_unpack_json(self.Table_data)
-        for i in list_obj:
-            self.setContextTable.emit(i["ip"],i["mac"],i["id"],i["mes"],i["sdc"],i["ntp"],i["tcp"],i["c_version"]) #call in homepage.qml to change device data table
-        if(isState == True):
-            logging.info("init table done")
-        self.commu.setClearMod_ip()
+        # self.commu.commamd_complexDeviceINFO("Modbus",self.commu.getconnectIP())
+        # self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
+        # list_obj = self.commu.command_unpack_json(self.Table_data)
+        # for i in list_obj:
+        #     self.setContextTable.emit(i["ip"],i["mac"],i["id"],i["mes"],i["sdc"],i["ntp"],i["tcp"],i["c_version"]) #call in homepage.qml to change device data table
+        # if(isState == True):
+        logging.info("init table done")
+        # self.commu.setClearMod_ip()
 
 if __name__ == "__main__":
     app = QGuiApplication(sys.argv)

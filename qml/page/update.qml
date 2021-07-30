@@ -299,7 +299,7 @@ Item {
                 font.pointSize: 20
             }
         }
-
+        /*
         VerticalHeaderView {
             id: statusVerticalHeader
             x: notiTable.x-30
@@ -310,7 +310,7 @@ Item {
             height: tableStatus.height
             anchors.right: notiTable.left
             anchors.rightMargin: 0
-        }
+        }*/
 
         Rectangle {
             id: notiTable
@@ -323,7 +323,7 @@ Item {
             anchors.top: nitoUpStatus.bottom
             anchors.leftMargin: 73
             anchors.topMargin: 40
-
+            /*
             TableView{
                 id: tablestatusHori_header
                 x: 0
@@ -371,8 +371,8 @@ Item {
                         }
                     }
                 }
-            }
-
+            }*/
+            /*
             TableView {
                 id: tableStatus
                 anchors.fill: parent
@@ -422,7 +422,7 @@ Item {
                     }
 
                 }
-            }
+            }*/
         }
 
         Rectangle {
@@ -456,11 +456,7 @@ Item {
                     displayText: "Select IP Devices"
                     model: ListModel {
                         id : comboList
-                    }/*{
-                        ListElement { name: "One";  ischecked: true }
-                        ListElement { name: "Two";  ischecked: false }
-                        ListElement { name: "Three"; ischecked: false }
-                    }*/
+                    }
 
                     delegate: Item {
                         width: 100
@@ -640,60 +636,49 @@ Item {
                 }
             }
         }
-    
-        Connections{
-            target: UpdatbackEnd
-
-            function onSetContextTable(ip,mac,id,mes,sdc,ntp,tcp,c_ver){
-                //print("data revive in home : ",ip,mac,id,mes,sdc,ntp,tcp,c_ver)
-                //tableView.model.clear()
-                tableView.model.appendRow({
-                                              "ip":ip,
-                                              "mac":mac,
-                                              "id":id,
-                                              "mes":mes,
-                                              "sdc":sdc,
-                                              "ntp":ntp,
-                                              "tcp":tcp,
-                                              "c_ver":c_ver,
-                                          })
-
-                comboList.append({ "name": ip , "ischecked":false})
-            }
-            function onSetBoolDeviceClear(state_btn){
+    }
+    Connections{
+        target: UpdatbackEnd
+            /*
+        function onSetContextTable(ip,mac,id,mes,sdc,ntp,tcp,c_ver){
+           //print("data revive in home : ",ip,mac,id,mes,sdc,ntp,tcp,c_ver)
+            //tableView.model.clear()
+            tableView.model.appendRow({
+                                  "ip":ip,
+                                  "mac":mac,
+                                  "id":id,
+                                  "mes":mes,
+                                  "sdc":sdc,
+                                  "ntp":ntp,
+                                  "tcp":tcp,
+                                  "c_ver":c_ver,
+                })
+            comboList.append({ "name": ip , "ischecked":false})
+        }
+        function onSetBoolDeviceClear(state_btn){
                 print("clear device done")
                 tableView.model.clear()
                 comboList.clear()
-            }
+         }
 
-            function onSetBoolStatClear(state_btn){
+        function onSetBoolStatClear(state_btn){
                 print("clear update done")
                 tableStatus.model.clear()
-            }
-
-            function onSetContextStatus(ip,date,errorC){
-                
-                tableStatus.model.appendRow({
-                    "ip":ip,
-                    "mac":internal.findMac(tableView,ip),
-                    "date":date,
-                    "error":errorC
-                })
-
-            }
-            function onSetContexNoti(context){
-                contextNoti.text = context
-            }
         }
+            
+        function onSetContextStatus(ip,date,errorC){
+            
+            tableStatus.model.appendRow({
+                "ip":ip,
+                "mac":internal.findMac(tableView,ip),
+               "date":date,
+               "error":errorC
+            })
+        }
+
+        function onSetContexNoti(context){
+            contextNoti.text = context
+        }*/
     }
+    Component.onCompleted: console.log("home page created ")
 }
-
-
-
-
-
-/*##^##
-Designer {
-    D{i:0;formeditorZoom:0.33}D{i:4}D{i:11}D{i:41}D{i:55}D{i:44}
-}
-##^##*/

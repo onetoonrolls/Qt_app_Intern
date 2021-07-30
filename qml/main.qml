@@ -497,6 +497,7 @@ Window {
             onActiveChanged: if(active){window.startSystemResize(Qt.TopEdge)}
         }
     }
+    Component.onCompleted: console.log("home page created ")
 }
 
 

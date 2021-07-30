@@ -79,22 +79,22 @@ class ini_config():
         
     def clearAllsection(self,type):
         data =  configparser.ConfigParser()
-        logging.info("current read file: ",self.path_read)
+        logging.info("current read file: "+self.path_read)
         data.read(os.path.abspath(self.path_read))
         for section in data.sections():
-            logging.info("section :",section)
+            logging.info("section :"+section)
             data.remove_section(section)
         
-        logging.info("write path :",self.path_write)
+        logging.info("write path :"+self.path_write)
         if(type == "device"):
             file_name = self.path_write+'config_'+self.device_name+'.ini'
-            logging.info("file name : ",file_name)
+            logging.info("file name : "+file_name)
         elif(type == "log"):
             file_name = self.path_write+'log.ini'
-            logging.info("file name : ",file_name)
+            logging.info("file name : "+file_name)
         elif(type == "initConfig"):
             file_name = self.path_write+'initConfig.ini'
-            logging.info("file name : ",file_name)
+            logging.info("file name : "+file_name)
         else:
             logging.info("type NULL ")
         with open(os.path.abspath(file_name), 'w') as configfile: #write file
@@ -116,16 +116,16 @@ class ini_config():
 
     def ini_print(self,type):
         data =  configparser.ConfigParser() #inherit parser object
-        logging.info("write path :",self.path_write)
+        logging.info("write path :"+self.path_write)
         if(type == "device"):
             file_name = self.path_write+'config_'+self.device_name+'.ini'
-            logging.info("file name : ",file_name)
+            logging.info("file name : "+file_name)
         elif(type == "log"):
             file_name = self.path_write+'log.ini'
-            logging.info("file name : ",file_name)
+            logging.info("file name : "+file_name)
         elif(type == "initConfig"):
             file_name = self.path_write+'initConfig.ini'
-            logging.info("file name : ",file_name)
+            logging.info("file name : "+file_name)
         else:
             logging.info("type NULL ")
         self.setPath("same",file_name)
@@ -186,14 +186,14 @@ class ini_config():
     def read_INI_to_Json(self):
         data =  configparser.ConfigParser() #inherit parser object
         key_obj = []
-        logging.info("current read file: ",self.path_read)
+        logging.info("current read file: "+self.path_read)
         dic_con = {} #original convert data form
         
         data.read(os.path.abspath(self.path_read))
         
         #return all section in .ini file
         for section in data.sections():
-            logging.info("section",section)
+            logging.info("section"+section)
             
             if(section.find("EMU") !=-1):
                 key_obj = ["ip","mac","id","mes","sdc","ntp","TCP","c_ver"]

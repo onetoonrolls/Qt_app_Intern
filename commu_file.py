@@ -1,6 +1,7 @@
 from FTP_client import connect_FTP as FTP
 from Modbus_client import connect_Modbus as Mod
 from INI_config import ini_config as ini
+import logging
 
 class commutnicate_app():
     def __init__(self):
@@ -16,6 +17,8 @@ class commutnicate_app():
         self.setFTP_connect()
         #write info -> ini file when start class
         self.setDevice_name("EMU-B20MC")
+        logging.basicConfig(filename="config_debug.txt", level=logging.DEBUG,
+                        format='%(asctime)s:%(levelname)s:%(message)s')
         
     def setPrintData(self,data): #set data in list form to data
         self.dataToINI = data
@@ -23,7 +26,7 @@ class commutnicate_app():
     def setFTP_connect(self):
         Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
         Initread = self.command_unpack_json(Initread)
-        #print("FTP init :",Initread[0])
+        
         
         self.FTP_ip = Initread[0]["host_ip"]
         self.FTP_user = Initread[0]["username"]
@@ -34,13 +37,13 @@ class commutnicate_app():
         if(ip == "init"):
             Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
             Initread = self.command_unpack_json(Initread)
-            print("ip modbus : ",Initread[1])
+            
             
             for i in range(len(Initread[1])):
                 #print(Initread[1]["initip-"+str(i+1)])
                 self.MOd_ip.append(Initread[1]["initip-"+str(i+1)])
         elif(type(ip)== int):
-            print("ip is int not string")
+            logging.info("ip is int not string")
         else:
             self.MOd_ip.append(ip)
             #
@@ -53,7 +56,7 @@ class commutnicate_app():
 
     def setClearMod_ip(self):
         self.MOd_ip = []
-        print("clear Modbus ip done")
+        logging.info("clear Modbus ip done")
     def connection_FTP(self):
         self.client_connectFTP = FTP.FTP_client()
         self.client_connectFTP.connect(self.FTP_ip,self.FTP_user,self.FTP_psw)
@@ -67,7 +70,7 @@ class commutnicate_app():
         elif(self.type_connection =="MQTT"): #undev. MQTT
             pass
         else :
-            print("unknow type\n")
+            logging.info("unknow type\n")
 
     def disconnect_FTP(self):
         self.client_connectFTP.disconnect()
@@ -77,31 +80,31 @@ class commutnicate_app():
             self.client_connect1.disconect()
         elif(self.type_connection =="MQTT"):
             pass
-        print("disconnect done")
+        logging.info("disconnect done")
 
     def get_least_firmwareVer(self): #check FTP detail 
         version = self.client_connectFTP.check_firmware_ver_server()
-        print("avaliable firmware version: ",version)
+        logging.info("avaliable firmware version: "+version)
         return version
     
     def get_allDevice_least_update(self): #check FTP log return Json form
         log_update,log_key = self.client_connectFTP.sort_detail(self.device_name)
-        print("rev. date log_update: ",log_update)
+        logging.info("rev. date log_update: "+log_update)
         return log_update,log_key
     
     def getInfo_device(self):
         if(self.type_connection) == "Modbus":
             mac,ver,status,id = self.client_connect1.get_info_device()
-            print("\nmac : ",mac)
-            print("\nversion : ",ver)
-            print("\nid : ",id)
-            for i in range(len(status)):
-                print("\nstatus "+str(i)+" : ",status[i])
-            return mac,ver,status,id
+            # print("\nmac : ",mac)
+            # print("\nversion : ",ver)
+            # print("\nid : ",id)
+            # for i in range(len(status)):
+            #     print("\nstatus "+str(i)+" : ",status[i])
+            # return mac,ver,status,id
         elif(self.type_connection == "MQTT"):
             pass
         else:
-            print("type not map, try again!")
+            logging.info("type not map, try again!")
 
     def getINI_file(self,readPath):
         self.client_configParser.setPath(readPath,"NULL")
@@ -131,7 +134,7 @@ class commutnicate_app():
                     elif(i == 1):
                         obj_pack_one = data["EMU-B20MC-init"]
                 else:
-                    print("cant find topic in data")
+                    logging.info("cant find topic in data")
                 value.append(obj_pack_one)
             #print("return value: " ,value)
             return value
@@ -150,11 +153,11 @@ class commutnicate_app():
     def command_update_firmware(self):
         if(self.type_connection == "Modbus"):
             self.client_connect1.update_firmware()
-            print("current updating ....")
+            logging.info("current updating ....")
         elif (self.type_connection == "MQTT"):
             pass
         else:
-            print("type not map, try again!")
+            logging.info("type not map, try again!")
 
     def commamd_complexDeviceINFO(self,type,allIP): #get initIP connect&get device info& print ini
         for ip in allIP:
@@ -165,7 +168,7 @@ class commutnicate_app():
                 self.command_print_ini("device","INI_config/ini_storage/") #write ini
                 self.disconnect_brige()
             else:
-                print(statusconnect)
+                logging.info(statusconnect)
             
 if __name__ == "__main__":
     ip = '*****'

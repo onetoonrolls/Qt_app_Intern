@@ -170,6 +170,7 @@ Item {
                         }
                     }
                 }
+                Component.onCompleted: console.log("device table home created ")
             }
         }
     }
