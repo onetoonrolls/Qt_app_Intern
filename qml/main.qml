@@ -2,6 +2,7 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls 2.15
 import QtGraphicalEffects 1.0
+import QtQml 2.15
 
 import "../qml/controls"
 
@@ -75,6 +76,13 @@ Window {
             windowMargin =10
 
         }
+
+        function delay(delayTime) {
+        
+            timer.interval = delayTime
+            timer.start()
+        }
+
     }
     Rectangle {
         id: bg
@@ -152,6 +160,7 @@ Window {
                             btnHome.isActMenu = true
 
                             stackView.replace(Qt.createComponent(Qt.resolvedUrl("../qml/page/home.qml")))
+                            internal.delay(5000)
                             backend.refreshmentTable(btnHome.autoRepeat)
                         }
 
@@ -169,6 +178,7 @@ Window {
                             update.isActMenu = true
                             stackView.replace(Qt.createComponent(Qt.resolvedUrl("../qml/page/update.qml")))
                             //stackView.replace(Qt.resolvedUrl("../qml/page/update.qml"))
+                            internal.delay(5000)
                             backend.refreshmentTable(update.autoRepeat)
                             backend.refreshmentStatus(update.autoRepeat)
                         }
@@ -301,6 +311,7 @@ Window {
                         iconsource: "../icon/re-device.svg"
                         
                         onClicked: {
+                            internal.delay(5000)
                             backend.refreshmentTable(reDevice.autoRepeat)
                         }
 
@@ -317,6 +328,7 @@ Window {
                         iconsource: "../icon/refresh-status.png"
 
                         onClicked: {
+                            internal.delay(5000)
                             backend.refreshmentStatus(reStatus.autoRepeat)
                         }
                     }
@@ -331,7 +343,9 @@ Window {
                         checked: true
                         iconsource: "../icon/refresh-noti.png"
 
-                        onClicked: reNoti.isActBtn = true
+                        onClicked: {
+                            internal.delay(5000)
+                        }
                     }
                 }
 
@@ -424,6 +438,14 @@ Window {
             target: null
             onActiveChanged: if(active){window.startSystemResize(Qt.BottomEdge)}
         }
+    }
+
+    Timer{
+         id: timer
+         running: true
+         repeat: false
+         onTriggered: console.log("timer running")
+
     }
 
     MouseArea {
