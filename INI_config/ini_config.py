@@ -8,9 +8,9 @@ class ini_config():
         
         self.device_name = ""
         self.value1 = [] #ip,houst_ip,ip(log)
-        self.value2 =[] #mac,username,date
-        self.value3 = [] #id,password,error
-        self.value4 =[] #mes,port
+        self.value2 =[] #mac,username
+        self.value3 = [] #id,password,date
+        self.value4 =[] #mes,port,error
         self.value5= [] #sdc,ip(init)
         self.value6 = [] #ntp
         self.value7 = [] #tcp
@@ -38,10 +38,10 @@ class ini_config():
         self.value8.append(ver)
 
     def setDate(self,date):
-        self.value2.append(date)
+        self.value3.append(date)
 
     def setError(self,error):
-        self.value3.append(error)
+        self.value4.append(error)
 
     def setIP(self,ip):
         self.value1.append(ip)
@@ -52,8 +52,9 @@ class ini_config():
     def setID(self,id):
         self.value3.append(id)
 
-    def setLog(self,ip,date,error):
+    def setLog(self,ip,mac,date,error):
         self.setIP(ip)
+        self.setMac(mac)
         self.setDate(date)
         self.setError(error)
 
@@ -137,11 +138,11 @@ class ini_config():
                     #self.key_obj.append(key)
                     if(key =="ip"or key =="houst_ip"): #ip,houst_ip,ip(log)
                         self.value1.append(value)
-                    elif(key =="mac" or key =="username" or key =="date"):
+                    elif(key =="mac" or key =="username" ):
                         self.value2.append(value) #mac,username,date
-                    elif(key =="id" or key =="password" or key =="error"):
+                    elif(key =="id" or key =="password" or key =="date"):
                         self.value3.append(value) #id,password,error
-                    elif(key =="mes"or key =="port" ):
+                    elif(key =="mes"or key =="port" or key =="error"):
                         self.value4.append(value) #mes,port
                     elif(key =="sdc"or key =="initip"):
                         self.value5.append(value) #sdc,ip(init)
@@ -170,8 +171,9 @@ class ini_config():
             elif(type == "log"):
                 data["log-"+str(i+1)]={
                         "ip" : self.value1[i],
-                        "date" : self.value2[i],
-                        "error" : self.value3[i],
+                        "mac": self.value2[i],
+                        "date" : self.value3[i],
+                        "error" : self.value4[i],
                     }
             elif(type == "initConfig"): #undev
                 pass
@@ -198,7 +200,7 @@ class ini_config():
             if(section.find("EMU") !=-1):
                 key_obj = ["ip","mac","id","mes","sdc","ntp","TCP","c_ver"]
             elif(section.find("log") !=-1):
-                key_obj = ["ip","date","error"]
+                key_obj = ["ip","mac","date","error"]
             else:
                 logging.info("section invaild")
             dic_con[section] ={}

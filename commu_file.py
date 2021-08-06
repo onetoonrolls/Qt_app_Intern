@@ -37,8 +37,6 @@ class commutnicate_app():
         if(ip == "init"):
             Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
             Initread = self.command_unpack_json(Initread)
-            
-            
             for i in range(len(Initread[1])):
                 #print(Initread[1]["initip-"+str(i+1)])
                 self.MOd_ip.append(Initread[1]["initip-"+str(i+1)])
@@ -57,6 +55,7 @@ class commutnicate_app():
     def setClearMod_ip(self):
         self.MOd_ip = []
         logging.info("clear Modbus ip done")
+
     def connection_FTP(self):
         self.client_connectFTP = FTP.FTP_client()
         self.client_connectFTP.connect(self.FTP_ip,self.FTP_user,self.FTP_psw)
@@ -120,11 +119,13 @@ class commutnicate_app():
             self.client_configParser.setPath(readPath,writePath)
             self.client_configParser.clearAllsection(type)
 
-    def command_unpack_json(self,data): #in case send json not work
+    def command_unpack_json(self,data): #in case send json not work ***unsup EMU-SM
             value =[]
             for i in range(len(data)):
                 
                 if "EMU-B20MC-1" in data:
+                    obj_pack_one = data[self.device_name+"-"+str(i+1)]
+                elif "EMU-B20SM-1" in data:
                     obj_pack_one = data[self.device_name+"-"+str(i+1)]
                 elif "log-1" in data:
                     obj_pack_one = data["log-"+str(i+1)]
@@ -145,7 +146,7 @@ class commutnicate_app():
             #self.client_configParser.setDevice_name(self.device_name)
             self.client_configParser.setDevice_info(self.dataToINI[0],self.dataToINI[1],self.dataToINI[2],[self.dataToINI[3],self.dataToINI[4],self.dataToINI[5],self.dataToINI[6]],self.dataToINI[7])
         elif(typeSelect == "log"):
-            self.client_configParser.setLog(self.dataToINI[0],self.dataToINI[1],self.dataToINI[2])
+            self.client_configParser.setLog(self.dataToINI[0],self.dataToINI[1],self.dataToINI[2],self.dataToINI[3])
         elif(typeSelect == "initConfig"):
             pass
         self.client_configParser.ini_print(typeSelect)
@@ -181,12 +182,12 @@ if __name__ == "__main__":
     data = ["127.0.11.0","11/11/2077","0x0000"]
 
     c = commutnicate_app()
-    # c.setDevice_name("EMU-B20MC")
-    # readINI,keyReadINI = c.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
-    # #print("\nkey INI file : ",keyReadINI)
-    # print("\nobj INI file : ",readINI)
-    # V = c.command_unpack_json(readINI)
-    # c.setPrintData(data)
+    c.setDevice_name("EMU-B20MC")
+    readINI,keyReadINI = c.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
+    #print("\nkey INI file : ",keyReadINI)
+    #print("\nobj INI file : ",readINI)
+    V = c.command_unpack_json(readINI)
+    print(V)
     # c.command_print_ini("log","INI_config/ini_storage/")
     
     # c.setDevice_name("EMU-B20MC")

@@ -161,7 +161,7 @@ Window {
 
                             stackView.replace(Qt.createComponent(Qt.resolvedUrl("../qml/page/home.qml")))
                             internal.delay(5000)
-                            backend.refreshmentTable(btnHome.autoRepeat)
+                            //backend.refreshmentTable(btnHome.autoRepeat)
                         }
 
                     }
@@ -179,8 +179,8 @@ Window {
                             stackView.replace(Qt.createComponent(Qt.resolvedUrl("../qml/page/update.qml")))
                             //stackView.replace(Qt.resolvedUrl("../qml/page/update.qml"))
                             internal.delay(5000)
-                            backend.refreshmentTable(update.autoRepeat)
-                            backend.refreshmentStatus(update.autoRepeat)
+                            //backend.refreshmentTable(update.autoRepeat)
+                            //backend.refreshmentStatus(update.autoRepeat)
                         }
 
                     }
@@ -444,7 +444,7 @@ Window {
          id: timer
          running: true
          repeat: false
-         onTriggered: console.log("timer running")
+         //onTriggered: console.log("timer running")
 
     }
 
@@ -480,7 +480,7 @@ Window {
     }
     Connections{
         target: backend
-
+        
     }
 
     MouseArea {
@@ -497,7 +497,7 @@ Window {
             onActiveChanged: if(active){window.startSystemResize(Qt.TopEdge)}
         }
     }
-    Component.onCompleted: console.log("home page created ")
+    //Component.onCompleted: console.log("main page created ")
 }
 
 

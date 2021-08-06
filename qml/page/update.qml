@@ -16,34 +16,24 @@ Item {
             for(var i = 0; i < myModel.count; i++) {
                 //print("count ",i)
                 var elemCur = myModel.get(i).name;
-                print(elemCur)
+                //print(elemCur)
                 if(searchedId == elemCur) {
-                    print("Found it at index : ", i)
+                    console.log("Found it at index : "+ i)
                     return i
                 }
                 else{
-                    print("not found name")
+                    console.log("not found name")
                 }
             }
         }
-        function findMac(myModel,searchedIP){
-            var index =0
-            for(var i =0; i < myModel.model.rowCount ; i++){
-                if(myModel.model.rows[i].ip == searchedIP)
-                    index = i
-                else{
-                    print("ip not match")
-                }
-            }
-            print("mac in table : ",myModel.model.rows[index].mac)
-            return myModel.model.rows[index].mac
-        }
+        
         function getAllitemlist(myModel){
             for(var i = 0; i < myModel.count; i++){
-                print("Item list : ",myModel.get(i).name)
+                //print("Item list : ",myModel.get(i).name)
                 UpdatbackEnd.getUpdateIP(myModel.get(i).name)
             }
         }
+
         function unCheckBox(myModel){
             for(var i=0; i< myModel.count;i++){
                 myModel.setProperty(i, "ischecked", false)
@@ -94,7 +84,7 @@ Item {
                 text: "update Now"
                 onClicked: {
                     internal.getAllitemlist(listmodelId)
-                    print("send IP to python")
+                    //print("send IP to python")
                     contextNoti.text = "Processing to python backend"
                     UpdatbackEnd.updateFirmware(internal.typeConnect)
                 }
@@ -154,6 +144,17 @@ Item {
             anchors.rightMargin: 0
         }
 
+        HorizontalHeaderView {
+                id: horiHeader
+                x: deviceTable.x
+                width: tableView.width
+                syncView: tableView
+                clip: true
+                height: 30
+                anchors.bottom: deviceTable.top
+                anchors.bottomMargin: 0
+        }
+
         Rectangle {
             id: deviceTable
             height: 217
@@ -164,62 +165,6 @@ Item {
             anchors.rightMargin: 65
             anchors.topMargin: 29
             anchors.leftMargin: 73
-
-            TableView{
-                id: tableHori_header
-                x: 0
-                y: -1
-                syncView: tableView
-                width: tableView.width
-                height: 30
-                anchors.bottom: tableView.top
-                anchors.bottomMargin: 0
-                synchronousDrag: false
-                pixelAligned: false
-                boundsBehavior: Flickable.StopAtBounds
-                columnSpacing: 1
-                rowSpacing: 1
-                clip: true
-                syncDirection: Qt.Horizontal
-                model: TableModel {
-                    TableModelColumn { display: "keyvalue1" }
-                    TableModelColumn { display: "keyvalue2" }
-                    TableModelColumn { display: "keyvalue3" }
-                    TableModelColumn { display: "keyvalue4" }
-                    TableModelColumn { display: "keyvalue5" }
-                    TableModelColumn { display: "keyvalue6" }
-                    TableModelColumn { display: "keyvalue7" }
-                    TableModelColumn { display: "keyvalue8" }
-
-                    rows: [{
-                            "keyvalue1" : "Ip address",
-                            "keyvalue2" : "Mac address",
-                            "keyvalue3" : "Device ID",
-                            "keyvalue4" : "MES status",
-                            "keyvalue5" : "SDC status",
-                            "keyvalue6" : "NTP updata",
-                            "keyvalue7" : "TCP updata",
-                            "keyvalue8" : "Firmware version",
-                        }]
-                }
-                delegate:  DelegateChooser{
-                    DelegateChoice{
-                        row: 0
-                        delegate: Rectangle{
-                            implicitWidth: 215
-                            implicitHeight: 30
-                            border.width: 1
-                            color: "#ff1e1e"
-                            Text{
-                                text: model.display == null? "":model.display
-                                color: "#000000"
-                                font.pixelSize : 20
-                                anchors.centerIn: parent
-                            }
-                        }
-                    }
-                }
-            }
 
             TableView {
                 id: tableView
@@ -244,17 +189,8 @@ Item {
                     //policy:ScrollBar.AlwaysOnS
                 }
 
-                model: TableModel {
-                    TableModelColumn { display: "ip"  }
-                    TableModelColumn { display: "mac" }
-                    TableModelColumn { display: "id" }
-                    TableModelColumn { display: "mes" }
-                    TableModelColumn { display: "sdc" }
-                    TableModelColumn { display: "ntp" }
-                    TableModelColumn { display: "tcp" }
-                    TableModelColumn { display: "c_ver" }
+                model: DeviceModel
 
-                }
                 delegate:  DelegateChooser{
                     DelegateChoice{
                         //row: 0
@@ -274,7 +210,6 @@ Item {
                     }
                 }
             }
-
         }
 
         Rectangle {
@@ -299,7 +234,7 @@ Item {
                 font.pointSize: 20
             }
         }
-        /*
+        
         VerticalHeaderView {
             id: statusVerticalHeader
             x: notiTable.x-30
@@ -310,7 +245,18 @@ Item {
             height: tableStatus.height
             anchors.right: notiTable.left
             anchors.rightMargin: 0
-        }*/
+        }
+        
+        HorizontalHeaderView {
+                id: statushoriHeader
+                x: notiTable.x
+                width: tableStatus.width
+                syncView: tableStatus
+                clip: true
+                height: 30
+                anchors.bottom: notiTable.top
+                anchors.bottomMargin: 0
+        }  
 
         Rectangle {
             id: notiTable
@@ -323,56 +269,7 @@ Item {
             anchors.top: nitoUpStatus.bottom
             anchors.leftMargin: 73
             anchors.topMargin: 40
-            /*
-            TableView{
-                id: tablestatusHori_header
-                x: 0
-                y: -22
-                syncView: tableStatus
-                width: tableStatus.width
-                height: 30
-                anchors.bottom: tableStatus.top
-                anchors.bottomMargin: 0
-                synchronousDrag: false
-                pixelAligned: false
-                boundsBehavior: Flickable.StopAtBounds
-                columnSpacing: 1
-                rowSpacing: 1
-                clip: true
-                syncDirection: Qt.Horizontal
-                model: TableModel {
-                    TableModelColumn { display: "keyvalue1" }
-                    TableModelColumn { display: "keyvalue2" }
-                    TableModelColumn { display: "keyvalue3" }
-                    TableModelColumn { display: "keyvalue4" }
-                    rows: [{
-                            "keyvalue1" : "IP address",
-                            "keyvalue2" : "MAC address",
-                            "keyvalue3" : "Date",
-                            "keyvalue4" : "Error code"
-                        }]
-
-                }
-
-                delegate:  DelegateChooser{
-                    DelegateChoice{
-                        row: 0
-                        delegate: Rectangle{
-                            implicitWidth: 300
-                            implicitHeight: 30
-                            border.width: 1
-                            color: "#8cff8e"
-                            Text{
-                                text: model.display == null? "":model.display
-                                color: "#000000"
-                                font.pixelSize : 20
-                                anchors.centerIn: parent
-                            }
-                        }
-                    }
-                }
-            }*/
-            /*
+            
             TableView {
                 id: tableStatus
                 anchors.fill: parent
@@ -396,13 +293,8 @@ Item {
                     //policy:ScrollBar.AlwaysOnS
                 }
 
-                model: TableModel {
-                    TableModelColumn { display: "ip"  }
-                    TableModelColumn { display: "mac" }
-                    TableModelColumn { display: "date"}
-                    TableModelColumn { display: "error"}
+                model: StatusModel
 
-                }
                 delegate:  DelegateChooser{
                     DelegateChoice{
                         //column:
@@ -420,9 +312,8 @@ Item {
                             }
                         }
                     }
-
                 }
-            }*/
+            }
         }
 
         Rectangle {
@@ -499,6 +390,10 @@ Item {
                 }
                 ListModel {
                     id: listmodelId
+                    Component.onCompleted :{
+                        UpdatbackEnd.appendToListCheck(true)
+                    
+                    }
                 }
 
                 ListView {
@@ -639,46 +534,24 @@ Item {
     }
     Connections{
         target: UpdatbackEnd
-            /*
-        function onSetContextTable(ip,mac,id,mes,sdc,ntp,tcp,c_ver){
-           //print("data revive in home : ",ip,mac,id,mes,sdc,ntp,tcp,c_ver)
-            //tableView.model.clear()
-            tableView.model.appendRow({
-                                  "ip":ip,
-                                  "mac":mac,
-                                  "id":id,
-                                  "mes":mes,
-                                  "sdc":sdc,
-                                  "ntp":ntp,
-                                  "tcp":tcp,
-                                  "c_ver":c_ver,
-                })
+
+        function onSetContextListcheck(ip){
             comboList.append({ "name": ip , "ischecked":false})
         }
-        function onSetBoolDeviceClear(state_btn){
-                print("clear device done")
-                tableView.model.clear()
-                comboList.clear()
-         }
-
-        function onSetBoolStatClear(state_btn){
-                print("clear update done")
-                tableStatus.model.clear()
-        }
-            
-        function onSetContextStatus(ip,date,errorC){
-            
-            tableStatus.model.appendRow({
-                "ip":ip,
-                "mac":internal.findMac(tableView,ip),
-               "date":date,
-               "error":errorC
-            })
+        
+        function onSetClearListcheck(bool){
+            comboList.clear()
         }
 
         function onSetContexNoti(context){
             contextNoti.text = context
-        }*/
+        }
     }
-    Component.onCompleted: console.log("home page created ")
+    //Component.onCompleted: console.log("update page created ")
 }
+
+/*##^##
+Designer {
+    D{i:0;formeditorZoom:0.5}
+}
+##^##*/
