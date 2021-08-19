@@ -27,7 +27,6 @@ class commutnicate_app():
         Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
         Initread = self.command_unpack_json(Initread)
         
-        
         self.FTP_ip = Initread[0]["host_ip"]
         self.FTP_user = Initread[0]["username"]
         self.FTP_psw = Initread[0]["password"]
@@ -38,13 +37,15 @@ class commutnicate_app():
             Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
             Initread = self.command_unpack_json(Initread)
             for i in range(len(Initread[1])):
-                #print(Initread[1]["initip-"+str(i+1)])
+                #read ip EMUB20MC
                 self.MOd_ip.append(Initread[1]["initip-"+str(i+1)])
+            for i in range(len(Initread[2])):
+                #read ip EMUB20SM
+                self.MOd_ip.append(Initread[2]["initip-"+str(i+1)])
         elif(type(ip)== int):
             logging.info("ip is int not string")
         else:
             self.MOd_ip.append(ip)
-            #
     
     def setDevice_name(self,device_name):
         self.device_name = device_name
@@ -119,7 +120,7 @@ class commutnicate_app():
             self.client_configParser.setPath(readPath,writePath)
             self.client_configParser.clearAllsection(type)
 
-    def command_unpack_json(self,data): #in case send json not work ***unsup EMU-SM
+    def command_unpack_json(self,data): #in case send json not work 
             value =[]
             for i in range(len(data)):
                 

@@ -1,52 +1,506 @@
-2021-08-06 11:46:43,856:INFO:current read file: INI_config/ini_storage/initConfig.ini
-2021-08-06 11:46:43,857:INFO:sectionFTP server
-2021-08-06 11:46:43,857:INFO:section invaild
-2021-08-06 11:46:43,857:INFO:sectionEMU-B20MC-init
-2021-08-06 11:46:43,859:INFO:current read file: INI_config/ini_storage/log.ini
-2021-08-06 11:46:43,863:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
-2021-08-06 11:46:43,863:INFO:sectionEMU-B20MC-1
-2021-08-06 11:46:43,863:INFO:sectionEMU-B20MC-2
-2021-08-06 11:46:56,783:INFO:IP rev.
-2021-08-06 11:46:56,784:INFO:IP rev.
-2021-08-06 11:46:56,785:INFO:connect type : Modbus
-2021-08-06 11:46:56,786:INFO:write path :INI_config/ini_storage/
-2021-08-06 11:46:56,786:INFO:file name : INI_config/ini_storage/log.ini
-2021-08-06 11:46:56,787:INFO:ini file printed
-2021-08-06 11:46:56,787:INFO:clear done
-2021-08-06 11:46:56,788:INFO:write path :INI_config/ini_storage/
-2021-08-06 11:46:56,788:INFO:file name : INI_config/ini_storage/log.ini
-2021-08-06 11:46:56,795:INFO:ini file printed
-2021-08-06 11:46:56,795:INFO:clear done
-2021-08-06 11:46:56,796:INFO:clear Modbus ip done
-2021-08-06 11:47:17,178:INFO:current read file: INI_config/ini_storage/log.ini
-2021-08-06 11:47:17,184:INFO:sectionlog-1
-2021-08-06 11:47:17,184:INFO:sectionlog-2
-2021-08-06 11:47:17,187:INFO:status table changed
-2021-08-06 11:57:31,687:INFO:current read file: INI_config/ini_storage/initConfig.ini
-2021-08-06 11:57:31,687:INFO:sectionFTP server
-2021-08-06 11:57:31,687:INFO:section invaild
-2021-08-06 11:57:31,687:INFO:sectionEMU-B20MC-init
-2021-08-06 11:57:31,690:INFO:current read file: INI_config/ini_storage/log.ini
-2021-08-06 11:57:31,690:INFO:sectionlog-1
-2021-08-06 11:57:31,690:INFO:sectionlog-2
-2021-08-06 11:57:31,693:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
-2021-08-06 11:57:31,693:INFO:sectionEMU-B20MC-1
-2021-08-06 11:57:31,694:INFO:sectionEMU-B20MC-2
-2021-08-06 11:57:40,666:INFO:IP rev.
-2021-08-06 11:57:40,666:INFO:IP rev.
-2021-08-06 11:57:40,667:INFO:connect type : Modbus
-2021-08-06 11:57:40,668:INFO:write path :INI_config/ini_storage/
-2021-08-06 11:57:40,668:INFO:file name : INI_config/ini_storage/log.ini
-2021-08-06 11:57:40,669:INFO:ini file printed
-2021-08-06 11:57:40,670:INFO:clear done
-2021-08-06 11:57:40,670:INFO:write path :INI_config/ini_storage/
-2021-08-06 11:57:40,671:INFO:file name : INI_config/ini_storage/log.ini
-2021-08-06 11:57:40,686:INFO:ini file printed
-2021-08-06 11:57:40,686:INFO:clear done
-2021-08-06 11:57:40,687:INFO:clear Modbus ip done
-2021-08-06 11:57:43,025:INFO:current read file: INI_config/ini_storage/log.ini
-2021-08-06 11:57:43,030:INFO:sectionlog-1
-2021-08-06 11:57:43,030:INFO:sectionlog-2
-2021-08-06 11:57:43,030:INFO:sectionlog-3
-2021-08-06 11:57:43,030:INFO:sectionlog-4
-2021-08-06 11:57:43,035:INFO:status table changed
+2021-08-19 11:41:54,446:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-19 11:41:54,447:INFO:sectionFTP server
+2021-08-19 11:41:54,447:INFO:section invaild
+2021-08-19 11:41:54,447:INFO:sectionEMU-B20MC-init
+2021-08-19 11:41:54,447:INFO:sectionEMU-B20SM-init
+2021-08-19 11:41:54,450:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-19 11:41:54,456:INFO:sectionlog-1
+2021-08-19 11:41:54,456:INFO:sectionlog-2
+2021-08-19 11:41:54,456:INFO:sectionlog-3
+2021-08-19 11:41:54,456:INFO:sectionlog-4
+2021-08-19 11:41:54,456:INFO:sectionlog-5
+2021-08-19 11:41:54,456:INFO:sectionlog-6
+2021-08-19 11:41:54,456:INFO:sectionlog-7
+2021-08-19 11:41:54,456:INFO:sectionlog-8
+2021-08-19 11:41:54,456:INFO:sectionlog-9
+2021-08-19 11:41:54,456:INFO:sectionlog-10
+2021-08-19 11:41:54,456:INFO:sectionlog-11
+2021-08-19 11:41:54,456:INFO:sectionlog-12
+2021-08-19 11:41:54,456:INFO:sectionlog-13
+2021-08-19 11:41:54,456:INFO:sectionlog-14
+2021-08-19 11:41:54,457:INFO:sectionlog-15
+2021-08-19 11:41:54,457:INFO:sectionlog-16
+2021-08-19 11:41:54,457:INFO:sectionlog-17
+2021-08-19 11:41:54,457:INFO:sectionlog-18
+2021-08-19 11:41:54,457:INFO:sectionlog-19
+2021-08-19 11:41:54,457:INFO:sectionlog-20
+2021-08-19 11:41:54,457:INFO:sectionlog-21
+2021-08-19 11:41:54,457:INFO:sectionlog-22
+2021-08-19 11:41:54,457:INFO:sectionlog-23
+2021-08-19 11:41:54,457:INFO:sectionlog-24
+2021-08-19 11:41:54,457:INFO:sectionlog-25
+2021-08-19 11:41:54,457:INFO:sectionlog-26
+2021-08-19 11:41:54,457:INFO:sectionlog-27
+2021-08-19 11:41:54,457:INFO:sectionlog-28
+2021-08-19 11:41:54,457:INFO:sectionlog-29
+2021-08-19 11:41:54,457:INFO:sectionlog-30
+2021-08-19 11:41:54,457:INFO:sectionlog-31
+2021-08-19 11:41:54,457:INFO:sectionlog-32
+2021-08-19 11:41:54,457:INFO:sectionlog-33
+2021-08-19 11:41:54,457:INFO:sectionlog-34
+2021-08-19 11:41:54,457:INFO:sectionlog-35
+2021-08-19 11:41:54,457:INFO:sectionlog-36
+2021-08-19 11:41:54,457:INFO:sectionlog-37
+2021-08-19 11:41:54,457:INFO:sectionlog-38
+2021-08-19 11:41:54,457:INFO:sectionlog-39
+2021-08-19 11:41:54,457:INFO:sectionlog-40
+2021-08-19 11:41:54,457:INFO:sectionlog-41
+2021-08-19 11:41:54,457:INFO:sectionlog-42
+2021-08-19 11:41:54,457:INFO:sectionlog-43
+2021-08-19 11:41:54,457:INFO:sectionlog-44
+2021-08-19 11:41:54,457:INFO:sectionlog-45
+2021-08-19 11:41:54,457:INFO:sectionlog-46
+2021-08-19 11:41:54,457:INFO:sectionlog-47
+2021-08-19 11:41:54,457:INFO:sectionlog-48
+2021-08-19 11:41:54,457:INFO:sectionlog-49
+2021-08-19 11:41:54,457:INFO:sectionlog-50
+2021-08-19 11:41:54,457:INFO:sectionlog-51
+2021-08-19 11:41:54,457:INFO:sectionlog-52
+2021-08-19 11:41:54,458:INFO:sectionlog-53
+2021-08-19 11:41:54,458:INFO:sectionlog-54
+2021-08-19 11:41:54,458:INFO:sectionlog-55
+2021-08-19 11:41:54,458:INFO:sectionlog-56
+2021-08-19 11:41:54,458:INFO:sectionlog-57
+2021-08-19 11:41:54,458:INFO:sectionlog-58
+2021-08-19 11:41:54,458:INFO:sectionlog-59
+2021-08-19 11:41:54,458:INFO:sectionlog-60
+2021-08-19 11:41:54,458:INFO:sectionlog-61
+2021-08-19 11:41:54,458:INFO:sectionlog-62
+2021-08-19 11:41:54,458:INFO:sectionlog-63
+2021-08-19 11:41:54,458:INFO:sectionlog-64
+2021-08-19 11:41:54,458:INFO:sectionlog-65
+2021-08-19 11:41:54,458:INFO:sectionlog-66
+2021-08-19 11:41:54,458:INFO:sectionlog-67
+2021-08-19 11:41:54,458:INFO:sectionlog-68
+2021-08-19 11:41:54,458:INFO:sectionlog-69
+2021-08-19 11:41:54,458:INFO:sectionlog-70
+2021-08-19 11:41:54,458:INFO:sectionlog-71
+2021-08-19 11:41:54,459:INFO:sectionlog-72
+2021-08-19 11:41:54,459:INFO:sectionlog-73
+2021-08-19 11:41:54,459:INFO:sectionlog-74
+2021-08-19 11:41:54,459:INFO:sectionlog-75
+2021-08-19 11:41:54,459:INFO:sectionlog-76
+2021-08-19 11:41:54,459:INFO:sectionlog-77
+2021-08-19 11:41:54,459:INFO:sectionlog-78
+2021-08-19 11:41:54,459:INFO:sectionlog-79
+2021-08-19 11:41:54,459:INFO:sectionlog-80
+2021-08-19 11:41:54,459:INFO:sectionlog-81
+2021-08-19 11:41:54,567:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-19 11:41:54,567:INFO:sectionEMU-B20MC-1
+2021-08-19 11:41:54,567:INFO:sectionEMU-B20MC-2
+2021-08-19 11:41:54,571:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-19 11:41:54,571:INFO:sectionEMU-B20SM-1
+2021-08-19 11:41:54,571:INFO:sectionEMU-B20SM-2
+2021-08-19 11:42:09,906:INFO:IP rev.
+2021-08-19 11:42:09,907:INFO:connect type : Modbus
+2021-08-19 11:42:09,909:INFO:write path :INI_config/ini_storage/
+2021-08-19 11:42:09,909:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-19 11:42:09,916:INFO:ini file printed
+2021-08-19 11:42:09,916:INFO:clear done
+2021-08-19 11:42:09,917:INFO:clear Modbus ip done
+2021-08-19 11:42:52,284:INFO:cancle
+2021-08-19 11:42:52,285:INFO:timer done
+2021-08-19 11:43:22,681:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-19 11:43:22,681:INFO:sectionFTP server
+2021-08-19 11:43:22,681:INFO:section invaild
+2021-08-19 11:43:22,681:INFO:sectionEMU-B20MC-init
+2021-08-19 11:43:22,681:INFO:sectionEMU-B20SM-init
+2021-08-19 11:43:22,684:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-19 11:43:22,690:INFO:sectionlog-1
+2021-08-19 11:43:22,690:INFO:sectionlog-2
+2021-08-19 11:43:22,691:INFO:sectionlog-3
+2021-08-19 11:43:22,691:INFO:sectionlog-4
+2021-08-19 11:43:22,691:INFO:sectionlog-5
+2021-08-19 11:43:22,691:INFO:sectionlog-6
+2021-08-19 11:43:22,691:INFO:sectionlog-7
+2021-08-19 11:43:22,691:INFO:sectionlog-8
+2021-08-19 11:43:22,691:INFO:sectionlog-9
+2021-08-19 11:43:22,691:INFO:sectionlog-10
+2021-08-19 11:43:22,691:INFO:sectionlog-11
+2021-08-19 11:43:22,691:INFO:sectionlog-12
+2021-08-19 11:43:22,691:INFO:sectionlog-13
+2021-08-19 11:43:22,691:INFO:sectionlog-14
+2021-08-19 11:43:22,691:INFO:sectionlog-15
+2021-08-19 11:43:22,691:INFO:sectionlog-16
+2021-08-19 11:43:22,691:INFO:sectionlog-17
+2021-08-19 11:43:22,691:INFO:sectionlog-18
+2021-08-19 11:43:22,691:INFO:sectionlog-19
+2021-08-19 11:43:22,692:INFO:sectionlog-20
+2021-08-19 11:43:22,692:INFO:sectionlog-21
+2021-08-19 11:43:22,692:INFO:sectionlog-22
+2021-08-19 11:43:22,692:INFO:sectionlog-23
+2021-08-19 11:43:22,692:INFO:sectionlog-24
+2021-08-19 11:43:22,692:INFO:sectionlog-25
+2021-08-19 11:43:22,692:INFO:sectionlog-26
+2021-08-19 11:43:22,692:INFO:sectionlog-27
+2021-08-19 11:43:22,692:INFO:sectionlog-28
+2021-08-19 11:43:22,692:INFO:sectionlog-29
+2021-08-19 11:43:22,692:INFO:sectionlog-30
+2021-08-19 11:43:22,692:INFO:sectionlog-31
+2021-08-19 11:43:22,692:INFO:sectionlog-32
+2021-08-19 11:43:22,692:INFO:sectionlog-33
+2021-08-19 11:43:22,692:INFO:sectionlog-34
+2021-08-19 11:43:22,692:INFO:sectionlog-35
+2021-08-19 11:43:22,692:INFO:sectionlog-36
+2021-08-19 11:43:22,692:INFO:sectionlog-37
+2021-08-19 11:43:22,692:INFO:sectionlog-38
+2021-08-19 11:43:22,693:INFO:sectionlog-39
+2021-08-19 11:43:22,693:INFO:sectionlog-40
+2021-08-19 11:43:22,693:INFO:sectionlog-41
+2021-08-19 11:43:22,693:INFO:sectionlog-42
+2021-08-19 11:43:22,693:INFO:sectionlog-43
+2021-08-19 11:43:22,693:INFO:sectionlog-44
+2021-08-19 11:43:22,693:INFO:sectionlog-45
+2021-08-19 11:43:22,693:INFO:sectionlog-46
+2021-08-19 11:43:22,693:INFO:sectionlog-47
+2021-08-19 11:43:22,693:INFO:sectionlog-48
+2021-08-19 11:43:22,693:INFO:sectionlog-49
+2021-08-19 11:43:22,693:INFO:sectionlog-50
+2021-08-19 11:43:22,693:INFO:sectionlog-51
+2021-08-19 11:43:22,693:INFO:sectionlog-52
+2021-08-19 11:43:22,693:INFO:sectionlog-53
+2021-08-19 11:43:22,693:INFO:sectionlog-54
+2021-08-19 11:43:22,693:INFO:sectionlog-55
+2021-08-19 11:43:22,693:INFO:sectionlog-56
+2021-08-19 11:43:22,694:INFO:sectionlog-57
+2021-08-19 11:43:22,694:INFO:sectionlog-58
+2021-08-19 11:43:22,694:INFO:sectionlog-59
+2021-08-19 11:43:22,694:INFO:sectionlog-60
+2021-08-19 11:43:22,694:INFO:sectionlog-61
+2021-08-19 11:43:22,694:INFO:sectionlog-62
+2021-08-19 11:43:22,694:INFO:sectionlog-63
+2021-08-19 11:43:22,694:INFO:sectionlog-64
+2021-08-19 11:43:22,694:INFO:sectionlog-65
+2021-08-19 11:43:22,694:INFO:sectionlog-66
+2021-08-19 11:43:22,694:INFO:sectionlog-67
+2021-08-19 11:43:22,694:INFO:sectionlog-68
+2021-08-19 11:43:22,694:INFO:sectionlog-69
+2021-08-19 11:43:22,694:INFO:sectionlog-70
+2021-08-19 11:43:22,695:INFO:sectionlog-71
+2021-08-19 11:43:22,695:INFO:sectionlog-72
+2021-08-19 11:43:22,695:INFO:sectionlog-73
+2021-08-19 11:43:22,695:INFO:sectionlog-74
+2021-08-19 11:43:22,695:INFO:sectionlog-75
+2021-08-19 11:43:22,695:INFO:sectionlog-76
+2021-08-19 11:43:22,695:INFO:sectionlog-77
+2021-08-19 11:43:22,695:INFO:sectionlog-78
+2021-08-19 11:43:22,695:INFO:sectionlog-79
+2021-08-19 11:43:22,695:INFO:sectionlog-80
+2021-08-19 11:43:22,695:INFO:sectionlog-81
+2021-08-19 11:43:22,695:INFO:sectionlog-82
+2021-08-19 11:43:22,807:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-19 11:43:22,807:INFO:sectionEMU-B20MC-1
+2021-08-19 11:43:22,807:INFO:sectionEMU-B20MC-2
+2021-08-19 11:43:22,811:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-19 11:43:22,811:INFO:sectionEMU-B20SM-1
+2021-08-19 11:43:22,811:INFO:sectionEMU-B20SM-2
+2021-08-19 11:43:30,269:INFO:IP rev.
+2021-08-19 11:43:30,270:INFO:connect type : Modbus
+2021-08-19 11:43:30,272:INFO:write path :INI_config/ini_storage/
+2021-08-19 11:43:30,272:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-19 11:43:30,280:INFO:ini file printed
+2021-08-19 11:43:30,280:INFO:clear done
+2021-08-19 11:43:30,281:INFO:clear Modbus ip done
+2021-08-19 11:45:25,073:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-19 11:45:25,073:INFO:sectionFTP server
+2021-08-19 11:45:25,073:INFO:section invaild
+2021-08-19 11:45:25,073:INFO:sectionEMU-B20MC-init
+2021-08-19 11:45:25,073:INFO:sectionEMU-B20SM-init
+2021-08-19 11:45:25,076:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-19 11:45:25,082:INFO:sectionlog-1
+2021-08-19 11:45:25,082:INFO:sectionlog-2
+2021-08-19 11:45:25,082:INFO:sectionlog-3
+2021-08-19 11:45:25,082:INFO:sectionlog-4
+2021-08-19 11:45:25,082:INFO:sectionlog-5
+2021-08-19 11:45:25,083:INFO:sectionlog-6
+2021-08-19 11:45:25,083:INFO:sectionlog-7
+2021-08-19 11:45:25,083:INFO:sectionlog-8
+2021-08-19 11:45:25,083:INFO:sectionlog-9
+2021-08-19 11:45:25,083:INFO:sectionlog-10
+2021-08-19 11:45:25,083:INFO:sectionlog-11
+2021-08-19 11:45:25,083:INFO:sectionlog-12
+2021-08-19 11:45:25,083:INFO:sectionlog-13
+2021-08-19 11:45:25,083:INFO:sectionlog-14
+2021-08-19 11:45:25,083:INFO:sectionlog-15
+2021-08-19 11:45:25,083:INFO:sectionlog-16
+2021-08-19 11:45:25,083:INFO:sectionlog-17
+2021-08-19 11:45:25,083:INFO:sectionlog-18
+2021-08-19 11:45:25,083:INFO:sectionlog-19
+2021-08-19 11:45:25,083:INFO:sectionlog-20
+2021-08-19 11:45:25,083:INFO:sectionlog-21
+2021-08-19 11:45:25,083:INFO:sectionlog-22
+2021-08-19 11:45:25,083:INFO:sectionlog-23
+2021-08-19 11:45:25,084:INFO:sectionlog-24
+2021-08-19 11:45:25,084:INFO:sectionlog-25
+2021-08-19 11:45:25,084:INFO:sectionlog-26
+2021-08-19 11:45:25,084:INFO:sectionlog-27
+2021-08-19 11:45:25,084:INFO:sectionlog-28
+2021-08-19 11:45:25,084:INFO:sectionlog-29
+2021-08-19 11:45:25,084:INFO:sectionlog-30
+2021-08-19 11:45:25,084:INFO:sectionlog-31
+2021-08-19 11:45:25,084:INFO:sectionlog-32
+2021-08-19 11:45:25,084:INFO:sectionlog-33
+2021-08-19 11:45:25,084:INFO:sectionlog-34
+2021-08-19 11:45:25,084:INFO:sectionlog-35
+2021-08-19 11:45:25,084:INFO:sectionlog-36
+2021-08-19 11:45:25,084:INFO:sectionlog-37
+2021-08-19 11:45:25,084:INFO:sectionlog-38
+2021-08-19 11:45:25,084:INFO:sectionlog-39
+2021-08-19 11:45:25,084:INFO:sectionlog-40
+2021-08-19 11:45:25,084:INFO:sectionlog-41
+2021-08-19 11:45:25,085:INFO:sectionlog-42
+2021-08-19 11:45:25,085:INFO:sectionlog-43
+2021-08-19 11:45:25,085:INFO:sectionlog-44
+2021-08-19 11:45:25,085:INFO:sectionlog-45
+2021-08-19 11:45:25,085:INFO:sectionlog-46
+2021-08-19 11:45:25,085:INFO:sectionlog-47
+2021-08-19 11:45:25,085:INFO:sectionlog-48
+2021-08-19 11:45:25,085:INFO:sectionlog-49
+2021-08-19 11:45:25,085:INFO:sectionlog-50
+2021-08-19 11:45:25,085:INFO:sectionlog-51
+2021-08-19 11:45:25,085:INFO:sectionlog-52
+2021-08-19 11:45:25,085:INFO:sectionlog-53
+2021-08-19 11:45:25,085:INFO:sectionlog-54
+2021-08-19 11:45:25,085:INFO:sectionlog-55
+2021-08-19 11:45:25,085:INFO:sectionlog-56
+2021-08-19 11:45:25,085:INFO:sectionlog-57
+2021-08-19 11:45:25,085:INFO:sectionlog-58
+2021-08-19 11:45:25,085:INFO:sectionlog-59
+2021-08-19 11:45:25,085:INFO:sectionlog-60
+2021-08-19 11:45:25,086:INFO:sectionlog-61
+2021-08-19 11:45:25,086:INFO:sectionlog-62
+2021-08-19 11:45:25,086:INFO:sectionlog-63
+2021-08-19 11:45:25,086:INFO:sectionlog-64
+2021-08-19 11:45:25,086:INFO:sectionlog-65
+2021-08-19 11:45:25,086:INFO:sectionlog-66
+2021-08-19 11:45:25,086:INFO:sectionlog-67
+2021-08-19 11:45:25,086:INFO:sectionlog-68
+2021-08-19 11:45:25,086:INFO:sectionlog-69
+2021-08-19 11:45:25,086:INFO:sectionlog-70
+2021-08-19 11:45:25,086:INFO:sectionlog-71
+2021-08-19 11:45:25,086:INFO:sectionlog-72
+2021-08-19 11:45:25,086:INFO:sectionlog-73
+2021-08-19 11:45:25,086:INFO:sectionlog-74
+2021-08-19 11:45:25,086:INFO:sectionlog-75
+2021-08-19 11:45:25,086:INFO:sectionlog-76
+2021-08-19 11:45:25,086:INFO:sectionlog-77
+2021-08-19 11:45:25,086:INFO:sectionlog-78
+2021-08-19 11:45:25,086:INFO:sectionlog-79
+2021-08-19 11:45:25,087:INFO:sectionlog-80
+2021-08-19 11:45:25,087:INFO:sectionlog-81
+2021-08-19 11:45:25,087:INFO:sectionlog-82
+2021-08-19 11:45:25,087:INFO:sectionlog-83
+2021-08-19 11:45:25,196:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-19 11:45:25,196:INFO:sectionEMU-B20MC-1
+2021-08-19 11:45:25,197:INFO:sectionEMU-B20MC-2
+2021-08-19 11:45:25,200:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-19 11:45:25,200:INFO:sectionEMU-B20SM-1
+2021-08-19 11:45:25,200:INFO:sectionEMU-B20SM-2
+2021-08-19 11:46:33,211:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-19 11:46:33,212:INFO:sectionFTP server
+2021-08-19 11:46:33,212:INFO:section invaild
+2021-08-19 11:46:33,212:INFO:sectionEMU-B20MC-init
+2021-08-19 11:46:33,212:INFO:sectionEMU-B20SM-init
+2021-08-19 11:46:33,215:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-19 11:46:33,217:INFO:sectionlog-1
+2021-08-19 11:46:33,217:INFO:sectionlog-2
+2021-08-19 11:46:33,217:INFO:sectionlog-3
+2021-08-19 11:46:33,217:INFO:sectionlog-4
+2021-08-19 11:46:33,218:INFO:sectionlog-5
+2021-08-19 11:46:33,218:INFO:sectionlog-6
+2021-08-19 11:46:33,218:INFO:sectionlog-7
+2021-08-19 11:46:33,218:INFO:sectionlog-8
+2021-08-19 11:46:33,218:INFO:sectionlog-9
+2021-08-19 11:46:33,218:INFO:sectionlog-10
+2021-08-19 11:46:33,218:INFO:sectionlog-11
+2021-08-19 11:46:33,218:INFO:sectionlog-12
+2021-08-19 11:46:33,218:INFO:sectionlog-13
+2021-08-19 11:46:33,218:INFO:sectionlog-14
+2021-08-19 11:46:33,218:INFO:sectionlog-15
+2021-08-19 11:46:33,218:INFO:sectionlog-16
+2021-08-19 11:46:33,218:INFO:sectionlog-17
+2021-08-19 11:46:33,218:INFO:sectionlog-18
+2021-08-19 11:46:33,218:INFO:sectionlog-19
+2021-08-19 11:46:33,218:INFO:sectionlog-20
+2021-08-19 11:46:33,218:INFO:sectionlog-21
+2021-08-19 11:46:33,218:INFO:sectionlog-22
+2021-08-19 11:46:33,219:INFO:sectionlog-23
+2021-08-19 11:46:33,219:INFO:sectionlog-24
+2021-08-19 11:46:33,219:INFO:sectionlog-25
+2021-08-19 11:46:33,219:INFO:sectionlog-26
+2021-08-19 11:46:33,219:INFO:sectionlog-27
+2021-08-19 11:46:33,219:INFO:sectionlog-28
+2021-08-19 11:46:33,219:INFO:sectionlog-29
+2021-08-19 11:46:33,219:INFO:sectionlog-30
+2021-08-19 11:46:33,219:INFO:sectionlog-31
+2021-08-19 11:46:33,219:INFO:sectionlog-32
+2021-08-19 11:46:33,219:INFO:sectionlog-33
+2021-08-19 11:46:33,219:INFO:sectionlog-34
+2021-08-19 11:46:33,219:INFO:sectionlog-35
+2021-08-19 11:46:33,219:INFO:sectionlog-36
+2021-08-19 11:46:33,219:INFO:sectionlog-37
+2021-08-19 11:46:33,219:INFO:sectionlog-38
+2021-08-19 11:46:33,219:INFO:sectionlog-39
+2021-08-19 11:46:33,219:INFO:sectionlog-40
+2021-08-19 11:46:33,220:INFO:sectionlog-41
+2021-08-19 11:46:33,220:INFO:sectionlog-42
+2021-08-19 11:46:33,220:INFO:sectionlog-43
+2021-08-19 11:46:33,220:INFO:sectionlog-44
+2021-08-19 11:46:33,220:INFO:sectionlog-45
+2021-08-19 11:46:33,220:INFO:sectionlog-46
+2021-08-19 11:46:33,220:INFO:sectionlog-47
+2021-08-19 11:46:33,220:INFO:sectionlog-48
+2021-08-19 11:46:33,220:INFO:sectionlog-49
+2021-08-19 11:46:33,220:INFO:sectionlog-50
+2021-08-19 11:46:33,220:INFO:sectionlog-51
+2021-08-19 11:46:33,220:INFO:sectionlog-52
+2021-08-19 11:46:33,220:INFO:sectionlog-53
+2021-08-19 11:46:33,220:INFO:sectionlog-54
+2021-08-19 11:46:33,220:INFO:sectionlog-55
+2021-08-19 11:46:33,220:INFO:sectionlog-56
+2021-08-19 11:46:33,220:INFO:sectionlog-57
+2021-08-19 11:46:33,220:INFO:sectionlog-58
+2021-08-19 11:46:33,221:INFO:sectionlog-59
+2021-08-19 11:46:33,221:INFO:sectionlog-60
+2021-08-19 11:46:33,221:INFO:sectionlog-61
+2021-08-19 11:46:33,221:INFO:sectionlog-62
+2021-08-19 11:46:33,221:INFO:sectionlog-63
+2021-08-19 11:46:33,221:INFO:sectionlog-64
+2021-08-19 11:46:33,221:INFO:sectionlog-65
+2021-08-19 11:46:33,221:INFO:sectionlog-66
+2021-08-19 11:46:33,221:INFO:sectionlog-67
+2021-08-19 11:46:33,221:INFO:sectionlog-68
+2021-08-19 11:46:33,221:INFO:sectionlog-69
+2021-08-19 11:46:33,221:INFO:sectionlog-70
+2021-08-19 11:46:33,221:INFO:sectionlog-71
+2021-08-19 11:46:33,221:INFO:sectionlog-72
+2021-08-19 11:46:33,221:INFO:sectionlog-73
+2021-08-19 11:46:33,221:INFO:sectionlog-74
+2021-08-19 11:46:33,221:INFO:sectionlog-75
+2021-08-19 11:46:33,221:INFO:sectionlog-76
+2021-08-19 11:46:33,221:INFO:sectionlog-77
+2021-08-19 11:46:33,222:INFO:sectionlog-78
+2021-08-19 11:46:33,222:INFO:sectionlog-79
+2021-08-19 11:46:33,222:INFO:sectionlog-80
+2021-08-19 11:46:33,222:INFO:sectionlog-81
+2021-08-19 11:46:33,222:INFO:sectionlog-82
+2021-08-19 11:46:33,222:INFO:sectionlog-83
+2021-08-19 11:46:33,332:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-19 11:46:33,333:INFO:sectionEMU-B20MC-1
+2021-08-19 11:46:33,333:INFO:sectionEMU-B20MC-2
+2021-08-19 11:46:33,336:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-19 11:46:33,336:INFO:sectionEMU-B20SM-1
+2021-08-19 11:46:33,336:INFO:sectionEMU-B20SM-2
+2021-08-19 11:46:41,227:INFO:IP rev.
+2021-08-19 11:46:41,228:INFO:connect type : Modbus
+2021-08-19 11:46:41,229:INFO:write path :INI_config/ini_storage/
+2021-08-19 11:46:41,229:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-19 11:46:41,238:INFO:ini file printed
+2021-08-19 11:46:41,238:INFO:clear done
+2021-08-19 11:46:41,239:INFO:clear Modbus ip done
+2021-08-19 11:46:56,361:INFO:cancle
+2021-08-19 11:46:56,362:INFO:timer done
+2021-08-19 11:48:28,462:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-19 11:48:28,463:INFO:sectionFTP server
+2021-08-19 11:48:28,463:INFO:section invaild
+2021-08-19 11:48:28,463:INFO:sectionEMU-B20MC-init
+2021-08-19 11:48:28,463:INFO:sectionEMU-B20SM-init
+2021-08-19 11:48:28,466:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-19 11:48:28,472:INFO:sectionlog-1
+2021-08-19 11:48:28,472:INFO:sectionlog-2
+2021-08-19 11:48:28,472:INFO:sectionlog-3
+2021-08-19 11:48:28,472:INFO:sectionlog-4
+2021-08-19 11:48:28,472:INFO:sectionlog-5
+2021-08-19 11:48:28,472:INFO:sectionlog-6
+2021-08-19 11:48:28,472:INFO:sectionlog-7
+2021-08-19 11:48:28,472:INFO:sectionlog-8
+2021-08-19 11:48:28,472:INFO:sectionlog-9
+2021-08-19 11:48:28,473:INFO:sectionlog-10
+2021-08-19 11:48:28,473:INFO:sectionlog-11
+2021-08-19 11:48:28,473:INFO:sectionlog-12
+2021-08-19 11:48:28,473:INFO:sectionlog-13
+2021-08-19 11:48:28,473:INFO:sectionlog-14
+2021-08-19 11:48:28,473:INFO:sectionlog-15
+2021-08-19 11:48:28,473:INFO:sectionlog-16
+2021-08-19 11:48:28,473:INFO:sectionlog-17
+2021-08-19 11:48:28,473:INFO:sectionlog-18
+2021-08-19 11:48:28,473:INFO:sectionlog-19
+2021-08-19 11:48:28,473:INFO:sectionlog-20
+2021-08-19 11:48:28,473:INFO:sectionlog-21
+2021-08-19 11:48:28,473:INFO:sectionlog-22
+2021-08-19 11:48:28,473:INFO:sectionlog-23
+2021-08-19 11:48:28,473:INFO:sectionlog-24
+2021-08-19 11:48:28,473:INFO:sectionlog-25
+2021-08-19 11:48:28,473:INFO:sectionlog-26
+2021-08-19 11:48:28,473:INFO:sectionlog-27
+2021-08-19 11:48:28,474:INFO:sectionlog-28
+2021-08-19 11:48:28,474:INFO:sectionlog-29
+2021-08-19 11:48:28,474:INFO:sectionlog-30
+2021-08-19 11:48:28,474:INFO:sectionlog-31
+2021-08-19 11:48:28,474:INFO:sectionlog-32
+2021-08-19 11:48:28,474:INFO:sectionlog-33
+2021-08-19 11:48:28,474:INFO:sectionlog-34
+2021-08-19 11:48:28,474:INFO:sectionlog-35
+2021-08-19 11:48:28,474:INFO:sectionlog-36
+2021-08-19 11:48:28,474:INFO:sectionlog-37
+2021-08-19 11:48:28,474:INFO:sectionlog-38
+2021-08-19 11:48:28,474:INFO:sectionlog-39
+2021-08-19 11:48:28,474:INFO:sectionlog-40
+2021-08-19 11:48:28,474:INFO:sectionlog-41
+2021-08-19 11:48:28,474:INFO:sectionlog-42
+2021-08-19 11:48:28,474:INFO:sectionlog-43
+2021-08-19 11:48:28,474:INFO:sectionlog-44
+2021-08-19 11:48:28,474:INFO:sectionlog-45
+2021-08-19 11:48:28,475:INFO:sectionlog-46
+2021-08-19 11:48:28,475:INFO:sectionlog-47
+2021-08-19 11:48:28,475:INFO:sectionlog-48
+2021-08-19 11:48:28,475:INFO:sectionlog-49
+2021-08-19 11:48:28,475:INFO:sectionlog-50
+2021-08-19 11:48:28,475:INFO:sectionlog-51
+2021-08-19 11:48:28,475:INFO:sectionlog-52
+2021-08-19 11:48:28,475:INFO:sectionlog-53
+2021-08-19 11:48:28,475:INFO:sectionlog-54
+2021-08-19 11:48:28,475:INFO:sectionlog-55
+2021-08-19 11:48:28,475:INFO:sectionlog-56
+2021-08-19 11:48:28,475:INFO:sectionlog-57
+2021-08-19 11:48:28,475:INFO:sectionlog-58
+2021-08-19 11:48:28,475:INFO:sectionlog-59
+2021-08-19 11:48:28,475:INFO:sectionlog-60
+2021-08-19 11:48:28,475:INFO:sectionlog-61
+2021-08-19 11:48:28,475:INFO:sectionlog-62
+2021-08-19 11:48:28,475:INFO:sectionlog-63
+2021-08-19 11:48:28,476:INFO:sectionlog-64
+2021-08-19 11:48:28,476:INFO:sectionlog-65
+2021-08-19 11:48:28,476:INFO:sectionlog-66
+2021-08-19 11:48:28,476:INFO:sectionlog-67
+2021-08-19 11:48:28,476:INFO:sectionlog-68
+2021-08-19 11:48:28,476:INFO:sectionlog-69
+2021-08-19 11:48:28,476:INFO:sectionlog-70
+2021-08-19 11:48:28,476:INFO:sectionlog-71
+2021-08-19 11:48:28,476:INFO:sectionlog-72
+2021-08-19 11:48:28,476:INFO:sectionlog-73
+2021-08-19 11:48:28,476:INFO:sectionlog-74
+2021-08-19 11:48:28,476:INFO:sectionlog-75
+2021-08-19 11:48:28,476:INFO:sectionlog-76
+2021-08-19 11:48:28,476:INFO:sectionlog-77
+2021-08-19 11:48:28,476:INFO:sectionlog-78
+2021-08-19 11:48:28,476:INFO:sectionlog-79
+2021-08-19 11:48:28,476:INFO:sectionlog-80
+2021-08-19 11:48:28,476:INFO:sectionlog-81
+2021-08-19 11:48:28,476:INFO:sectionlog-82
+2021-08-19 11:48:28,477:INFO:sectionlog-83
+2021-08-19 11:48:28,477:INFO:sectionlog-84
+2021-08-19 11:48:28,590:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-19 11:48:28,591:INFO:sectionEMU-B20MC-1
+2021-08-19 11:48:28,591:INFO:sectionEMU-B20MC-2
+2021-08-19 11:48:28,594:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-19 11:48:28,594:INFO:sectionEMU-B20SM-1
+2021-08-19 11:48:28,594:INFO:sectionEMU-B20SM-2
+2021-08-19 11:48:35,195:INFO:IP rev.
+2021-08-19 11:48:35,196:INFO:connect type : Modbus
+2021-08-19 11:48:35,197:INFO:write path :INI_config/ini_storage/
+2021-08-19 11:48:35,197:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-19 11:48:35,205:INFO:timer done
+2021-08-19 11:48:35,206:INFO:ini file printed
+2021-08-19 11:48:35,207:INFO:clear done
+2021-08-19 11:48:35,207:INFO:clear Modbus ip done

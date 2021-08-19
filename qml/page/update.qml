@@ -18,13 +18,18 @@ Item {
                 var elemCur = myModel.get(i).name;
                 //print(elemCur)
                 if(searchedId == elemCur) {
-                    console.log("Found it at index : "+ i)
+                    //console.log("Found it at index : "+ i)
                     return i
                 }
                 else{
-                    console.log("not found name")
+                    //console.log("not found name")
                 }
             }
+        }
+
+        function formatText(count, modelData) {
+            var data = count === 12 ? modelData + 1 : modelData;
+            return data.toString().length < 2 ? "0" + data : data;
         }
         
         function getAllitemlist(myModel){
@@ -81,12 +86,13 @@ Item {
                 id: updateNow
                 width: 150
                 height: 65
-                text: "update Now"
+                text: "confirm"
                 onClicked: {
                     internal.getAllitemlist(listmodelId)
                     //print("send IP to python")
                     contextNoti.text = "Processing to python backend"
                     UpdatbackEnd.updateFirmware(internal.typeConnect)
+                    //UpdatbackEnd.starCount(true)
                 }
             }
 
@@ -95,6 +101,17 @@ Item {
                 width: 150
                 height: 65
                 text: "set time"
+                onClicked: {
+                var hour = hoursTumbler.currentIndex
+                var min = minutesTumbler.currentIndex
+                var posfix = amPmTumbler.currentIndex
+                if(timer.visible){
+                    UpdatbackEnd.setTimeupdate(hour,min,posfix)
+                }
+                else{
+                    UpdatbackEnd.setTimeupdate(-1,-1,-1)
+                }
+            }
             }
 
             Button {
@@ -104,6 +121,7 @@ Item {
                 text: "cancle"
                 onClicked: {
                     internal.unCheckBox(comboList)
+                    UpdatbackEnd.cancleTimer(true)
                 }
             }
         }
@@ -145,14 +163,14 @@ Item {
         }
 
         HorizontalHeaderView {
-                id: horiHeader
-                x: deviceTable.x
-                width: tableView.width
-                syncView: tableView
-                clip: true
-                height: 30
-                anchors.bottom: deviceTable.top
-                anchors.bottomMargin: 0
+            id: horiHeader
+            x: deviceTable.x
+            width: tableView.width
+            syncView: tableView
+            clip: true
+            height: 30
+            anchors.bottom: deviceTable.top
+            anchors.bottomMargin: 0
         }
 
         Rectangle {
@@ -248,15 +266,15 @@ Item {
         }
         
         HorizontalHeaderView {
-                id: statushoriHeader
-                x: notiTable.x
-                width: tableStatus.width
-                syncView: tableStatus
-                clip: true
-                height: 30
-                anchors.bottom: notiTable.top
-                anchors.bottomMargin: 0
-        }  
+            id: statushoriHeader
+            x: notiTable.x
+            width: tableStatus.width
+            syncView: tableStatus
+            clip: true
+            height: 30
+            anchors.bottom: notiTable.top
+            anchors.bottomMargin: 0
+        }
 
         Rectangle {
             id: notiTable
@@ -392,7 +410,7 @@ Item {
                     id: listmodelId
                     Component.onCompleted :{
                         UpdatbackEnd.appendToListCheck(true)
-                    
+
                     }
                 }
 
@@ -530,6 +548,135 @@ Item {
                     anchors.leftMargin: 20
                 }
             }
+
+            Rectangle {
+                id: timeUpdate
+                x: 828
+                y: 0
+                width: 400
+                height: 200
+                color: "#00000000"
+                border.color: "#00000000"
+                anchors.left: typeCheck.right
+                anchors.top: parent.top
+                anchors.leftMargin: 0
+                anchors.topMargin: 0
+
+                Rectangle {
+                    id: timerhead
+                    x: 0
+                    y: 0
+                    width: 400
+                    height: 40
+                    color: "#555555"
+                    border.color: "#00000000"
+                    anchors.left: parent.left
+                    anchors.top: parent.top
+                    anchors.leftMargin: 0
+                    anchors.topMargin: 0
+                    Label {
+                        y: -3
+                        width: 270
+                        height: 46
+                        color: "#ffffff"
+                        text: "Set update timer"
+                        anchors.left: checktimer.right
+                        font.pointSize: 20
+                        anchors.leftMargin: 20
+                    }
+
+                    CheckBox {
+                        id: checktimer
+                        anchors.left: parent.left
+                        anchors.top: parent.top
+                        anchors.leftMargin: 5
+                        anchors.topMargin: 0
+                        onCheckedChanged: {
+                                    if(checked)
+                                    {
+                                        timer.visible = true
+                                    }
+                                    else if(!checked)
+                                    {
+                                        timer.visible = false
+
+                                    }
+                                }
+                    }
+                }
+
+                Component {
+                    id: delegateComponent
+
+                    Label {
+                            text: internal.formatText(Tumbler.tumbler.count, modelData)
+                            opacity: 1.0 - Math.abs(Tumbler.displacement) / (Tumbler.tumbler.visibleItemCount / 2)
+                            horizontalAlignment: Text.AlignHCenter
+                            verticalAlignment: Text.AlignVCenter
+                            font.pixelSize: fontMetrics.font.pixelSize * 2.3
+                            color: "#ffffff"
+                    }
+                }
+
+                FontMetrics {
+                    id: fontMetrics
+                }
+
+                Rectangle {
+                    id: timer
+                    width: 250
+                    height: 152
+                    visible : false
+                    color: "#00000000"
+                    border.color: "#00000000"
+                    anchors.left: parent.left
+                    anchors.top: timerhead.bottom
+                    anchors.leftMargin: 0
+                    anchors.topMargin: 0
+
+                    Frame {
+                        id: frame
+                        width: timer.width
+                        height: timer.height
+                        padding: 0
+                    }
+
+                    Row {
+                        id: row
+                        width: frame.width
+                        height: 150
+                        spacing: 10
+
+                        Tumbler {
+                            id: hoursTumbler
+                            width: frame.width/3.5
+                            height: row.height
+                            clip: true
+                            model: 12
+                            delegate: delegateComponent
+                        }
+
+                        Tumbler {
+                            id: minutesTumbler
+                            width: frame.width/3.5
+                            height: row.height
+                            clip: true
+                            model: 60
+                            delegate: delegateComponent
+                            
+                            }
+
+                        Tumbler {
+                            id: amPmTumbler
+                            width: frame.width/3.5
+                            height: row.height
+                            clip: true
+                            model: ["AM", "PM"]
+                            delegate: delegateComponent
+                        }
+                    }
+                } 
+            }
         }
     }
     Connections{
@@ -552,6 +699,6 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.5}
+    D{i:0;formeditorZoom:0.66}
 }
 ##^##*/
