@@ -272,9 +272,8 @@ Window {
                             height: 500
                             anchors.centerIn: parent
                             running: stackView.busy 
-                        }
+                    }
                 }
-
             }
 
             Rectangle {
@@ -345,6 +344,7 @@ Window {
 
                         onClicked: {
                             internal.delay(5000)
+                            backend.refreshmentLog(reNoti.autoRepeat)
                         }
                     }
                 }

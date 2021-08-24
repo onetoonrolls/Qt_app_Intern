@@ -52,11 +52,24 @@ class ini_config():
     def setID(self,id):
         self.value3.append(id)
 
+    def setTime(self,time):
+        self.value4.append(time)
+
     def setLog(self,ip,mac,date,error):
         self.setIP(ip)
         self.setMac(mac)
         self.setDate(date)
         self.setError(error)
+
+    def setInitconfig(self,ip):
+        self.setIP(ip)
+
+    def setLogFTP(self,mac,date,time,ver):
+        #self.setIP(ip)
+        self.setMac(mac)
+        self.setDate(date)
+        self.setTime(time)
+        self.setVersion(ver)
 
     def setDevice_basicDetail(self,id,ip,mac):
         self.setIP(ip)
@@ -96,6 +109,8 @@ class ini_config():
         elif(type == "initConfig"):
             file_name = self.path_write+'initConfig.ini'
             logging.info("file name : "+file_name)
+        elif(type == "logFTP"):
+            file_name = self.path_write+'logFTP.ini'
         else:
             logging.info("type NULL ")
         with open(os.path.abspath(file_name), 'w') as configfile: #write file
@@ -127,57 +142,70 @@ class ini_config():
         elif(type == "initConfig"):
             file_name = self.path_write+'initConfig.ini'
             logging.info("file name : "+file_name)
+        elif(type == "logFTP"):
+            file_name = self.path_write+'logFTP.ini'
         else:
             logging.info("type NULL ")
         self.setPath("same",file_name)
-        data.read(self.path_read)
-        
-        if(data.sections() !=[]): #check data not overwrite
-            for section in data.sections(): #get old data
-                for key,value in data.items(section):
-                    #self.key_obj.append(key)
-                    if(key =="ip"or key =="houst_ip"): #ip,houst_ip,ip(log)
-                        self.value1.append(value)
-                    elif(key =="mac" or key =="username" ):
-                        self.value2.append(value) #mac,username,date
-                    elif(key =="id" or key =="password" or key =="date"):
-                        self.value3.append(value) #id,password,error
-                    elif(key =="mes"or key =="port" or key =="error"):
-                        self.value4.append(value) #mes,port
-                    elif(key =="sdc"or key =="initip"):
-                        self.value5.append(value) #sdc,ip(init)
-                    elif(key =="ntp"):
-                        self.value6.append(value) #ntp
-                    elif(key =="tcp"):
-                        self.value7.append(value) #tcp
-                    elif(key =="c_version"):
-                        self.value8.append(value) #c_version
-                        #print("value ver: ",value)
-                    else:    
-                        print("key not macth; key: ",key,value)
+        data.read(os.path.abspath(self.path_read))
+        if(type != "initConfig"):
+            if(data.sections() !=[]): #check data not overwrite
+                for section in data.sections(): #get old data
+                    for key,value in data.items(section):
+                        #self.key_obj.append(key)
+                        if(key =="ip"or key =="houst_ip"): 
+                            self.value1.append(value) #ip,houst_ip,ip(log)
+                        elif(key =="mac" or key =="username" ):
+                            self.value2.append(value) #mac,username
+                        elif(key =="id" or key =="password" or key =="date"):
+                            self.value3.append(value) #id,password,error,date
+                        elif(key =="mes"or key =="port" or key =="error" or key == "time"):
+                            self.value4.append(value) #mes,port,timeFTP
+                        elif(key =="sdc"or key =="initip"):
+                            self.value5.append(value) #sdc,ip(init)
+                        elif(key =="ntp"):
+                            self.value6.append(value) #ntp
+                        elif(key =="tcp"):
+                            self.value7.append(value) #tcp
+                        elif(key =="c_version" or key == "version"):
+                            self.value8.append(value) #c_version,verFTP
+                            #print("value ver: ",value)
+                        else:    
+                            print("key not macth; key: ",key,value)
 
-        for i in range(len(data.sections())+1): #create section topic in new file
-            if(type == "device"):
-                data[self.device_name+"-"+str(i+1)]={
-                    "ip" : self.value1[i],
-                    "mac" : self.value2[i],
-                    "id" : self.value3[i],
-                    "MES" : self.value4[i],
-                    "SDC" : self.value5[i],
-                    "NTP" : self.value6[i],
-                    "TCP" : self.value7[i],
-                    "c_version" : self.value8[i]
-                }
-            elif(type == "log"):
-                data["log-"+str(i+1)]={
+            for i in range(len(data.sections())+1): #create section topic in new file
+                if(type == "device"):
+                    data[self.device_name+"-"+str(i+1)]={
                         "ip" : self.value1[i],
-                        "mac": self.value2[i],
-                        "date" : self.value3[i],
-                        "error" : self.value4[i],
+                        "mac" : self.value2[i],
+                        "id" : self.value3[i],
+                        "MES" : self.value4[i],
+                        "SDC" : self.value5[i],
+                        "NTP" : self.value6[i],
+                        "TCP" : self.value7[i],
+                        "c_version" : self.value8[i]
                     }
-            elif(type == "initConfig"): #undev
-                pass
-
+                elif(type == "log"):
+                    data["log-"+str(i+1)]={
+                            "ip" : self.value1[i],
+                            "mac": self.value2[i],
+                            "date" : self.value3[i],
+                            "error" : self.value4[i]
+                        }
+                elif(type == "logFTP"):
+                    data["logFTP-"+str(i+1)]={
+                            #"ip" : self.value1[i],
+                            "mac": self.value2[i],
+                            "date" : self.value3[i],
+                            "time" : self.value4[i],
+                            "version" : self.value8[i]
+                        }
+        elif(type == "initConfig"):
+            sec_item = data.items(self.device_name+'-init')
+            L_init = len(sec_item)
+            data.set(self.device_name+'-init',"initip-"+str(L_init+1),self.value1[0])
+        else:
+            logging.info("worng type")
         with open(os.path.abspath(file_name), 'w') as configfile: #write file
             data.write(configfile)
             logging.info("ini file printed")
@@ -199,8 +227,10 @@ class ini_config():
             
             if(section.find("EMU") !=-1):
                 key_obj = ["ip","mac","id","mes","sdc","ntp","TCP","c_ver"]
-            elif(section.find("log") !=-1):
+            elif(section.find("log-1") !=-1):
                 key_obj = ["ip","mac","date","error"]
+            elif(section.find("logFTP") !=-1):
+                key_obj = ["ip","mac","date","time","ver"]
             else:
                 logging.info("section invaild")
             dic_con[section] ={}
@@ -209,9 +239,20 @@ class ini_config():
         return dic_con,key_obj
 
 if __name__ == "__main__":
-    status = ["nor","nor","nor","nor"]
+    #status = ["nor","nor","nor","nor"]
     #FTP = {"port":21,"server":"ndrs"}
-    a = ini_config()
+    #a = ini_config()
+    # d = "EMU-B20MC"
+    # a = ["124.21.2.312"]
+    # config = configparser.ConfigParser()
+    # config.read('INI_config/ini_storage/initConfig.ini')
+    # b = config.items(d+'-init')
+    # l = len(b)
+    # print(l)
+    # config.set(d+'-init',"initip-"+str(l+1),a[0])
+    # with open('INI_config/ini_storage/initConfig.ini', 'w') as configfile: #write file
+    #         config.write(configfile)
+    #config[d+'-init']["initip-"+str(l)]=a[0]
     # a.setPath("NULL","INI_config/ini_storage/")
     # a.setDevice_name("EMU-B20MC")
     # a.setDevice_info("127.0.0.1","0x14E52E02A","0x0008",status,"0x0123")
@@ -234,4 +275,5 @@ if __name__ == "__main__":
     # a.setPath("INI_config/ini_storage/config_EMU-B20SM.ini","INI_config/ini_storage/")
     # a.setDevice_name("EMU-B20SM")
     # a.clearAllsection("device")
+    pass
 

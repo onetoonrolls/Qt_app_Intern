@@ -148,6 +148,29 @@ Item {
             }
         }
 
+        Rectangle {
+            id: nitoUpStatuscontext
+            height: 40
+            color: "#7d7d7d"
+            border.color: "#00000000"
+            anchors.left: nitoUpStatus.right
+            anchors.right: parent.right
+            anchors.top: deviceTable.bottom
+            anchors.rightMargin: 65
+            anchors.topMargin: 10
+            anchors.leftMargin: 1
+
+            Label{
+                id: contextNoti
+                x: 0
+                y: 0
+                width: nitoUpStatuscontext.width
+                height: nitoUpStatuscontext.height
+                color: "#ffffff"
+                font.pointSize: 20
+            }
+        }
+
         VerticalHeaderView {
             id: verticalHeader
             x: deviceTable.x-30
@@ -230,28 +253,6 @@ Item {
             }
         }
 
-        Rectangle {
-            id: nitoUpStatuscontext
-            height: 40
-            color: "#7d7d7d"
-            border.color: "#00000000"
-            anchors.left: nitoUpStatus.right
-            anchors.right: parent.right
-            anchors.top: deviceTable.bottom
-            anchors.rightMargin: 65
-            anchors.topMargin: 10
-            anchors.leftMargin: 1
-
-            Label{
-                id: contextNoti
-                x: 0
-                y: 0
-                width: nitoUpStatuscontext.width
-                height: nitoUpStatuscontext.height
-                color: "#ffffff"
-                font.pointSize: 20
-            }
-        }
         
         VerticalHeaderView {
             id: statusVerticalHeader

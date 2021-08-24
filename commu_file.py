@@ -71,7 +71,7 @@ class commutnicate_app():
             pass
         else :
             logging.info("unknow type\n")
-
+    
     def disconnect_FTP(self):
         self.client_connectFTP.disconnect()
 
@@ -114,14 +114,21 @@ class commutnicate_app():
     def getconnectIP(self):
         return self.MOd_ip
 
+    def getlogFTP(self):
+        return self.client_connectFTP.sort_detail(self.device_name)
+
     def conmmand_clearINI(self,type,readPath,writePath):
         if(type == "device"):
             self.client_configParser.setDevice_name(self.device_name)
             self.client_configParser.setPath(readPath,writePath)
             self.client_configParser.clearAllsection(type)
+        else:
+            self.client_configParser.setPath(readPath,writePath)
+            self.client_configParser.clearAllsection(type)
 
     def command_unpack_json(self,data): #in case send json not work 
             value =[]
+            obj_pack_one = []
             for i in range(len(data)):
                 
                 if "EMU-B20MC-1" in data:
@@ -130,6 +137,8 @@ class commutnicate_app():
                     obj_pack_one = data[self.device_name+"-"+str(i+1)]
                 elif "log-1" in data:
                     obj_pack_one = data["log-"+str(i+1)]
+                elif "logFTP-1" in data:
+                    obj_pack_one = data["logFTP-"+str(i+1)]
                 elif "FTP server" in data:
                     if(i == 0):
                         obj_pack_one = data["FTP server"]
@@ -143,13 +152,18 @@ class commutnicate_app():
     
     def command_print_ini(self,typeSelect,writePath): 
         self.client_configParser.setPath("NULL",writePath)
+        #print(self.dataToINI)
         if(typeSelect == "device"):
             #self.client_configParser.setDevice_name(self.device_name)
             self.client_configParser.setDevice_info(self.dataToINI[0],self.dataToINI[1],self.dataToINI[2],[self.dataToINI[3],self.dataToINI[4],self.dataToINI[5],self.dataToINI[6]],self.dataToINI[7])
         elif(typeSelect == "log"):
             self.client_configParser.setLog(self.dataToINI[0],self.dataToINI[1],self.dataToINI[2],self.dataToINI[3])
         elif(typeSelect == "initConfig"):
+            self.client_configParser.setInitconfig(self.dataToINI[0])
+            self.client_configParser.setDevice_name(self.dataToINI[1])
             pass
+        elif(typeSelect == "logFTP"):
+            self.client_configParser.setLogFTP(self.dataToINI[0],self.dataToINI[1],self.dataToINI[2],self.dataToINI[3])
         self.client_configParser.ini_print(typeSelect)
     
     def command_update_firmware(self):
@@ -184,11 +198,11 @@ if __name__ == "__main__":
 
     c = commutnicate_app()
     c.setDevice_name("EMU-B20MC")
-    readINI,keyReadINI = c.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
+    #readINI,keyReadINI = c.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
     #print("\nkey INI file : ",keyReadINI)
     #print("\nobj INI file : ",readINI)
-    V = c.command_unpack_json(readINI)
-    print(V)
+    #
+    #print(V)
     # c.command_print_ini("log","INI_config/ini_storage/")
     
     # c.setDevice_name("EMU-B20MC")
@@ -205,4 +219,21 @@ if __name__ == "__main__":
 
     # c.setModbus_connect()
     # print(c.MOd_ip)
+
+    t = [
+        ['001122334477', '6/8/2021', '17:01:08', 'v0124'],
+        ['4E445211103E', '6/8/2021', '16:45:05', 'v0124'],
+        ['4E445211103E', '6/8/2021', '16:50:14', 'v0124']
+    ]
+    for i in t:
+    #     # print(i[0])
+    #     # print(i[1])
+    #     # print(i[2])
+    #     # print(i[3])
+        c.setPrintData(i)
+        c.command_print_ini("logFTP","INI_config/ini_storage/")
+    
+    # Table_data,Table_head = c.getINI_file("INI_config/ini_storage/logFTP.ini")
+    # list_obj= c.command_unpack_json(Table_data)
+    # print(list_obj)
 

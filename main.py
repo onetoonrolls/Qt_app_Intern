@@ -145,31 +145,29 @@ class Connect_page(QObject):
         self.listSetData("min")
         self.dataHour = pd.DataFrame(self.hour,columns=["hour"])
         self.dataMin = pd.DataFrame(self.min,columns=["min"])
-        self.timer = countTime(self.commu.command_update_firmware)
+        self.timer = countTime()
         #self.timer = countTime(self.testfunc)
           
-
         logging.basicConfig(filename="config_debug.txt", level=logging.DEBUG,
                         format='%(asctime)s:%(levelname)s:%(message)s')
         self.commu = commu.commutnicate_app()
         self.commu.setDevice_name("EMU-B20MC")
-        #self.commu.setFTP_connect()
-        #self.commu.connection_FTP()
-        #self.commu.disconnect_FTP()
-
+        
         #create TabelModel section
         self.devicetopic =['ip','mac','id','mes','sdc','ntp','tcp','c_version']
         self.devicecData = pd.DataFrame(columns=self.devicetopic)
         self.statustopic=['ip','mac','date','error'] 
         self.statusData = pd.DataFrame(columns=self.statustopic)
-        self.logtopic=['ip','mac','date','version'] 
+        self.logtopic=['mac','date','version'] 
         self.logData = pd.DataFrame(columns=self.logtopic)
         
         self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/log.ini")
         self.list_obj = self.commu.command_unpack_json(self.Table_data)
         self.tableSetData("status",self.list_obj)
 
-
+        self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/logFTP.ini")
+        self.list_obj = self.commu.command_unpack_json(self.Table_data)
+        self.tableSetData("logFTP",self.list_obj)
 
         self.commu.setDevice_name("EMU-B20MC")
         self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
@@ -182,9 +180,13 @@ class Connect_page(QObject):
 
         self.deviceTable = TableModel(self.devicecData)
         self.statusTable = TableModel(self.statusData)
+        self.logTable = TableModel(self.logData)
     
-    # def testfunc(self):
-    #     print("timer done")
+    def checkFTPlog(self):
+        #connectFTP
+        self.commu.setFTP_connect()
+        self.commu.connection_FTP()
+        
 
     def listSetData(self,type):
         num = ""
@@ -262,8 +264,15 @@ class Connect_page(QObject):
                 self.devicecData = self.devicecData.append(i,ignore_index=True)
             elif(table == "status"):
                 self.statusData = self.statusData.append(i,ignore_index=True)
+            elif(table == "logFTP"):
+                self.logData = self.logData.append(i,ignore_index=True)
             else:
                 logging.info("unmatch table")
+
+    def findIP(self,mac):
+        index = self.devicecData[self.devicecData['mac']== mac].index.values.astype(int)[0]
+        ip = self.devicecData.iat[index,1]
+        return ip
 
     def findMacUpdate(self,updateIP):
         index = self.devicecData[self.devicecData['ip']== updateIP].index.values.astype(int)[0] #find index
@@ -290,6 +299,7 @@ class Connect_page(QObject):
         self.statusTable._data = self.statusData
         self.statusTable.layoutChanged.emit()
         logging.info("status table changed")
+        self.setContexNoti.emit("refresh status done")
         
     @Slot(str)
     def updateFirmware(self, type):
@@ -304,7 +314,7 @@ class Connect_page(QObject):
                 self.commu.setPrintData(data)
                 self.commu.command_print_ini("log","INI_config/ini_storage/") 
             self.starCount()
-            self.setContexNoti.emit("Update Ip : "+ ip +" done")
+            self.setContexNoti.emit("update commit done")
 
     @Slot(str)        
     def getUpdateIP(self, ip):
@@ -314,6 +324,32 @@ class Connect_page(QObject):
             self.updateIP.append(ip)
             logging.info("IP rev.")
     
+    @Slot(bool)
+    def refreshmentLog(self, isState):
+        #fetch newdata from device section
+        self.commu.conmmand_clearINI("logFTP","INI_config/ini_storage/logFTP.ini","INI_config/ini_storage/")
+        self.commu.connection_FTP()
+        self.commu.setDevice_name("EMU-B20MC")
+        MC,topic =self.commu.getlogFTP() 
+        self.commu.setDevice_name("EMU-B20SM")
+        SM,topic =self.commu.getlogFTP()
+        self.commu.disconnect_FTP()
+        #write section
+        for i in MC:
+            self.commu.setPrintData(i)
+            self.commu.command_print_ini("logFTP","INI_config/ini_storage/")
+        for i in SM:
+            self.commu.setPrintData(i)
+            self.commu.command_print_ini("logFTP","INI_config/ini_storage/")
+        #read section
+        self.logData = self.logData.iloc[0:0]
+        self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/logFTP.ini")
+        self.list_obj = self.commu.command_unpack_json(self.Table_data)
+        self.tableSetData("logFTP",self.list_obj)
+        self.logTable._data = self.logData
+        self.logTable.layoutChanged.emit()
+        self.setContexNoti.emit("update log FTP table")
+
     @Slot(bool)
     def refreshmentTable(self, isState): #refresh table
         #fetch newdata from device section
@@ -338,8 +374,13 @@ class Connect_page(QObject):
         self.deviceTable.layoutChanged.emit()
         #change ip in List checkbox
         self.appendToListCheck(True)
-        logging.info("device table changed")
-        
+        self.setContexNoti.emit("refresh device table done")
+    
+    @Slot(str,str)
+    def registDevice(self, ip,device):
+        self.commu.setPrintData([ip,device])
+        self.commu.command_print_ini("initConfig","INI_config/ini_storage/")
+        self.setContexNoti.emit("regist device done")
 
 if __name__ == "__main__":
     app = QGuiApplication(sys.argv)
@@ -347,6 +388,8 @@ if __name__ == "__main__":
 
     #get context to page
     backEnd = Connect_page()
+    
+    engine.rootContext().setContextProperty('LogFTPModel', backEnd.logTable)
     engine.rootContext().setContextProperty('StatusModel', backEnd.statusTable)
     engine.rootContext().setContextProperty('DeviceModel', backEnd.deviceTable)
     engine.rootContext().setContextProperty("backend", backEnd)

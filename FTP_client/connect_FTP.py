@@ -1,3 +1,4 @@
+from datetime import time
 from ftplib import FTP
 import json
 import logging
@@ -20,23 +21,24 @@ class FTP_client():
     def check_file(self,check_word): #check name file return boolean
         for listword in self.list_all_file():
             if(listword.find(check_word) == -1):
-                logging.info("file not exist")
+                print("file not exist")
                 return False
             else :
-                logging.info("file exist")
+                print("file exist")
                 return True
 
     def search_file(self,check_word): #check& find name file retrun list or string
         transferfile = []
-        if(self.check_file(check_word)):
-            for FTPfilename in self.list_all_file(): 
-                if(FTPfilename.find(check_word) > -1): #check name in list all file ->not macth =-1
-                    logging.info("return value: "+FTPfilename)
-                    transferfile.append(FTPfilename) 
-            return transferfile
+        #if(self.check_file(check_word)):
+        for FTPfilename in self.list_all_file(): 
+            #print(FTPfilename)
+            if(FTPfilename.find(check_word) > -1): #check name in list all file ->not macth =-1
+                #print("return value: "+FTPfilename)
+                transferfile.append(FTPfilename) 
+        return transferfile
 
     def check_path(self): #check current path
-        logging.info(self.client_FTP.pwd())
+        print(self.client_FTP.pwd())
 
     def change_type_object(self,type="utf-8"): #setting return form type
         self.encoding = type
@@ -82,55 +84,50 @@ class FTP_client():
         self.back_to_root()
         mac = []
         date = []
-        self.check_path()
+        #self.check_path()
         self.path_folder_server("/"+device_name+"/fw/log")
-        self.check_path()
+        #self.check_path()
         #use for check new version firmware 
         #if(self.check_file(self.check_firmware_ver_server())):
             #list_log = self.search_file("_v"+self.check_firmware_ver_server())
-        list_log = self.search_file("v0123")
-        
+        list_log = self.search_file("v0124")
+        #print("list log:",list_log)
         for i in range(len(list_log)):
             detail_log = list_log[i].split("_")
             mac.append(detail_log[0])
             date.append(detail_log[1])
        
-        return mac,date
+        return mac,date,detail_log[2]
     
     def sort_detail(self,device_name): #use check log  to classify data to object form
-        mac,date = self.check_log(device_name)
-        ojb_one ={"mac":"","date":""}
-        obj_date_one = {"time":"","day":"","month":"","year":""}
+        mac,date,ver = self.check_log(device_name)
+        ojb_one =[]
         list_obj = []
-        key_json = [{"mac","time","day","month","year"}] #edit after change stackture ojb
+        key_json = [{"mac","date","time","ver"}] #edit after change stackture ojb
         
         for i in range(len(date)):  
             date_T = date[i].split("T")
             #match data with topic in object form
-            obj_date_one["time"] = date_T[1][0:2]+"."+date_T[1][2:4]+"."+date_T[1][4:6]
-            obj_date_one["day"] = date_T[0][7:8]
-            obj_date_one["month"] = date_T[0][5:6]
-            obj_date_one["year"] = date_T[0][0:4]
+            time = date_T[1][0:2]+":"+date_T[1][2:4]+":"+date_T[1][4:6]
+            day = date_T[0][7:8]
+            month = date_T[0][5:6]
+            year = date_T[0][0:4]
+            ver = ver[0:5]
 
-            
-            ojb_one["mac"] = mac[i]
-            ojb_one["date"] = obj_date_one
-            
+            ojb_one.append(mac[i])
+            ojb_one.append(day+"/"+month+"/"+year) 
+            ojb_one.append(time)  
+            ojb_one.append(ver)
             list_obj.append(ojb_one) #store info in list from
-        
-        #list_obj = json.dumps(list_obj)
-        
-        logging.info("\nkey_json : ",key_json)
-        logging.info("\nlist_obj : ",list_obj)
-
+            ojb_one = []
         return list_obj,key_json
         
 if __name__ == "__main__":
 
     #default setting
-    ip = '*****'
-    user = '*****'
-    pws = '****'
+    ip = '128.199.174.101'
+    user = 'ndrs-es'
+    pws = 'XitoYjzR'
     device_name = "EMU-B20MC"
     Path_Download = "../transfer_file_log/"
     Path_server = "/"+device_name+"/fw/log"
@@ -139,7 +136,7 @@ if __name__ == "__main__":
     #test class
     client_FTP = FTP_client()
     #client_FTP.setdefaultvalue()
-    # client_FTP.connect(ip,user,pws)
+    client_FTP.connect(ip,user,pws)
     # client_FTP.change_type_object()
     #firmware_ver = client_FTP.check_firmware_ver_server()
     #print(firmware_ver)
@@ -154,8 +151,11 @@ if __name__ == "__main__":
     
     client_FTP.check_path()
     '''
-    # client_FTP.sort_detail("EMU-B20MC")
-    # client_FTP.disconnect()
+    lis,topic= client_FTP.sort_detail("EMU-B20MC")
+    print(lis)
+    lis,topic= client_FTP.sort_detail("EMU-B20SM")
+    print(lis)
+    client_FTP.disconnect()
     
 
     
