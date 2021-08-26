@@ -1374,3 +1374,2310 @@
 2021-08-25 16:38:04,700:INFO:sectionEMU-B20MC-1
 2021-08-25 16:38:04,700:INFO:sectionEMU-B20MC-2
 2021-08-25 16:38:04,703:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 14:57:21,924:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:57:21,955:INFO:sectionFTP server
+2021-08-26 14:57:21,955:INFO:section invaild
+2021-08-26 14:57:21,955:INFO:sectionEMU-B20MC-init
+2021-08-26 14:57:21,955:INFO:sectionEMU-B20SM-init
+2021-08-26 14:57:21,955:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:57:21,955:INFO:sectionFTP server
+2021-08-26 14:57:21,955:INFO:section invaild
+2021-08-26 14:57:21,955:INFO:sectionEMU-B20MC-init
+2021-08-26 14:57:21,955:INFO:sectionEMU-B20SM-init
+2021-08-26 14:57:21,955:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:57:21,971:INFO:section :EMU-B20MC-1
+2021-08-26 14:57:21,971:INFO:section :EMU-B20MC-2
+2021-08-26 14:57:21,971:INFO:write path :INI_config/ini_storage/
+2021-08-26 14:57:21,971:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:57:21,971:INFO:clear complete
+2021-08-26 14:57:21,971:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 14:57:22,002:INFO:write path :INI_config/ini_storage/
+2021-08-26 14:57:22,002:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:57:22,017:INFO:clear complete
+2021-08-26 14:57:22,018:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:57:22,020:INFO:sectionFTP server
+2021-08-26 14:57:22,020:INFO:section invaild
+2021-08-26 14:57:22,020:INFO:sectionEMU-B20MC-init
+2021-08-26 14:57:22,037:INFO:sectionEMU-B20SM-init
+2021-08-26 14:57:25,075:ERROR:Connection to (172.16.5.148, 502) failed: timed out
+2021-08-26 14:57:25,075:INFO:unable_connect
+2021-08-26 14:57:28,089:ERROR:Connection to (172.16.5.148, 502) failed: timed out
+2021-08-26 14:57:28,089:INFO:unable_connect
+2021-08-26 14:58:26,972:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:58:26,972:INFO:sectionFTP server
+2021-08-26 14:58:26,972:INFO:section invaild
+2021-08-26 14:58:26,972:INFO:sectionEMU-B20MC-init
+2021-08-26 14:58:26,972:INFO:sectionEMU-B20SM-init
+2021-08-26 14:58:26,972:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:58:26,972:INFO:sectionFTP server
+2021-08-26 14:58:26,972:INFO:section invaild
+2021-08-26 14:58:26,972:INFO:sectionEMU-B20MC-init
+2021-08-26 14:58:26,972:INFO:sectionEMU-B20SM-init
+2021-08-26 14:58:26,972:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:58:26,972:INFO:write path :INI_config/ini_storage/
+2021-08-26 14:58:26,972:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:58:26,972:INFO:clear complete
+2021-08-26 14:58:26,972:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 14:58:26,988:INFO:write path :INI_config/ini_storage/
+2021-08-26 14:58:26,988:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:58:26,988:INFO:clear complete
+2021-08-26 14:58:26,988:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:58:26,988:INFO:sectionFTP server
+2021-08-26 14:58:26,988:INFO:section invaild
+2021-08-26 14:58:26,988:INFO:sectionEMU-B20MC-init
+2021-08-26 14:58:26,988:INFO:sectionEMU-B20SM-init
+2021-08-26 14:58:29,998:ERROR:Connection to (172.16.5.148, 502) failed: timed out
+2021-08-26 14:58:29,999:INFO:unable_connect
+2021-08-26 14:58:33,010:ERROR:Connection to (172.16.5.148, 502) failed: timed out
+2021-08-26 14:58:33,010:INFO:unable_connect
+2021-08-26 14:58:47,733:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:58:47,733:INFO:sectionFTP server
+2021-08-26 14:58:47,733:INFO:section invaild
+2021-08-26 14:58:47,733:INFO:sectionEMU-B20MC-init
+2021-08-26 14:58:47,733:INFO:sectionEMU-B20SM-init
+2021-08-26 14:58:47,733:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:58:47,733:INFO:sectionFTP server
+2021-08-26 14:58:47,733:INFO:section invaild
+2021-08-26 14:58:47,733:INFO:sectionEMU-B20MC-init
+2021-08-26 14:58:47,733:INFO:sectionEMU-B20SM-init
+2021-08-26 14:58:47,733:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:58:47,733:INFO:write path :INI_config/ini_storage/
+2021-08-26 14:58:47,733:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:58:47,733:INFO:clear complete
+2021-08-26 14:58:47,733:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 14:58:47,733:INFO:write path :INI_config/ini_storage/
+2021-08-26 14:58:47,733:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:58:47,733:INFO:clear complete
+2021-08-26 14:58:47,733:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:58:47,733:INFO:sectionFTP server
+2021-08-26 14:58:47,733:INFO:section invaild
+2021-08-26 14:58:47,733:INFO:sectionEMU-B20MC-init
+2021-08-26 14:58:47,733:INFO:sectionEMU-B20SM-init
+2021-08-26 14:58:50,748:ERROR:Connection to (172.16.5.148, 502) failed: timed out
+2021-08-26 14:58:53,755:ERROR:Connection to (172.16.5.148, 502) failed: timed out
+2021-08-26 14:59:07,894:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:59:07,894:INFO:sectionFTP server
+2021-08-26 14:59:07,894:INFO:section invaild
+2021-08-26 14:59:07,894:INFO:sectionEMU-B20MC-init
+2021-08-26 14:59:07,894:INFO:sectionEMU-B20SM-init
+2021-08-26 14:59:07,894:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:59:07,894:INFO:sectionFTP server
+2021-08-26 14:59:07,894:INFO:section invaild
+2021-08-26 14:59:07,894:INFO:sectionEMU-B20MC-init
+2021-08-26 14:59:07,894:INFO:sectionEMU-B20SM-init
+2021-08-26 14:59:07,894:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:59:07,894:INFO:write path :INI_config/ini_storage/
+2021-08-26 14:59:07,894:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:59:07,894:INFO:clear complete
+2021-08-26 14:59:07,894:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 14:59:07,900:INFO:write path :INI_config/ini_storage/
+2021-08-26 14:59:07,900:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 14:59:07,902:INFO:clear complete
+2021-08-26 14:59:07,902:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 14:59:07,903:INFO:sectionFTP server
+2021-08-26 14:59:07,903:INFO:section invaild
+2021-08-26 14:59:07,903:INFO:sectionEMU-B20MC-init
+2021-08-26 14:59:07,903:INFO:sectionEMU-B20SM-init
+2021-08-26 14:59:10,922:ERROR:Connection to (172.16.5.148, 502) failed: timed out
+2021-08-26 14:59:13,928:ERROR:Connection to (172.16.5.148, 502) failed: timed out
+2021-08-26 15:16:46,774:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:16:46,774:INFO:sectionFTP server
+2021-08-26 15:16:46,774:INFO:section invaild
+2021-08-26 15:16:46,774:INFO:sectionEMU-B20MC-init
+2021-08-26 15:16:46,774:INFO:sectionEMU-B20SM-init
+2021-08-26 15:16:46,789:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:16:46,789:INFO:sectionFTP server
+2021-08-26 15:16:46,789:INFO:section invaild
+2021-08-26 15:16:46,789:INFO:sectionEMU-B20MC-init
+2021-08-26 15:16:46,789:INFO:sectionEMU-B20SM-init
+2021-08-26 15:16:46,789:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:16:46,789:INFO:sectionFTP server
+2021-08-26 15:16:46,789:INFO:section invaild
+2021-08-26 15:16:46,789:INFO:sectionEMU-B20MC-init
+2021-08-26 15:16:46,789:INFO:sectionEMU-B20SM-init
+2021-08-26 15:16:49,814:ERROR:Connection to (172.16.5.148, 502) failed: timed out
+2021-08-26 15:16:52,825:ERROR:Connection to (172.16.5.148, 502) failed: timed out
+2021-08-26 15:17:54,224:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:17:54,224:INFO:sectionFTP server
+2021-08-26 15:17:54,224:INFO:section invaild
+2021-08-26 15:17:54,224:INFO:sectionEMU-B20MC-init
+2021-08-26 15:17:54,224:INFO:sectionEMU-B20SM-init
+2021-08-26 15:17:54,224:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:17:54,224:INFO:sectionFTP server
+2021-08-26 15:17:54,224:INFO:section invaild
+2021-08-26 15:17:54,224:INFO:sectionEMU-B20MC-init
+2021-08-26 15:17:54,224:INFO:sectionEMU-B20SM-init
+2021-08-26 15:17:54,224:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:17:54,224:INFO:sectionFTP server
+2021-08-26 15:17:54,224:INFO:section invaild
+2021-08-26 15:17:54,224:INFO:sectionEMU-B20MC-init
+2021-08-26 15:17:54,224:INFO:sectionEMU-B20SM-init
+2021-08-26 15:19:13,196:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:19:13,196:INFO:sectionFTP server
+2021-08-26 15:19:13,197:INFO:section invaild
+2021-08-26 15:19:13,197:INFO:sectionEMU-B20MC-init
+2021-08-26 15:19:13,197:INFO:sectionEMU-B20SM-init
+2021-08-26 15:19:13,197:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:19:13,199:INFO:sectionFTP server
+2021-08-26 15:19:13,199:INFO:section invaild
+2021-08-26 15:19:13,199:INFO:sectionEMU-B20MC-init
+2021-08-26 15:19:13,199:INFO:sectionEMU-B20SM-init
+2021-08-26 15:19:13,200:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:19:13,201:INFO:sectionFTP server
+2021-08-26 15:19:13,201:INFO:section invaild
+2021-08-26 15:19:13,201:INFO:sectionEMU-B20MC-init
+2021-08-26 15:19:13,201:INFO:sectionEMU-B20SM-init
+2021-08-26 15:20:20,642:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:20:20,642:INFO:sectionFTP server
+2021-08-26 15:20:20,642:INFO:section invaild
+2021-08-26 15:20:20,642:INFO:sectionEMU-B20MC-init
+2021-08-26 15:20:20,642:INFO:sectionEMU-B20SM-init
+2021-08-26 15:20:20,642:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:20:20,642:INFO:sectionFTP server
+2021-08-26 15:20:20,642:INFO:section invaild
+2021-08-26 15:20:20,642:INFO:sectionEMU-B20MC-init
+2021-08-26 15:20:20,642:INFO:sectionEMU-B20SM-init
+2021-08-26 15:20:20,642:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:20:20,642:INFO:sectionFTP server
+2021-08-26 15:20:20,642:INFO:section invaild
+2021-08-26 15:20:20,642:INFO:sectionEMU-B20MC-init
+2021-08-26 15:20:20,642:INFO:sectionEMU-B20SM-init
+2021-08-26 15:56:05,691:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:56:05,691:INFO:sectionFTP server
+2021-08-26 15:56:05,691:INFO:section invaild
+2021-08-26 15:56:05,691:INFO:sectionEMU-B20MC-init
+2021-08-26 15:56:05,691:INFO:sectionEMU-B20SM-init
+2021-08-26 15:56:05,691:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:56:05,691:INFO:sectionFTP server
+2021-08-26 15:56:05,691:INFO:section invaild
+2021-08-26 15:56:05,691:INFO:sectionEMU-B20MC-init
+2021-08-26 15:56:05,691:INFO:sectionEMU-B20SM-init
+2021-08-26 15:56:05,691:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 15:56:05,691:INFO:sectionFTP server
+2021-08-26 15:56:05,691:INFO:section invaild
+2021-08-26 15:56:05,691:INFO:sectionEMU-B20MC-init
+2021-08-26 15:56:05,691:INFO:sectionEMU-B20SM-init
+2021-08-26 16:00:17,523:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:00:17,523:INFO:sectionFTP server
+2021-08-26 16:00:17,523:INFO:section invaild
+2021-08-26 16:00:17,523:INFO:sectionEMU-B20MC-init
+2021-08-26 16:00:17,523:INFO:sectionEMU-B20SM-init
+2021-08-26 16:00:17,523:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:00:17,523:INFO:sectionFTP server
+2021-08-26 16:00:17,523:INFO:section invaild
+2021-08-26 16:00:17,523:INFO:sectionEMU-B20MC-init
+2021-08-26 16:00:17,523:INFO:sectionEMU-B20SM-init
+2021-08-26 16:00:17,523:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:00:17,523:INFO:sectionFTP server
+2021-08-26 16:00:17,523:INFO:section invaild
+2021-08-26 16:00:17,523:INFO:sectionEMU-B20MC-init
+2021-08-26 16:00:17,523:INFO:sectionEMU-B20SM-init
+2021-08-26 16:08:08,758:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:08:08,758:INFO:sectionFTP server
+2021-08-26 16:08:08,758:INFO:section invaild
+2021-08-26 16:08:08,758:INFO:sectionEMU-B20MC-init
+2021-08-26 16:08:08,758:INFO:sectionEMU-B20SM-init
+2021-08-26 16:08:08,758:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:08:08,758:INFO:sectionFTP server
+2021-08-26 16:08:08,758:INFO:section invaild
+2021-08-26 16:08:08,758:INFO:sectionEMU-B20MC-init
+2021-08-26 16:08:08,758:INFO:sectionEMU-B20SM-init
+2021-08-26 16:08:08,758:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:08:08,758:INFO:sectionFTP server
+2021-08-26 16:08:08,758:INFO:section invaild
+2021-08-26 16:08:08,758:INFO:sectionEMU-B20MC-init
+2021-08-26 16:08:08,758:INFO:sectionEMU-B20SM-init
+2021-08-26 16:08:17,108:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:08:17,108:INFO:sectionFTP server
+2021-08-26 16:08:17,108:INFO:section invaild
+2021-08-26 16:08:17,108:INFO:sectionEMU-B20MC-init
+2021-08-26 16:08:17,108:INFO:sectionEMU-B20SM-init
+2021-08-26 16:08:17,108:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:08:17,108:INFO:sectionFTP server
+2021-08-26 16:08:17,108:INFO:section invaild
+2021-08-26 16:08:17,108:INFO:sectionEMU-B20MC-init
+2021-08-26 16:08:17,108:INFO:sectionEMU-B20SM-init
+2021-08-26 16:08:17,108:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:08:17,108:INFO:sectionFTP server
+2021-08-26 16:08:17,108:INFO:section invaild
+2021-08-26 16:08:17,108:INFO:sectionEMU-B20MC-init
+2021-08-26 16:08:17,108:INFO:sectionEMU-B20SM-init
+2021-08-26 16:09:26,530:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:09:26,530:INFO:sectionFTP server
+2021-08-26 16:09:26,531:INFO:section invaild
+2021-08-26 16:09:26,531:INFO:sectionEMU-B20MC-init
+2021-08-26 16:09:26,531:INFO:sectionEMU-B20SM-init
+2021-08-26 16:09:26,531:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:09:26,532:INFO:sectionFTP server
+2021-08-26 16:09:26,532:INFO:section invaild
+2021-08-26 16:09:26,532:INFO:sectionEMU-B20MC-init
+2021-08-26 16:09:26,532:INFO:sectionEMU-B20SM-init
+2021-08-26 16:09:26,532:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:09:26,533:INFO:sectionFTP server
+2021-08-26 16:09:26,533:INFO:section invaild
+2021-08-26 16:09:26,533:INFO:sectionEMU-B20MC-init
+2021-08-26 16:09:26,533:INFO:sectionEMU-B20SM-init
+2021-08-26 16:11:55,178:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:11:55,178:INFO:sectionFTP server
+2021-08-26 16:11:55,178:INFO:section invaild
+2021-08-26 16:11:55,178:INFO:sectionEMU-B20MC-init
+2021-08-26 16:11:55,178:INFO:sectionEMU-B20SM-init
+2021-08-26 16:11:55,178:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:11:55,178:INFO:sectionFTP server
+2021-08-26 16:11:55,178:INFO:section invaild
+2021-08-26 16:11:55,178:INFO:sectionEMU-B20MC-init
+2021-08-26 16:11:55,178:INFO:sectionEMU-B20SM-init
+2021-08-26 16:11:55,178:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:11:55,178:INFO:sectionFTP server
+2021-08-26 16:11:55,178:INFO:section invaild
+2021-08-26 16:11:55,178:INFO:sectionEMU-B20MC-init
+2021-08-26 16:11:55,178:INFO:sectionEMU-B20SM-init
+2021-08-26 16:13:30,205:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:13:30,205:INFO:sectionFTP server
+2021-08-26 16:13:30,205:INFO:section invaild
+2021-08-26 16:13:30,205:INFO:sectionEMU-B20MC-init
+2021-08-26 16:13:30,205:INFO:sectionEMU-B20SM-init
+2021-08-26 16:13:30,205:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:13:30,205:INFO:sectionFTP server
+2021-08-26 16:13:30,205:INFO:section invaild
+2021-08-26 16:13:30,205:INFO:sectionEMU-B20MC-init
+2021-08-26 16:13:30,205:INFO:sectionEMU-B20SM-init
+2021-08-26 16:13:30,205:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:13:30,205:INFO:sectionFTP server
+2021-08-26 16:13:30,205:INFO:section invaild
+2021-08-26 16:13:30,205:INFO:sectionEMU-B20MC-init
+2021-08-26 16:13:30,205:INFO:sectionEMU-B20SM-init
+2021-08-26 16:13:40,149:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:13:40,150:INFO:sectionFTP server
+2021-08-26 16:13:40,150:INFO:section invaild
+2021-08-26 16:13:40,150:INFO:sectionEMU-B20MC-init
+2021-08-26 16:13:40,151:INFO:sectionEMU-B20SM-init
+2021-08-26 16:13:40,151:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:13:40,151:INFO:sectionFTP server
+2021-08-26 16:13:40,151:INFO:section invaild
+2021-08-26 16:13:40,151:INFO:sectionEMU-B20MC-init
+2021-08-26 16:13:40,152:INFO:sectionEMU-B20SM-init
+2021-08-26 16:13:40,152:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:13:40,153:INFO:sectionFTP server
+2021-08-26 16:13:40,154:INFO:section invaild
+2021-08-26 16:13:40,154:INFO:sectionEMU-B20MC-init
+2021-08-26 16:13:40,154:INFO:sectionEMU-B20SM-init
+2021-08-26 16:14:12,307:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:14:12,307:INFO:sectionFTP server
+2021-08-26 16:14:12,307:INFO:section invaild
+2021-08-26 16:14:12,307:INFO:sectionEMU-B20MC-init
+2021-08-26 16:14:12,307:INFO:sectionEMU-B20SM-init
+2021-08-26 16:14:12,307:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:14:12,307:INFO:sectionFTP server
+2021-08-26 16:14:12,307:INFO:section invaild
+2021-08-26 16:14:12,307:INFO:sectionEMU-B20MC-init
+2021-08-26 16:14:12,307:INFO:sectionEMU-B20SM-init
+2021-08-26 16:14:12,307:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:14:12,307:INFO:sectionFTP server
+2021-08-26 16:14:12,307:INFO:section invaild
+2021-08-26 16:14:12,307:INFO:sectionEMU-B20MC-init
+2021-08-26 16:14:12,307:INFO:sectionEMU-B20SM-init
+2021-08-26 16:14:24,621:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:14:24,621:INFO:sectionFTP server
+2021-08-26 16:14:24,621:INFO:section invaild
+2021-08-26 16:14:24,621:INFO:sectionEMU-B20MC-init
+2021-08-26 16:14:24,621:INFO:sectionEMU-B20SM-init
+2021-08-26 16:14:24,621:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:14:24,621:INFO:sectionFTP server
+2021-08-26 16:14:24,621:INFO:section invaild
+2021-08-26 16:14:24,621:INFO:sectionEMU-B20MC-init
+2021-08-26 16:14:24,621:INFO:sectionEMU-B20SM-init
+2021-08-26 16:14:24,621:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:14:24,621:INFO:sectionFTP server
+2021-08-26 16:14:24,621:INFO:section invaild
+2021-08-26 16:14:24,621:INFO:sectionEMU-B20MC-init
+2021-08-26 16:14:24,621:INFO:sectionEMU-B20SM-init
+2021-08-26 16:14:31,787:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:14:31,787:INFO:sectionFTP server
+2021-08-26 16:14:31,787:INFO:section invaild
+2021-08-26 16:14:31,787:INFO:sectionEMU-B20MC-init
+2021-08-26 16:14:31,787:INFO:sectionEMU-B20SM-init
+2021-08-26 16:14:31,787:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:14:31,787:INFO:sectionFTP server
+2021-08-26 16:14:31,787:INFO:section invaild
+2021-08-26 16:14:31,787:INFO:sectionEMU-B20MC-init
+2021-08-26 16:14:31,787:INFO:sectionEMU-B20SM-init
+2021-08-26 16:14:31,787:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:14:31,787:INFO:sectionFTP server
+2021-08-26 16:14:31,787:INFO:section invaild
+2021-08-26 16:14:31,787:INFO:sectionEMU-B20MC-init
+2021-08-26 16:14:31,787:INFO:sectionEMU-B20SM-init
+2021-08-26 16:16:07,207:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:16:07,207:INFO:sectionFTP server
+2021-08-26 16:16:07,207:INFO:section invaild
+2021-08-26 16:16:07,208:INFO:sectionEMU-B20MC-init
+2021-08-26 16:16:07,208:INFO:sectionEMU-B20SM-init
+2021-08-26 16:16:07,208:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:16:07,208:INFO:sectionFTP server
+2021-08-26 16:16:07,208:INFO:section invaild
+2021-08-26 16:16:07,208:INFO:sectionEMU-B20MC-init
+2021-08-26 16:16:07,209:INFO:sectionEMU-B20SM-init
+2021-08-26 16:16:07,209:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:16:07,209:INFO:sectionFTP server
+2021-08-26 16:16:07,209:INFO:section invaild
+2021-08-26 16:16:07,209:INFO:sectionEMU-B20MC-init
+2021-08-26 16:16:07,209:INFO:sectionEMU-B20SM-init
+2021-08-26 16:16:32,380:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:16:32,381:INFO:sectionFTP server
+2021-08-26 16:16:32,381:INFO:section invaild
+2021-08-26 16:16:32,381:INFO:sectionEMU-B20MC-init
+2021-08-26 16:16:32,382:INFO:sectionEMU-B20SM-init
+2021-08-26 16:16:32,382:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:16:32,383:INFO:sectionFTP server
+2021-08-26 16:16:32,383:INFO:section invaild
+2021-08-26 16:16:32,383:INFO:sectionEMU-B20MC-init
+2021-08-26 16:16:32,384:INFO:sectionEMU-B20SM-init
+2021-08-26 16:16:32,384:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:16:32,385:INFO:sectionFTP server
+2021-08-26 16:16:32,385:INFO:section invaild
+2021-08-26 16:16:32,385:INFO:sectionEMU-B20MC-init
+2021-08-26 16:16:32,385:INFO:sectionEMU-B20SM-init
+2021-08-26 16:17:43,018:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:17:43,018:INFO:sectionFTP server
+2021-08-26 16:17:43,018:INFO:section invaild
+2021-08-26 16:17:43,018:INFO:sectionEMU-B20MC-init
+2021-08-26 16:17:43,018:INFO:sectionEMU-B20SM-init
+2021-08-26 16:17:43,018:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:17:43,018:INFO:sectionFTP server
+2021-08-26 16:17:43,018:INFO:section invaild
+2021-08-26 16:17:43,018:INFO:sectionEMU-B20MC-init
+2021-08-26 16:17:43,018:INFO:sectionEMU-B20SM-init
+2021-08-26 16:17:43,018:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:17:43,018:INFO:sectionFTP server
+2021-08-26 16:17:43,018:INFO:section invaild
+2021-08-26 16:17:43,018:INFO:sectionEMU-B20MC-init
+2021-08-26 16:17:43,018:INFO:sectionEMU-B20SM-init
+2021-08-26 16:18:47,418:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:18:47,419:INFO:sectionFTP server
+2021-08-26 16:18:47,419:INFO:section invaild
+2021-08-26 16:18:47,419:INFO:sectionEMU-B20MC-init
+2021-08-26 16:18:47,419:INFO:sectionEMU-B20SM-init
+2021-08-26 16:18:47,420:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:18:47,420:INFO:sectionFTP server
+2021-08-26 16:18:47,420:INFO:section invaild
+2021-08-26 16:18:47,420:INFO:sectionEMU-B20MC-init
+2021-08-26 16:18:47,420:INFO:sectionEMU-B20SM-init
+2021-08-26 16:18:47,421:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:18:47,421:INFO:sectionFTP server
+2021-08-26 16:18:47,421:INFO:section invaild
+2021-08-26 16:18:47,421:INFO:sectionEMU-B20MC-init
+2021-08-26 16:18:47,421:INFO:sectionEMU-B20SM-init
+2021-08-26 16:21:31,618:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:21:31,619:INFO:sectionFTP server
+2021-08-26 16:21:31,619:INFO:section invaild
+2021-08-26 16:21:31,619:INFO:sectionEMU-B20MC-init
+2021-08-26 16:21:31,620:INFO:sectionEMU-B20SM-init
+2021-08-26 16:21:31,620:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:21:31,621:INFO:sectionFTP server
+2021-08-26 16:21:31,622:INFO:section invaild
+2021-08-26 16:21:31,622:INFO:sectionEMU-B20MC-init
+2021-08-26 16:21:31,622:INFO:sectionEMU-B20SM-init
+2021-08-26 16:21:31,622:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:21:31,623:INFO:sectionFTP server
+2021-08-26 16:21:31,623:INFO:section invaild
+2021-08-26 16:21:31,623:INFO:sectionEMU-B20MC-init
+2021-08-26 16:21:31,624:INFO:sectionEMU-B20SM-init
+2021-08-26 16:21:48,924:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:21:48,924:INFO:sectionFTP server
+2021-08-26 16:21:48,924:INFO:section invaild
+2021-08-26 16:21:48,924:INFO:sectionEMU-B20MC-init
+2021-08-26 16:21:48,924:INFO:sectionEMU-B20SM-init
+2021-08-26 16:21:48,924:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:21:48,924:INFO:sectionFTP server
+2021-08-26 16:21:48,924:INFO:section invaild
+2021-08-26 16:21:48,924:INFO:sectionEMU-B20MC-init
+2021-08-26 16:21:48,924:INFO:sectionEMU-B20SM-init
+2021-08-26 16:21:48,924:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:21:48,924:INFO:sectionFTP server
+2021-08-26 16:21:48,924:INFO:section invaild
+2021-08-26 16:21:48,924:INFO:sectionEMU-B20MC-init
+2021-08-26 16:21:48,924:INFO:sectionEMU-B20SM-init
+2021-08-26 16:25:46,412:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:25:46,413:INFO:sectionFTP server
+2021-08-26 16:25:46,413:INFO:section invaild
+2021-08-26 16:25:46,413:INFO:sectionEMU-B20MC-init
+2021-08-26 16:25:46,413:INFO:sectionEMU-B20SM-init
+2021-08-26 16:25:46,414:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:25:46,414:INFO:sectionFTP server
+2021-08-26 16:25:46,414:INFO:section invaild
+2021-08-26 16:25:46,415:INFO:sectionEMU-B20MC-init
+2021-08-26 16:25:46,415:INFO:sectionEMU-B20SM-init
+2021-08-26 16:25:46,415:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:25:46,415:INFO:sectionFTP server
+2021-08-26 16:25:46,416:INFO:section invaild
+2021-08-26 16:25:46,416:INFO:sectionEMU-B20MC-init
+2021-08-26 16:25:46,416:INFO:sectionEMU-B20SM-init
+2021-08-26 16:26:10,202:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:26:10,202:INFO:sectionFTP server
+2021-08-26 16:26:10,202:INFO:section invaild
+2021-08-26 16:26:10,202:INFO:sectionEMU-B20MC-init
+2021-08-26 16:26:10,202:INFO:sectionEMU-B20SM-init
+2021-08-26 16:26:10,202:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:26:10,202:INFO:sectionFTP server
+2021-08-26 16:26:10,202:INFO:section invaild
+2021-08-26 16:26:10,202:INFO:sectionEMU-B20MC-init
+2021-08-26 16:26:10,202:INFO:sectionEMU-B20SM-init
+2021-08-26 16:26:10,202:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:26:10,202:INFO:sectionFTP server
+2021-08-26 16:26:10,202:INFO:section invaild
+2021-08-26 16:26:10,202:INFO:sectionEMU-B20MC-init
+2021-08-26 16:26:10,202:INFO:sectionEMU-B20SM-init
+2021-08-26 16:27:11,288:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:27:11,288:INFO:sectionFTP server
+2021-08-26 16:27:11,288:INFO:section invaild
+2021-08-26 16:27:11,288:INFO:sectionEMU-B20MC-init
+2021-08-26 16:27:11,288:INFO:sectionEMU-B20SM-init
+2021-08-26 16:27:11,288:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:27:11,288:INFO:sectionFTP server
+2021-08-26 16:27:11,288:INFO:section invaild
+2021-08-26 16:27:11,288:INFO:sectionEMU-B20MC-init
+2021-08-26 16:27:11,288:INFO:sectionEMU-B20SM-init
+2021-08-26 16:27:11,288:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:27:11,288:INFO:sectionFTP server
+2021-08-26 16:27:11,288:INFO:section invaild
+2021-08-26 16:27:11,288:INFO:sectionEMU-B20MC-init
+2021-08-26 16:27:11,288:INFO:sectionEMU-B20SM-init
+2021-08-26 16:27:46,916:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:27:46,917:INFO:sectionFTP server
+2021-08-26 16:27:46,917:INFO:section invaild
+2021-08-26 16:27:46,917:INFO:sectionEMU-B20MC-init
+2021-08-26 16:27:46,917:INFO:sectionEMU-B20SM-init
+2021-08-26 16:27:46,918:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:27:46,918:INFO:sectionFTP server
+2021-08-26 16:27:46,919:INFO:section invaild
+2021-08-26 16:27:46,919:INFO:sectionEMU-B20MC-init
+2021-08-26 16:27:46,919:INFO:sectionEMU-B20SM-init
+2021-08-26 16:27:46,919:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:27:46,920:INFO:sectionFTP server
+2021-08-26 16:27:46,920:INFO:section invaild
+2021-08-26 16:27:46,920:INFO:sectionEMU-B20MC-init
+2021-08-26 16:27:46,920:INFO:sectionEMU-B20SM-init
+2021-08-26 16:29:00,724:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:29:00,724:INFO:sectionFTP server
+2021-08-26 16:29:00,724:INFO:section invaild
+2021-08-26 16:29:00,724:INFO:sectionEMU-B20MC-init
+2021-08-26 16:29:00,724:INFO:sectionEMU-B20SM-init
+2021-08-26 16:29:00,724:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:29:00,724:INFO:sectionFTP server
+2021-08-26 16:29:00,724:INFO:section invaild
+2021-08-26 16:29:00,724:INFO:sectionEMU-B20MC-init
+2021-08-26 16:29:00,724:INFO:sectionEMU-B20SM-init
+2021-08-26 16:29:00,724:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:29:00,724:INFO:sectionFTP server
+2021-08-26 16:29:00,724:INFO:section invaild
+2021-08-26 16:29:00,724:INFO:sectionEMU-B20MC-init
+2021-08-26 16:29:00,724:INFO:sectionEMU-B20SM-init
+2021-08-26 16:29:00,769:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 62097)
+2021-08-26 16:29:00,769:DEBUG:Current transaction state - IDLE
+2021-08-26 16:29:00,769:DEBUG:Running transaction 1
+2021-08-26 16:29:00,770:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:29:00,770:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:29:00,770:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:29:00,772:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:29:00,772:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:29:00,772:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:29:00,772:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:29:00,772:DEBUG:Adding transaction 1
+2021-08-26 16:29:00,773:DEBUG:Getting transaction 1
+2021-08-26 16:29:00,773:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:29:00,773:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:29:00,773:DEBUG:Running transaction 2
+2021-08-26 16:29:00,773:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:29:00,773:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:29:00,773:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:29:00,775:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:29:00,775:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:29:00,775:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:29:00,776:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:29:00,776:DEBUG:Adding transaction 2
+2021-08-26 16:29:00,776:DEBUG:Getting transaction 2
+2021-08-26 16:29:00,776:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:29:00,776:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:29:00,776:DEBUG:Running transaction 3
+2021-08-26 16:29:00,776:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:29:00,776:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:29:00,776:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:29:00,778:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:29:00,779:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:29:00,779:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:29:00,779:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:29:00,779:DEBUG:Adding transaction 3
+2021-08-26 16:29:00,779:DEBUG:Getting transaction 3
+2021-08-26 16:29:00,779:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:29:00,779:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:29:00,779:DEBUG:Running transaction 4
+2021-08-26 16:29:00,779:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:29:00,779:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:29:00,779:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:29:00,782:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:29:00,782:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:29:00,782:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:29:00,782:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:29:00,783:DEBUG:Adding transaction 4
+2021-08-26 16:29:00,783:DEBUG:Getting transaction 4
+2021-08-26 16:29:00,783:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:29:00,783:INFO:write path :INI_config/ini_storage/
+2021-08-26 16:29:00,783:INFO:file name : INI_config/ini_storage/config_.ini
+2021-08-26 16:29:00,784:INFO:ini file printed
+2021-08-26 16:29:00,785:INFO:clear done
+2021-08-26 16:29:00,785:INFO:disconnect done
+2021-08-26 16:29:00,804:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 62098)
+2021-08-26 16:29:00,804:DEBUG:Current transaction state - IDLE
+2021-08-26 16:29:00,804:DEBUG:Running transaction 1
+2021-08-26 16:29:00,804:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:29:00,805:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:29:00,805:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:29:00,808:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:29:00,808:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:29:00,808:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:29:00,808:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:29:00,808:DEBUG:Adding transaction 1
+2021-08-26 16:29:00,809:DEBUG:Getting transaction 1
+2021-08-26 16:29:00,809:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:29:00,809:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:29:00,809:DEBUG:Running transaction 2
+2021-08-26 16:29:00,809:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:29:00,809:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:29:00,809:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:29:00,811:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:29:00,812:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:29:00,812:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:29:00,812:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:29:00,812:DEBUG:Adding transaction 2
+2021-08-26 16:29:00,812:DEBUG:Getting transaction 2
+2021-08-26 16:29:00,812:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:29:00,812:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:29:00,812:DEBUG:Running transaction 3
+2021-08-26 16:29:00,812:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:29:00,812:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:29:00,813:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:29:00,815:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:29:00,815:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:29:00,815:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:29:00,815:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:29:00,815:DEBUG:Adding transaction 3
+2021-08-26 16:29:00,815:DEBUG:Getting transaction 3
+2021-08-26 16:29:00,815:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:29:00,815:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:29:00,815:DEBUG:Running transaction 4
+2021-08-26 16:29:00,816:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:29:00,816:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:29:00,816:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:29:00,818:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:29:00,818:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:29:00,818:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:29:00,818:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:29:00,819:DEBUG:Adding transaction 4
+2021-08-26 16:29:00,819:DEBUG:Getting transaction 4
+2021-08-26 16:29:00,819:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:29:00,819:INFO:write path :INI_config/ini_storage/
+2021-08-26 16:29:00,819:INFO:file name : INI_config/ini_storage/config_.ini
+2021-08-26 16:29:00,831:INFO:ini file printed
+2021-08-26 16:29:00,832:INFO:clear done
+2021-08-26 16:29:00,832:INFO:disconnect done
+2021-08-26 16:34:28,811:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:34:28,811:INFO:sectionFTP server
+2021-08-26 16:34:28,811:INFO:section invaild
+2021-08-26 16:34:28,811:INFO:sectionEMU-B20MC-init
+2021-08-26 16:34:28,811:INFO:sectionEMU-B20SM-init
+2021-08-26 16:34:28,811:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:34:28,811:INFO:sectionFTP server
+2021-08-26 16:34:28,811:INFO:section invaild
+2021-08-26 16:34:28,811:INFO:sectionEMU-B20MC-init
+2021-08-26 16:34:28,811:INFO:sectionEMU-B20SM-init
+2021-08-26 16:34:28,811:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:34:28,811:INFO:sectionFTP server
+2021-08-26 16:34:28,811:INFO:section invaild
+2021-08-26 16:34:28,811:INFO:sectionEMU-B20MC-init
+2021-08-26 16:34:28,811:INFO:sectionEMU-B20SM-init
+2021-08-26 16:34:28,873:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 62129)
+2021-08-26 16:34:28,873:DEBUG:Current transaction state - IDLE
+2021-08-26 16:34:28,874:DEBUG:Running transaction 1
+2021-08-26 16:34:28,874:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:34:28,874:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:34:28,875:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:34:28,877:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:34:28,877:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:34:28,877:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:34:28,877:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:34:28,878:DEBUG:Adding transaction 1
+2021-08-26 16:34:28,878:DEBUG:Getting transaction 1
+2021-08-26 16:34:28,878:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:34:28,878:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:34:28,878:DEBUG:Running transaction 2
+2021-08-26 16:34:28,878:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:34:28,878:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:34:28,878:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:34:28,881:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:34:28,881:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:34:28,881:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:34:28,881:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:34:28,881:DEBUG:Adding transaction 2
+2021-08-26 16:34:28,882:DEBUG:Getting transaction 2
+2021-08-26 16:34:28,882:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:34:28,882:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:34:28,882:DEBUG:Running transaction 3
+2021-08-26 16:34:28,882:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:34:28,882:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:34:28,883:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:34:28,885:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:34:28,885:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:34:28,885:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:34:28,886:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:34:28,886:DEBUG:Adding transaction 3
+2021-08-26 16:34:28,886:DEBUG:Getting transaction 3
+2021-08-26 16:34:28,886:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:34:28,886:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:34:28,886:DEBUG:Running transaction 4
+2021-08-26 16:34:28,886:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:34:28,886:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:34:28,887:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:34:28,889:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:34:28,890:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:34:28,890:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:34:28,890:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:34:28,891:DEBUG:Adding transaction 4
+2021-08-26 16:34:28,891:DEBUG:Getting transaction 4
+2021-08-26 16:34:28,891:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:34:28,891:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:34:28,892:DEBUG:Running transaction 5
+2021-08-26 16:34:28,892:DEBUG:SEND: 0x0 0x5 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:34:28,892:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:34:28,892:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:34:28,895:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:34:28,895:DEBUG:RECV: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:34:28,895:DEBUG:Processing: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:34:28,895:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:34:28,895:DEBUG:Adding transaction 5
+2021-08-26 16:34:28,895:DEBUG:Getting transaction 5
+2021-08-26 16:34:28,895:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:34:28,896:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:34:28,896:DEBUG:Running transaction 6
+2021-08-26 16:34:28,896:DEBUG:SEND: 0x0 0x6 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:34:28,896:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:34:28,896:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:34:28,898:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:34:28,898:DEBUG:RECV: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:34:28,898:DEBUG:Processing: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:34:28,899:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:34:28,899:DEBUG:Adding transaction 6
+2021-08-26 16:34:28,899:DEBUG:Getting transaction 6
+2021-08-26 16:34:28,899:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:34:28,899:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:34:28,899:DEBUG:Running transaction 7
+2021-08-26 16:34:28,899:DEBUG:SEND: 0x0 0x7 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:34:28,899:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:34:28,899:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:34:28,902:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:34:28,902:DEBUG:RECV: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:34:28,902:DEBUG:Processing: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:34:28,902:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:34:28,902:DEBUG:Adding transaction 7
+2021-08-26 16:34:28,902:DEBUG:Getting transaction 7
+2021-08-26 16:34:28,902:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:34:28,902:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:34:28,903:DEBUG:Running transaction 8
+2021-08-26 16:34:28,903:DEBUG:SEND: 0x0 0x8 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:34:28,903:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:34:28,903:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:34:28,934:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:34:28,934:DEBUG:RECV: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:34:28,934:DEBUG:Processing: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:34:28,934:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:34:28,934:DEBUG:Adding transaction 8
+2021-08-26 16:34:28,934:DEBUG:Getting transaction 8
+2021-08-26 16:34:28,935:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:34:28,935:INFO:write path :INI_config/ini_storage/
+2021-08-26 16:34:28,935:INFO:file name : INI_config/ini_storage/config_.ini
+2021-08-26 16:45:43,178:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:45:43,178:INFO:sectionFTP server
+2021-08-26 16:45:43,178:INFO:section invaild
+2021-08-26 16:45:43,178:INFO:sectionEMU-B20MC-init
+2021-08-26 16:45:43,178:INFO:sectionEMU-B20SM-init
+2021-08-26 16:45:43,178:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:45:43,178:INFO:sectionFTP server
+2021-08-26 16:45:43,178:INFO:section invaild
+2021-08-26 16:45:43,178:INFO:sectionEMU-B20MC-init
+2021-08-26 16:45:43,178:INFO:sectionEMU-B20SM-init
+2021-08-26 16:45:43,178:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:45:43,178:INFO:sectionFTP server
+2021-08-26 16:45:43,178:INFO:section invaild
+2021-08-26 16:45:43,178:INFO:sectionEMU-B20MC-init
+2021-08-26 16:45:43,178:INFO:sectionEMU-B20SM-init
+2021-08-26 16:45:43,197:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 51016)
+2021-08-26 16:45:43,198:DEBUG:Current transaction state - IDLE
+2021-08-26 16:45:43,198:DEBUG:Running transaction 1
+2021-08-26 16:45:43,198:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:45:43,198:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,199:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,229:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,229:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:45:43,229:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:45:43,230:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:45:43,230:DEBUG:Adding transaction 1
+2021-08-26 16:45:43,230:DEBUG:Getting transaction 1
+2021-08-26 16:45:43,230:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,230:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,231:DEBUG:Running transaction 2
+2021-08-26 16:45:43,231:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:45:43,231:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,231:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,233:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,234:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:45:43,234:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:45:43,234:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,235:DEBUG:Adding transaction 2
+2021-08-26 16:45:43,235:DEBUG:Getting transaction 2
+2021-08-26 16:45:43,235:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,235:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,235:DEBUG:Running transaction 3
+2021-08-26 16:45:43,236:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:45:43,236:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,236:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,238:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,239:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:45:43,239:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:45:43,239:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,239:DEBUG:Adding transaction 3
+2021-08-26 16:45:43,239:DEBUG:Getting transaction 3
+2021-08-26 16:45:43,240:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,240:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,240:DEBUG:Running transaction 4
+2021-08-26 16:45:43,240:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:45:43,240:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,240:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,243:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,243:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:45:43,243:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:45:43,243:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,243:DEBUG:Adding transaction 4
+2021-08-26 16:45:43,243:DEBUG:Getting transaction 4
+2021-08-26 16:45:43,243:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,243:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,244:DEBUG:Running transaction 5
+2021-08-26 16:45:43,244:DEBUG:SEND: 0x0 0x5 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:45:43,244:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,245:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,247:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,247:DEBUG:RECV: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:45:43,248:DEBUG:Processing: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:45:43,248:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:45:43,248:DEBUG:Adding transaction 5
+2021-08-26 16:45:43,248:DEBUG:Getting transaction 5
+2021-08-26 16:45:43,248:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,249:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,249:DEBUG:Running transaction 6
+2021-08-26 16:45:43,249:DEBUG:SEND: 0x0 0x6 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:45:43,249:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,249:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,252:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,252:DEBUG:RECV: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:45:43,252:DEBUG:Processing: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:45:43,253:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,253:DEBUG:Adding transaction 6
+2021-08-26 16:45:43,253:DEBUG:Getting transaction 6
+2021-08-26 16:45:43,253:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,253:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,253:DEBUG:Running transaction 7
+2021-08-26 16:45:43,254:DEBUG:SEND: 0x0 0x7 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:45:43,254:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,254:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,257:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,257:DEBUG:RECV: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:45:43,257:DEBUG:Processing: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:45:43,258:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,258:DEBUG:Adding transaction 7
+2021-08-26 16:45:43,258:DEBUG:Getting transaction 7
+2021-08-26 16:45:43,258:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,258:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,259:DEBUG:Running transaction 8
+2021-08-26 16:45:43,259:DEBUG:SEND: 0x0 0x8 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:45:43,259:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,259:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,262:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,262:DEBUG:RECV: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:45:43,262:DEBUG:Processing: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:45:43,262:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,263:DEBUG:Adding transaction 8
+2021-08-26 16:45:43,263:DEBUG:Getting transaction 8
+2021-08-26 16:45:43,263:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,269:INFO:disconnect done
+2021-08-26 16:45:43,276:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 51017)
+2021-08-26 16:45:43,277:DEBUG:Current transaction state - IDLE
+2021-08-26 16:45:43,278:DEBUG:Running transaction 1
+2021-08-26 16:45:43,278:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:45:43,278:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,279:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,281:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,281:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:45:43,282:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:45:43,282:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:45:43,282:DEBUG:Adding transaction 1
+2021-08-26 16:45:43,282:DEBUG:Getting transaction 1
+2021-08-26 16:45:43,283:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,283:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,283:DEBUG:Running transaction 2
+2021-08-26 16:45:43,283:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:45:43,283:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,284:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,286:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,286:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:45:43,286:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:45:43,286:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,287:DEBUG:Adding transaction 2
+2021-08-26 16:45:43,287:DEBUG:Getting transaction 2
+2021-08-26 16:45:43,287:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,287:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,287:DEBUG:Running transaction 3
+2021-08-26 16:45:43,288:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:45:43,288:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,288:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,291:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,291:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:45:43,291:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:45:43,291:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,291:DEBUG:Adding transaction 3
+2021-08-26 16:45:43,291:DEBUG:Getting transaction 3
+2021-08-26 16:45:43,292:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,292:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,292:DEBUG:Running transaction 4
+2021-08-26 16:45:43,292:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:45:43,292:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,292:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,295:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,295:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:45:43,295:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:45:43,295:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,295:DEBUG:Adding transaction 4
+2021-08-26 16:45:43,295:DEBUG:Getting transaction 4
+2021-08-26 16:45:43,296:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,296:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,296:DEBUG:Running transaction 5
+2021-08-26 16:45:43,296:DEBUG:SEND: 0x0 0x5 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:45:43,296:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,296:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,299:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,299:DEBUG:RECV: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:45:43,299:DEBUG:Processing: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:45:43,299:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:45:43,299:DEBUG:Adding transaction 5
+2021-08-26 16:45:43,299:DEBUG:Getting transaction 5
+2021-08-26 16:45:43,299:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,300:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,300:DEBUG:Running transaction 6
+2021-08-26 16:45:43,300:DEBUG:SEND: 0x0 0x6 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:45:43,300:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,300:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,304:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,304:DEBUG:RECV: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:45:43,304:DEBUG:Processing: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:45:43,305:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,305:DEBUG:Adding transaction 6
+2021-08-26 16:45:43,305:DEBUG:Getting transaction 6
+2021-08-26 16:45:43,305:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,305:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,305:DEBUG:Running transaction 7
+2021-08-26 16:45:43,306:DEBUG:SEND: 0x0 0x7 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:45:43,306:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,306:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,308:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,308:DEBUG:RECV: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:45:43,308:DEBUG:Processing: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:45:43,308:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,308:DEBUG:Adding transaction 7
+2021-08-26 16:45:43,309:DEBUG:Getting transaction 7
+2021-08-26 16:45:43,309:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,309:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:45:43,309:DEBUG:Running transaction 8
+2021-08-26 16:45:43,309:DEBUG:SEND: 0x0 0x8 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:45:43,309:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:45:43,309:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:45:43,311:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:45:43,312:DEBUG:RECV: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:45:43,312:DEBUG:Processing: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:45:43,312:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:45:43,312:DEBUG:Adding transaction 8
+2021-08-26 16:45:43,312:DEBUG:Getting transaction 8
+2021-08-26 16:45:43,312:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:45:43,313:INFO:disconnect done
+2021-08-26 16:52:32,081:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:52:32,081:INFO:sectionFTP server
+2021-08-26 16:52:32,081:INFO:section invaild
+2021-08-26 16:52:32,082:INFO:sectionEMU-B20MC-init
+2021-08-26 16:52:32,082:INFO:sectionEMU-B20SM-init
+2021-08-26 16:52:32,082:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:52:32,082:INFO:sectionFTP server
+2021-08-26 16:52:32,082:INFO:section invaild
+2021-08-26 16:52:32,083:INFO:sectionEMU-B20MC-init
+2021-08-26 16:52:32,083:INFO:sectionEMU-B20SM-init
+2021-08-26 16:52:32,083:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:52:32,083:INFO:sectionFTP server
+2021-08-26 16:52:32,083:INFO:section invaild
+2021-08-26 16:52:32,083:INFO:sectionEMU-B20MC-init
+2021-08-26 16:52:32,084:INFO:sectionEMU-B20SM-init
+2021-08-26 16:52:32,108:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 51054)
+2021-08-26 16:52:32,108:DEBUG:Current transaction state - IDLE
+2021-08-26 16:52:32,108:DEBUG:Running transaction 1
+2021-08-26 16:52:32,109:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:52:32,109:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:52:32,109:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:52:32,112:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:52:32,113:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:52:32,113:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:52:32,113:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:52:32,114:DEBUG:Adding transaction 1
+2021-08-26 16:52:32,114:DEBUG:Getting transaction 1
+2021-08-26 16:52:32,114:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:52:32,114:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:52:32,114:DEBUG:Running transaction 2
+2021-08-26 16:52:32,115:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:52:32,115:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:52:32,115:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:52:32,118:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:52:32,118:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:52:32,118:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:52:32,118:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:52:32,119:DEBUG:Adding transaction 2
+2021-08-26 16:52:32,119:DEBUG:Getting transaction 2
+2021-08-26 16:52:32,119:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:52:32,119:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:52:32,119:DEBUG:Running transaction 3
+2021-08-26 16:52:32,119:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:52:32,120:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:52:32,120:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:52:32,122:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:52:32,122:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:52:32,122:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:52:32,123:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:52:32,123:DEBUG:Adding transaction 3
+2021-08-26 16:52:32,123:DEBUG:Getting transaction 3
+2021-08-26 16:52:32,123:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:52:32,124:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:52:32,124:DEBUG:Running transaction 4
+2021-08-26 16:52:32,124:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:52:32,125:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:52:32,125:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:52:32,127:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:52:32,128:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:52:32,128:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:52:32,128:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:52:32,128:DEBUG:Adding transaction 4
+2021-08-26 16:52:32,128:DEBUG:Getting transaction 4
+2021-08-26 16:52:32,128:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:13,874:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:53:13,874:INFO:sectionFTP server
+2021-08-26 16:53:13,874:INFO:section invaild
+2021-08-26 16:53:13,874:INFO:sectionEMU-B20MC-init
+2021-08-26 16:53:13,874:INFO:sectionEMU-B20SM-init
+2021-08-26 16:53:13,874:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:53:13,874:INFO:sectionFTP server
+2021-08-26 16:53:13,874:INFO:section invaild
+2021-08-26 16:53:13,874:INFO:sectionEMU-B20MC-init
+2021-08-26 16:53:13,874:INFO:sectionEMU-B20SM-init
+2021-08-26 16:53:13,874:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:53:13,874:INFO:sectionFTP server
+2021-08-26 16:53:13,874:INFO:section invaild
+2021-08-26 16:53:13,874:INFO:sectionEMU-B20MC-init
+2021-08-26 16:53:13,874:INFO:sectionEMU-B20SM-init
+2021-08-26 16:53:13,906:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 51061)
+2021-08-26 16:53:13,907:DEBUG:Current transaction state - IDLE
+2021-08-26 16:53:13,908:DEBUG:Running transaction 1
+2021-08-26 16:53:13,908:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:53:13,909:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:13,909:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:13,911:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:13,912:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:53:13,912:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:53:13,912:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:53:13,913:DEBUG:Adding transaction 1
+2021-08-26 16:53:13,913:DEBUG:Getting transaction 1
+2021-08-26 16:53:13,913:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:13,913:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:13,913:DEBUG:Running transaction 2
+2021-08-26 16:53:13,913:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:53:13,914:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:13,914:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:13,916:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:13,916:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:53:13,917:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:53:13,917:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:13,917:DEBUG:Adding transaction 2
+2021-08-26 16:53:13,917:DEBUG:Getting transaction 2
+2021-08-26 16:53:13,917:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:13,917:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:13,918:DEBUG:Running transaction 3
+2021-08-26 16:53:13,918:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:53:13,918:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:13,918:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:13,950:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:13,950:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:53:13,950:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:53:13,950:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:13,950:DEBUG:Adding transaction 3
+2021-08-26 16:53:13,950:DEBUG:Getting transaction 3
+2021-08-26 16:53:13,950:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:13,950:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:13,950:DEBUG:Running transaction 4
+2021-08-26 16:53:13,951:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:53:13,951:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:13,951:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:13,953:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:13,954:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:53:13,954:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:53:13,954:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:13,954:DEBUG:Adding transaction 4
+2021-08-26 16:53:13,954:DEBUG:Getting transaction 4
+2021-08-26 16:53:13,954:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:13,955:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:13,955:DEBUG:Running transaction 5
+2021-08-26 16:53:13,955:DEBUG:SEND: 0x0 0x5 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:53:13,956:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:13,956:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:13,959:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:13,959:DEBUG:RECV: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:53:13,959:DEBUG:Processing: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:53:13,959:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:53:13,959:DEBUG:Adding transaction 5
+2021-08-26 16:53:13,959:DEBUG:Getting transaction 5
+2021-08-26 16:53:13,959:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:13,960:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:13,960:DEBUG:Running transaction 6
+2021-08-26 16:53:13,960:DEBUG:SEND: 0x0 0x6 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:53:13,960:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:13,960:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:13,962:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:13,963:DEBUG:RECV: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:53:13,963:DEBUG:Processing: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:53:13,963:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:13,963:DEBUG:Adding transaction 6
+2021-08-26 16:53:13,963:DEBUG:Getting transaction 6
+2021-08-26 16:53:13,963:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:13,963:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:13,963:DEBUG:Running transaction 7
+2021-08-26 16:53:13,963:DEBUG:SEND: 0x0 0x7 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:53:13,963:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:13,964:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:13,966:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:13,967:DEBUG:RECV: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:53:13,967:DEBUG:Processing: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:53:13,967:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:13,967:DEBUG:Adding transaction 7
+2021-08-26 16:53:13,967:DEBUG:Getting transaction 7
+2021-08-26 16:53:13,967:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:13,968:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:13,968:DEBUG:Running transaction 8
+2021-08-26 16:53:13,968:DEBUG:SEND: 0x0 0x8 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:53:13,968:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:13,968:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:13,971:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:13,971:DEBUG:RECV: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:53:13,971:DEBUG:Processing: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:53:13,971:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:13,972:DEBUG:Adding transaction 8
+2021-08-26 16:53:13,972:DEBUG:Getting transaction 8
+2021-08-26 16:53:13,972:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:13,974:INFO:disconnect done
+2021-08-26 16:53:14,002:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 51062)
+2021-08-26 16:53:14,003:DEBUG:Current transaction state - IDLE
+2021-08-26 16:53:14,003:DEBUG:Running transaction 1
+2021-08-26 16:53:14,003:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:53:14,003:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:14,004:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:14,006:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:14,006:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:53:14,006:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:53:14,006:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:53:14,007:DEBUG:Adding transaction 1
+2021-08-26 16:53:14,007:DEBUG:Getting transaction 1
+2021-08-26 16:53:14,007:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:14,007:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:14,007:DEBUG:Running transaction 2
+2021-08-26 16:53:14,007:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:53:14,007:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:14,007:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:14,010:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:14,010:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:53:14,010:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:53:14,010:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:14,010:DEBUG:Adding transaction 2
+2021-08-26 16:53:14,010:DEBUG:Getting transaction 2
+2021-08-26 16:53:14,010:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:14,010:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:14,010:DEBUG:Running transaction 3
+2021-08-26 16:53:14,010:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:53:14,010:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:14,011:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:14,013:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:14,013:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:53:14,013:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:53:14,013:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:14,013:DEBUG:Adding transaction 3
+2021-08-26 16:53:14,014:DEBUG:Getting transaction 3
+2021-08-26 16:53:14,014:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:14,014:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:14,014:DEBUG:Running transaction 4
+2021-08-26 16:53:14,014:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:53:14,014:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:14,014:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:14,017:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:14,017:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:53:14,017:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:53:14,017:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:14,017:DEBUG:Adding transaction 4
+2021-08-26 16:53:14,017:DEBUG:Getting transaction 4
+2021-08-26 16:53:14,017:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:14,018:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:14,018:DEBUG:Running transaction 5
+2021-08-26 16:53:14,018:DEBUG:SEND: 0x0 0x5 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:53:14,019:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:14,019:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:14,021:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:14,021:DEBUG:RECV: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:53:14,022:DEBUG:Processing: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:53:14,022:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:53:14,022:DEBUG:Adding transaction 5
+2021-08-26 16:53:14,022:DEBUG:Getting transaction 5
+2021-08-26 16:53:14,022:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:14,023:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:14,023:DEBUG:Running transaction 6
+2021-08-26 16:53:14,023:DEBUG:SEND: 0x0 0x6 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:53:14,023:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:14,024:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:14,026:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:14,027:DEBUG:RECV: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:53:14,027:DEBUG:Processing: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:53:14,027:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:14,027:DEBUG:Adding transaction 6
+2021-08-26 16:53:14,027:DEBUG:Getting transaction 6
+2021-08-26 16:53:14,027:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:14,028:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:14,028:DEBUG:Running transaction 7
+2021-08-26 16:53:14,028:DEBUG:SEND: 0x0 0x7 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:53:14,028:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:14,028:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:14,031:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:14,031:DEBUG:RECV: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:53:14,031:DEBUG:Processing: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:53:14,031:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:14,031:DEBUG:Adding transaction 7
+2021-08-26 16:53:14,031:DEBUG:Getting transaction 7
+2021-08-26 16:53:14,031:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:14,031:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:53:14,032:DEBUG:Running transaction 8
+2021-08-26 16:53:14,032:DEBUG:SEND: 0x0 0x8 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:53:14,032:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:53:14,032:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:53:14,035:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:53:14,035:DEBUG:RECV: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:53:14,035:DEBUG:Processing: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:53:14,035:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:53:14,035:DEBUG:Adding transaction 8
+2021-08-26 16:53:14,035:DEBUG:Getting transaction 8
+2021-08-26 16:53:14,035:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:53:14,036:INFO:disconnect done
+2021-08-26 16:55:17,125:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:55:17,140:INFO:sectionFTP server
+2021-08-26 16:55:17,140:INFO:section invaild
+2021-08-26 16:55:17,140:INFO:sectionEMU-B20MC-init
+2021-08-26 16:55:17,140:INFO:sectionEMU-B20SM-init
+2021-08-26 16:55:17,140:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:55:17,140:INFO:sectionFTP server
+2021-08-26 16:55:17,140:INFO:section invaild
+2021-08-26 16:55:17,140:INFO:sectionEMU-B20MC-init
+2021-08-26 16:55:17,140:INFO:sectionEMU-B20SM-init
+2021-08-26 16:55:17,140:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:55:17,140:INFO:sectionFTP server
+2021-08-26 16:55:17,140:INFO:section invaild
+2021-08-26 16:55:17,140:INFO:sectionEMU-B20MC-init
+2021-08-26 16:55:17,140:INFO:sectionEMU-B20SM-init
+2021-08-26 16:55:17,154:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 51074)
+2021-08-26 16:55:17,154:DEBUG:Current transaction state - IDLE
+2021-08-26 16:55:17,155:DEBUG:Running transaction 1
+2021-08-26 16:55:17,155:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:55:17,155:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,156:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,158:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,158:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:55:17,158:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:55:17,158:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:55:17,159:DEBUG:Adding transaction 1
+2021-08-26 16:55:17,159:DEBUG:Getting transaction 1
+2021-08-26 16:55:17,159:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,159:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,159:DEBUG:Running transaction 2
+2021-08-26 16:55:17,159:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:55:17,159:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,159:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,162:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,162:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:55:17,162:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:55:17,162:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,162:DEBUG:Adding transaction 2
+2021-08-26 16:55:17,162:DEBUG:Getting transaction 2
+2021-08-26 16:55:17,162:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,162:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,163:DEBUG:Running transaction 3
+2021-08-26 16:55:17,163:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:55:17,163:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,163:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,166:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,166:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:55:17,166:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:55:17,167:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,167:DEBUG:Adding transaction 3
+2021-08-26 16:55:17,167:DEBUG:Getting transaction 3
+2021-08-26 16:55:17,167:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,167:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,167:DEBUG:Running transaction 4
+2021-08-26 16:55:17,168:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:55:17,168:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,168:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,170:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,171:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:55:17,171:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:55:17,171:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,171:DEBUG:Adding transaction 4
+2021-08-26 16:55:17,171:DEBUG:Getting transaction 4
+2021-08-26 16:55:17,172:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,172:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,172:DEBUG:Running transaction 5
+2021-08-26 16:55:17,172:DEBUG:SEND: 0x0 0x5 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:55:17,172:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,172:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,175:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,175:DEBUG:RECV: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:55:17,175:DEBUG:Processing: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:55:17,175:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:55:17,175:DEBUG:Adding transaction 5
+2021-08-26 16:55:17,176:DEBUG:Getting transaction 5
+2021-08-26 16:55:17,176:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,176:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,176:DEBUG:Running transaction 6
+2021-08-26 16:55:17,176:DEBUG:SEND: 0x0 0x6 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:55:17,176:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,176:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,205:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,205:DEBUG:RECV: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:55:17,205:DEBUG:Processing: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:55:17,205:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,205:DEBUG:Adding transaction 6
+2021-08-26 16:55:17,206:DEBUG:Getting transaction 6
+2021-08-26 16:55:17,206:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,206:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,206:DEBUG:Running transaction 7
+2021-08-26 16:55:17,206:DEBUG:SEND: 0x0 0x7 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:55:17,206:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,206:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,208:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,208:DEBUG:RECV: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:55:17,209:DEBUG:Processing: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:55:17,209:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,209:DEBUG:Adding transaction 7
+2021-08-26 16:55:17,209:DEBUG:Getting transaction 7
+2021-08-26 16:55:17,209:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,209:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,209:DEBUG:Running transaction 8
+2021-08-26 16:55:17,209:DEBUG:SEND: 0x0 0x8 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:55:17,209:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,209:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,212:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,212:DEBUG:RECV: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:55:17,212:DEBUG:Processing: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:55:17,212:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,212:DEBUG:Adding transaction 8
+2021-08-26 16:55:17,212:DEBUG:Getting transaction 8
+2021-08-26 16:55:17,212:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,213:INFO:disconnect done
+2021-08-26 16:55:17,235:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 51075)
+2021-08-26 16:55:17,235:DEBUG:Current transaction state - IDLE
+2021-08-26 16:55:17,236:DEBUG:Running transaction 1
+2021-08-26 16:55:17,236:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:55:17,237:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,237:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,239:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,240:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:55:17,240:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:55:17,240:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:55:17,240:DEBUG:Adding transaction 1
+2021-08-26 16:55:17,240:DEBUG:Getting transaction 1
+2021-08-26 16:55:17,241:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,241:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,241:DEBUG:Running transaction 2
+2021-08-26 16:55:17,241:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:55:17,241:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,241:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,243:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,243:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:55:17,243:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:55:17,243:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,243:DEBUG:Adding transaction 2
+2021-08-26 16:55:17,243:DEBUG:Getting transaction 2
+2021-08-26 16:55:17,244:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,244:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,244:DEBUG:Running transaction 3
+2021-08-26 16:55:17,244:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:55:17,244:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,244:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,247:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,247:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:55:17,247:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:55:17,247:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,247:DEBUG:Adding transaction 3
+2021-08-26 16:55:17,247:DEBUG:Getting transaction 3
+2021-08-26 16:55:17,248:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,248:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,248:DEBUG:Running transaction 4
+2021-08-26 16:55:17,248:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:55:17,248:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,248:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,251:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,251:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:55:17,251:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:55:17,251:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,251:DEBUG:Adding transaction 4
+2021-08-26 16:55:17,251:DEBUG:Getting transaction 4
+2021-08-26 16:55:17,251:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,252:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,252:DEBUG:Running transaction 5
+2021-08-26 16:55:17,252:DEBUG:SEND: 0x0 0x5 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:55:17,252:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,252:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,254:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,255:DEBUG:RECV: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:55:17,255:DEBUG:Processing: 0x0 0x5 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:55:17,255:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:55:17,255:DEBUG:Adding transaction 5
+2021-08-26 16:55:17,255:DEBUG:Getting transaction 5
+2021-08-26 16:55:17,255:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,255:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,255:DEBUG:Running transaction 6
+2021-08-26 16:55:17,255:DEBUG:SEND: 0x0 0x6 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:55:17,256:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,256:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,259:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,259:DEBUG:RECV: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:55:17,259:DEBUG:Processing: 0x0 0x6 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:55:17,259:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,259:DEBUG:Adding transaction 6
+2021-08-26 16:55:17,259:DEBUG:Getting transaction 6
+2021-08-26 16:55:17,259:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,259:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,259:DEBUG:Running transaction 7
+2021-08-26 16:55:17,259:DEBUG:SEND: 0x0 0x7 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:55:17,260:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,260:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,262:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,262:DEBUG:RECV: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:55:17,262:DEBUG:Processing: 0x0 0x7 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:55:17,262:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,262:DEBUG:Adding transaction 7
+2021-08-26 16:55:17,262:DEBUG:Getting transaction 7
+2021-08-26 16:55:17,262:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,262:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:55:17,262:DEBUG:Running transaction 8
+2021-08-26 16:55:17,262:DEBUG:SEND: 0x0 0x8 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:55:17,262:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:55:17,263:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:55:17,266:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:55:17,267:DEBUG:RECV: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:55:17,267:DEBUG:Processing: 0x0 0x8 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:55:17,267:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:55:17,267:DEBUG:Adding transaction 8
+2021-08-26 16:55:17,267:DEBUG:Getting transaction 8
+2021-08-26 16:55:17,267:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:55:17,268:INFO:disconnect done
+2021-08-26 16:58:11,342:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:58:11,342:INFO:sectionFTP server
+2021-08-26 16:58:11,342:INFO:section invaild
+2021-08-26 16:58:11,342:INFO:sectionEMU-B20MC-init
+2021-08-26 16:58:11,342:INFO:sectionEMU-B20SM-init
+2021-08-26 16:58:11,342:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:58:11,342:INFO:sectionFTP server
+2021-08-26 16:58:11,342:INFO:section invaild
+2021-08-26 16:58:11,342:INFO:sectionEMU-B20MC-init
+2021-08-26 16:58:11,342:INFO:sectionEMU-B20SM-init
+2021-08-26 16:58:11,342:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:58:11,342:INFO:sectionFTP server
+2021-08-26 16:58:11,342:INFO:section invaild
+2021-08-26 16:58:11,342:INFO:sectionEMU-B20MC-init
+2021-08-26 16:58:11,342:INFO:sectionEMU-B20SM-init
+2021-08-26 16:58:11,364:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 51088)
+2021-08-26 16:58:11,364:DEBUG:Current transaction state - IDLE
+2021-08-26 16:58:11,364:DEBUG:Running transaction 1
+2021-08-26 16:58:11,365:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:58:11,365:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:58:11,365:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:58:11,367:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:58:11,367:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:58:11,368:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:58:11,368:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:58:11,368:DEBUG:Adding transaction 1
+2021-08-26 16:58:11,368:DEBUG:Getting transaction 1
+2021-08-26 16:58:11,368:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:58:11,368:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:58:11,369:DEBUG:Running transaction 2
+2021-08-26 16:58:11,369:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:58:11,369:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:58:11,369:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:58:11,372:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:58:11,372:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:58:11,372:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:58:11,372:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:58:11,372:DEBUG:Adding transaction 2
+2021-08-26 16:58:11,372:DEBUG:Getting transaction 2
+2021-08-26 16:58:11,373:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:58:11,373:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:58:11,373:DEBUG:Running transaction 3
+2021-08-26 16:58:11,373:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:58:11,373:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:58:11,373:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:58:11,376:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:58:11,376:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:58:11,376:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:58:11,376:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:58:11,376:DEBUG:Adding transaction 3
+2021-08-26 16:58:11,376:DEBUG:Getting transaction 3
+2021-08-26 16:58:11,376:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:58:11,377:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:58:11,377:DEBUG:Running transaction 4
+2021-08-26 16:58:11,377:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:58:11,377:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:58:11,377:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:58:11,379:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:58:11,380:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:58:11,380:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:58:11,380:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:58:11,380:DEBUG:Adding transaction 4
+2021-08-26 16:58:11,380:DEBUG:Getting transaction 4
+2021-08-26 16:58:11,380:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:58:11,381:INFO:disconnect done
+2021-08-26 16:58:11,384:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 51089)
+2021-08-26 16:58:11,384:DEBUG:Current transaction state - IDLE
+2021-08-26 16:58:11,384:DEBUG:Running transaction 1
+2021-08-26 16:58:11,384:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:58:11,384:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:58:11,385:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:58:11,388:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:58:11,389:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:58:11,389:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:58:11,389:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:58:11,389:DEBUG:Adding transaction 1
+2021-08-26 16:58:11,390:DEBUG:Getting transaction 1
+2021-08-26 16:58:11,390:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:58:11,390:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:58:11,390:DEBUG:Running transaction 2
+2021-08-26 16:58:11,390:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:58:11,390:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:58:11,391:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:58:11,393:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:58:11,393:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:58:11,393:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:58:11,393:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:58:11,393:DEBUG:Adding transaction 2
+2021-08-26 16:58:11,394:DEBUG:Getting transaction 2
+2021-08-26 16:58:11,394:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:58:11,394:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:58:11,394:DEBUG:Running transaction 3
+2021-08-26 16:58:11,394:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:58:11,394:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:58:11,394:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:58:11,396:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:58:11,396:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:58:11,396:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:58:11,397:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:58:11,397:DEBUG:Adding transaction 3
+2021-08-26 16:58:11,397:DEBUG:Getting transaction 3
+2021-08-26 16:58:11,397:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:58:11,397:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:58:11,397:DEBUG:Running transaction 4
+2021-08-26 16:58:11,397:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:58:11,397:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:58:11,397:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:58:11,399:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:58:11,400:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:58:11,400:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:58:11,400:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:58:11,400:DEBUG:Adding transaction 4
+2021-08-26 16:58:11,400:DEBUG:Getting transaction 4
+2021-08-26 16:58:11,400:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:58:11,400:INFO:disconnect done
+2021-08-26 16:59:33,550:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:59:33,551:INFO:sectionFTP server
+2021-08-26 16:59:33,551:INFO:section invaild
+2021-08-26 16:59:33,551:INFO:sectionEMU-B20MC-init
+2021-08-26 16:59:33,551:INFO:sectionEMU-B20SM-init
+2021-08-26 16:59:33,552:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:59:33,552:INFO:sectionFTP server
+2021-08-26 16:59:33,552:INFO:section invaild
+2021-08-26 16:59:33,553:INFO:sectionEMU-B20MC-init
+2021-08-26 16:59:33,553:INFO:sectionEMU-B20SM-init
+2021-08-26 16:59:33,553:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 16:59:33,553:INFO:sectionFTP server
+2021-08-26 16:59:33,554:INFO:section invaild
+2021-08-26 16:59:33,554:INFO:sectionEMU-B20MC-init
+2021-08-26 16:59:33,554:INFO:sectionEMU-B20SM-init
+2021-08-26 16:59:33,588:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 50439)
+2021-08-26 16:59:33,588:DEBUG:Current transaction state - IDLE
+2021-08-26 16:59:33,588:DEBUG:Running transaction 1
+2021-08-26 16:59:33,588:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:59:33,588:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:59:33,589:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:59:33,623:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:59:33,623:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:59:33,623:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 16:59:33,623:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:59:33,623:DEBUG:Adding transaction 1
+2021-08-26 16:59:33,623:DEBUG:Getting transaction 1
+2021-08-26 16:59:33,623:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:59:33,623:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:59:33,623:DEBUG:Running transaction 2
+2021-08-26 16:59:33,623:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:59:33,623:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:59:33,623:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:59:33,623:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:59:33,623:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:59:33,623:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:59:33,623:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:59:33,623:DEBUG:Adding transaction 2
+2021-08-26 16:59:33,623:DEBUG:Getting transaction 2
+2021-08-26 16:59:33,623:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:59:33,623:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:59:33,623:DEBUG:Running transaction 3
+2021-08-26 16:59:33,623:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:59:33,623:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:59:33,623:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:59:33,623:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:59:33,623:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:59:33,623:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 16:59:33,623:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:59:33,623:DEBUG:Adding transaction 3
+2021-08-26 16:59:33,623:DEBUG:Getting transaction 3
+2021-08-26 16:59:33,623:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:59:33,623:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:59:33,623:DEBUG:Running transaction 4
+2021-08-26 16:59:33,623:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:59:33,623:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:59:33,623:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:59:33,638:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:59:33,638:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:59:33,638:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:59:33,638:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:59:33,638:DEBUG:Adding transaction 4
+2021-08-26 16:59:33,638:DEBUG:Getting transaction 4
+2021-08-26 16:59:33,638:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:59:33,638:INFO:write path :INI_config/ini_storage/
+2021-08-26 16:59:33,638:INFO:file name : INI_config/ini_storage/config_.ini
+2021-08-26 16:59:33,638:INFO:ini file printed
+2021-08-26 16:59:33,638:INFO:clear done
+2021-08-26 16:59:33,638:INFO:disconnect done
+2021-08-26 16:59:33,670:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 50440)
+2021-08-26 16:59:33,670:DEBUG:Current transaction state - IDLE
+2021-08-26 16:59:33,670:DEBUG:Running transaction 1
+2021-08-26 16:59:33,671:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 16:59:33,671:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:59:33,671:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:59:33,673:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:59:33,674:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:59:33,674:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 16:59:33,674:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 16:59:33,674:DEBUG:Adding transaction 1
+2021-08-26 16:59:33,674:DEBUG:Getting transaction 1
+2021-08-26 16:59:33,674:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:59:33,675:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:59:33,675:DEBUG:Running transaction 2
+2021-08-26 16:59:33,675:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 16:59:33,675:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:59:33,676:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:59:33,678:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:59:33,678:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:59:33,679:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 16:59:33,679:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:59:33,679:DEBUG:Adding transaction 2
+2021-08-26 16:59:33,679:DEBUG:Getting transaction 2
+2021-08-26 16:59:33,679:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:59:33,679:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:59:33,680:DEBUG:Running transaction 3
+2021-08-26 16:59:33,680:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 16:59:33,680:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:59:33,680:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:59:33,683:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:59:33,683:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:59:33,683:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 16:59:33,683:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:59:33,683:DEBUG:Adding transaction 3
+2021-08-26 16:59:33,683:DEBUG:Getting transaction 3
+2021-08-26 16:59:33,683:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:59:33,684:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 16:59:33,684:DEBUG:Running transaction 4
+2021-08-26 16:59:33,684:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 16:59:33,684:DEBUG:New Transaction state 'SENDING'
+2021-08-26 16:59:33,684:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 16:59:33,687:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 16:59:33,687:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:59:33,687:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 16:59:33,687:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 16:59:33,687:DEBUG:Adding transaction 4
+2021-08-26 16:59:33,687:DEBUG:Getting transaction 4
+2021-08-26 16:59:33,687:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 16:59:33,687:INFO:write path :INI_config/ini_storage/
+2021-08-26 16:59:33,688:INFO:file name : INI_config/ini_storage/config_.ini
+2021-08-26 16:59:33,695:INFO:ini file printed
+2021-08-26 16:59:33,695:INFO:clear done
+2021-08-26 16:59:33,695:INFO:disconnect done
+2021-08-26 17:11:25,333:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:11:25,334:INFO:sectionFTP server
+2021-08-26 17:11:25,334:INFO:section invaild
+2021-08-26 17:11:25,334:INFO:sectionEMU-B20MC-init
+2021-08-26 17:11:25,334:INFO:sectionEMU-B20SM-init
+2021-08-26 17:11:25,335:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:11:25,335:INFO:sectionFTP server
+2021-08-26 17:11:25,336:INFO:section invaild
+2021-08-26 17:11:25,336:INFO:sectionEMU-B20MC-init
+2021-08-26 17:11:25,336:INFO:sectionEMU-B20SM-init
+2021-08-26 17:11:25,336:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:11:25,337:INFO:sectionFTP server
+2021-08-26 17:11:25,337:INFO:section invaild
+2021-08-26 17:11:25,337:INFO:sectionEMU-B20MC-init
+2021-08-26 17:11:25,337:INFO:sectionEMU-B20SM-init
+2021-08-26 17:11:25,371:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 50493)
+2021-08-26 17:11:25,372:DEBUG:Current transaction state - IDLE
+2021-08-26 17:11:25,372:DEBUG:Running transaction 1
+2021-08-26 17:11:25,372:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 17:11:25,372:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,373:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,375:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,375:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 17:11:25,376:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 17:11:25,376:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 17:11:25,376:DEBUG:Adding transaction 1
+2021-08-26 17:11:25,376:DEBUG:Getting transaction 1
+2021-08-26 17:11:25,376:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,376:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:11:25,376:DEBUG:Running transaction 2
+2021-08-26 17:11:25,376:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 17:11:25,376:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,377:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,379:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,379:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:11:25,379:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:11:25,379:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:11:25,379:DEBUG:Adding transaction 2
+2021-08-26 17:11:25,380:DEBUG:Getting transaction 2
+2021-08-26 17:11:25,380:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,380:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:11:25,380:DEBUG:Running transaction 3
+2021-08-26 17:11:25,380:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 17:11:25,380:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,380:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,383:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,383:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 17:11:25,383:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 17:11:25,383:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:11:25,383:DEBUG:Adding transaction 3
+2021-08-26 17:11:25,383:DEBUG:Getting transaction 3
+2021-08-26 17:11:25,384:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,384:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:11:25,384:DEBUG:Running transaction 4
+2021-08-26 17:11:25,384:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 17:11:25,384:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,385:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,387:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,387:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:11:25,388:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:11:25,388:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:11:25,388:DEBUG:Adding transaction 4
+2021-08-26 17:11:25,388:DEBUG:Getting transaction 4
+2021-08-26 17:11:25,388:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,388:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:11:25,388:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 17:11:25,390:INFO:ini file printed
+2021-08-26 17:11:25,391:INFO:clear done
+2021-08-26 17:11:25,391:INFO:disconnect done
+2021-08-26 17:11:25,392:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:11:25,393:INFO:sectionFTP server
+2021-08-26 17:11:25,393:INFO:section invaild
+2021-08-26 17:11:25,393:INFO:sectionEMU-B20MC-init
+2021-08-26 17:11:25,394:INFO:sectionEMU-B20SM-init
+2021-08-26 17:11:25,423:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 50494)
+2021-08-26 17:11:25,423:DEBUG:Current transaction state - IDLE
+2021-08-26 17:11:25,423:DEBUG:Running transaction 1
+2021-08-26 17:11:25,424:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 17:11:25,424:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,424:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,426:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,427:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 17:11:25,427:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 17:11:25,427:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 17:11:25,427:DEBUG:Adding transaction 1
+2021-08-26 17:11:25,427:DEBUG:Getting transaction 1
+2021-08-26 17:11:25,427:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,428:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:11:25,428:DEBUG:Running transaction 2
+2021-08-26 17:11:25,428:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 17:11:25,428:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,428:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,431:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,431:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:11:25,431:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:11:25,432:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:11:25,432:DEBUG:Adding transaction 2
+2021-08-26 17:11:25,432:DEBUG:Getting transaction 2
+2021-08-26 17:11:25,432:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,432:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:11:25,432:DEBUG:Running transaction 3
+2021-08-26 17:11:25,432:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 17:11:25,432:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,433:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,435:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,435:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 17:11:25,435:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 17:11:25,435:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:11:25,435:DEBUG:Adding transaction 3
+2021-08-26 17:11:25,435:DEBUG:Getting transaction 3
+2021-08-26 17:11:25,436:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,436:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:11:25,436:DEBUG:Running transaction 4
+2021-08-26 17:11:25,436:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 17:11:25,436:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,436:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,439:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,439:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:11:25,439:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:11:25,439:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:11:25,439:DEBUG:Adding transaction 4
+2021-08-26 17:11:25,439:DEBUG:Getting transaction 4
+2021-08-26 17:11:25,439:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,440:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:11:25,440:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:11:25,441:INFO:ini file printed
+2021-08-26 17:11:25,441:INFO:clear done
+2021-08-26 17:11:25,442:INFO:disconnect done
+2021-08-26 17:11:25,446:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 50495)
+2021-08-26 17:11:25,448:DEBUG:Current transaction state - IDLE
+2021-08-26 17:11:25,448:DEBUG:Running transaction 1
+2021-08-26 17:11:25,448:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 17:11:25,448:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,449:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,451:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,451:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 17:11:25,451:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 17:11:25,452:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 17:11:25,452:DEBUG:Adding transaction 1
+2021-08-26 17:11:25,452:DEBUG:Getting transaction 1
+2021-08-26 17:11:25,452:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,452:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:11:25,452:DEBUG:Running transaction 2
+2021-08-26 17:11:25,453:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 17:11:25,453:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,453:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,455:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,456:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:11:25,456:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:11:25,456:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:11:25,456:DEBUG:Adding transaction 2
+2021-08-26 17:11:25,457:DEBUG:Getting transaction 2
+2021-08-26 17:11:25,457:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,457:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:11:25,457:DEBUG:Running transaction 3
+2021-08-26 17:11:25,457:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 17:11:25,458:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,458:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,460:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,460:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 17:11:25,460:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 17:11:25,460:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:11:25,460:DEBUG:Adding transaction 3
+2021-08-26 17:11:25,461:DEBUG:Getting transaction 3
+2021-08-26 17:11:25,461:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,461:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:11:25,461:DEBUG:Running transaction 4
+2021-08-26 17:11:25,461:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 17:11:25,461:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:11:25,461:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:11:25,463:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:11:25,464:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:11:25,464:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:11:25,464:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:11:25,464:DEBUG:Adding transaction 4
+2021-08-26 17:11:25,464:DEBUG:Getting transaction 4
+2021-08-26 17:11:25,464:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:11:25,464:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:11:25,464:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:11:25,473:INFO:ini file printed
+2021-08-26 17:11:25,474:INFO:clear done
+2021-08-26 17:11:25,474:INFO:disconnect done
+2021-08-26 17:20:30,773:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:20:30,773:INFO:sectionFTP server
+2021-08-26 17:20:30,773:INFO:section invaild
+2021-08-26 17:20:30,773:INFO:sectionEMU-B20MC-init
+2021-08-26 17:20:30,773:INFO:sectionEMU-B20SM-init
+2021-08-26 17:20:30,773:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:20:30,773:INFO:sectionFTP server
+2021-08-26 17:20:30,773:INFO:section invaild
+2021-08-26 17:20:30,773:INFO:sectionEMU-B20MC-init
+2021-08-26 17:20:30,773:INFO:sectionEMU-B20SM-init
+2021-08-26 17:20:30,773:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:20:30,773:INFO:sectionFTP server
+2021-08-26 17:20:30,773:INFO:section invaild
+2021-08-26 17:20:30,773:INFO:sectionEMU-B20MC-init
+2021-08-26 17:20:30,773:INFO:sectionEMU-B20SM-init
+2021-08-26 17:20:30,820:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 50530)
+2021-08-26 17:20:30,820:DEBUG:Current transaction state - IDLE
+2021-08-26 17:20:30,820:DEBUG:Running transaction 1
+2021-08-26 17:20:30,820:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 17:20:30,820:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:20:30,823:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:20:30,825:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:20:30,825:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 17:20:30,825:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 17:20:30,825:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 17:20:30,825:DEBUG:Adding transaction 1
+2021-08-26 17:20:30,826:DEBUG:Getting transaction 1
+2021-08-26 17:20:30,826:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:20:30,826:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:20:30,826:DEBUG:Running transaction 2
+2021-08-26 17:20:30,826:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 17:20:30,827:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:20:30,827:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:20:30,829:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:20:30,829:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:20:30,830:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:20:30,830:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:20:30,830:DEBUG:Adding transaction 2
+2021-08-26 17:20:30,830:DEBUG:Getting transaction 2
+2021-08-26 17:20:30,830:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:20:30,830:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:20:30,831:DEBUG:Running transaction 3
+2021-08-26 17:20:30,831:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 17:20:30,831:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:20:30,831:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:20:30,834:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:20:30,834:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 17:20:30,834:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 17:20:30,835:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:20:30,835:DEBUG:Adding transaction 3
+2021-08-26 17:20:30,835:DEBUG:Getting transaction 3
+2021-08-26 17:20:30,835:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:20:30,835:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:20:30,836:DEBUG:Running transaction 4
+2021-08-26 17:20:30,836:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 17:20:30,836:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:20:30,836:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:20:30,839:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:20:30,839:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:20:30,839:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:20:30,840:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:20:30,840:DEBUG:Adding transaction 4
+2021-08-26 17:20:30,840:DEBUG:Getting transaction 4
+2021-08-26 17:20:30,840:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:20:30,841:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:20:30,841:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 17:20:30,843:INFO:ini file printed
+2021-08-26 17:20:30,844:INFO:clear done
+2021-08-26 17:20:30,845:INFO:disconnect done
+2021-08-26 17:20:30,845:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:20:30,847:INFO:sectionFTP server
+2021-08-26 17:20:30,847:INFO:section invaild
+2021-08-26 17:20:30,847:INFO:sectionEMU-B20MC-init
+2021-08-26 17:20:30,848:INFO:sectionEMU-B20SM-init
+2021-08-26 17:20:30,853:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 50531)
+2021-08-26 17:20:30,856:DEBUG:Current transaction state - IDLE
+2021-08-26 17:20:30,856:DEBUG:Running transaction 1
+2021-08-26 17:20:30,856:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 17:20:30,857:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:20:30,857:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:20:30,859:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:20:30,859:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 17:20:30,859:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 17:20:30,859:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 17:20:30,860:DEBUG:Adding transaction 1
+2021-08-26 17:20:30,860:DEBUG:Getting transaction 1
+2021-08-26 17:20:30,860:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:20:30,860:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:20:30,860:DEBUG:Running transaction 2
+2021-08-26 17:20:30,860:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 17:20:30,860:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:20:30,860:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:20:30,863:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:20:30,863:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:20:30,863:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:20:30,863:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:20:30,864:DEBUG:Adding transaction 2
+2021-08-26 17:20:30,864:DEBUG:Getting transaction 2
+2021-08-26 17:20:30,864:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:20:30,864:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:20:30,864:DEBUG:Running transaction 3
+2021-08-26 17:20:30,864:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 17:20:30,864:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:20:30,864:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:20:30,867:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:20:30,867:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 17:20:30,867:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 17:20:30,867:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:20:30,868:DEBUG:Adding transaction 3
+2021-08-26 17:20:30,868:DEBUG:Getting transaction 3
+2021-08-26 17:20:30,868:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:20:30,868:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:20:30,868:DEBUG:Running transaction 4
+2021-08-26 17:20:30,869:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 17:20:30,869:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:20:30,869:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:20:30,871:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:20:30,871:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:20:30,872:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:20:30,872:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:20:30,872:DEBUG:Adding transaction 4
+2021-08-26 17:20:30,872:DEBUG:Getting transaction 4
+2021-08-26 17:20:30,872:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:20:30,872:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:20:30,872:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:20:30,873:INFO:ini file printed
+2021-08-26 17:20:30,874:INFO:clear done
+2021-08-26 17:20:30,874:INFO:disconnect done
+2021-08-26 17:27:49,316:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:27:49,316:INFO:sectionFTP server
+2021-08-26 17:27:49,316:INFO:section invaild
+2021-08-26 17:27:49,316:INFO:sectionEMU-B20MC-init
+2021-08-26 17:27:49,316:INFO:sectionEMU-B20SM-init
+2021-08-26 17:27:49,316:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-26 17:27:49,316:INFO:sectionlog-1
+2021-08-26 17:27:49,316:INFO:sectionlog-2
+2021-08-26 17:27:49,316:INFO:section invaild
+2021-08-26 17:27:49,316:INFO:sectionlog-3
+2021-08-26 17:27:49,316:INFO:section invaild
+2021-08-26 17:27:49,316:INFO:sectionlog-4
+2021-08-26 17:27:49,316:INFO:section invaild
+2021-08-26 17:27:49,332:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-26 17:27:49,348:INFO:sectionlogFTP-1
+2021-08-26 17:27:49,348:INFO:sectionlogFTP-2
+2021-08-26 17:27:49,348:INFO:sectionlogFTP-3
+2021-08-26 17:27:49,348:INFO:sectionlogFTP-4
+2021-08-26 17:27:49,363:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 17:27:49,363:INFO:sectionEMU-B20MC-1
+2021-08-26 17:27:49,363:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:27:49,363:INFO:sectionEMU-B20SM-1
+2021-08-26 17:28:12,657:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 17:28:12,658:INFO:section :EMU-B20MC-1
+2021-08-26 17:28:12,658:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:28:12,658:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:28:12,658:INFO:clear complete
+2021-08-26 17:28:12,659:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:28:12,659:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:28:12,660:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:28:12,660:INFO:clear complete
+2021-08-26 17:28:12,660:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:28:12,661:INFO:sectionFTP server
+2021-08-26 17:28:12,661:INFO:section invaild
+2021-08-26 17:28:12,661:INFO:sectionEMU-B20MC-init
+2021-08-26 17:28:12,661:INFO:sectionEMU-B20SM-init
+2021-08-26 17:28:12,669:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 61713)
+2021-08-26 17:28:12,670:DEBUG:Current transaction state - IDLE
+2021-08-26 17:28:12,670:DEBUG:Running transaction 1
+2021-08-26 17:28:12,671:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 17:28:12,671:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:28:12,671:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:28:12,674:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:28:12,674:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 17:28:12,674:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 17:28:12,675:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 17:28:12,675:DEBUG:Adding transaction 1
+2021-08-26 17:28:12,675:DEBUG:Getting transaction 1
+2021-08-26 17:28:12,676:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:28:12,676:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:28:12,676:DEBUG:Running transaction 2
+2021-08-26 17:28:12,676:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 17:28:12,676:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:28:12,677:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:28:12,679:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:28:12,680:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:28:12,680:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:28:12,680:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:28:12,680:DEBUG:Adding transaction 2
+2021-08-26 17:28:12,681:DEBUG:Getting transaction 2
+2021-08-26 17:28:12,681:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:28:12,681:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:28:12,681:DEBUG:Running transaction 3
+2021-08-26 17:28:12,681:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 17:28:12,681:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:28:12,682:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:28:12,684:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:28:12,684:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 17:28:12,685:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 17:28:12,685:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:28:12,686:DEBUG:Adding transaction 3
+2021-08-26 17:28:12,686:DEBUG:Getting transaction 3
+2021-08-26 17:28:12,686:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:28:12,686:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:28:12,686:DEBUG:Running transaction 4
+2021-08-26 17:28:12,686:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 17:28:12,687:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:28:12,687:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:28:12,689:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:28:12,690:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:28:12,690:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:28:12,690:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:28:12,691:DEBUG:Adding transaction 4
+2021-08-26 17:28:12,691:DEBUG:Getting transaction 4
+2021-08-26 17:28:12,691:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:28:12,692:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:28:12,692:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 17:28:12,694:INFO:ini file printed
+2021-08-26 17:28:12,695:INFO:clear done
+2021-08-26 17:28:12,695:INFO:disconnect done
+2021-08-26 17:28:12,695:INFO:clear Modbus ip done
+2021-08-26 17:28:12,696:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:28:12,697:INFO:sectionFTP server
+2021-08-26 17:28:12,697:INFO:section invaild
+2021-08-26 17:28:12,697:INFO:sectionEMU-B20MC-init
+2021-08-26 17:28:12,698:INFO:sectionEMU-B20SM-init
+2021-08-26 17:28:12,701:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 61714)
+2021-08-26 17:28:12,702:DEBUG:Current transaction state - IDLE
+2021-08-26 17:28:12,702:DEBUG:Running transaction 1
+2021-08-26 17:28:12,702:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 17:28:12,703:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:28:12,703:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:28:12,705:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:28:12,705:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 17:28:12,706:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 17:28:12,706:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 17:28:12,706:DEBUG:Adding transaction 1
+2021-08-26 17:28:12,706:DEBUG:Getting transaction 1
+2021-08-26 17:28:12,706:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:28:12,706:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:28:12,706:DEBUG:Running transaction 2
+2021-08-26 17:28:12,707:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 17:28:12,707:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:28:12,707:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:28:12,710:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:28:12,710:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:28:12,711:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:28:12,711:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:28:12,711:DEBUG:Adding transaction 2
+2021-08-26 17:28:12,711:DEBUG:Getting transaction 2
+2021-08-26 17:28:12,711:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:28:12,712:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:28:12,712:DEBUG:Running transaction 3
+2021-08-26 17:28:12,712:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 17:28:12,712:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:28:12,713:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:28:12,715:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:28:12,716:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 17:28:12,716:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 17:28:12,716:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:28:12,716:DEBUG:Adding transaction 3
+2021-08-26 17:28:12,716:DEBUG:Getting transaction 3
+2021-08-26 17:28:12,717:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:28:12,717:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:28:12,717:DEBUG:Running transaction 4
+2021-08-26 17:28:12,717:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 17:28:12,717:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:28:12,718:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:28:12,720:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:28:12,720:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:28:12,720:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:28:12,720:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:28:12,721:DEBUG:Adding transaction 4
+2021-08-26 17:28:12,721:DEBUG:Getting transaction 4
+2021-08-26 17:28:12,721:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:28:12,722:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:28:12,722:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:28:12,723:INFO:ini file printed
+2021-08-26 17:28:12,723:INFO:clear done
+2021-08-26 17:28:12,724:INFO:disconnect done
+2021-08-26 17:28:12,724:INFO:clear Modbus ip done
+2021-08-26 17:28:12,725:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 17:28:12,742:INFO:sectionEMU-B20MC-1
+2021-08-26 17:28:12,742:INFO:sectionEMU-B20MC-2
+2021-08-26 17:28:12,753:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:28:12,755:INFO:sectionEMU-B20SM-1
+2021-08-26 17:29:48,461:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:29:48,461:INFO:sectionFTP server
+2021-08-26 17:29:48,461:INFO:section invaild
+2021-08-26 17:29:48,461:INFO:sectionEMU-B20MC-init
+2021-08-26 17:29:48,461:INFO:sectionEMU-B20SM-init
+2021-08-26 17:29:48,461:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-26 17:29:48,461:INFO:sectionlog-1
+2021-08-26 17:29:48,461:INFO:sectionlog-2
+2021-08-26 17:29:48,461:INFO:section invaild
+2021-08-26 17:29:48,461:INFO:sectionlog-3
+2021-08-26 17:29:48,461:INFO:section invaild
+2021-08-26 17:29:48,461:INFO:sectionlog-4
+2021-08-26 17:29:48,461:INFO:section invaild
+2021-08-26 17:29:48,492:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-26 17:29:48,493:INFO:sectionlogFTP-1
+2021-08-26 17:29:48,494:INFO:sectionlogFTP-2
+2021-08-26 17:29:48,494:INFO:sectionlogFTP-3
+2021-08-26 17:29:48,494:INFO:sectionlogFTP-4
+2021-08-26 17:29:48,511:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 17:29:48,512:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:29:53,110:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 17:29:53,111:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:29:53,111:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:29:53,112:INFO:clear complete
+2021-08-26 17:29:53,113:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:29:53,114:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:29:53,114:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:29:53,115:INFO:clear complete
+2021-08-26 17:29:53,115:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:29:53,116:INFO:sectionFTP server
+2021-08-26 17:29:53,116:INFO:section invaild
+2021-08-26 17:29:53,116:INFO:sectionEMU-B20MC-init
+2021-08-26 17:29:53,116:INFO:sectionEMU-B20SM-init
+2021-08-26 17:29:53,157:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 61726)
+2021-08-26 17:29:53,158:DEBUG:Current transaction state - IDLE
+2021-08-26 17:29:53,158:DEBUG:Running transaction 1
+2021-08-26 17:29:53,159:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 17:29:53,159:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:29:53,159:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:29:53,162:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:29:53,162:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 17:29:53,162:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-26 17:29:53,162:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 17:29:53,162:DEBUG:Adding transaction 1
+2021-08-26 17:29:53,163:DEBUG:Getting transaction 1
+2021-08-26 17:29:53,163:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:29:53,163:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:29:53,163:DEBUG:Running transaction 2
+2021-08-26 17:29:53,163:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 17:29:53,163:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:29:53,163:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:29:53,165:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:29:53,166:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:29:53,166:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:29:53,166:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:29:53,166:DEBUG:Adding transaction 2
+2021-08-26 17:29:53,166:DEBUG:Getting transaction 2
+2021-08-26 17:29:53,166:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:29:53,166:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:29:53,166:DEBUG:Running transaction 3
+2021-08-26 17:29:53,166:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 17:29:53,167:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:29:53,167:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:29:53,169:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:29:53,169:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 17:29:53,169:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-26 17:29:53,170:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:29:53,170:DEBUG:Adding transaction 3
+2021-08-26 17:29:53,170:DEBUG:Getting transaction 3
+2021-08-26 17:29:53,170:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:29:53,170:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:29:53,171:DEBUG:Running transaction 4
+2021-08-26 17:29:53,171:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 17:29:53,171:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:29:53,171:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:29:53,174:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:29:53,174:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:29:53,174:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:29:53,174:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:29:53,175:DEBUG:Adding transaction 4
+2021-08-26 17:29:53,175:DEBUG:Getting transaction 4
+2021-08-26 17:29:53,175:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:29:53,175:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:29:53,175:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 17:29:53,176:INFO:ini file printed
+2021-08-26 17:29:53,176:INFO:clear done
+2021-08-26 17:29:53,177:INFO:disconnect done
+2021-08-26 17:29:53,177:INFO:clear Modbus ip done
+2021-08-26 17:29:53,177:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:29:53,178:INFO:sectionFTP server
+2021-08-26 17:29:53,178:INFO:section invaild
+2021-08-26 17:29:53,178:INFO:sectionEMU-B20MC-init
+2021-08-26 17:29:53,178:INFO:sectionEMU-B20SM-init
+2021-08-26 17:29:53,193:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 61727)
+2021-08-26 17:29:53,194:DEBUG:Current transaction state - IDLE
+2021-08-26 17:29:53,195:DEBUG:Running transaction 1
+2021-08-26 17:29:53,195:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-26 17:29:53,195:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:29:53,196:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:29:53,198:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:29:53,199:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 17:29:53,199:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-26 17:29:53,199:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-26 17:29:53,199:DEBUG:Adding transaction 1
+2021-08-26 17:29:53,199:DEBUG:Getting transaction 1
+2021-08-26 17:29:53,200:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:29:53,200:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:29:53,200:DEBUG:Running transaction 2
+2021-08-26 17:29:53,200:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-26 17:29:53,200:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:29:53,201:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:29:53,203:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:29:53,203:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:29:53,204:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-26 17:29:53,204:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:29:53,204:DEBUG:Adding transaction 2
+2021-08-26 17:29:53,205:DEBUG:Getting transaction 2
+2021-08-26 17:29:53,205:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:29:53,205:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:29:53,205:DEBUG:Running transaction 3
+2021-08-26 17:29:53,205:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-26 17:29:53,205:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:29:53,205:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:29:53,208:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:29:53,209:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 17:29:53,210:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-26 17:29:53,210:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:29:53,211:DEBUG:Adding transaction 3
+2021-08-26 17:29:53,211:DEBUG:Getting transaction 3
+2021-08-26 17:29:53,211:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:29:53,211:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-26 17:29:53,211:DEBUG:Running transaction 4
+2021-08-26 17:29:53,212:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-26 17:29:53,212:DEBUG:New Transaction state 'SENDING'
+2021-08-26 17:29:53,212:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-26 17:29:53,216:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-26 17:29:53,216:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:29:53,216:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-26 17:29:53,216:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-26 17:29:53,216:DEBUG:Adding transaction 4
+2021-08-26 17:29:53,216:DEBUG:Getting transaction 4
+2021-08-26 17:29:53,217:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-26 17:29:53,217:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:29:53,217:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:29:53,219:INFO:ini file printed
+2021-08-26 17:29:53,220:INFO:clear done
+2021-08-26 17:29:53,221:INFO:disconnect done
+2021-08-26 17:29:53,221:INFO:clear Modbus ip done
+2021-08-26 17:29:53,222:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 17:29:53,241:INFO:sectionEMU-B20MC-1
+2021-08-26 17:29:53,249:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:29:53,251:INFO:sectionEMU-B20SM-1
+2021-08-26 17:30:07,503:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-26 17:30:07,504:INFO:section :logFTP-1
+2021-08-26 17:30:07,504:INFO:section :logFTP-2
+2021-08-26 17:30:07,504:INFO:section :logFTP-3
+2021-08-26 17:30:07,504:INFO:section :logFTP-4
+2021-08-26 17:30:07,504:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:30:07,505:INFO:clear complete
+2021-08-26 17:30:07,971:INFO:/EMU-B20MC/fw/log
+2021-08-26 17:30:08,103:INFO:/EMU-B20MC/fw
+2021-08-26 17:30:08,433:INFO:download EMU-B20MC.txt done
+2021-08-26 17:30:08,441:INFO:open EMU-B20MC.txt
+2021-08-26 17:33:05,952:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-26 17:33:05,953:INFO:sectionFTP server
+2021-08-26 17:33:05,953:INFO:section invaild
+2021-08-26 17:33:05,953:INFO:sectionEMU-B20MC-init
+2021-08-26 17:33:05,954:INFO:sectionEMU-B20SM-init
+2021-08-26 17:33:05,962:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-26 17:33:05,963:INFO:sectionlog-1
+2021-08-26 17:33:05,963:INFO:sectionlog-2
+2021-08-26 17:33:05,963:INFO:section invaild
+2021-08-26 17:33:05,963:INFO:sectionlog-3
+2021-08-26 17:33:05,963:INFO:section invaild
+2021-08-26 17:33:05,964:INFO:sectionlog-4
+2021-08-26 17:33:05,964:INFO:section invaild
+2021-08-26 17:33:05,974:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-26 17:33:05,974:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-26 17:33:05,974:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-26 17:33:10,252:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-26 17:33:10,254:INFO:write path :INI_config/ini_storage/
+2021-08-26 17:33:10,256:INFO:clear complete
+2021-08-26 17:33:10,690:INFO:/EMU-B20MC/fw/log
+2021-08-26 17:33:10,817:INFO:/EMU-B20MC/fw
+2021-08-26 17:33:11,152:INFO:download EMU-B20MC.txt done
+2021-08-26 17:33:11,154:INFO:open EMU-B20MC.txt

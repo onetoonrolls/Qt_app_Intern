@@ -33,19 +33,28 @@ class commutnicate_app():
         self.FTP_port = Initread[0]["port"]
 
     def setModbus_connect(self,ip): #set ip to connect modbus device from app
-        if(ip == "init"):
+        
+        if(ip == "MC"):
             Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
             Initread = self.command_unpack_json(Initread)
-            for i in range(len(Initread[1])):
+            data = Initread[1]
+            for key in data:
                 #read ip EMUB20MC
-                self.MOd_ip.append(Initread[1]["initip-"+str(i+1)])
-            for i in range(len(Initread[2])):
-                #read ip EMUB20SM
-                self.MOd_ip.append(Initread[2]["initip-"+str(i+1)])
+                self.MOd_ip.append(data[key])
+            self.setDevice_name("EMU-B20MC")
+        elif(ip == "SM"):
+            Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
+            Initread = self.command_unpack_json(Initread)
+            data = Initread[2]
+            for key in data:
+                #read ip EMUB20SC
+                self.MOd_ip.append(data[key])
+            self.setDevice_name("EMU-B20SM")
         elif(type(ip)== int):
             logging.info("ip is int not string")
         else:
             self.MOd_ip.append(ip)
+        
     
     def setDevice_name(self,device_name):
         self.device_name = device_name
@@ -94,17 +103,13 @@ class commutnicate_app():
     
     def getInfo_device(self):
         if(self.type_connection) == "Modbus":
-            mac,ver,status,id = self.client_connect1.get_info_device()
-            # print("\nmac : ",mac)
-            # print("\nversion : ",ver)
-            # print("\nid : ",id)
-            # for i in range(len(status)):
-            #     print("\nstatus "+str(i)+" : ",status[i])
-            # return mac,ver,status,id
+            return self.client_connect1.get_info_device()
         elif(self.type_connection == "MQTT"):
             pass
         else:
             logging.info("type not map, try again!")
+        
+        
 
     def getINI_file(self,readPath):
         self.client_configParser.setPath(readPath,"NULL")
@@ -144,6 +149,8 @@ class commutnicate_app():
                         obj_pack_one = data["FTP server"]
                     elif(i == 1):
                         obj_pack_one = data["EMU-B20MC-init"]
+                    elif(i == 2):
+                        obj_pack_one = data["EMU-B20SM-init"]
                 else:
                     logging.info("cant find topic in data")
                 value.append(obj_pack_one)
@@ -154,7 +161,7 @@ class commutnicate_app():
         self.client_configParser.setPath("NULL",writePath)
         #print(self.dataToINI)
         if(typeSelect == "device"):
-            #self.client_configParser.setDevice_name(self.device_name)
+            self.client_configParser.setDevice_name(self.device_name)
             self.client_configParser.setDevice_info(self.dataToINI[0],self.dataToINI[1],self.dataToINI[2],[self.dataToINI[3],self.dataToINI[4],self.dataToINI[5],self.dataToINI[6]],self.dataToINI[7])
         elif(typeSelect == "log"):
             self.client_configParser.setLog(self.dataToINI[0],self.dataToINI[1],self.dataToINI[2],self.dataToINI[3])
@@ -178,13 +185,16 @@ class commutnicate_app():
     def commamd_complexDeviceINFO(self,type,allIP): #get initIP connect&get device info& print ini
         for ip in allIP:
             statusconnect = self.connnection_brige(type,ip) #connect device
+            print(statusconnect)
             if(statusconnect == "connect"):
                 mac,id,st,ver= self.getInfo_device() #get info
+                
                 self.setPrintData([ip,mac,id,st[0],st[1],st[2],st[3],ver]) #compack info
                 self.command_print_ini("device","INI_config/ini_storage/") #write ini
                 self.disconnect_brige()
             else:
-                logging.info(statusconnect)
+                print(statusconnect)
+        self.setClearMod_ip()
             
 if __name__ == "__main__":
     ip = '*****'
@@ -197,7 +207,17 @@ if __name__ == "__main__":
     data = ["127.0.11.0","11/11/2077","0x0000"]
 
     c = commutnicate_app()
-    c.setDevice_name("EMU-B20MC")
+    #c.setDevice_name("EMU-B20MC")
+    
+    commu = commutnicate_app()
+    #commu.setDevice_name("EMU-B20MC")
+    #commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
+    #commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20SM.ini","INI_config/ini_storage/")
+    commu.setModbus_connect("MC")
+    commu.commamd_complexDeviceINFO("Modbus",commu.getconnectIP())
+    commu.setModbus_connect("SM")
+    commu.commamd_complexDeviceINFO("Modbus",commu.getconnectIP())
+
     #readINI,keyReadINI = c.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
     #print("\nkey INI file : ",keyReadINI)
     #print("\nobj INI file : ",readINI)
@@ -220,18 +240,18 @@ if __name__ == "__main__":
     # c.setModbus_connect()
     # print(c.MOd_ip)
 
-    t = [
-        ['001122334477', '6/8/2021', '17:01:08', 'v0124'],
-        ['4E445211103E', '6/8/2021', '16:45:05', 'v0124'],
-        ['4E445211103E', '6/8/2021', '16:50:14', 'v0124']
-    ]
-    for i in t:
+    # t = [
+    #     ['001122334477', '6/8/2021', '17:01:08', 'v0124'],
+    #     ['4E445211103E', '6/8/2021', '16:45:05', 'v0124'],
+    #     ['4E445211103E', '6/8/2021', '16:50:14', 'v0124']
+    #]
+    #for i in t:
     #     # print(i[0])
     #     # print(i[1])
     #     # print(i[2])
     #     # print(i[3])
-        c.setPrintData(i)
-        c.command_print_ini("logFTP","INI_config/ini_storage/")
+        # c.setPrintData(i)
+        # c.command_print_ini("logFTP","INI_config/ini_storage/")
     
     # Table_data,Table_head = c.getINI_file("INI_config/ini_storage/logFTP.ini")
     # list_obj= c.command_unpack_json(Table_data)

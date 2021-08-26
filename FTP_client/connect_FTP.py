@@ -114,8 +114,10 @@ class FTP_client():
         
         for i in range(len(date)):  
             date_T = date[i].split("T")
+            print(date_T)
             #match data with topic in object form
             time = date_T[1][0:2]+":"+date_T[1][2:4]+":"+date_T[1][4:6]
+            
             day = date_T[0][7:8]
             month = date_T[0][5:6]
             year = date_T[0][0:4]

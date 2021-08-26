@@ -46,6 +46,8 @@ class Modbus_connect():
             return "normal"
         elif(stu == hex(99)):
             return "abnormal"
+        else:
+            return "None"
 
     def uppercase_string(self,word):
         NWord =""
@@ -112,9 +114,12 @@ if __name__ == "__main__":
     
     path = '/ini/EMU-B20MC'
     #connect client
-    ip = '172.16.5.129'
+    
     
     M = Modbus_connect()
+    print(M.connect_client("172.16.5.148"))
+    print(M.get_info_device())
+    #print(M.connect_client("172.16.5.65"))
     # print(M.connect_client(ip)) #test status connect
     # #test read
     # #mac = M.mac_read()

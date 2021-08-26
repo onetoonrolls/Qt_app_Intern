@@ -187,7 +187,6 @@ class Connect_page(QObject):
         self.commu.setFTP_connect()
         self.commu.connection_FTP()
         
-
     def listSetData(self,type):
         num = ""
         if(type == "hour"):
@@ -353,11 +352,12 @@ class Connect_page(QObject):
     @Slot(bool)
     def refreshmentTable(self, isState): #refresh table
         #fetch newdata from device section
-        # self.commu.setDevice_name("EMU-B20MC")
-        # self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
-        # self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20SM.ini","INI_config/ini_storage/")
-        # self.commu.setModbus_connect("init")
-        #self.commu.commamd_complexDeviceINFO("Modbus",self.commu.getconnectIP())
+        self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
+        self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20SM.ini","INI_config/ini_storage/")
+        self.commu.setModbus_connect("MC")
+        self.commu.commamd_complexDeviceINFO("Modbus",self.commu.getconnectIP())
+        self.commu.setModbus_connect("SM")
+        self.commu.commamd_complexDeviceINFO("Modbus",self.commu.getconnectIP())
 
         #read data from ini file section
         self.devicecData = self.devicecData.iloc[0:0] #clear old data
