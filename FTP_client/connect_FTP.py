@@ -2,6 +2,7 @@ from datetime import time
 from ftplib import FTP
 import json
 import logging
+import os
 
 class FTP_client():
 
@@ -21,10 +22,10 @@ class FTP_client():
     def check_file(self,check_word): #check name file return boolean
         for listword in self.list_all_file():
             if(listword.find(check_word) == -1):
-                print("file not exist")
+                #print(check_word+" not exist")
                 return False
             else :
-                print("file exist")
+                #print(check_word+" exist")
                 return True
 
     def search_file(self,check_word): #check& find name file retrun list or string
@@ -54,31 +55,38 @@ class FTP_client():
         logging.info(self.client_FTP.pwd())
     
     def read_file(self,namefile): #read file in desktop path
-        with open(self.Path_Download+namefile,'rb') as file:
+        with open(os.path.abspath(self.Path_Download+namefile),'rb') as file:
             logging.info("open "+namefile)
             return file.read()
 
     def back_to_root(self): #move to root path server
         self.client_FTP.cwd("/")
 
-    def download_file(self,filename,path): #download file from sever
+    def download_file(self,detail_name,filename,path): #download file from sever
         write_file = path+filename
-        with open(write_file, "wb") as file:
+        #print(write_file)
+        with open(os.path.abspath(write_file), "wb") as file:
             # use FTP's RETR command to download the file
-            self.client_FTP.retrbinary(f"RETR {filename}", file.write)
+            self.client_FTP.retrbinary(f"RETR {detail_name}", file.write)
         logging.info("download "+filename+" done")
 
-    def check_firmware_ver_server(self): #check update firmware from detail.txt in server
+    def check_firmware_ver_server(self,device_name): #check update firmware from detail.txt in server
         self.back_to_root() #reset path server
-        self.Path_Download = "Test_server_client/transfer_file_log/"
+        self.Path_Download = "FTP_client/transfer_file_log/"
         detail_name = "detail.txt"
         self.path_folder_server("/"+device_name+"/fw")
+        #print(self.check_path())
+        #print(self.list_all_file())
         if(self.check_file(detail_name)):
-            self.download_file(detail_name,self.Path_Download)
-            detail = self.read_file(detail_name)
+            self.download_file(detail_name,device_name+".txt",self.Path_Download)
+            detail = self.read_file(device_name+".txt")
             detail = json.loads(detail) #search info in detail.txt 
             least_version = detail["fw-ver"]
-            return str(least_version)
+        else:
+            detail = self.read_file(device_name+".txt")
+            detail = json.loads(detail) #search info in detail.txt 
+            least_version = detail["fw-ver"]
+        return str(least_version)
 
     def check_log(self,device_name): #check log update firmware in server
         self.back_to_root()
@@ -88,9 +96,8 @@ class FTP_client():
         self.path_folder_server("/"+device_name+"/fw/log")
         #self.check_path()
         #use for check new version firmware 
-        #if(self.check_file(self.check_firmware_ver_server())):
-            #list_log = self.search_file("_v"+self.check_firmware_ver_server())
-        list_log = self.search_file("v0124")
+        list_log = self.search_file("_v"+self.check_firmware_ver_server(device_name))
+        #list_log = self.search_file("v0124")
         #print("list log:",list_log)
         for i in range(len(list_log)):
             detail_log = list_log[i].split("_")
@@ -138,8 +145,10 @@ if __name__ == "__main__":
     #client_FTP.setdefaultvalue()
     client_FTP.connect(ip,user,pws)
     # client_FTP.change_type_object()
-    #firmware_ver = client_FTP.check_firmware_ver_server()
-    #print(firmware_ver)
+    firmware_ver = client_FTP.check_firmware_ver_server("EMU-B20MC")
+    print(firmware_ver)
+    firmware_ver = client_FTP.check_firmware_ver_server("EMU-B20SM")
+    print(firmware_ver)
     #client_FTP.check_path()
     '''
     mac,date = client_FTP.check_log(device_name)
@@ -151,10 +160,11 @@ if __name__ == "__main__":
     
     client_FTP.check_path()
     '''
-    lis,topic= client_FTP.sort_detail("EMU-B20MC")
-    print(lis)
-    lis,topic= client_FTP.sort_detail("EMU-B20SM")
-    print(lis)
+    # lis,topic= client_FTP.sort_detail("EMU-B20MC")
+    # print(lis)
+    # lis,topic= client_FTP.sort_detail("EMU-B20SM")
+    # print(lis)
+
     client_FTP.disconnect()
     
 

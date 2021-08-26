@@ -1322,3 +1322,55 @@
 2021-08-24 16:04:43,751:INFO:file name : INI_config/ini_storage/initConfig.ini
 2021-08-24 16:04:43,755:INFO:ini file printed
 2021-08-24 16:04:43,756:INFO:clear done
+2021-08-25 15:32:21,380:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-25 15:32:21,384:INFO:sectionFTP server
+2021-08-25 15:32:21,384:INFO:section invaild
+2021-08-25 15:32:21,384:INFO:sectionEMU-B20MC-init
+2021-08-25 15:32:21,384:INFO:sectionEMU-B20SM-init
+2021-08-25 15:32:21,388:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-25 15:32:21,389:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-25 15:32:21,393:INFO:sectionlogFTP-1
+2021-08-25 15:32:21,393:INFO:sectionlogFTP-2
+2021-08-25 15:32:21,393:INFO:sectionlogFTP-3
+2021-08-25 15:32:21,393:INFO:sectionlogFTP-4
+2021-08-25 15:32:21,402:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-25 15:32:21,406:INFO:sectionEMU-B20MC-1
+2021-08-25 15:32:21,406:INFO:sectionEMU-B20MC-2
+2021-08-25 15:32:21,410:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-25 16:36:47,509:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-25 16:36:47,510:INFO:sectionFTP server
+2021-08-25 16:36:47,510:INFO:section invaild
+2021-08-25 16:36:47,510:INFO:sectionEMU-B20MC-init
+2021-08-25 16:36:47,510:INFO:sectionEMU-B20SM-init
+2021-08-25 16:36:47,516:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-25 16:36:47,516:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-25 16:36:47,517:INFO:sectionlogFTP-1
+2021-08-25 16:36:47,517:INFO:sectionlogFTP-2
+2021-08-25 16:36:47,517:INFO:sectionlogFTP-3
+2021-08-25 16:36:47,517:INFO:sectionlogFTP-4
+2021-08-25 16:36:47,527:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-25 16:36:47,527:INFO:sectionEMU-B20MC-1
+2021-08-25 16:36:47,527:INFO:sectionEMU-B20MC-2
+2021-08-25 16:36:47,533:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-25 16:38:04,677:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-25 16:38:04,677:INFO:sectionFTP server
+2021-08-25 16:38:04,677:INFO:section invaild
+2021-08-25 16:38:04,677:INFO:sectionEMU-B20MC-init
+2021-08-25 16:38:04,677:INFO:sectionEMU-B20SM-init
+2021-08-25 16:38:04,680:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-25 16:38:04,685:INFO:sectionlog-1
+2021-08-25 16:38:04,685:INFO:sectionlog-2
+2021-08-25 16:38:04,685:INFO:section invaild
+2021-08-25 16:38:04,685:INFO:sectionlog-3
+2021-08-25 16:38:04,685:INFO:section invaild
+2021-08-25 16:38:04,685:INFO:sectionlog-4
+2021-08-25 16:38:04,685:INFO:section invaild
+2021-08-25 16:38:04,692:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-25 16:38:04,692:INFO:sectionlogFTP-1
+2021-08-25 16:38:04,692:INFO:sectionlogFTP-2
+2021-08-25 16:38:04,692:INFO:sectionlogFTP-3
+2021-08-25 16:38:04,692:INFO:sectionlogFTP-4
+2021-08-25 16:38:04,700:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-25 16:38:04,700:INFO:sectionEMU-B20MC-1
+2021-08-25 16:38:04,700:INFO:sectionEMU-B20MC-2
+2021-08-25 16:38:04,703:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
