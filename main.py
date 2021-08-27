@@ -329,25 +329,31 @@ class Connect_page(QObject):
         self.commu.conmmand_clearINI("logFTP","INI_config/ini_storage/logFTP.ini","INI_config/ini_storage/")
         self.commu.connection_FTP()
         self.commu.setDevice_name("EMU-B20MC")
-        MC,topic =self.commu.getlogFTP() 
+        MC,topicMC =self.commu.getlogFTP() 
         self.commu.setDevice_name("EMU-B20SM")
-        SM,topic =self.commu.getlogFTP()
+        SM,topicSM =self.commu.getlogFTP()
         self.commu.disconnect_FTP()
         #write section
-        for i in MC:
-            self.commu.setPrintData(i)
-            self.commu.command_print_ini("logFTP","INI_config/ini_storage/")
-        for i in SM:
-            self.commu.setPrintData(i)
-            self.commu.command_print_ini("logFTP","INI_config/ini_storage/")
-        #read section
-        self.logData = self.logData.iloc[0:0]
-        self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/logFTP.ini")
-        self.list_obj = self.commu.command_unpack_json(self.Table_data)
-        self.tableSetData("logFTP",self.list_obj)
-        self.logTable._data = self.logData
-        self.logTable.layoutChanged.emit()
-        self.setContexNoti.emit("update log FTP table")
+        if(topicMC =="not found" or topicSM =="not found"):
+            self.setContexNoti.emit("not found log")
+        else:
+            if(topicMC !="not found"):
+                for i in MC:
+                    self.commu.setPrintData(i)
+                    self.commu.command_print_ini("logFTP","INI_config/ini_storage/")
+            elif(topicSM !="not found"):
+                for i in SM:
+                    self.commu.setPrintData(i)
+                    self.commu.command_print_ini("logFTP","INI_config/ini_storage/")
+            #read section
+
+            self.logData = self.logData.iloc[0:0]
+            self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/logFTP.ini")
+            self.list_obj = self.commu.command_unpack_json(self.Table_data)
+            self.tableSetData("logFTP",self.list_obj)
+            self.logTable._data = self.logData
+            self.logTable.layoutChanged.emit()
+            self.setContexNoti.emit("update log FTP table")
 
     @Slot(bool)
     def refreshmentTable(self, isState): #refresh table

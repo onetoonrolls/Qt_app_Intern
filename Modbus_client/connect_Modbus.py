@@ -117,7 +117,7 @@ if __name__ == "__main__":
     
     
     M = Modbus_connect()
-    print(M.connect_client("172.16.5.148"))
+    print(M.connect_client("**"))
     print(M.get_info_device())
     #print(M.connect_client("172.16.5.65"))
     # print(M.connect_client(ip)) #test status connect

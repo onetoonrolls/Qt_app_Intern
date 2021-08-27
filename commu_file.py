@@ -109,8 +109,6 @@ class commutnicate_app():
         else:
             logging.info("type not map, try again!")
         
-        
-
     def getINI_file(self,readPath):
         self.client_configParser.setPath(readPath,"NULL")
         data,key =self.client_configParser.read_INI_to_Json()

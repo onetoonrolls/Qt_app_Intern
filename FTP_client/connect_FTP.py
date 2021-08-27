@@ -92,51 +92,60 @@ class FTP_client():
         self.back_to_root()
         mac = []
         date = []
+        L_ver = "v"+self.check_firmware_ver_server(device_name)
+        #L_ver = "v0124"
         #self.check_path()
+        self.back_to_root()
         self.path_folder_server("/"+device_name+"/fw/log")
         #self.check_path()
         #use for check new version firmware 
-        list_log = self.search_file("_v"+self.check_firmware_ver_server(device_name))
+        
+        list_log = self.search_file(L_ver)
         #list_log = self.search_file("v0124")
-        #print("list log:",list_log)
-        for i in range(len(list_log)):
-            detail_log = list_log[i].split("_")
-            mac.append(detail_log[0])
-            date.append(detail_log[1])
-       
-        return mac,date,detail_log[2]
+        if(list_log == []):
+            return mac,date,"not found"
+           # print("list log:",list_log)
+        else:
+            for i in range(len(list_log)):
+                detail_log = list_log[i].split("_")
+                mac.append(detail_log[0])
+                date.append(detail_log[1])
+            return mac,date,detail_log[2]
     
     def sort_detail(self,device_name): #use check log  to classify data to object form
         mac,date,ver = self.check_log(device_name)
+        
         ojb_one =[]
         list_obj = []
-        key_json = [{"mac","date","time","ver"}] #edit after change stackture ojb
-        
-        for i in range(len(date)):  
-            date_T = date[i].split("T")
-            print(date_T)
-            #match data with topic in object form
-            time = date_T[1][0:2]+":"+date_T[1][2:4]+":"+date_T[1][4:6]
-            
-            day = date_T[0][7:8]
-            month = date_T[0][5:6]
-            year = date_T[0][0:4]
-            ver = ver[0:5]
+        if(ver == "not found"):
+            return [],ver
+        else:
+            key_json = [{"mac","date","time","ver"}] #edit after change stackture ojb
+            for i in range(len(date)):  
+                date_T = date[i].split("T")
+                
+                #match data with topic in object form
+                time = date_T[1][0:2]+":"+date_T[1][2:4]+":"+date_T[1][4:6]
+                
+                day = date_T[0][7:8]
+                month = date_T[0][5:6]
+                year = date_T[0][0:4]
+                ver = ver[0:5]
 
-            ojb_one.append(mac[i])
-            ojb_one.append(day+"/"+month+"/"+year) 
-            ojb_one.append(time)  
-            ojb_one.append(ver)
-            list_obj.append(ojb_one) #store info in list from
-            ojb_one = []
-        return list_obj,key_json
+                ojb_one.append(mac[i])
+                ojb_one.append(day+"/"+month+"/"+year) 
+                ojb_one.append(time)  
+                ojb_one.append(ver)
+                list_obj.append(ojb_one) #store info in list from
+                ojb_one = []
+            return list_obj,key_json
         
 if __name__ == "__main__":
 
     #default setting
-    ip = '128.199.174.101'
-    user = 'ndrs-es'
-    pws = 'XitoYjzR'
+    ip = '*'
+    user = '*'
+    pws = '*'
     device_name = "EMU-B20MC"
     Path_Download = "../transfer_file_log/"
     Path_server = "/"+device_name+"/fw/log"
@@ -147,10 +156,11 @@ if __name__ == "__main__":
     #client_FTP.setdefaultvalue()
     client_FTP.connect(ip,user,pws)
     # client_FTP.change_type_object()
-    firmware_ver = client_FTP.check_firmware_ver_server("EMU-B20MC")
-    print(firmware_ver)
-    firmware_ver = client_FTP.check_firmware_ver_server("EMU-B20SM")
-    print(firmware_ver)
+    #print(client_FTP.check_firmware_ver_server("EMU-B20MC"))
+    #firmware_ver = client_FTP.sort_detail("EMU-B20MC")
+    #print(firmware_ver)
+    # firmware_ver = client_FTP.sort_detail("EMU-B20SM")
+    # print(firmware_ver)
     #client_FTP.check_path()
     '''
     mac,date = client_FTP.check_log(device_name)
