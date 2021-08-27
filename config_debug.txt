@@ -3867,3 +3867,19 @@
 2021-08-27 12:15:55,944:INFO:download EMU-B20SM.txt done
 2021-08-27 12:15:55,948:INFO:open EMU-B20SM.txt
 2021-08-27 12:15:56,157:INFO:/EMU-B20SM/fw/log
+2021-08-27 12:23:46,666:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 12:23:46,666:INFO:sectionFTP server
+2021-08-27 12:23:46,666:INFO:section invaild
+2021-08-27 12:23:46,666:INFO:sectionEMU-B20MC-init
+2021-08-27 12:23:46,666:INFO:sectionEMU-B20SM-init
+2021-08-27 12:23:46,669:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 12:23:46,670:INFO:sectionlog-1
+2021-08-27 12:23:46,670:INFO:sectionlog-2
+2021-08-27 12:23:46,670:INFO:section invaild
+2021-08-27 12:23:46,670:INFO:sectionlog-3
+2021-08-27 12:23:46,670:INFO:section invaild
+2021-08-27 12:23:46,670:INFO:sectionlog-4
+2021-08-27 12:23:46,670:INFO:section invaild
+2021-08-27 12:23:46,676:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 12:23:46,676:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 12:23:46,677:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini

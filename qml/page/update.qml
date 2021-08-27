@@ -198,7 +198,7 @@ Item {
 
         Rectangle {
             id: deviceTable
-            height: 217
+            height: 190
             color: "#00000000"
             anchors.left: parent.left
             anchors.right: parent.right
@@ -281,7 +281,7 @@ Item {
             id: notiTable
             y: notiTable.y
             width: 1264
-            height: 200
+            height: 180
             color: "#00000000"
             border.color: "#00000000"
             anchors.left: parent.left
@@ -350,7 +350,7 @@ Item {
             Rectangle {
                 id: selectDevice
                 x: 0
-                width: 450
+                width: 425
                 height: 200
                 color: "#00000000"
                 border.color: "#00000000"
@@ -445,7 +445,7 @@ Item {
 
             Rectangle {
                 id: typeCheck
-                width: 378
+                width: 301
                 height: 170
                 color: "#00000000"
                 border.color: "#00000000"
@@ -590,6 +590,7 @@ Item {
                         id: checktimer
                         anchors.left: parent.left
                         anchors.top: parent.top
+                        checked: false
                         anchors.leftMargin: 5
                         anchors.topMargin: 0
                         onCheckedChanged: {
@@ -637,8 +638,8 @@ Item {
 
                     Frame {
                         id: frame
-                        width: timer.width
-                        height: timer.height
+                        width: 250
+                        height: 152
                         padding: 0
                     }
 
@@ -700,6 +701,6 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.66}
+    D{i:0;formeditorZoom:0.5}D{i:60}
 }
 ##^##*/
