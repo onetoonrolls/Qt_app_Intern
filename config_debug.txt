@@ -3883,3 +3883,844 @@
 2021-08-27 12:23:46,676:INFO:current read file: INI_config/ini_storage/logFTP.ini
 2021-08-27 12:23:46,676:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
 2021-08-27 12:23:46,677:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 14:54:05,750:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 14:54:05,765:INFO:sectionFTP server
+2021-08-27 14:54:05,765:INFO:section invaild
+2021-08-27 14:54:05,781:INFO:sectionEMU-B20MC-init
+2021-08-27 14:54:05,781:INFO:sectionEMU-B20SM-init
+2021-08-27 14:54:05,781:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 14:54:05,781:INFO:sectionFTP server
+2021-08-27 14:54:05,781:INFO:section invaild
+2021-08-27 14:54:05,781:INFO:sectionEMU-B20MC-init
+2021-08-27 14:54:05,781:INFO:sectionEMU-B20SM-init
+2021-08-27 14:54:05,812:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 49333)
+2021-08-27 14:54:05,812:DEBUG:Current transaction state - IDLE
+2021-08-27 14:54:05,812:DEBUG:Running transaction 1
+2021-08-27 14:55:21,255:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 14:55:21,256:INFO:sectionFTP server
+2021-08-27 14:55:21,256:INFO:section invaild
+2021-08-27 14:55:21,256:INFO:sectionEMU-B20MC-init
+2021-08-27 14:55:21,256:INFO:sectionEMU-B20SM-init
+2021-08-27 14:55:21,256:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 14:55:21,257:INFO:sectionFTP server
+2021-08-27 14:55:21,257:INFO:section invaild
+2021-08-27 14:55:21,257:INFO:sectionEMU-B20MC-init
+2021-08-27 14:55:21,257:INFO:sectionEMU-B20SM-init
+2021-08-27 14:55:21,290:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 49344)
+2021-08-27 14:55:21,290:INFO:disconnect done
+2021-08-27 15:19:18,316:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 15:19:18,317:INFO:sectionFTP server
+2021-08-27 15:19:18,317:INFO:section invaild
+2021-08-27 15:19:18,318:INFO:sectionEMU-B20MC-init
+2021-08-27 15:19:18,318:INFO:sectionEMU-B20SM-init
+2021-08-27 15:19:18,318:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 15:19:18,319:INFO:sectionFTP server
+2021-08-27 15:19:18,319:INFO:section invaild
+2021-08-27 15:19:18,320:INFO:sectionEMU-B20MC-init
+2021-08-27 15:19:18,320:INFO:sectionEMU-B20SM-init
+2021-08-27 15:19:21,123:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 63921)
+2021-08-27 15:19:21,123:DEBUG:Current transaction state - IDLE
+2021-08-27 15:19:21,123:DEBUG:Running transaction 1
+2021-08-27 15:19:21,123:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x10 0x1 0xf 0x0 0x1 0x2 0x0 0x1
+2021-08-27 15:19:21,123:DEBUG:New Transaction state 'SENDING'
+2021-08-27 15:19:21,123:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 15:19:21,134:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 15:19:21,134:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x10 0x1 0xf 0x0 0x1
+2021-08-27 15:19:21,134:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x10 0x1 0xf 0x0 0x1
+2021-08-27 15:19:21,134:DEBUG:Factory Response[WriteMultipleRegistersResponse: 16]
+2021-08-27 15:19:21,135:DEBUG:Adding transaction 1
+2021-08-27 15:19:21,135:DEBUG:Getting transaction 1
+2021-08-27 15:19:21,135:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 15:19:21,135:INFO:current updating ....
+2021-08-27 15:19:21,135:INFO:disconnect done
+2021-08-27 15:26:04,200:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 15:26:04,200:INFO:sectionFTP server
+2021-08-27 15:26:04,200:INFO:section invaild
+2021-08-27 15:26:04,200:INFO:sectionEMU-B20MC-init
+2021-08-27 15:26:04,200:INFO:sectionEMU-B20SM-init
+2021-08-27 15:26:04,200:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 15:26:04,200:INFO:sectionFTP server
+2021-08-27 15:26:04,200:INFO:section invaild
+2021-08-27 15:26:04,200:INFO:sectionEMU-B20MC-init
+2021-08-27 15:26:04,200:INFO:sectionEMU-B20SM-init
+2021-08-27 15:26:04,492:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 49377)
+2021-08-27 15:26:04,492:DEBUG:Current transaction state - IDLE
+2021-08-27 15:26:04,492:DEBUG:Running transaction 1
+2021-08-27 15:26:04,492:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x10 0x1 0xf 0x0 0x1 0x2 0x0 0x1
+2021-08-27 15:26:04,492:DEBUG:New Transaction state 'SENDING'
+2021-08-27 15:26:04,492:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 15:26:04,496:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 15:26:04,496:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x10 0x1 0xf 0x0 0x1
+2021-08-27 15:26:04,496:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x10 0x1 0xf 0x0 0x1
+2021-08-27 15:26:04,496:DEBUG:Factory Response[WriteMultipleRegistersResponse: 16]
+2021-08-27 15:26:04,497:DEBUG:Adding transaction 1
+2021-08-27 15:26:04,497:DEBUG:Getting transaction 1
+2021-08-27 15:26:04,497:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 15:26:04,497:INFO:current updating ....
+2021-08-27 15:26:04,497:INFO:disconnect done
+2021-08-27 15:27:28,499:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 15:27:28,499:INFO:sectionFTP server
+2021-08-27 15:27:28,499:INFO:section invaild
+2021-08-27 15:27:28,499:INFO:sectionEMU-B20MC-init
+2021-08-27 15:27:28,499:INFO:sectionEMU-B20SM-init
+2021-08-27 15:27:28,499:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 15:27:28,499:INFO:sectionFTP server
+2021-08-27 15:27:28,499:INFO:section invaild
+2021-08-27 15:27:28,499:INFO:sectionEMU-B20MC-init
+2021-08-27 15:27:28,499:INFO:sectionEMU-B20SM-init
+2021-08-27 15:27:31,525:ERROR:Connection to (172.16.5.148, 502) failed: timed out
+2021-08-27 15:29:54,888:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 15:29:54,889:INFO:sectionFTP server
+2021-08-27 15:29:54,889:INFO:section invaild
+2021-08-27 15:29:54,890:INFO:sectionEMU-B20MC-init
+2021-08-27 15:29:54,890:INFO:sectionEMU-B20SM-init
+2021-08-27 15:29:54,890:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 15:29:54,891:INFO:sectionFTP server
+2021-08-27 15:29:54,891:INFO:section invaild
+2021-08-27 15:29:54,891:INFO:sectionEMU-B20MC-init
+2021-08-27 15:29:54,891:INFO:sectionEMU-B20SM-init
+2021-08-27 15:29:55,227:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 49411)
+2021-08-27 15:29:55,228:INFO:disconnect done
+2021-08-27 15:29:55,233:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 49412)
+2021-08-27 15:29:55,234:INFO:disconnect done
+2021-08-27 15:30:15,883:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 15:30:15,883:INFO:sectionFTP server
+2021-08-27 15:30:15,883:INFO:section invaild
+2021-08-27 15:30:15,883:INFO:sectionEMU-B20MC-init
+2021-08-27 15:30:15,883:INFO:sectionEMU-B20SM-init
+2021-08-27 15:30:15,899:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 15:30:15,899:INFO:sectionFTP server
+2021-08-27 15:30:15,899:INFO:section invaild
+2021-08-27 15:30:15,899:INFO:sectionEMU-B20MC-init
+2021-08-27 15:30:15,899:INFO:sectionEMU-B20SM-init
+2021-08-27 15:30:15,914:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 49419)
+2021-08-27 15:30:15,914:INFO:disconnect done
+2021-08-27 15:30:15,914:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 49420)
+2021-08-27 15:30:15,918:INFO:disconnect done
+2021-08-27 16:11:46,128:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 16:11:46,128:INFO:sectionFTP server
+2021-08-27 16:11:46,128:INFO:section invaild
+2021-08-27 16:11:46,128:INFO:sectionEMU-B20MC-init
+2021-08-27 16:11:46,128:INFO:sectionEMU-B20SM-init
+2021-08-27 16:11:46,128:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 16:11:46,149:INFO:sectionlog-1
+2021-08-27 16:11:46,149:INFO:sectionlog-2
+2021-08-27 16:11:46,149:INFO:section invaild
+2021-08-27 16:11:46,149:INFO:sectionlog-3
+2021-08-27 16:11:46,149:INFO:section invaild
+2021-08-27 16:11:46,149:INFO:sectionlog-4
+2021-08-27 16:11:46,149:INFO:section invaild
+2021-08-27 16:11:46,164:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 16:11:46,165:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 16:11:46,166:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:12:14,726:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 16:12:14,727:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:12:14,727:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:12:14,728:INFO:clear complete
+2021-08-27 16:12:14,728:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:12:14,729:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:12:14,729:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:12:14,730:INFO:clear complete
+2021-08-27 16:12:14,730:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 16:12:14,731:INFO:sectionFTP server
+2021-08-27 16:12:14,731:INFO:section invaild
+2021-08-27 16:12:14,732:INFO:sectionEMU-B20MC-init
+2021-08-27 16:12:14,732:INFO:sectionEMU-B20SM-init
+2021-08-27 16:12:14,732:INFO:clear Modbus ip done
+2021-08-27 16:12:14,732:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 16:12:14,733:INFO:sectionFTP server
+2021-08-27 16:12:14,733:INFO:section invaild
+2021-08-27 16:12:14,734:INFO:sectionEMU-B20MC-init
+2021-08-27 16:12:14,734:INFO:sectionEMU-B20SM-init
+2021-08-27 16:12:14,818:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 65329)
+2021-08-27 16:12:14,818:DEBUG:Current transaction state - IDLE
+2021-08-27 16:12:14,819:DEBUG:Running transaction 1
+2021-08-27 16:12:14,819:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-27 16:12:14,819:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:12:14,819:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:12:14,822:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:12:14,822:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-27 16:12:14,822:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-27 16:12:14,823:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-27 16:12:14,823:DEBUG:Adding transaction 1
+2021-08-27 16:12:14,823:DEBUG:Getting transaction 1
+2021-08-27 16:12:14,823:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:12:14,823:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:12:14,823:DEBUG:Running transaction 2
+2021-08-27 16:12:14,823:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-27 16:12:14,823:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:12:14,823:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:12:14,826:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:12:14,826:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-27 16:12:14,826:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-27 16:12:14,826:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:12:14,826:DEBUG:Adding transaction 2
+2021-08-27 16:12:14,826:DEBUG:Getting transaction 2
+2021-08-27 16:12:14,826:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:12:14,826:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:12:14,826:DEBUG:Running transaction 3
+2021-08-27 16:12:14,827:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-27 16:12:14,827:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:12:14,827:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:12:14,829:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:12:14,829:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-27 16:12:14,829:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-27 16:12:14,829:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:12:14,829:DEBUG:Adding transaction 3
+2021-08-27 16:12:14,829:DEBUG:Getting transaction 3
+2021-08-27 16:12:14,829:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:12:14,829:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:12:14,829:DEBUG:Running transaction 4
+2021-08-27 16:12:14,830:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-27 16:12:14,830:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:12:14,830:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:12:14,832:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:12:14,832:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-27 16:12:14,833:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-27 16:12:14,833:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:12:14,833:DEBUG:Adding transaction 4
+2021-08-27 16:12:14,833:DEBUG:Getting transaction 4
+2021-08-27 16:12:14,833:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:12:14,833:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:12:14,833:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:12:14,835:INFO:ini file printed
+2021-08-27 16:12:14,835:INFO:clear done
+2021-08-27 16:12:14,836:INFO:disconnect done
+2021-08-27 16:12:14,836:INFO:clear Modbus ip done
+2021-08-27 16:12:14,839:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 16:12:14,841:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:12:14,854:INFO:sectionEMU-B20SM-1
+2021-08-27 16:12:31,568:INFO:IP rev.
+2021-08-27 16:12:31,581:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:12:31,581:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-27 16:12:31,585:INFO:ini file printed
+2021-08-27 16:12:31,587:INFO:clear done
+2021-08-27 16:27:49,056:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 16:27:49,056:INFO:sectionFTP server
+2021-08-27 16:27:49,056:INFO:section invaild
+2021-08-27 16:27:49,056:INFO:sectionEMU-B20MC-init
+2021-08-27 16:27:49,056:INFO:sectionEMU-B20SM-init
+2021-08-27 16:27:49,056:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 16:27:49,071:INFO:sectionlog-1
+2021-08-27 16:27:49,071:INFO:sectionlog-2
+2021-08-27 16:27:49,071:INFO:section invaild
+2021-08-27 16:27:49,071:INFO:sectionlog-3
+2021-08-27 16:27:49,071:INFO:section invaild
+2021-08-27 16:27:49,071:INFO:sectionlog-4
+2021-08-27 16:27:49,071:INFO:section invaild
+2021-08-27 16:27:49,071:INFO:sectionlog-5
+2021-08-27 16:27:49,071:INFO:section invaild
+2021-08-27 16:27:49,087:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 16:27:49,087:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 16:27:49,087:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:27:49,087:INFO:sectionEMU-B20SM-1
+2021-08-27 16:28:03,370:INFO:IP rev.
+2021-08-27 16:28:03,372:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:28:03,373:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-27 16:28:03,375:INFO:ini file printed
+2021-08-27 16:28:03,376:INFO:clear done
+2021-08-27 16:28:06,395:ERROR:Connection to (172.16.5.65, 502) failed: timed out
+2021-08-27 16:28:06,395:INFO:timer done
+2021-08-27 16:35:27,328:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 16:35:27,329:INFO:sectionFTP server
+2021-08-27 16:35:27,330:INFO:section invaild
+2021-08-27 16:35:27,330:INFO:sectionEMU-B20MC-init
+2021-08-27 16:35:27,330:INFO:sectionEMU-B20SM-init
+2021-08-27 16:35:27,336:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 16:35:27,345:INFO:sectionlog-1
+2021-08-27 16:35:27,345:INFO:sectionlog-2
+2021-08-27 16:35:27,345:INFO:section invaild
+2021-08-27 16:35:27,346:INFO:sectionlog-3
+2021-08-27 16:35:27,346:INFO:section invaild
+2021-08-27 16:35:27,346:INFO:sectionlog-4
+2021-08-27 16:35:27,346:INFO:section invaild
+2021-08-27 16:35:27,346:INFO:sectionlog-5
+2021-08-27 16:35:27,346:INFO:section invaild
+2021-08-27 16:35:27,346:INFO:sectionlog-6
+2021-08-27 16:35:27,346:INFO:section invaild
+2021-08-27 16:35:27,361:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 16:35:27,361:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 16:35:27,362:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:35:27,362:INFO:sectionEMU-B20SM-1
+2021-08-27 16:37:19,095:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 16:37:19,095:INFO:sectionFTP server
+2021-08-27 16:37:19,095:INFO:section invaild
+2021-08-27 16:37:19,095:INFO:sectionEMU-B20MC-init
+2021-08-27 16:37:19,095:INFO:sectionEMU-B20SM-init
+2021-08-27 16:37:19,095:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 16:37:19,095:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 16:37:19,095:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 16:37:19,095:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:37:19,095:INFO:sectionEMU-B20SM-1
+2021-08-27 16:37:22,867:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 16:37:22,867:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:37:22,867:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:37:22,868:INFO:clear complete
+2021-08-27 16:37:22,869:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:37:22,869:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:37:22,869:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:37:22,870:INFO:clear complete
+2021-08-27 16:37:22,870:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 16:37:22,871:INFO:sectionFTP server
+2021-08-27 16:37:22,871:INFO:section invaild
+2021-08-27 16:37:22,871:INFO:sectionEMU-B20MC-init
+2021-08-27 16:37:22,871:INFO:sectionEMU-B20SM-init
+2021-08-27 16:37:23,173:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 60723)
+2021-08-27 16:37:23,174:DEBUG:Current transaction state - IDLE
+2021-08-27 16:37:23,174:DEBUG:Running transaction 1
+2021-08-27 16:37:23,174:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-27 16:37:23,174:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,174:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,176:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,177:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x4e 0x44 0x52 0x11 0x10 0x3e
+2021-08-27 16:37:23,177:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x4e 0x44 0x52 0x11 0x10 0x3e
+2021-08-27 16:37:23,177:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-27 16:37:23,177:DEBUG:Adding transaction 1
+2021-08-27 16:37:23,177:DEBUG:Getting transaction 1
+2021-08-27 16:37:23,177:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,177:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:37:23,177:DEBUG:Running transaction 2
+2021-08-27 16:37:23,177:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-27 16:37:23,177:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,178:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,180:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,180:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x1
+2021-08-27 16:37:23,180:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x1
+2021-08-27 16:37:23,180:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:37:23,180:DEBUG:Adding transaction 2
+2021-08-27 16:37:23,180:DEBUG:Getting transaction 2
+2021-08-27 16:37:23,180:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,180:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:37:23,180:DEBUG:Running transaction 3
+2021-08-27 16:37:23,180:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-27 16:37:23,181:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,181:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,183:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,183:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-27 16:37:23,184:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-27 16:37:23,184:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:37:23,184:DEBUG:Adding transaction 3
+2021-08-27 16:37:23,184:DEBUG:Getting transaction 3
+2021-08-27 16:37:23,184:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,185:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:37:23,185:DEBUG:Running transaction 4
+2021-08-27 16:37:23,185:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-27 16:37:23,186:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,186:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,193:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,193:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-27 16:37:23,193:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-27 16:37:23,194:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:37:23,194:DEBUG:Adding transaction 4
+2021-08-27 16:37:23,194:DEBUG:Getting transaction 4
+2021-08-27 16:37:23,194:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,195:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:37:23,195:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 16:37:23,198:INFO:ini file printed
+2021-08-27 16:37:23,199:INFO:clear done
+2021-08-27 16:37:23,199:INFO:disconnect done
+2021-08-27 16:37:23,481:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 60724)
+2021-08-27 16:37:23,482:DEBUG:Current transaction state - IDLE
+2021-08-27 16:37:23,482:DEBUG:Running transaction 1
+2021-08-27 16:37:23,482:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-27 16:37:23,483:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,483:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,538:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,538:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-27 16:37:23,539:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x77
+2021-08-27 16:37:23,539:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-27 16:37:23,539:DEBUG:Adding transaction 1
+2021-08-27 16:37:23,539:DEBUG:Getting transaction 1
+2021-08-27 16:37:23,540:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,540:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:37:23,540:DEBUG:Running transaction 2
+2021-08-27 16:37:23,540:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-27 16:37:23,541:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,541:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,543:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,543:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x1
+2021-08-27 16:37:23,543:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x1
+2021-08-27 16:37:23,543:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:37:23,544:DEBUG:Adding transaction 2
+2021-08-27 16:37:23,544:DEBUG:Getting transaction 2
+2021-08-27 16:37:23,544:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,544:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:37:23,545:DEBUG:Running transaction 3
+2021-08-27 16:37:23,545:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-27 16:37:23,545:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,546:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,548:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,549:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-27 16:37:23,549:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x9
+2021-08-27 16:37:23,549:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:37:23,549:DEBUG:Adding transaction 3
+2021-08-27 16:37:23,550:DEBUG:Getting transaction 3
+2021-08-27 16:37:23,550:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,550:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:37:23,550:DEBUG:Running transaction 4
+2021-08-27 16:37:23,551:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-27 16:37:23,551:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,551:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,554:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,554:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-27 16:37:23,554:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x99 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-27 16:37:23,555:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:37:23,555:DEBUG:Adding transaction 4
+2021-08-27 16:37:23,555:DEBUG:Getting transaction 4
+2021-08-27 16:37:23,555:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,556:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:37:23,556:INFO:file name : INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 16:37:23,576:INFO:ini file printed
+2021-08-27 16:37:23,577:INFO:clear done
+2021-08-27 16:37:23,578:INFO:disconnect done
+2021-08-27 16:37:23,578:INFO:clear Modbus ip done
+2021-08-27 16:37:23,578:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 16:37:23,579:INFO:sectionFTP server
+2021-08-27 16:37:23,579:INFO:section invaild
+2021-08-27 16:37:23,580:INFO:sectionEMU-B20MC-init
+2021-08-27 16:37:23,580:INFO:sectionEMU-B20SM-init
+2021-08-27 16:37:23,788:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 60725)
+2021-08-27 16:37:23,788:DEBUG:Current transaction state - IDLE
+2021-08-27 16:37:23,788:DEBUG:Running transaction 1
+2021-08-27 16:37:23,788:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x3 0x0 0x0 0x0 0x3
+2021-08-27 16:37:23,788:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,789:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,791:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,791:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-27 16:37:23,791:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x3 0x6 0x0 0x11 0x22 0x33 0x44 0x88
+2021-08-27 16:37:23,791:DEBUG:Factory Response[ReadHoldingRegistersResponse: 3]
+2021-08-27 16:37:23,791:DEBUG:Adding transaction 1
+2021-08-27 16:37:23,791:DEBUG:Getting transaction 1
+2021-08-27 16:37:23,791:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,791:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:37:23,791:DEBUG:Running transaction 2
+2021-08-27 16:37:23,791:DEBUG:SEND: 0x0 0x2 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x1 0x0 0x1
+2021-08-27 16:37:23,792:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,792:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,794:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,794:DEBUG:RECV: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-27 16:37:23,794:DEBUG:Processing: 0x0 0x2 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x2 0x0
+2021-08-27 16:37:23,794:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:37:23,794:DEBUG:Adding transaction 2
+2021-08-27 16:37:23,794:DEBUG:Getting transaction 2
+2021-08-27 16:37:23,795:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,795:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:37:23,795:DEBUG:Running transaction 3
+2021-08-27 16:37:23,795:DEBUG:SEND: 0x0 0x3 0x0 0x0 0x0 0x6 0x0 0x4 0x0 0x0 0x0 0x1
+2021-08-27 16:37:23,795:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,795:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,797:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,797:DEBUG:RECV: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-27 16:37:23,798:DEBUG:Processing: 0x0 0x3 0x0 0x0 0x0 0x5 0x0 0x4 0x2 0x0 0x10
+2021-08-27 16:37:23,798:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:37:23,798:DEBUG:Adding transaction 3
+2021-08-27 16:37:23,798:DEBUG:Getting transaction 3
+2021-08-27 16:37:23,798:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,798:DEBUG:Current transaction state - TRANSACTION_COMPLETE
+2021-08-27 16:37:23,798:DEBUG:Running transaction 4
+2021-08-27 16:37:23,798:DEBUG:SEND: 0x0 0x4 0x0 0x0 0x0 0x6 0x0 0x4 0x3 0x8a 0x0 0x4
+2021-08-27 16:37:23,798:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:37:23,798:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:37:23,801:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:37:23,801:DEBUG:RECV: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-27 16:37:23,801:DEBUG:Processing: 0x0 0x4 0x0 0x0 0x0 0xb 0x0 0x4 0x8 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+2021-08-27 16:37:23,801:DEBUG:Factory Response[ReadInputRegistersResponse: 4]
+2021-08-27 16:37:23,801:DEBUG:Adding transaction 4
+2021-08-27 16:37:23,801:DEBUG:Getting transaction 4
+2021-08-27 16:37:23,801:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:37:23,801:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:37:23,801:INFO:file name : INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:37:23,802:INFO:ini file printed
+2021-08-27 16:37:23,803:INFO:clear done
+2021-08-27 16:37:23,803:INFO:disconnect done
+2021-08-27 16:37:23,803:INFO:clear Modbus ip done
+2021-08-27 16:37:23,805:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 16:37:23,812:INFO:sectionEMU-B20MC-1
+2021-08-27 16:37:23,812:INFO:sectionEMU-B20MC-2
+2021-08-27 16:37:23,818:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:37:23,821:INFO:sectionEMU-B20SM-1
+2021-08-27 16:37:52,929:INFO:IP rev.
+2021-08-27 16:37:52,929:INFO:IP rev.
+2021-08-27 16:37:52,929:INFO:IP rev.
+2021-08-27 16:37:52,931:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:37:52,931:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-27 16:37:52,932:INFO:ini file printed
+2021-08-27 16:37:52,933:INFO:clear done
+2021-08-27 16:37:52,935:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:37:52,935:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-27 16:37:52,946:INFO:ini file printed
+2021-08-27 16:37:52,946:INFO:clear done
+2021-08-27 16:37:52,948:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:37:52,948:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-27 16:37:52,957:INFO:ini file printed
+2021-08-27 16:37:52,957:INFO:clear done
+2021-08-27 16:37:52,962:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 60733)
+2021-08-27 16:37:52,963:INFO:disconnect done
+2021-08-27 16:37:52,965:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 60734)
+2021-08-27 16:37:52,966:INFO:disconnect done
+2021-08-27 16:37:52,968:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 60735)
+2021-08-27 16:37:52,968:INFO:disconnect done
+2021-08-27 16:37:52,970:INFO:timer done
+2021-08-27 16:45:34,193:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 16:45:34,194:INFO:sectionFTP server
+2021-08-27 16:45:34,194:INFO:section invaild
+2021-08-27 16:45:34,194:INFO:sectionEMU-B20MC-init
+2021-08-27 16:45:34,194:INFO:sectionEMU-B20SM-init
+2021-08-27 16:45:34,201:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 16:45:34,202:INFO:sectionlog-1
+2021-08-27 16:45:34,202:INFO:sectionlog-2
+2021-08-27 16:45:34,203:INFO:section invaild
+2021-08-27 16:45:34,203:INFO:sectionlog-3
+2021-08-27 16:45:34,203:INFO:section invaild
+2021-08-27 16:45:34,213:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 16:45:34,214:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 16:45:34,214:INFO:sectionEMU-B20MC-1
+2021-08-27 16:45:34,214:INFO:sectionEMU-B20MC-2
+2021-08-27 16:45:34,220:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 16:45:34,221:INFO:sectionEMU-B20SM-1
+2021-08-27 16:45:45,019:INFO:IP rev.
+2021-08-27 16:45:45,019:INFO:IP rev.
+2021-08-27 16:45:45,019:INFO:IP rev.
+2021-08-27 16:45:45,021:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:45:45,021:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-27 16:45:45,023:INFO:ini file printed
+2021-08-27 16:45:45,024:INFO:clear done
+2021-08-27 16:45:45,025:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:45:45,025:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-27 16:45:45,039:INFO:ini file printed
+2021-08-27 16:45:45,040:INFO:clear done
+2021-08-27 16:45:45,041:INFO:write path :INI_config/ini_storage/
+2021-08-27 16:45:45,041:INFO:file name : INI_config/ini_storage/log.ini
+2021-08-27 16:45:45,050:INFO:ini file printed
+2021-08-27 16:45:45,051:INFO:clear done
+2021-08-27 16:45:45,064:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 60782)
+2021-08-27 16:45:45,065:DEBUG:Current transaction state - IDLE
+2021-08-27 16:45:45,065:DEBUG:Running transaction 1
+2021-08-27 16:45:45,065:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x10 0x1 0xf 0x0 0x1 0x2 0x0 0x1
+2021-08-27 16:45:45,065:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:45:45,066:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:45:45,070:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:45:45,070:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x10 0x1 0xf 0x0 0x1
+2021-08-27 16:45:45,070:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x10 0x1 0xf 0x0 0x1
+2021-08-27 16:45:45,070:DEBUG:Factory Response[WriteMultipleRegistersResponse: 16]
+2021-08-27 16:45:45,070:DEBUG:Adding transaction 1
+2021-08-27 16:45:45,070:DEBUG:Getting transaction 1
+2021-08-27 16:45:45,070:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:45:45,071:INFO:current updating ....
+2021-08-27 16:45:45,071:INFO:disconnect done
+2021-08-27 16:45:45,075:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 60783)
+2021-08-27 16:45:45,076:DEBUG:Current transaction state - IDLE
+2021-08-27 16:45:45,077:DEBUG:Running transaction 1
+2021-08-27 16:45:45,078:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x10 0x1 0xf 0x0 0x1 0x2 0x0 0x1
+2021-08-27 16:45:45,078:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:45:45,078:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:45:45,080:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:45:45,081:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x10 0x1 0xf 0x0 0x1
+2021-08-27 16:45:45,081:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x10 0x1 0xf 0x0 0x1
+2021-08-27 16:45:45,081:DEBUG:Factory Response[WriteMultipleRegistersResponse: 16]
+2021-08-27 16:45:45,082:DEBUG:Adding transaction 1
+2021-08-27 16:45:45,082:DEBUG:Getting transaction 1
+2021-08-27 16:45:45,082:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:45:45,083:INFO:current updating ....
+2021-08-27 16:45:45,083:INFO:disconnect done
+2021-08-27 16:45:45,089:DEBUG:Connection to Modbus server established. Socket ('172.16.5.85', 60784)
+2021-08-27 16:45:45,089:DEBUG:Current transaction state - IDLE
+2021-08-27 16:45:45,089:DEBUG:Running transaction 1
+2021-08-27 16:45:45,089:DEBUG:SEND: 0x0 0x1 0x0 0x0 0x0 0x9 0x0 0x10 0x1 0xf 0x0 0x1 0x2 0x0 0x1
+2021-08-27 16:45:45,089:DEBUG:New Transaction state 'SENDING'
+2021-08-27 16:45:45,089:DEBUG:Changing transaction state from 'SENDING' to 'WAITING FOR REPLY'
+2021-08-27 16:45:45,092:DEBUG:Changing transaction state from 'WAITING FOR REPLY' to 'PROCESSING REPLY'
+2021-08-27 16:45:45,092:DEBUG:RECV: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x10 0x1 0xf 0x0 0x1
+2021-08-27 16:45:45,092:DEBUG:Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x0 0x10 0x1 0xf 0x0 0x1
+2021-08-27 16:45:45,092:DEBUG:Factory Response[WriteMultipleRegistersResponse: 16]
+2021-08-27 16:45:45,092:DEBUG:Adding transaction 1
+2021-08-27 16:45:45,092:DEBUG:Getting transaction 1
+2021-08-27 16:45:45,092:DEBUG:Changing transaction state from 'PROCESSING REPLY' to 'TRANSACTION_COMPLETE'
+2021-08-27 16:45:45,092:INFO:current updating ....
+2021-08-27 16:45:45,092:INFO:disconnect done
+2021-08-27 16:45:45,093:INFO:timer done
+2021-08-27 17:05:10,658:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:05:10,659:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:05:10,660:INFO:clear complete
+2021-08-27 17:05:11,079:INFO:/EMU-B20MC/fw
+2021-08-27 17:05:11,401:INFO:download EMU-B20MC.txt done
+2021-08-27 17:05:11,413:INFO:open EMU-B20MC.txt
+2021-08-27 17:05:11,573:INFO:/EMU-B20MC/fw/log
+2021-08-27 17:05:11,896:INFO:/EMU-B20SM/fw
+2021-08-27 17:05:12,220:INFO:download EMU-B20SM.txt done
+2021-08-27 17:05:12,231:INFO:open EMU-B20SM.txt
+2021-08-27 17:05:12,391:INFO:/EMU-B20SM/fw/log
+2021-08-27 17:15:13,599:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 17:15:13,599:INFO:sectionFTP server
+2021-08-27 17:15:13,599:INFO:section invaild
+2021-08-27 17:15:13,599:INFO:sectionEMU-B20MC-init
+2021-08-27 17:15:13,599:INFO:sectionEMU-B20SM-init
+2021-08-27 17:15:13,614:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 17:15:13,614:INFO:sectionlog-1
+2021-08-27 17:15:13,614:INFO:sectionlog-2
+2021-08-27 17:15:13,614:INFO:section invaild
+2021-08-27 17:15:13,614:INFO:sectionlog-3
+2021-08-27 17:15:13,614:INFO:section invaild
+2021-08-27 17:15:13,614:INFO:sectionlog-4
+2021-08-27 17:15:13,614:INFO:section invaild
+2021-08-27 17:15:13,614:INFO:sectionlog-5
+2021-08-27 17:15:13,614:INFO:section invaild
+2021-08-27 17:15:13,614:INFO:sectionlog-6
+2021-08-27 17:15:13,614:INFO:section invaild
+2021-08-27 17:15:13,645:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:15:13,661:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 17:15:13,661:INFO:sectionEMU-B20MC-1
+2021-08-27 17:15:13,661:INFO:sectionEMU-B20MC-2
+2021-08-27 17:15:13,661:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 17:15:13,661:INFO:sectionEMU-B20SM-1
+2021-08-27 17:15:17,524:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:15:17,525:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:15:17,525:INFO:clear complete
+2021-08-27 17:15:17,958:INFO:/EMU-B20MC/fw
+2021-08-27 17:15:18,280:INFO:download EMU-B20MC.txt done
+2021-08-27 17:15:18,282:INFO:open EMU-B20MC.txt
+2021-08-27 17:15:18,434:INFO:/EMU-B20MC/fw/log
+2021-08-27 17:15:18,741:INFO:/EMU-B20SM/fw
+2021-08-27 17:15:19,058:INFO:download EMU-B20SM.txt done
+2021-08-27 17:15:19,060:INFO:open EMU-B20SM.txt
+2021-08-27 17:15:19,211:INFO:/EMU-B20SM/fw/log
+2021-08-27 17:20:23,164:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 17:20:23,164:INFO:sectionFTP server
+2021-08-27 17:20:23,164:INFO:section invaild
+2021-08-27 17:20:23,164:INFO:sectionEMU-B20MC-init
+2021-08-27 17:20:23,164:INFO:sectionEMU-B20SM-init
+2021-08-27 17:20:23,164:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 17:20:23,164:INFO:sectionlog-1
+2021-08-27 17:20:23,164:INFO:sectionlog-2
+2021-08-27 17:20:23,164:INFO:section invaild
+2021-08-27 17:20:23,180:INFO:sectionlog-3
+2021-08-27 17:20:23,180:INFO:section invaild
+2021-08-27 17:20:23,180:INFO:sectionlog-4
+2021-08-27 17:20:23,180:INFO:section invaild
+2021-08-27 17:20:23,180:INFO:sectionlog-5
+2021-08-27 17:20:23,181:INFO:section invaild
+2021-08-27 17:20:23,181:INFO:sectionlog-6
+2021-08-27 17:20:23,181:INFO:section invaild
+2021-08-27 17:20:23,212:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:20:23,212:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 17:20:23,214:INFO:sectionEMU-B20MC-1
+2021-08-27 17:20:23,214:INFO:sectionEMU-B20MC-2
+2021-08-27 17:20:23,228:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 17:20:23,228:INFO:sectionEMU-B20SM-1
+2021-08-27 17:20:30,531:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:20:30,532:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:20:30,533:INFO:clear complete
+2021-08-27 17:20:30,965:INFO:/EMU-B20MC/fw
+2021-08-27 17:20:31,295:INFO:download EMU-B20MC.txt done
+2021-08-27 17:20:31,297:INFO:open EMU-B20MC.txt
+2021-08-27 17:20:31,456:INFO:/EMU-B20MC/fw/log
+2021-08-27 17:20:31,931:INFO:/EMU-B20SM/fw
+2021-08-27 17:20:32,264:INFO:download EMU-B20SM.txt done
+2021-08-27 17:20:32,275:INFO:open EMU-B20SM.txt
+2021-08-27 17:20:32,436:INFO:/EMU-B20SM/fw/log
+2021-08-27 17:30:09,750:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 17:30:09,751:INFO:sectionFTP server
+2021-08-27 17:30:09,751:INFO:section invaild
+2021-08-27 17:30:09,751:INFO:sectionEMU-B20MC-init
+2021-08-27 17:30:09,751:INFO:sectionEMU-B20SM-init
+2021-08-27 17:30:09,756:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 17:30:09,757:INFO:sectionlog-1
+2021-08-27 17:30:09,757:INFO:sectionlog-2
+2021-08-27 17:30:09,757:INFO:section invaild
+2021-08-27 17:30:09,757:INFO:sectionlog-3
+2021-08-27 17:30:09,757:INFO:section invaild
+2021-08-27 17:30:09,757:INFO:sectionlog-4
+2021-08-27 17:30:09,757:INFO:section invaild
+2021-08-27 17:30:09,757:INFO:sectionlog-5
+2021-08-27 17:30:09,757:INFO:section invaild
+2021-08-27 17:30:09,758:INFO:sectionlog-6
+2021-08-27 17:30:09,758:INFO:section invaild
+2021-08-27 17:30:09,772:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:30:09,773:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 17:30:09,773:INFO:sectionEMU-B20MC-1
+2021-08-27 17:30:09,773:INFO:sectionEMU-B20MC-2
+2021-08-27 17:30:09,780:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 17:30:09,781:INFO:sectionEMU-B20SM-1
+2021-08-27 17:30:13,080:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:30:13,081:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:30:13,081:INFO:clear complete
+2021-08-27 17:30:13,505:INFO:/EMU-B20MC/fw
+2021-08-27 17:30:13,831:INFO:download EMU-B20MC.txt done
+2021-08-27 17:30:13,834:INFO:open EMU-B20MC.txt
+2021-08-27 17:42:03,749:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 17:42:03,750:INFO:sectionFTP server
+2021-08-27 17:42:03,750:INFO:section invaild
+2021-08-27 17:42:03,750:INFO:sectionEMU-B20MC-init
+2021-08-27 17:42:03,751:INFO:sectionEMU-B20SM-init
+2021-08-27 17:42:03,762:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 17:42:03,764:INFO:sectionlog-1
+2021-08-27 17:42:03,764:INFO:sectionlog-2
+2021-08-27 17:42:03,765:INFO:section invaild
+2021-08-27 17:42:03,765:INFO:sectionlog-3
+2021-08-27 17:42:03,766:INFO:section invaild
+2021-08-27 17:42:03,766:INFO:sectionlog-4
+2021-08-27 17:42:03,766:INFO:section invaild
+2021-08-27 17:42:03,766:INFO:sectionlog-5
+2021-08-27 17:42:03,767:INFO:section invaild
+2021-08-27 17:42:03,767:INFO:sectionlog-6
+2021-08-27 17:42:03,767:INFO:section invaild
+2021-08-27 17:42:03,806:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:42:03,806:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 17:42:03,807:INFO:sectionEMU-B20MC-1
+2021-08-27 17:42:03,807:INFO:sectionEMU-B20MC-2
+2021-08-27 17:42:03,820:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 17:42:03,821:INFO:sectionEMU-B20SM-1
+2021-08-27 17:42:12,051:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:42:12,051:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:42:12,052:INFO:clear complete
+2021-08-27 17:42:12,497:INFO:/EMU-B20MC/fw
+2021-08-27 17:42:12,823:INFO:download EMU-B20MC.txt done
+2021-08-27 17:42:12,827:INFO:open EMU-B20MC.txt
+2021-08-27 17:42:12,990:INFO:/EMU-B20MC/fw/log
+2021-08-27 17:42:13,484:INFO:/EMU-B20SM/fw
+2021-08-27 17:42:13,808:INFO:download EMU-B20SM.txt done
+2021-08-27 17:42:13,810:INFO:open EMU-B20SM.txt
+2021-08-27 17:42:13,972:INFO:/EMU-B20SM/fw/log
+2021-08-27 17:42:14,323:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:42:14,324:INFO:ini file printed
+2021-08-27 17:42:14,325:INFO:clear done
+2021-08-27 17:42:14,325:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:42:14,342:INFO:ini file printed
+2021-08-27 17:42:14,343:INFO:clear done
+2021-08-27 17:42:14,343:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:42:14,355:INFO:ini file printed
+2021-08-27 17:42:14,355:INFO:clear done
+2021-08-27 17:42:14,355:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:42:14,363:INFO:ini file printed
+2021-08-27 17:42:14,364:INFO:clear done
+2021-08-27 17:42:14,364:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:42:14,372:INFO:ini file printed
+2021-08-27 17:42:14,373:INFO:clear done
+2021-08-27 17:42:14,373:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:42:14,381:INFO:ini file printed
+2021-08-27 17:42:14,382:INFO:clear done
+2021-08-27 17:42:14,382:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:42:14,394:INFO:ini file printed
+2021-08-27 17:42:14,395:INFO:clear done
+2021-08-27 17:42:14,395:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:42:14,406:INFO:ini file printed
+2021-08-27 17:42:14,406:INFO:clear done
+2021-08-27 17:42:14,407:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:42:14,416:INFO:sectionlogFTP-1
+2021-08-27 17:42:14,417:INFO:sectionlogFTP-2
+2021-08-27 17:42:14,417:INFO:sectionlogFTP-3
+2021-08-27 17:42:14,417:INFO:sectionlogFTP-4
+2021-08-27 17:42:14,417:INFO:sectionlogFTP-5
+2021-08-27 17:42:14,417:INFO:sectionlogFTP-6
+2021-08-27 17:42:14,418:INFO:sectionlogFTP-7
+2021-08-27 17:42:14,418:INFO:sectionlogFTP-8
+2021-08-27 17:42:19,025:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 17:42:19,025:INFO:sectionFTP server
+2021-08-27 17:42:19,025:INFO:section invaild
+2021-08-27 17:42:19,026:INFO:sectionEMU-B20MC-init
+2021-08-27 17:42:19,026:INFO:sectionEMU-B20SM-init
+2021-08-27 17:42:19,032:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 17:42:19,032:INFO:sectionlog-1
+2021-08-27 17:42:19,033:INFO:sectionlog-2
+2021-08-27 17:42:19,033:INFO:section invaild
+2021-08-27 17:42:19,033:INFO:sectionlog-3
+2021-08-27 17:42:19,033:INFO:section invaild
+2021-08-27 17:42:19,033:INFO:sectionlog-4
+2021-08-27 17:42:19,033:INFO:section invaild
+2021-08-27 17:42:19,033:INFO:sectionlog-5
+2021-08-27 17:42:19,033:INFO:section invaild
+2021-08-27 17:42:19,033:INFO:sectionlog-6
+2021-08-27 17:42:19,033:INFO:section invaild
+2021-08-27 17:42:19,054:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:42:19,055:INFO:sectionlogFTP-1
+2021-08-27 17:42:19,055:INFO:sectionlogFTP-2
+2021-08-27 17:42:19,056:INFO:sectionlogFTP-3
+2021-08-27 17:42:19,056:INFO:sectionlogFTP-4
+2021-08-27 17:42:19,056:INFO:sectionlogFTP-5
+2021-08-27 17:42:19,056:INFO:sectionlogFTP-6
+2021-08-27 17:42:19,056:INFO:sectionlogFTP-7
+2021-08-27 17:42:19,056:INFO:sectionlogFTP-8
+2021-08-27 17:42:19,083:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 17:42:19,083:INFO:sectionEMU-B20MC-1
+2021-08-27 17:42:19,084:INFO:sectionEMU-B20MC-2
+2021-08-27 17:42:19,092:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 17:42:19,093:INFO:sectionEMU-B20SM-1
+2021-08-27 17:44:24,343:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-08-27 17:44:24,344:INFO:sectionFTP server
+2021-08-27 17:44:24,344:INFO:section invaild
+2021-08-27 17:44:24,344:INFO:sectionEMU-B20MC-init
+2021-08-27 17:44:24,344:INFO:sectionEMU-B20SM-init
+2021-08-27 17:44:24,354:INFO:current read file: INI_config/ini_storage/log.ini
+2021-08-27 17:44:24,355:INFO:sectionlog-1
+2021-08-27 17:44:24,356:INFO:sectionlog-2
+2021-08-27 17:44:24,356:INFO:section invaild
+2021-08-27 17:44:24,356:INFO:sectionlog-3
+2021-08-27 17:44:24,356:INFO:section invaild
+2021-08-27 17:44:24,357:INFO:sectionlog-4
+2021-08-27 17:44:24,357:INFO:section invaild
+2021-08-27 17:44:24,357:INFO:sectionlog-5
+2021-08-27 17:44:24,357:INFO:section invaild
+2021-08-27 17:44:24,357:INFO:sectionlog-6
+2021-08-27 17:44:24,357:INFO:section invaild
+2021-08-27 17:44:24,385:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:44:24,386:INFO:sectionlogFTP-1
+2021-08-27 17:44:24,386:INFO:sectionlogFTP-2
+2021-08-27 17:44:24,386:INFO:sectionlogFTP-3
+2021-08-27 17:44:24,386:INFO:sectionlogFTP-4
+2021-08-27 17:44:24,386:INFO:sectionlogFTP-5
+2021-08-27 17:44:24,386:INFO:sectionlogFTP-6
+2021-08-27 17:44:24,386:INFO:sectionlogFTP-7
+2021-08-27 17:44:24,387:INFO:sectionlogFTP-8
+2021-08-27 17:44:24,427:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-08-27 17:44:24,428:INFO:sectionEMU-B20MC-1
+2021-08-27 17:44:24,428:INFO:sectionEMU-B20MC-2
+2021-08-27 17:44:24,442:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-08-27 17:44:24,443:INFO:sectionEMU-B20SM-1
+2021-08-27 17:44:27,894:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:44:27,895:INFO:section :logFTP-1
+2021-08-27 17:44:27,895:INFO:section :logFTP-2
+2021-08-27 17:44:27,895:INFO:section :logFTP-3
+2021-08-27 17:44:27,895:INFO:section :logFTP-4
+2021-08-27 17:44:27,895:INFO:section :logFTP-5
+2021-08-27 17:44:27,895:INFO:section :logFTP-6
+2021-08-27 17:44:27,895:INFO:section :logFTP-7
+2021-08-27 17:44:27,896:INFO:section :logFTP-8
+2021-08-27 17:44:27,896:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:44:27,896:INFO:clear complete
+2021-08-27 17:44:28,309:INFO:/EMU-B20MC/fw
+2021-08-27 17:44:28,633:INFO:download EMU-B20MC.txt done
+2021-08-27 17:44:28,635:INFO:open EMU-B20MC.txt
+2021-08-27 17:44:28,799:INFO:/EMU-B20MC/fw/log
+2021-08-27 17:44:29,128:INFO:/EMU-B20SM/fw
+2021-08-27 17:44:29,455:INFO:download EMU-B20SM.txt done
+2021-08-27 17:44:29,456:INFO:open EMU-B20SM.txt
+2021-08-27 17:44:29,619:INFO:/EMU-B20SM/fw/log
+2021-08-27 17:44:29,816:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:44:29,819:INFO:ini file printed
+2021-08-27 17:44:29,820:INFO:clear done
+2021-08-27 17:44:29,820:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:44:29,837:INFO:ini file printed
+2021-08-27 17:44:29,837:INFO:clear done
+2021-08-27 17:44:29,838:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:44:29,847:INFO:ini file printed
+2021-08-27 17:44:29,847:INFO:clear done
+2021-08-27 17:44:29,848:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:44:29,855:INFO:ini file printed
+2021-08-27 17:44:29,856:INFO:clear done
+2021-08-27 17:44:29,856:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:44:29,865:INFO:ini file printed
+2021-08-27 17:44:29,865:INFO:clear done
+2021-08-27 17:44:29,866:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:44:29,879:INFO:ini file printed
+2021-08-27 17:44:29,879:INFO:clear done
+2021-08-27 17:44:29,880:INFO:write path :INI_config/ini_storage/
+2021-08-27 17:44:29,888:INFO:ini file printed
+2021-08-27 17:44:29,888:INFO:clear done
+2021-08-27 17:44:29,889:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-08-27 17:44:29,895:INFO:sectionlogFTP-1
+2021-08-27 17:44:29,895:INFO:sectionlogFTP-2
+2021-08-27 17:44:29,895:INFO:sectionlogFTP-3
+2021-08-27 17:44:29,895:INFO:sectionlogFTP-4
+2021-08-27 17:44:29,896:INFO:sectionlogFTP-5
+2021-08-27 17:44:29,896:INFO:sectionlogFTP-6
+2021-08-27 17:44:29,896:INFO:sectionlogFTP-7

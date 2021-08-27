@@ -1,6 +1,6 @@
 {
 "fmt-ver": "0090",
-"name": "emu_b20sm_app_gcc_dev_v0201.bin",
-"fw-ver": "0201",
-"crc-32": "0xEC87B5E2"
+"name": "emu_b20sm_app_gcc_dev_v0202.bin",
+"fw-ver": "0202",
+"crc-32": "0x62C81388"
 }

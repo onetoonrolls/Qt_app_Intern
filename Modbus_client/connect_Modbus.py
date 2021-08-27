@@ -98,7 +98,7 @@ class Modbus_connect():
         return status_con
 
     def update_firmware(self):
-        OTA_update_addr = 0xFFFFFF63C0
+        OTA_update_addr = 0x010F
         self.write_bit_register(0x1,OTA_update_addr,1)
 
     def get_info_device(self):
@@ -117,8 +117,9 @@ if __name__ == "__main__":
     
     
     M = Modbus_connect()
-    print(M.connect_client("**"))
-    print(M.get_info_device())
+    print(M.connect_client("1*"))
+    M.update_firmware()
+    #print(M.get_info_device())
     #print(M.connect_client("172.16.5.65"))
     # print(M.connect_client(ip)) #test status connect
     # #test read

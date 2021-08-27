@@ -92,15 +92,19 @@ class FTP_client():
         self.back_to_root()
         mac = []
         date = []
-        L_ver = "v"+self.check_firmware_ver_server(device_name)
-        #L_ver = "v0124"
+        ver = self.check_firmware_ver_server(device_name)
+        c = int(ver)-1
+        L_ver = "v"+'0'+str(c)
+        print(L_ver)
+        #L_ver = "v0200"
         #self.check_path()
         self.back_to_root()
         self.path_folder_server("/"+device_name+"/fw/log")
         #self.check_path()
         #use for check new version firmware 
-        
+        #self.list_all_file()
         list_log = self.search_file(L_ver)
+        print(list_log)
         #list_log = self.search_file("v0124")
         if(list_log == []):
             return mac,date,"not found"

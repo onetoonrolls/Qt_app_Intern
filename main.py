@@ -28,25 +28,27 @@ class countTime(th):
         logging.basicConfig(filename="config_debug.txt", level=logging.DEBUG,
                         format='%(asctime)s:%(levelname)s:%(message)s')
 
-    def setupdatefunction(self,update,type,listIP,connect,setcon,discon,clear):
+    def setupdatefunction(self,update,listIP,type):
         self.conType = type  #connect type
         self.listIP = listIP #get all update ip
         #pass function
         self.updateDevice = update #update
-        self.connect = connect #connect device
-        self.setcon = setcon #set ip to commu
-        self.discon = discon #disconnect device
-        self.clearUp = clear #clear list ip update
 
     def settime(self):
-        delta = self.bufferTimer.pop(0)
-        #print("pop : ",delta)
-        delta = str(delta).split(":")
-        #print("split :",delta)
-        self.hour = int(delta[0])
-        self.min = int(delta[1])
-        self.sec = int(delta[2])
-        self.status = "alraedy set"
+        if(self.bufferTimer == []):
+            self.hour =0
+            self.min =0
+            self.sec =0
+            self.status = "not set"
+        else:
+            delta = self.bufferTimer.pop(0)
+            #print("pop : ",delta)
+            delta = str(delta).split(":")
+            #print("split :",delta)
+            self.hour = int(delta[0])
+            self.min = int(delta[1])
+            self.sec = int(delta[2])
+            self.status = "alraedy set"
 
     def setbufferTimer(self,tdelta):
         self.bufferTimer.append(str(tdelta))
@@ -84,15 +86,13 @@ class countTime(th):
         return self.status
 
     def run(self):
+        print("thread run")
         self.settime()
+        print("settime")
         self.countdown()
-        for ip in self.listIP:
-            self.connect(ip) #self.commu.setModbus_connect(ip)
-            statusConnect = self.connect(self.conType,ip) #self.commu.connnection_brige(type,ip) 
-            if(statusConnect == "connect"): #check connect device
-                self.updateDevice()    
-                self.discon()
-        self.clearUp()
+        print("countdown")
+        self.updateDevice(self.listIP,self.conType)    #updatedevice(self,updateip,type)
+        print("update")
         self.bufferTimer =[]
         logging.info("timer done")
 
@@ -197,7 +197,7 @@ class Connect_page(QObject):
                 self.min.append(i)
 
     def settimer(self,h,m):
-        self.timer = countTime(self.commu.command_update_firmware)
+        self.timer = countTime()
         #self.timer = countTime(self.testfunc)
         
         FMT = "%d-%m %H:%M"
@@ -300,13 +300,19 @@ class Connect_page(QObject):
         logging.info("status table changed")
         self.setContexNoti.emit("refresh status done")
         
+    def updatedevice(self,updateip,type):
+        print("update device function")
+        updatecontext = self.commu.command_complexUpdate(type,updateip)
+        print(updatecontext)
+
     @Slot(str)
     def updateFirmware(self, type):
         if(type == ""):
             logging.info("type connection from QML is NULL")
             self.setContexNoti.emit("type connection from QML is NULL")
         else:
-            #self.timer.setupdatefunction(self.commu.command_update_firmware,type,self.updateIP,self.commu.connnection_brige,self.commu.setClearMod_ip,self.commu.disconnect_brige,self.commu.setClearMod_ip)
+            
+            self.timer.setupdatefunction(self.updatedevice,self.updateIP,type)
             for ip in self.updateIP:  #add print to log.ini 
                 updateMac = self.findMacUpdate(ip)
                 data = [ip,updateMac,"no avalible","no avalible"]      
@@ -336,17 +342,16 @@ class Connect_page(QObject):
         #write section
         if(topicMC =="not found" or topicSM =="not found"):
             self.setContexNoti.emit("not found log")
-        else:
-            if(topicMC !="not found"):
-                for i in MC:
-                    self.commu.setPrintData(i)
-                    self.commu.command_print_ini("logFTP","INI_config/ini_storage/")
-            elif(topicSM !="not found"):
-                for i in SM:
-                    self.commu.setPrintData(i)
-                    self.commu.command_print_ini("logFTP","INI_config/ini_storage/")
+        if(topicMC !="not found"):
+            for i in MC:
+                self.commu.setPrintData(i)
+                self.commu.command_print_ini("logFTP","INI_config/ini_storage/")
+        elif(topicSM !="not found"):
+            for i in SM:
+                self.commu.setPrintData(i)
+                self.commu.command_print_ini("logFTP","INI_config/ini_storage/")
             #read section
-
+        if(topicMC !="not found" or topicSM !="not found"):
             self.logData = self.logData.iloc[0:0]
             self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/logFTP.ini")
             self.list_obj = self.commu.command_unpack_json(self.Table_data)

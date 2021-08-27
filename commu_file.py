@@ -1,3 +1,4 @@
+from os import stat
 from FTP_client import connect_FTP as FTP
 from Modbus_client import connect_Modbus as Mod
 from INI_config import ini_config as ini
@@ -180,10 +181,23 @@ class commutnicate_app():
         else:
             logging.info("type not map, try again!")
 
+    def command_complexUpdate(self,type,allIP):
+        statuscontext = []
+        for ip in allIP:
+            statusconnect = self.connnection_brige(type,ip)
+            #print(statusconnect)
+            if(statusconnect == "connect"):
+                self.command_update_firmware()
+                self.disconnect_brige()
+                statuscontext.append("update "+ip+" done") 
+            else:
+                statuscontext.append("unable connect ip "+ip)
+        return statuscontext
+
     def commamd_complexDeviceINFO(self,type,allIP): #get initIP connect&get device info& print ini
         for ip in allIP:
             statusconnect = self.connnection_brige(type,ip) #connect device
-            print(statusconnect)
+            #print(statusconnect)
             if(statusconnect == "connect"):
                 mac,id,st,ver= self.getInfo_device() #get info
                 
@@ -203,7 +217,7 @@ if __name__ == "__main__":
     Path_server = "/"+device_name+"/fw/log"
     filename = "detail.txt" #test search
     data = ["127.0.11.0","11/11/2077","0x0000"]
-
+    update = ["172.16.5.148","172.16.5.65"]
     c = commutnicate_app()
     #c.setDevice_name("EMU-B20MC")
     
@@ -211,10 +225,12 @@ if __name__ == "__main__":
     #commu.setDevice_name("EMU-B20MC")
     #commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
     #commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20SM.ini","INI_config/ini_storage/")
-    commu.setModbus_connect("MC")
-    commu.commamd_complexDeviceINFO("Modbus",commu.getconnectIP())
-    commu.setModbus_connect("SM")
-    commu.commamd_complexDeviceINFO("Modbus",commu.getconnectIP())
+    # commu.setModbus_connect("MC")
+    # commu.commamd_complexDeviceINFO("Modbus",commu.getconnectIP())
+    # commu.setModbus_connect("SM")
+    # commu.commamd_complexDeviceINFO("Modbus",commu.getconnectIP())
+    connect = commu.command_complexUpdate("Modbus",update)
+    print(connect)
 
     #readINI,keyReadINI = c.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
     #print("\nkey INI file : ",keyReadINI)
