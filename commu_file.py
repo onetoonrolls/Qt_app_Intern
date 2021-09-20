@@ -2,6 +2,7 @@ from os import stat
 from FTP_client import connect_FTP as FTP
 from Modbus_client import connect_Modbus as Mod
 from INI_config import ini_config as ini
+from MQTT_test import MQTT_config as MQTT
 import logging
 
 class commutnicate_app():
@@ -10,6 +11,10 @@ class commutnicate_app():
         self.FTP_port = 21
         self.FTP_user = "****"
         self.FTP_psw = "****"
+        self.MQTT_ip = "127.0.0.1"
+        self.MQTT_port = 1883
+        self.MQTT_user = "******"
+        self.MQTT_psw = "*******"
         self.dataToINI = []
         self.device_name ="EMU-B20MC" #EMU-B20MC,EMU-B20SM
         self.MOd_ip =[]
@@ -33,12 +38,12 @@ class commutnicate_app():
         self.FTP_psw = Initread[0]["password"]
         self.FTP_port = Initread[0]["port"]
 
-    def setModbus_connect(self,ip): #set ip to connect modbus device from app
+    def setDeviceIP_connect(self,ip): #set ip to connect modbus device from app
         
         if(ip == "MC"):
             Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
             Initread = self.command_unpack_json(Initread)
-            data = Initread[1]
+            data = Initread[2]
             for key in data:
                 #read ip EMUB20MC
                 self.MOd_ip.append(data[key])
@@ -46,7 +51,7 @@ class commutnicate_app():
         elif(ip == "SM"):
             Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
             Initread = self.command_unpack_json(Initread)
-            data = Initread[2]
+            data = Initread[3]
             for key in data:
                 #read ip EMUB20SC
                 self.MOd_ip.append(data[key])
@@ -56,7 +61,15 @@ class commutnicate_app():
         else:
             self.MOd_ip.append(ip)
         
-    
+    def setMQTT_connect(self):
+        Initread,key= self.getINI_file("INI_config/ini_storage/initConfig.ini")
+        Initread = self.command_unpack_json(Initread)
+        
+        self.MQTT_ip = Initread[1]["server_ip"]
+        self.MQTT_user = Initread[1]["username"]
+        self.MQTT_psw = Initread[1]["password"]
+        self.MQTT_port = Initread[1]["port"]
+
     def setDevice_name(self,device_name):
         self.device_name = device_name
 
@@ -77,8 +90,9 @@ class commutnicate_app():
         if(self.type_connection == "Modbus"): 
             self.client_connect1 = Mod.Modbus_connect()
             return self.client_connect1.connect_client(ip)
-        elif(self.type_connection =="MQTT"): #undev. MQTT
-            pass
+        elif(self.type_connection =="MQTT"): #dev in pocessing MQTT
+            self.client_connect2 = MQTT.MQTT_connect()
+            return self.client_connect2.connect_mqtt()
         else :
             logging.info("unknow type\n")
     
@@ -89,7 +103,7 @@ class commutnicate_app():
         if(self.type_connection == "Modbus"):
             self.client_connect1.disconect()
         elif(self.type_connection =="MQTT"):
-            pass
+            self.client_connect2.disconnenct()
         logging.info("disconnect done")
 
     def get_least_firmwareVer(self): #check FTP detail 
@@ -106,7 +120,7 @@ class commutnicate_app():
         if(self.type_connection) == "Modbus":
             return self.client_connect1.get_info_device()
         elif(self.type_connection == "MQTT"):
-            pass
+            return self.client_connect2.get_info()
         else:
             logging.info("type not map, try again!")
         
@@ -147,8 +161,10 @@ class commutnicate_app():
                     if(i == 0):
                         obj_pack_one = data["FTP server"]
                     elif(i == 1):
-                        obj_pack_one = data["EMU-B20MC-init"]
+                        obj_pack_one = data["MQTT"]
                     elif(i == 2):
+                        obj_pack_one = data["EMU-B20MC-init"]
+                    elif(i == 3):
                         obj_pack_one = data["EMU-B20SM-init"]
                 else:
                     logging.info("cant find topic in data")
@@ -177,7 +193,7 @@ class commutnicate_app():
             self.client_connect1.update_firmware()
             logging.info("current updating ....")
         elif (self.type_connection == "MQTT"):
-            pass
+            self.client_connect2.update_device(self.MOd_ip)
         else:
             logging.info("type not map, try again!")
 
@@ -225,12 +241,24 @@ if __name__ == "__main__":
     #commu.setDevice_name("EMU-B20MC")
     #commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
     #commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20SM.ini","INI_config/ini_storage/")
-    # commu.setModbus_connect("MC")
+    #commu.setDeviceIP_connect("MC")
+    #print(commu.MOd_ip)
     # commu.commamd_complexDeviceINFO("Modbus",commu.getconnectIP())
-    # commu.setModbus_connect("SM")
+    # commu.setDeviceIP_connect("SM")
+    # print(commu.MOd_ip)
     # commu.commamd_complexDeviceINFO("Modbus",commu.getconnectIP())
-    connect = commu.command_complexUpdate("Modbus",update)
-    print(connect)
+    #connect = commu.command_complexUpdate("Modbus",update)
+    #print(connect)
+    
+    # Initread,key= commu.getINI_file("INI_config/ini_storage/initConfig.ini")
+    # Initread = commu.command_unpack_json(Initread)
+    # print("v output : ",Initread)
+
+    # commu.setMQTT_connect()
+    # print(commu.MQTT_ip)
+    # print(commu.MQTT_user)
+    # print(commu.MQTT_psw)
+    # print(commu.MQTT_port)
 
     #readINI,keyReadINI = c.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
     #print("\nkey INI file : ",keyReadINI)
@@ -251,7 +279,7 @@ if __name__ == "__main__":
     # c.setFTP_connect()
     # print(c.FTP_ip,c.FTP_user,c.FTP_psw,c.FTP_port)
 
-    # c.setModbus_connect()
+    # c.setDeviceIP_connect()
     # print(c.MOd_ip)
 
     # t = [

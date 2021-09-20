@@ -12,17 +12,12 @@ Item {
     QtObject{
         id: internal
         property string typeConnect: ""
+        property bool notiset: false
         function findIndex(myModel,searchedId){
             for(var i = 0; i < myModel.count; i++) {
-                //print("count ",i)
                 var elemCur = myModel.get(i).name;
-                //print(elemCur)
                 if(searchedId == elemCur) {
-                    //console.log("Found it at index : "+ i)
                     return i
-                }
-                else{
-                    //console.log("not found name")
                 }
             }
         }
@@ -44,6 +39,21 @@ Item {
                 myModel.setProperty(i, "ischecked", false)
             }
         }
+
+        function getFirstIndex(model) {
+            if(internal.notiset | model.count>1){
+                //console.log("toggole 1")
+                var contex = model.get(1).data
+                model.remove(1)
+                internal.notiset = false
+            }
+            else{
+                //console.log("toggle 0")
+                var contex = model.get(0).data
+            }
+            return contex
+        }
+
     }
 
     Rectangle {
@@ -89,8 +99,9 @@ Item {
                 text: "confirm"
                 onClicked: {
                     internal.getAllitemlist(listmodelId)
-                    //print("send IP to python")
-                    contextNoti.text = "Processing to python backend"
+                    contextNotitext.append({"data":"Processing to python backend"})
+                    internal.notiset = true
+                    //contextNoti.text = "Processing to python backend"
                     UpdatbackEnd.updateFirmware(internal.typeConnect)
                     //UpdatbackEnd.starCount(true)
                 }
@@ -681,6 +692,23 @@ Item {
             }
         }
     }
+
+    ListModel {
+        id: contextNotitext
+        ListElement {
+            data: ""
+        }       
+    }
+    Timer{
+        id: timerNoti
+        running: true
+        repeat: true
+        interval : 8000
+        onTriggered:{
+            contextNoti.text = internal.getFirstIndex(contextNotitext)
+        }
+    }
+
     Connections{
         target: UpdatbackEnd
 
@@ -693,7 +721,9 @@ Item {
         }
 
         function onSetContexNoti(context){
-            contextNoti.text = context
+            contextNotitext.append({"data": context})
+            internal.notiset = true
+            //contextNoti.text = context
         }
     }
     //Component.onCompleted: console.log("update page created ")

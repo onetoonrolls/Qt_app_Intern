@@ -11,12 +11,27 @@ Item {
     //height: 1000
     QtObject{
         id:internal
-        
+        property bool notiset: false
         function delay(delayTime) {
 
             timer.interval = delayTime
             timer.start()
         }
+
+        function getFirstIndex(model) {
+            if(internal.notiset | model.count>1){
+                //console.log("toggole 1")
+                var contex = model.get(1).data
+                model.remove(1)
+                internal.notiset = false
+            }
+            else{
+                //console.log("toggle 0")
+                var contex = model.get(0).data
+            }
+            return contex
+        }
+
     }
     Rectangle {
         id: rectangle
@@ -383,7 +398,9 @@ Item {
                     checked: false
                     onClicked:{
                         if(textIP.text =="" | textDN.text == "")
-                            contextNoti.text = "input box is null"
+                            contextNotitext.append({"data": "input box is null"})
+                            internal.notiset = true
+                            //contextNoti.text = "input box is null"
                         else
                             homeBackend.registDevice(textIP.text,textDN.text)
                     }
@@ -427,11 +444,30 @@ Item {
 
     }
 
+    ListModel {
+        id: contextNotitext
+        ListElement {
+            data: ""
+        }       
+    }
+
+    Timer{
+        id: timerNoti
+        running: true
+        repeat: true
+        interval : 8000
+        onTriggered:{
+            contextNoti.text = internal.getFirstIndex(contextNotitext)
+        }
+    }
+
     Connections{
         target: homeBackend
 
         function onSetContexNoti(context){
-            contextNoti.text = context
+            contextNotitext.append({"data": context})
+            internal.notiset = true
+            //contextNoti.text = context
         }
         
     }

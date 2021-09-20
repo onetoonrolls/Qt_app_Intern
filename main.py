@@ -315,7 +315,10 @@ class Connect_page(QObject):
             self.timer.setupdatefunction(self.updatedevice,self.updateIP,type)
             for ip in self.updateIP:  #add print to log.ini 
                 updateMac = self.findMacUpdate(ip)
-                data = [ip,updateMac,"no avalible","no avalible"]      
+                FMT = "%d-%m %H:%M"
+                currentDateTime = datetime.now()
+                now = currentDateTime.strftime(FMT)
+                data = [ip,updateMac,now,"no avalible"]      
                 self.commu.setPrintData(data)
                 self.commu.command_print_ini("log","INI_config/ini_storage/") 
             self.starCount()
@@ -365,9 +368,9 @@ class Connect_page(QObject):
         #fetch newdata from device section
         self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
         self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20SM.ini","INI_config/ini_storage/")
-        self.commu.setModbus_connect("MC")
+        self.commu.setDeviceIP_connect("MC")
         self.commu.commamd_complexDeviceINFO("Modbus",self.commu.getconnectIP())
-        self.commu.setModbus_connect("SM")
+        self.commu.setDeviceIP_connect("SM")
         self.commu.commamd_complexDeviceINFO("Modbus",self.commu.getconnectIP())
 
         #read data from ini file section
