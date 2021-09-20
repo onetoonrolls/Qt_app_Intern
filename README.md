@@ -7,10 +7,10 @@
   	Step 1 file set up
 
   		-create INI file name "iniConfig.ini" in format:
-  		![1](https://user-images.githubusercontent.com/73213619/133962537-9f39a2e7-a44e-4f96-9a8c-0d2007fc6c54.PNG)
+  ![1](https://user-images.githubusercontent.com/73213619/133962537-9f39a2e7-a44e-4f96-9a8c-0d2007fc6c54.PNG)
   
   		-move "iniConfig.ini" to .../INI_config/ini_storage
-  		![2](https://user-images.githubusercontent.com/73213619/133970769-e2b7c8bc-9a83-4f9d-acc7-4a8dea36e0ec.PNG)
+  ![2](https://user-images.githubusercontent.com/73213619/133970769-e2b7c8bc-9a83-4f9d-acc7-4a8dea36e0ec.PNG)
 
   	Step 2 module set up 
 
@@ -19,13 +19,13 @@
   	Step 3 application introduction
   
   		-basic tools
-  		![5](https://user-images.githubusercontent.com/73213619/133968804-268a4e30-e338-48bc-a3e3-731125ade818.png)
+  ![5](https://user-images.githubusercontent.com/73213619/133968804-268a4e30-e338-48bc-a3e3-731125ade818.png)
 
   		-home page tools
-  		![6](https://user-images.githubusercontent.com/73213619/133968871-21c7f629-edaf-4aeb-aec0-9d2cd1331df5.png)
+  ![6](https://user-images.githubusercontent.com/73213619/133968871-21c7f629-edaf-4aeb-aec0-9d2cd1331df5.png)
   
   		-update page tools
-  		![7](https://user-images.githubusercontent.com/73213619/133968945-42f3df0a-412a-47dc-92fa-49acb3d24cf3.png)
+  ![7](https://user-images.githubusercontent.com/73213619/133968945-42f3df0a-412a-47dc-92fa-49acb3d24cf3.png)
 
 	function description
 
