@@ -11,7 +11,8 @@
   		host_ip,server_ip,initip <-ip address type *application can edit initip 
 		port <-int type FTP port defult is 21
 		username,password <-string type upon user setting to server
-  		-move "iniConfig.ini" to .../INI_config/ini_storage
+  		
+	    	-move "iniConfig.ini" to .../INI_config/ini_storage
   ![2](https://user-images.githubusercontent.com/73213619/133970769-e2b7c8bc-9a83-4f9d-acc7-4a8dea36e0ec.PNG)
 
   	Step 2 module set up 
