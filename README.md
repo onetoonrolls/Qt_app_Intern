@@ -31,7 +31,8 @@
 
   	->universal tools bar : refresh table in each page
 
-  	->update tools : select device ip and protocol then submit in update page controller *note time counting is avaliable* when comfirm update to devices data will record in log.ini
+  	->update tools : select device ip and protocol then submit in update page controller *note time counting is avaliable* 
+			 when comfirm update to devices data will record in log.ini
   
   	->notification system : automatic display text when user pocess something in application
   
