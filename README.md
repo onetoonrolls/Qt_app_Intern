@@ -7,8 +7,8 @@
   ![1](https://user-images.githubusercontent.com/73213619/133962537-9f39a2e7-a44e-4f96-9a8c-0d2007fc6c54.PNG)
   
   -move "iniConfig.ini" to .../INI_config/ini_storage
-  ![1](https://user-images.githubusercontent.com/73213619/133962501-578226ff-c691-4e4f-8af0-96866c9593bd.PNG)
-  
+  ![2](https://user-images.githubusercontent.com/73213619/133970769-e2b7c8bc-9a83-4f9d-acc7-4a8dea36e0ec.PNG)
+
   Step 2 module set up 
   -install requirement.txt with command "pip install -r requirements.txt" or install with single module with command "pip install module_name"
   
