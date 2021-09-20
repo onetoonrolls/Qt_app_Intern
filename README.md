@@ -27,19 +27,19 @@
 
 	function description
 
-  universal tools bar : refresh table in each page
+  		->universal tools bar : refresh table in each page
 
-  update tools : select device ip and protocol then submit in update page controller *note time counting is avaliable* when comfirm update to devices data will record in log.ini
+  		->update tools : select device ip and protocol then submit in update page controller *note time counting is avaliable* when comfirm update to devices data will record in log.ini
   
-  notification system : automatic display text when user pocess something in application
+  		->notification system : automatic display text when user pocess something in application
   
-  register devices system : receive IP & type of device to add data in initConfig.ini
+  		->register devices system : receive IP & type of device to add data in initConfig.ini
   
-  Registed-devicecs system : display table from config_EMU-B20MC.ini&config_EMU-B20SM.ini when user click on refresh button
+  		->Registed-devicecs system : display table from config_EMU-B20MC.ini&config_EMU-B20SM.ini when user click on refresh button
 
-  Update log system(home page) : display table from logFTP.ini when user click on refresh button
+  		->Update log system(home page) : display table from logFTP.ini when user click on refresh button
 
-  Update log system(update page) : display table from log.ini when user click on refresh button
+  		->Update log system(update page) : display table from log.ini when user click on refresh button
  
 # Requirement
 
