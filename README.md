@@ -49,7 +49,20 @@
   	->Update log system(home page) : display table from logFTP.ini when user click on refresh button
 
   	->Update log system(update page) : display table from log.ini when user click on refresh button
- 
+
+# How to update devices
+	
+	Step 1 : click dropbox to select registed-devices *can select more than 1 device per time
+	![9](https://user-images.githubusercontent.com/73213619/134635779-46724558-82d9-4650-b74a-0aa6fd75fdd2.PNG)
+
+	Step 2 : select method to communicate with deivces
+	![10](https://user-images.githubusercontent.com/73213619/134635783-6c34b74d-ea22-4e57-ad28-016fcd586e7d.PNG)
+
+	Step 3(optional) : drag & select time limit(not period) to set time update then click set_time button
+	![11](https://user-images.githubusercontent.com/73213619/134635786-c5acda6a-07a5-4c3d-bb95-f53d753cc6eb.PNG)
+	
+	Step 4 : if you sure to update devices, you can activate it with confirm button
+
 # Requirement
 
     -python 3.9.6 lib

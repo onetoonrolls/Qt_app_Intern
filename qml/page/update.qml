@@ -268,7 +268,7 @@ Item {
         VerticalHeaderView {
             id: statusVerticalHeader
             x: notiTable.x-30
-            y: 383
+            y: notiTable.y
             width: 30
             syncView: tableStatus
             clip: true
@@ -290,7 +290,6 @@ Item {
 
         Rectangle {
             id: notiTable
-            y: notiTable.y
             width: 1264
             height: 180
             color: "#00000000"
@@ -731,6 +730,6 @@ Item {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.5}D{i:60}
+    D{i:0;formeditorZoom:0.66}
 }
 ##^##*/

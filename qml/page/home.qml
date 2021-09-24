@@ -402,8 +402,10 @@ Item {
                             internal.notiset = true
                             //contextNoti.text = "input box is null"
                         }
-                        else
+                        else{
                             homeBackend.registDevice(textIP.text,textDN.text)
+                        }
+                            
                     }
                 }
 
