@@ -18,7 +18,8 @@ noti_topic = "noti/device-1" #pub
 device_ip = "127.0.10.1"
 msg = ""
 msg_split = ["",""]
-info = {"mac":"0x123AF2C001",
+info = {"ip" : device_ip,
+        "mac":"0x123AF2C001",
         "status":{
                 "mes":" normal",
                 "sdc":"normal",
@@ -86,7 +87,7 @@ def setMQTT_connect():
     broker_name = Initread[1]["server_ip"]
     username = Initread[1]["username"]
     password = Initread[1]["password"]
-    port = Initread[1]["port"]
+    port = int(Initread[1]["port"])
 
 def connect_mqtt():
     #set client ID
@@ -118,7 +119,6 @@ def run():
     global msg,msg_split,discon
     setMQTT_connect()
     mq = connect_mqtt()
-   
     mq.loop_start()
     while(True):
         time.sleep(5)

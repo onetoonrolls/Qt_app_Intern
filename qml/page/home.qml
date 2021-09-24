@@ -340,7 +340,7 @@ Item {
                 width: 367
                 height: 46
                 color: "#ffffff"
-                text: "Register devices section"
+                text: "Add devices section"
                 anchors.left: cir.right
                 anchors.top: parent.top
                 anchors.topMargin: 0
@@ -397,10 +397,11 @@ Item {
                     font.pointSize: 15
                     checked: false
                     onClicked:{
-                        if(textIP.text =="" | textDN.text == "")
+                        if(textIP.text =="" | textDN.text == ""){
                             contextNotitext.append({"data": "input box is null"})
                             internal.notiset = true
                             //contextNoti.text = "input box is null"
+                        }
                         else
                             homeBackend.registDevice(textIP.text,textDN.text)
                     }

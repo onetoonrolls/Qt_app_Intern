@@ -86,7 +86,7 @@ def setMQTT_connect():
     broker_name = Initread[1]["server_ip"]
     username = Initread[1]["username"]
     password = Initread[1]["password"]
-    port = Initread[1]["port"]
+    port = int(Initread[1]["port"])
 
 def connect_mqtt():
     #set client ID

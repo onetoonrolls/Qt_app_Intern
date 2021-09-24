@@ -64,7 +64,7 @@ class MQTT_connect():
         self.port = 1234
         self.username = ""
         self.password = ""
-        self.id = ""
+        self.id = "littlezoocafe"
         self.info_topic = "info/#" #sub
         self.update_topic = "update" #pub
         self.noti_topic = "noti/#" #sub
@@ -74,67 +74,30 @@ class MQTT_connect():
         
         self.client = mqtt.Client(self.id)
 
-    # def on_message(self,client, userdata, message):
-    #     self.msg = message.payload.decode()
-    #     self.topic = message.topic
-    #     print(f"Received `{self.msg}` from `{self.topic}` topic")
+    def setIDconnect(self,id):
+        self.id = id
 
-    #     if self.msg == "discon":
-    #         self.client.disconnect()
-    #         print("disconnect&terminate")
-
-    #     topic_split = self.topic.split("/")
-    #     if topic_split[0] == "info":
-    #         msg_dic = json.loads(self.msg)
-    #         if topic_split[1] == "device-1":
-    #             self.info[0] = msg_dic
-    #         elif topic_split[1] == "device-2":
-    #             self.info[1] = msg_dic
-    #         elif topic_split[1] == "device-3":
-    #             self.info[2] = msg_dic
-    #     elif topic_split[0] == "noti":
-    #         if topic_split[1] == "device-1":
-    #             self.noti[0] = self.msg
-    #         elif topic_split[1] == "device-2":
-    #             self.noti[1] = self.msg
-    #         elif topic_split[1] == "device-3":
-    #             self.noti[2] = self.msg
-        
-    # def on_log(client,userdata, level, buf): #edit methos in mqtt handler
-    #     print("log : ",buf)
-
-    # def on_connect(self,client, userdata, flags, rc):
-    #     if rc ==0:
-    #         print("connected ok")
-    #         self.client.subscribe(info_topic)
-    #         self.client.subscribe(noti_topic)
-    #     else:
-    #         print("bad connection code : ",rc)
-        
-    # def on_disconnect(client,userdata,flags,rc =0):
-    #    print("Disconnect ",str(rc))
-
-    def setConnect(self,broker,port,user,psw,id):
+    def setConnect(self,broker,port,user,psw):
         self.broker_name = broker
         self.port = port
         self.username = user
         self.password = psw
-        self.id = id
+
     
     def connect_mqtt(self):
         #global on_connect,on_log,on_disconnect,on_message
         #set client ID
         #self.client = mqtt.Client("littleZoocafe") #create new instance
         #client = client = mqtt_client.Client(client_id)
-        self.client.username_pw_set(username, password)
+        self.client.username_pw_set(self.username, self.password)
         self.client.on_connect = on_connect
         self.client.on_message = on_message
         self.client.on_disconnect = on_disconnect
         #client.on_log =  self.on_log
-        self.client.connect(broker_name, port) #connect to broker
+        self.client.connect(self.broker_name, self.port) #connect to broker
         #client.connect(broker_name,1883,60) 
 
-        print("connect to broker ",broker_name)
+        print("connect to broker ",self.broker_name)
         #return client
 
     def shutdownDeviceAndDisconnect(self):
@@ -154,10 +117,12 @@ class MQTT_connect():
         return json.dumps(dic)
 
     def get_info(self):
+        global info
         self.client.publish("command","info"+"@"+"") #test get info
         print("send command get info")
-        time.sleep(10)
-        print(noti)
+        time.sleep(18)
+        #print(noti)
+        #print(info)
         return info
     
     def update_device(self,update_ip): #update_ip = list form
@@ -171,10 +136,12 @@ if __name__ == '__main__':
     port = 1883
     username = "ndrs-sv"
     password = "mqtt@/2019"
+    
     id = "littleZoocafe"
     test_update_ip = ["127.0.10.1","127.0.10.2","127.0.10.3"]
     mq = MQTT_connect()
-    mq.setConnect(broker_name,port,username,password,id)
+    mq.setIDconnect(id)
+    mq.setConnect(broker_name,port,username,password)
     mq.connect_mqtt()
     mq.client.loop_start()
     info = mq.get_info()

@@ -4930,3 +4930,600 @@
 2021-09-20 13:49:04,520:INFO:sectionEMU-B20MC-2
 2021-09-20 13:49:04,524:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
 2021-09-20 13:49:04,527:INFO:sectionEMU-B20SM-1
+2021-09-21 13:38:17,104:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 13:38:17,105:INFO:sectionFTP server
+2021-09-21 13:38:17,105:INFO:section invaild
+2021-09-21 13:38:17,105:INFO:sectionMQTT
+2021-09-21 13:38:17,105:INFO:section invaild
+2021-09-21 13:38:17,105:INFO:sectionEMU-B20MC-init
+2021-09-21 13:38:17,105:INFO:sectionEMU-B20SM-init
+2021-09-21 13:42:40,561:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 13:42:40,562:INFO:sectionFTP server
+2021-09-21 13:42:40,562:INFO:section invaild
+2021-09-21 13:42:40,562:INFO:sectionMQTT
+2021-09-21 13:42:40,562:INFO:section invaild
+2021-09-21 13:42:40,562:INFO:sectionEMU-B20MC-init
+2021-09-21 13:42:40,562:INFO:sectionEMU-B20SM-init
+2021-09-21 13:43:13,436:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 13:43:13,437:INFO:sectionFTP server
+2021-09-21 13:43:13,437:INFO:section invaild
+2021-09-21 13:43:13,437:INFO:sectionMQTT
+2021-09-21 13:43:13,437:INFO:section invaild
+2021-09-21 13:43:13,437:INFO:sectionEMU-B20MC-init
+2021-09-21 13:43:13,437:INFO:sectionEMU-B20SM-init
+2021-09-21 13:43:20,038:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 13:43:20,038:INFO:sectionFTP server
+2021-09-21 13:43:20,038:INFO:section invaild
+2021-09-21 13:43:20,038:INFO:sectionMQTT
+2021-09-21 13:43:20,038:INFO:section invaild
+2021-09-21 13:43:20,038:INFO:sectionEMU-B20MC-init
+2021-09-21 13:43:20,039:INFO:sectionEMU-B20SM-init
+2021-09-21 13:43:28,975:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 13:43:28,976:INFO:sectionFTP server
+2021-09-21 13:43:28,976:INFO:section invaild
+2021-09-21 13:43:28,976:INFO:sectionMQTT
+2021-09-21 13:43:28,976:INFO:section invaild
+2021-09-21 13:43:28,976:INFO:sectionEMU-B20MC-init
+2021-09-21 13:43:28,976:INFO:sectionEMU-B20SM-init
+2021-09-21 13:47:14,297:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 13:47:14,298:INFO:sectionFTP server
+2021-09-21 13:47:14,298:INFO:section invaild
+2021-09-21 13:47:14,298:INFO:sectionMQTT
+2021-09-21 13:47:14,298:INFO:section invaild
+2021-09-21 13:47:14,298:INFO:sectionEMU-B20MC-init
+2021-09-21 13:47:14,298:INFO:sectionEMU-B20SM-init
+2021-09-21 13:48:02,036:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 13:48:02,036:INFO:sectionFTP server
+2021-09-21 13:48:02,036:INFO:section invaild
+2021-09-21 13:48:02,036:INFO:sectionMQTT
+2021-09-21 13:48:02,036:INFO:section invaild
+2021-09-21 13:48:02,037:INFO:sectionEMU-B20MC-init
+2021-09-21 13:48:02,037:INFO:sectionEMU-B20SM-init
+2021-09-21 13:54:36,875:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 13:54:36,876:INFO:sectionFTP server
+2021-09-21 13:54:36,876:INFO:section invaild
+2021-09-21 13:54:36,876:INFO:sectionMQTT
+2021-09-21 13:54:36,876:INFO:section invaild
+2021-09-21 13:54:36,876:INFO:sectionEMU-B20MC-init
+2021-09-21 13:54:36,876:INFO:sectionEMU-B20SM-init
+2021-09-21 13:56:36,601:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 13:56:36,602:INFO:sectionFTP server
+2021-09-21 13:56:36,602:INFO:section invaild
+2021-09-21 13:56:36,602:INFO:sectionMQTT
+2021-09-21 13:56:36,602:INFO:section invaild
+2021-09-21 13:56:36,602:INFO:sectionEMU-B20MC-init
+2021-09-21 13:56:36,602:INFO:sectionEMU-B20SM-init
+2021-09-21 13:59:47,922:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 13:59:47,923:INFO:sectionFTP server
+2021-09-21 13:59:47,923:INFO:section invaild
+2021-09-21 13:59:47,923:INFO:sectionMQTT
+2021-09-21 13:59:47,923:INFO:section invaild
+2021-09-21 13:59:47,923:INFO:sectionEMU-B20MC-init
+2021-09-21 13:59:47,923:INFO:sectionEMU-B20SM-init
+2021-09-21 14:03:04,621:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:03:04,621:INFO:sectionFTP server
+2021-09-21 14:03:04,621:INFO:section invaild
+2021-09-21 14:03:04,622:INFO:sectionMQTT
+2021-09-21 14:03:04,622:INFO:section invaild
+2021-09-21 14:03:04,622:INFO:sectionEMU-B20MC-init
+2021-09-21 14:03:04,622:INFO:sectionEMU-B20SM-init
+2021-09-21 14:03:04,622:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:03:04,622:INFO:sectionFTP server
+2021-09-21 14:03:04,622:INFO:section invaild
+2021-09-21 14:03:04,622:INFO:sectionMQTT
+2021-09-21 14:03:04,622:INFO:section invaild
+2021-09-21 14:03:04,622:INFO:sectionEMU-B20MC-init
+2021-09-21 14:03:04,622:INFO:sectionEMU-B20SM-init
+2021-09-21 14:03:04,622:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:03:04,623:INFO:sectionFTP server
+2021-09-21 14:03:04,623:INFO:section invaild
+2021-09-21 14:03:04,623:INFO:sectionMQTT
+2021-09-21 14:03:04,623:INFO:section invaild
+2021-09-21 14:03:04,623:INFO:sectionEMU-B20MC-init
+2021-09-21 14:03:04,623:INFO:sectionEMU-B20SM-init
+2021-09-21 14:03:04,623:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:03:04,623:INFO:sectionFTP server
+2021-09-21 14:03:04,623:INFO:section invaild
+2021-09-21 14:03:04,624:INFO:sectionMQTT
+2021-09-21 14:03:04,624:INFO:section invaild
+2021-09-21 14:03:04,624:INFO:sectionEMU-B20MC-init
+2021-09-21 14:03:04,624:INFO:sectionEMU-B20SM-init
+2021-09-21 14:08:06,403:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:08:06,403:INFO:sectionFTP server
+2021-09-21 14:08:06,403:INFO:section invaild
+2021-09-21 14:08:06,403:INFO:sectionMQTT
+2021-09-21 14:08:06,403:INFO:section invaild
+2021-09-21 14:08:06,403:INFO:sectionEMU-B20MC-init
+2021-09-21 14:08:06,404:INFO:sectionEMU-B20SM-init
+2021-09-21 14:08:18,065:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:08:18,065:INFO:sectionFTP server
+2021-09-21 14:08:18,065:INFO:section invaild
+2021-09-21 14:08:18,065:INFO:sectionMQTT
+2021-09-21 14:08:18,065:INFO:section invaild
+2021-09-21 14:08:18,065:INFO:sectionEMU-B20MC-init
+2021-09-21 14:08:18,066:INFO:sectionEMU-B20SM-init
+2021-09-21 14:08:18,066:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:08:18,066:INFO:sectionFTP server
+2021-09-21 14:08:18,066:INFO:section invaild
+2021-09-21 14:08:18,066:INFO:sectionMQTT
+2021-09-21 14:08:18,066:INFO:section invaild
+2021-09-21 14:08:18,066:INFO:sectionEMU-B20MC-init
+2021-09-21 14:08:18,066:INFO:sectionEMU-B20SM-init
+2021-09-21 14:08:18,066:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:08:18,067:INFO:sectionFTP server
+2021-09-21 14:08:18,067:INFO:section invaild
+2021-09-21 14:08:18,067:INFO:sectionMQTT
+2021-09-21 14:08:18,067:INFO:section invaild
+2021-09-21 14:08:18,067:INFO:sectionEMU-B20MC-init
+2021-09-21 14:08:18,067:INFO:sectionEMU-B20SM-init
+2021-09-21 14:08:18,067:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:08:18,067:INFO:sectionFTP server
+2021-09-21 14:08:18,067:INFO:section invaild
+2021-09-21 14:08:18,067:INFO:sectionMQTT
+2021-09-21 14:08:18,067:INFO:section invaild
+2021-09-21 14:08:18,068:INFO:sectionEMU-B20MC-init
+2021-09-21 14:08:18,068:INFO:sectionEMU-B20SM-init
+2021-09-21 14:09:57,856:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:09:57,856:INFO:sectionFTP server
+2021-09-21 14:09:57,856:INFO:section invaild
+2021-09-21 14:09:57,856:INFO:sectionMQTT
+2021-09-21 14:09:57,856:INFO:section invaild
+2021-09-21 14:09:57,857:INFO:sectionEMU-B20MC-init
+2021-09-21 14:09:57,857:INFO:sectionEMU-B20SM-init
+2021-09-21 14:09:57,857:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:09:57,857:INFO:sectionFTP server
+2021-09-21 14:09:57,857:INFO:section invaild
+2021-09-21 14:09:57,857:INFO:sectionMQTT
+2021-09-21 14:09:57,857:INFO:section invaild
+2021-09-21 14:09:57,857:INFO:sectionEMU-B20MC-init
+2021-09-21 14:09:57,857:INFO:sectionEMU-B20SM-init
+2021-09-21 14:09:57,857:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:09:57,858:INFO:sectionFTP server
+2021-09-21 14:09:57,858:INFO:section invaild
+2021-09-21 14:09:57,858:INFO:sectionMQTT
+2021-09-21 14:09:57,858:INFO:section invaild
+2021-09-21 14:09:57,858:INFO:sectionEMU-B20MC-init
+2021-09-21 14:09:57,858:INFO:sectionEMU-B20SM-init
+2021-09-21 14:09:57,858:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:09:57,858:INFO:sectionFTP server
+2021-09-21 14:09:57,858:INFO:section invaild
+2021-09-21 14:09:57,858:INFO:sectionMQTT
+2021-09-21 14:09:57,858:INFO:section invaild
+2021-09-21 14:09:57,858:INFO:sectionEMU-B20MC-init
+2021-09-21 14:09:57,858:INFO:sectionEMU-B20SM-init
+2021-09-21 14:16:49,829:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:16:49,830:INFO:sectionFTP server
+2021-09-21 14:16:49,830:INFO:section invaild
+2021-09-21 14:16:49,830:INFO:sectionMQTT
+2021-09-21 14:16:49,830:INFO:section invaild
+2021-09-21 14:16:49,830:INFO:sectionEMU-B20MC-init
+2021-09-21 14:16:49,830:INFO:sectionEMU-B20SM-init
+2021-09-21 14:16:49,830:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:16:49,830:INFO:sectionFTP server
+2021-09-21 14:16:49,830:INFO:section invaild
+2021-09-21 14:16:49,831:INFO:sectionMQTT
+2021-09-21 14:16:49,831:INFO:section invaild
+2021-09-21 14:16:49,831:INFO:sectionEMU-B20MC-init
+2021-09-21 14:16:49,831:INFO:sectionEMU-B20SM-init
+2021-09-21 14:16:49,831:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:16:49,831:INFO:sectionFTP server
+2021-09-21 14:16:49,831:INFO:section invaild
+2021-09-21 14:16:49,831:INFO:sectionMQTT
+2021-09-21 14:16:49,831:INFO:section invaild
+2021-09-21 14:16:49,831:INFO:sectionEMU-B20MC-init
+2021-09-21 14:16:49,831:INFO:sectionEMU-B20SM-init
+2021-09-21 14:16:49,831:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:16:49,832:INFO:sectionFTP server
+2021-09-21 14:16:49,832:INFO:section invaild
+2021-09-21 14:16:49,832:INFO:sectionMQTT
+2021-09-21 14:16:49,832:INFO:section invaild
+2021-09-21 14:16:49,832:INFO:sectionEMU-B20MC-init
+2021-09-21 14:16:49,832:INFO:sectionEMU-B20SM-init
+2021-09-21 14:20:44,440:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:20:44,441:INFO:sectionFTP server
+2021-09-21 14:20:44,441:INFO:section invaild
+2021-09-21 14:20:44,441:INFO:sectionMQTT
+2021-09-21 14:20:44,441:INFO:section invaild
+2021-09-21 14:20:44,441:INFO:sectionEMU-B20MC-init
+2021-09-21 14:20:44,441:INFO:sectionEMU-B20SM-init
+2021-09-21 14:20:44,441:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:20:44,441:INFO:sectionFTP server
+2021-09-21 14:20:44,441:INFO:section invaild
+2021-09-21 14:20:44,441:INFO:sectionMQTT
+2021-09-21 14:20:44,441:INFO:section invaild
+2021-09-21 14:20:44,441:INFO:sectionEMU-B20MC-init
+2021-09-21 14:20:44,442:INFO:sectionEMU-B20SM-init
+2021-09-21 14:20:44,442:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:20:44,442:INFO:sectionFTP server
+2021-09-21 14:20:44,442:INFO:section invaild
+2021-09-21 14:20:44,442:INFO:sectionMQTT
+2021-09-21 14:20:44,442:INFO:section invaild
+2021-09-21 14:20:44,442:INFO:sectionEMU-B20MC-init
+2021-09-21 14:20:44,442:INFO:sectionEMU-B20SM-init
+2021-09-21 14:20:44,442:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:20:44,443:INFO:sectionFTP server
+2021-09-21 14:20:44,443:INFO:section invaild
+2021-09-21 14:20:44,443:INFO:sectionMQTT
+2021-09-21 14:20:44,443:INFO:section invaild
+2021-09-21 14:20:44,443:INFO:sectionEMU-B20MC-init
+2021-09-21 14:20:44,443:INFO:sectionEMU-B20SM-init
+2021-09-21 14:22:16,423:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:22:16,423:INFO:sectionFTP server
+2021-09-21 14:22:16,423:INFO:section invaild
+2021-09-21 14:22:16,423:INFO:sectionMQTT
+2021-09-21 14:22:16,423:INFO:section invaild
+2021-09-21 14:22:16,423:INFO:sectionEMU-B20MC-init
+2021-09-21 14:22:16,423:INFO:sectionEMU-B20SM-init
+2021-09-21 14:22:16,424:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:22:16,424:INFO:sectionFTP server
+2021-09-21 14:22:16,424:INFO:section invaild
+2021-09-21 14:22:16,424:INFO:sectionMQTT
+2021-09-21 14:22:16,424:INFO:section invaild
+2021-09-21 14:22:16,424:INFO:sectionEMU-B20MC-init
+2021-09-21 14:22:16,424:INFO:sectionEMU-B20SM-init
+2021-09-21 14:22:16,424:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:22:16,424:INFO:sectionFTP server
+2021-09-21 14:22:16,425:INFO:section invaild
+2021-09-21 14:22:16,425:INFO:sectionMQTT
+2021-09-21 14:22:16,425:INFO:section invaild
+2021-09-21 14:22:16,425:INFO:sectionEMU-B20MC-init
+2021-09-21 14:22:16,425:INFO:sectionEMU-B20SM-init
+2021-09-21 14:22:16,425:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:22:16,425:INFO:sectionFTP server
+2021-09-21 14:22:16,425:INFO:section invaild
+2021-09-21 14:22:16,425:INFO:sectionMQTT
+2021-09-21 14:22:16,425:INFO:section invaild
+2021-09-21 14:22:16,425:INFO:sectionEMU-B20MC-init
+2021-09-21 14:22:16,425:INFO:sectionEMU-B20SM-init
+2021-09-21 14:26:20,285:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:26:20,286:INFO:sectionFTP server
+2021-09-21 14:26:20,286:INFO:section invaild
+2021-09-21 14:26:20,286:INFO:sectionMQTT
+2021-09-21 14:26:20,286:INFO:section invaild
+2021-09-21 14:26:20,286:INFO:sectionEMU-B20MC-init
+2021-09-21 14:26:20,286:INFO:sectionEMU-B20SM-init
+2021-09-21 14:26:20,286:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:26:20,286:INFO:sectionFTP server
+2021-09-21 14:26:20,286:INFO:section invaild
+2021-09-21 14:26:20,286:INFO:sectionMQTT
+2021-09-21 14:26:20,286:INFO:section invaild
+2021-09-21 14:26:20,286:INFO:sectionEMU-B20MC-init
+2021-09-21 14:26:20,286:INFO:sectionEMU-B20SM-init
+2021-09-21 14:26:20,287:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:26:20,287:INFO:sectionFTP server
+2021-09-21 14:26:20,287:INFO:section invaild
+2021-09-21 14:26:20,287:INFO:sectionMQTT
+2021-09-21 14:26:20,287:INFO:section invaild
+2021-09-21 14:26:20,287:INFO:sectionEMU-B20MC-init
+2021-09-21 14:26:20,287:INFO:sectionEMU-B20SM-init
+2021-09-21 14:26:20,287:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 14:26:20,288:INFO:sectionFTP server
+2021-09-21 14:26:20,288:INFO:section invaild
+2021-09-21 14:26:20,288:INFO:sectionMQTT
+2021-09-21 14:26:20,288:INFO:section invaild
+2021-09-21 14:26:20,288:INFO:sectionEMU-B20MC-init
+2021-09-21 14:26:20,288:INFO:sectionEMU-B20SM-init
+2021-09-21 15:08:51,624:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:08:51,625:INFO:sectionFTP server
+2021-09-21 15:08:51,625:INFO:section invaild
+2021-09-21 15:08:51,625:INFO:sectionMQTT
+2021-09-21 15:08:51,625:INFO:section invaild
+2021-09-21 15:08:51,625:INFO:sectionEMU-B20MC-init
+2021-09-21 15:08:51,625:INFO:sectionEMU-B20SM-init
+2021-09-21 15:16:42,340:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:16:42,340:INFO:sectionFTP server
+2021-09-21 15:16:42,340:INFO:section invaild
+2021-09-21 15:16:42,340:INFO:sectionMQTT
+2021-09-21 15:16:42,340:INFO:section invaild
+2021-09-21 15:16:42,340:INFO:sectionEMU-B20MC-init
+2021-09-21 15:16:42,340:INFO:sectionEMU-B20SM-init
+2021-09-21 15:16:42,341:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:16:42,341:INFO:sectionFTP server
+2021-09-21 15:16:42,341:INFO:section invaild
+2021-09-21 15:16:42,341:INFO:sectionMQTT
+2021-09-21 15:16:42,341:INFO:section invaild
+2021-09-21 15:16:42,341:INFO:sectionEMU-B20MC-init
+2021-09-21 15:16:42,341:INFO:sectionEMU-B20SM-init
+2021-09-21 15:16:42,341:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:16:42,341:INFO:sectionFTP server
+2021-09-21 15:16:42,342:INFO:section invaild
+2021-09-21 15:16:42,342:INFO:sectionMQTT
+2021-09-21 15:16:42,342:INFO:section invaild
+2021-09-21 15:16:42,342:INFO:sectionEMU-B20MC-init
+2021-09-21 15:16:42,342:INFO:sectionEMU-B20SM-init
+2021-09-21 15:16:42,342:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:16:42,342:INFO:sectionFTP server
+2021-09-21 15:16:42,342:INFO:section invaild
+2021-09-21 15:16:42,342:INFO:sectionMQTT
+2021-09-21 15:16:42,342:INFO:section invaild
+2021-09-21 15:16:42,342:INFO:sectionEMU-B20MC-init
+2021-09-21 15:16:42,342:INFO:sectionEMU-B20SM-init
+2021-09-21 15:22:10,036:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:22:10,036:INFO:sectionFTP server
+2021-09-21 15:22:10,036:INFO:section invaild
+2021-09-21 15:22:10,036:INFO:sectionMQTT
+2021-09-21 15:22:10,036:INFO:section invaild
+2021-09-21 15:22:10,036:INFO:sectionEMU-B20MC-init
+2021-09-21 15:22:10,037:INFO:sectionEMU-B20SM-init
+2021-09-21 15:22:10,037:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:22:10,037:INFO:sectionFTP server
+2021-09-21 15:22:10,037:INFO:section invaild
+2021-09-21 15:22:10,037:INFO:sectionMQTT
+2021-09-21 15:22:10,037:INFO:section invaild
+2021-09-21 15:22:10,037:INFO:sectionEMU-B20MC-init
+2021-09-21 15:22:10,037:INFO:sectionEMU-B20SM-init
+2021-09-21 15:22:10,037:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:22:10,037:INFO:sectionFTP server
+2021-09-21 15:22:10,038:INFO:section invaild
+2021-09-21 15:22:10,038:INFO:sectionMQTT
+2021-09-21 15:22:10,038:INFO:section invaild
+2021-09-21 15:22:10,038:INFO:sectionEMU-B20MC-init
+2021-09-21 15:22:10,038:INFO:sectionEMU-B20SM-init
+2021-09-21 15:22:10,038:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:22:10,038:INFO:sectionFTP server
+2021-09-21 15:22:10,038:INFO:section invaild
+2021-09-21 15:22:10,038:INFO:sectionMQTT
+2021-09-21 15:22:10,038:INFO:section invaild
+2021-09-21 15:22:10,038:INFO:sectionEMU-B20MC-init
+2021-09-21 15:22:10,038:INFO:sectionEMU-B20SM-init
+2021-09-21 15:23:24,053:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:23:24,054:INFO:sectionFTP server
+2021-09-21 15:23:24,054:INFO:section invaild
+2021-09-21 15:23:24,054:INFO:sectionMQTT
+2021-09-21 15:23:24,054:INFO:section invaild
+2021-09-21 15:23:24,054:INFO:sectionEMU-B20MC-init
+2021-09-21 15:23:24,054:INFO:sectionEMU-B20SM-init
+2021-09-21 15:23:24,054:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:23:24,054:INFO:sectionFTP server
+2021-09-21 15:23:24,055:INFO:section invaild
+2021-09-21 15:23:24,055:INFO:sectionMQTT
+2021-09-21 15:23:24,055:INFO:section invaild
+2021-09-21 15:23:24,055:INFO:sectionEMU-B20MC-init
+2021-09-21 15:23:24,055:INFO:sectionEMU-B20SM-init
+2021-09-21 15:23:24,055:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:23:24,055:INFO:sectionFTP server
+2021-09-21 15:23:24,055:INFO:section invaild
+2021-09-21 15:23:24,055:INFO:sectionMQTT
+2021-09-21 15:23:24,055:INFO:section invaild
+2021-09-21 15:23:24,055:INFO:sectionEMU-B20MC-init
+2021-09-21 15:23:24,055:INFO:sectionEMU-B20SM-init
+2021-09-21 15:23:24,056:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:23:24,056:INFO:sectionFTP server
+2021-09-21 15:23:24,056:INFO:section invaild
+2021-09-21 15:23:24,056:INFO:sectionMQTT
+2021-09-21 15:23:24,056:INFO:section invaild
+2021-09-21 15:23:24,056:INFO:sectionEMU-B20MC-init
+2021-09-21 15:23:24,056:INFO:sectionEMU-B20SM-init
+2021-09-21 15:25:29,860:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:25:29,861:INFO:sectionFTP server
+2021-09-21 15:25:29,861:INFO:section invaild
+2021-09-21 15:25:29,861:INFO:sectionMQTT
+2021-09-21 15:25:29,861:INFO:section invaild
+2021-09-21 15:25:29,861:INFO:sectionEMU-B20MC-init
+2021-09-21 15:25:29,861:INFO:sectionEMU-B20SM-init
+2021-09-21 15:25:29,861:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:25:29,862:INFO:sectionFTP server
+2021-09-21 15:25:29,862:INFO:section invaild
+2021-09-21 15:25:29,862:INFO:sectionMQTT
+2021-09-21 15:25:29,862:INFO:section invaild
+2021-09-21 15:25:29,862:INFO:sectionEMU-B20MC-init
+2021-09-21 15:25:29,862:INFO:sectionEMU-B20SM-init
+2021-09-21 15:25:29,862:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:25:29,862:INFO:sectionFTP server
+2021-09-21 15:25:29,862:INFO:section invaild
+2021-09-21 15:25:29,862:INFO:sectionMQTT
+2021-09-21 15:25:29,862:INFO:section invaild
+2021-09-21 15:25:29,862:INFO:sectionEMU-B20MC-init
+2021-09-21 15:25:29,863:INFO:sectionEMU-B20SM-init
+2021-09-21 15:25:29,863:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:25:29,863:INFO:sectionFTP server
+2021-09-21 15:25:29,863:INFO:section invaild
+2021-09-21 15:25:29,863:INFO:sectionMQTT
+2021-09-21 15:25:29,863:INFO:section invaild
+2021-09-21 15:25:29,863:INFO:sectionEMU-B20MC-init
+2021-09-21 15:25:29,863:INFO:sectionEMU-B20SM-init
+2021-09-21 15:25:39,946:INFO:clear Modbus ip done
+2021-09-21 15:27:03,348:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:27:03,348:INFO:sectionFTP server
+2021-09-21 15:27:03,348:INFO:section invaild
+2021-09-21 15:27:03,348:INFO:sectionMQTT
+2021-09-21 15:27:03,348:INFO:section invaild
+2021-09-21 15:27:03,348:INFO:sectionEMU-B20MC-init
+2021-09-21 15:27:03,348:INFO:sectionEMU-B20SM-init
+2021-09-21 15:27:03,348:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:27:03,349:INFO:sectionFTP server
+2021-09-21 15:27:03,349:INFO:section invaild
+2021-09-21 15:27:03,349:INFO:sectionMQTT
+2021-09-21 15:27:03,349:INFO:section invaild
+2021-09-21 15:27:03,349:INFO:sectionEMU-B20MC-init
+2021-09-21 15:27:03,349:INFO:sectionEMU-B20SM-init
+2021-09-21 15:27:03,349:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:27:03,349:INFO:sectionFTP server
+2021-09-21 15:27:03,349:INFO:section invaild
+2021-09-21 15:27:03,349:INFO:sectionMQTT
+2021-09-21 15:27:03,349:INFO:section invaild
+2021-09-21 15:27:03,349:INFO:sectionEMU-B20MC-init
+2021-09-21 15:27:03,349:INFO:sectionEMU-B20SM-init
+2021-09-21 15:27:03,350:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:27:03,350:INFO:sectionFTP server
+2021-09-21 15:27:03,350:INFO:section invaild
+2021-09-21 15:27:03,350:INFO:sectionMQTT
+2021-09-21 15:27:03,350:INFO:section invaild
+2021-09-21 15:27:03,350:INFO:sectionEMU-B20MC-init
+2021-09-21 15:27:03,350:INFO:sectionEMU-B20SM-init
+2021-09-21 15:27:13,418:INFO:clear Modbus ip done
+2021-09-21 15:48:24,633:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:48:24,633:INFO:sectionFTP server
+2021-09-21 15:48:24,633:INFO:section invaild
+2021-09-21 15:48:24,633:INFO:sectionMQTT
+2021-09-21 15:48:24,634:INFO:section invaild
+2021-09-21 15:48:24,634:INFO:sectionEMU-B20MC-init
+2021-09-21 15:48:24,634:INFO:sectionEMU-B20SM-init
+2021-09-21 15:48:24,634:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:48:24,634:INFO:sectionFTP server
+2021-09-21 15:48:24,634:INFO:section invaild
+2021-09-21 15:48:24,634:INFO:sectionMQTT
+2021-09-21 15:48:24,634:INFO:section invaild
+2021-09-21 15:48:24,634:INFO:sectionEMU-B20MC-init
+2021-09-21 15:48:24,634:INFO:sectionEMU-B20SM-init
+2021-09-21 15:48:24,635:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:48:24,635:INFO:sectionFTP server
+2021-09-21 15:48:24,635:INFO:section invaild
+2021-09-21 15:48:24,635:INFO:sectionMQTT
+2021-09-21 15:48:24,635:INFO:section invaild
+2021-09-21 15:48:24,635:INFO:sectionEMU-B20MC-init
+2021-09-21 15:48:24,635:INFO:sectionEMU-B20SM-init
+2021-09-21 15:48:24,635:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:48:24,635:INFO:sectionFTP server
+2021-09-21 15:48:24,636:INFO:section invaild
+2021-09-21 15:48:24,636:INFO:sectionMQTT
+2021-09-21 15:48:24,636:INFO:section invaild
+2021-09-21 15:48:24,636:INFO:sectionEMU-B20MC-init
+2021-09-21 15:48:24,636:INFO:sectionEMU-B20SM-init
+2021-09-21 15:48:34,708:INFO:clear Modbus ip done
+2021-09-21 15:57:08,521:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:57:08,522:INFO:sectionFTP server
+2021-09-21 15:57:08,522:INFO:section invaild
+2021-09-21 15:57:08,522:INFO:sectionMQTT
+2021-09-21 15:57:08,522:INFO:section invaild
+2021-09-21 15:57:08,522:INFO:sectionEMU-B20MC-init
+2021-09-21 15:57:08,522:INFO:sectionEMU-B20SM-init
+2021-09-21 15:57:08,522:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:57:08,523:INFO:sectionFTP server
+2021-09-21 15:57:08,523:INFO:section invaild
+2021-09-21 15:57:08,523:INFO:sectionMQTT
+2021-09-21 15:57:08,523:INFO:section invaild
+2021-09-21 15:57:08,523:INFO:sectionEMU-B20MC-init
+2021-09-21 15:57:08,523:INFO:sectionEMU-B20SM-init
+2021-09-21 15:57:08,523:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:57:08,523:INFO:sectionFTP server
+2021-09-21 15:57:08,523:INFO:section invaild
+2021-09-21 15:57:08,523:INFO:sectionMQTT
+2021-09-21 15:57:08,523:INFO:section invaild
+2021-09-21 15:57:08,523:INFO:sectionEMU-B20MC-init
+2021-09-21 15:57:08,523:INFO:sectionEMU-B20SM-init
+2021-09-21 15:57:08,524:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-21 15:57:08,524:INFO:sectionFTP server
+2021-09-21 15:57:08,524:INFO:section invaild
+2021-09-21 15:57:08,524:INFO:sectionMQTT
+2021-09-21 15:57:08,524:INFO:section invaild
+2021-09-21 15:57:08,524:INFO:sectionEMU-B20MC-init
+2021-09-21 15:57:08,524:INFO:sectionEMU-B20SM-init
+2021-09-21 15:57:26,602:INFO:clear Modbus ip done
+2021-09-24 13:58:58,083:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-24 13:58:58,087:INFO:sectionFTP server
+2021-09-24 13:58:58,087:INFO:section invaild
+2021-09-24 13:58:58,087:INFO:sectionMQTT
+2021-09-24 13:58:58,087:INFO:section invaild
+2021-09-24 13:58:58,087:INFO:sectionEMU-B20MC-init
+2021-09-24 13:58:58,087:INFO:sectionEMU-B20SM-init
+2021-09-24 13:58:58,087:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-24 13:58:58,087:INFO:sectionFTP server
+2021-09-24 13:58:58,087:INFO:section invaild
+2021-09-24 13:58:58,088:INFO:sectionMQTT
+2021-09-24 13:58:58,088:INFO:section invaild
+2021-09-24 13:58:58,088:INFO:sectionEMU-B20MC-init
+2021-09-24 13:58:58,088:INFO:sectionEMU-B20SM-init
+2021-09-24 13:58:58,091:INFO:current read file: INI_config/ini_storage/log.ini
+2021-09-24 13:58:58,095:INFO:sectionlog-1
+2021-09-24 13:58:58,095:INFO:sectionlog-2
+2021-09-24 13:58:58,095:INFO:section invaild
+2021-09-24 13:58:58,095:INFO:sectionlog-3
+2021-09-24 13:58:58,095:INFO:section invaild
+2021-09-24 13:58:58,095:INFO:sectionlog-4
+2021-09-24 13:58:58,095:INFO:section invaild
+2021-09-24 13:58:58,095:INFO:sectionlog-5
+2021-09-24 13:58:58,095:INFO:section invaild
+2021-09-24 13:58:58,095:INFO:sectionlog-6
+2021-09-24 13:58:58,095:INFO:section invaild
+2021-09-24 13:58:58,104:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-09-24 13:58:58,108:INFO:sectionlogFTP-1
+2021-09-24 13:58:58,108:INFO:sectionlogFTP-2
+2021-09-24 13:58:58,108:INFO:sectionlogFTP-3
+2021-09-24 13:58:58,108:INFO:sectionlogFTP-4
+2021-09-24 13:58:58,108:INFO:sectionlogFTP-5
+2021-09-24 13:58:58,108:INFO:sectionlogFTP-6
+2021-09-24 13:58:58,108:INFO:sectionlogFTP-7
+2021-09-24 13:58:58,121:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-09-24 13:58:58,125:INFO:sectionEMU-B20MC-1
+2021-09-24 13:58:58,125:INFO:sectionEMU-B20MC-2
+2021-09-24 13:58:58,128:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-09-24 13:58:58,131:INFO:sectionEMU-B20SM-1
+2021-09-24 14:02:29,851:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-24 14:02:29,851:INFO:sectionFTP server
+2021-09-24 14:02:29,852:INFO:section invaild
+2021-09-24 14:02:29,852:INFO:sectionMQTT
+2021-09-24 14:02:29,852:INFO:section invaild
+2021-09-24 14:02:29,852:INFO:sectionEMU-B20MC-init
+2021-09-24 14:02:29,852:INFO:sectionEMU-B20SM-init
+2021-09-24 14:02:29,852:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-24 14:02:29,852:INFO:sectionFTP server
+2021-09-24 14:02:29,852:INFO:section invaild
+2021-09-24 14:02:29,852:INFO:sectionMQTT
+2021-09-24 14:02:29,852:INFO:section invaild
+2021-09-24 14:02:29,853:INFO:sectionEMU-B20MC-init
+2021-09-24 14:02:29,853:INFO:sectionEMU-B20SM-init
+2021-09-24 14:02:29,856:INFO:current read file: INI_config/ini_storage/log.ini
+2021-09-24 14:02:29,856:INFO:sectionlog-1
+2021-09-24 14:02:29,856:INFO:sectionlog-2
+2021-09-24 14:02:29,856:INFO:section invaild
+2021-09-24 14:02:29,856:INFO:sectionlog-3
+2021-09-24 14:02:29,856:INFO:section invaild
+2021-09-24 14:02:29,856:INFO:sectionlog-4
+2021-09-24 14:02:29,856:INFO:section invaild
+2021-09-24 14:02:29,856:INFO:sectionlog-5
+2021-09-24 14:02:29,856:INFO:section invaild
+2021-09-24 14:02:29,857:INFO:sectionlog-6
+2021-09-24 14:02:29,857:INFO:section invaild
+2021-09-24 14:02:29,865:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-09-24 14:02:29,865:INFO:sectionlogFTP-1
+2021-09-24 14:02:29,865:INFO:sectionlogFTP-2
+2021-09-24 14:02:29,865:INFO:sectionlogFTP-3
+2021-09-24 14:02:29,865:INFO:sectionlogFTP-4
+2021-09-24 14:02:29,865:INFO:sectionlogFTP-5
+2021-09-24 14:02:29,866:INFO:sectionlogFTP-6
+2021-09-24 14:02:29,866:INFO:sectionlogFTP-7
+2021-09-24 14:02:29,878:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-09-24 14:02:29,878:INFO:sectionEMU-B20MC-1
+2021-09-24 14:02:29,878:INFO:sectionEMU-B20MC-2
+2021-09-24 14:02:29,881:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-09-24 14:02:29,882:INFO:sectionEMU-B20SM-1
+2021-09-24 14:05:14,167:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-24 14:05:14,167:INFO:sectionFTP server
+2021-09-24 14:05:14,167:INFO:section invaild
+2021-09-24 14:05:14,167:INFO:sectionMQTT
+2021-09-24 14:05:14,168:INFO:section invaild
+2021-09-24 14:05:14,168:INFO:sectionEMU-B20MC-init
+2021-09-24 14:05:14,168:INFO:sectionEMU-B20SM-init
+2021-09-24 14:05:14,168:INFO:current read file: INI_config/ini_storage/initConfig.ini
+2021-09-24 14:05:14,168:INFO:sectionFTP server
+2021-09-24 14:05:14,168:INFO:section invaild
+2021-09-24 14:05:14,168:INFO:sectionMQTT
+2021-09-24 14:05:14,168:INFO:section invaild
+2021-09-24 14:05:14,168:INFO:sectionEMU-B20MC-init
+2021-09-24 14:05:14,168:INFO:sectionEMU-B20SM-init
+2021-09-24 14:05:14,171:INFO:current read file: INI_config/ini_storage/log.ini
+2021-09-24 14:05:14,172:INFO:sectionlog-1
+2021-09-24 14:05:14,172:INFO:sectionlog-2
+2021-09-24 14:05:14,172:INFO:section invaild
+2021-09-24 14:05:14,172:INFO:sectionlog-3
+2021-09-24 14:05:14,172:INFO:section invaild
+2021-09-24 14:05:14,172:INFO:sectionlog-4
+2021-09-24 14:05:14,172:INFO:section invaild
+2021-09-24 14:05:14,172:INFO:sectionlog-5
+2021-09-24 14:05:14,172:INFO:section invaild
+2021-09-24 14:05:14,172:INFO:sectionlog-6
+2021-09-24 14:05:14,172:INFO:section invaild
+2021-09-24 14:05:14,181:INFO:current read file: INI_config/ini_storage/logFTP.ini
+2021-09-24 14:05:14,181:INFO:sectionlogFTP-1
+2021-09-24 14:05:14,181:INFO:sectionlogFTP-2
+2021-09-24 14:05:14,181:INFO:sectionlogFTP-3
+2021-09-24 14:05:14,181:INFO:sectionlogFTP-4
+2021-09-24 14:05:14,181:INFO:sectionlogFTP-5
+2021-09-24 14:05:14,181:INFO:sectionlogFTP-6
+2021-09-24 14:05:14,181:INFO:sectionlogFTP-7
+2021-09-24 14:05:14,194:INFO:current read file: INI_config/ini_storage/config_EMU-B20MC.ini
+2021-09-24 14:05:14,194:INFO:sectionEMU-B20MC-1
+2021-09-24 14:05:14,194:INFO:sectionEMU-B20MC-2
+2021-09-24 14:05:14,197:INFO:current read file: INI_config/ini_storage/config_EMU-B20SM.ini
+2021-09-24 14:05:14,198:INFO:sectionEMU-B20SM-1

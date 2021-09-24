@@ -21,6 +21,7 @@ class commutnicate_app():
         self.type_connection = "Modbus"
         self.client_configParser = ini.ini_config()
         self.setFTP_connect()
+        self.setMQTT_connect()
         #write info -> ini file when start class
         self.setDevice_name("EMU-B20MC")
         logging.basicConfig(filename="config_debug.txt", level=logging.DEBUG,
@@ -68,7 +69,7 @@ class commutnicate_app():
         self.MQTT_ip = Initread[1]["server_ip"]
         self.MQTT_user = Initread[1]["username"]
         self.MQTT_psw = Initread[1]["password"]
-        self.MQTT_port = Initread[1]["port"]
+        self.MQTT_port = int(Initread[1]["port"])
 
     def setDevice_name(self,device_name):
         self.device_name = device_name
@@ -92,6 +93,7 @@ class commutnicate_app():
             return self.client_connect1.connect_client(ip)
         elif(self.type_connection =="MQTT"): #dev in pocessing MQTT
             self.client_connect2 = MQTT.MQTT_connect()
+            self.client_connect2.setConnect(self.MQTT_ip,self.MQTT_port,self.MQTT_user,self.MQTT_psw)
             return self.client_connect2.connect_mqtt()
         else :
             logging.info("unknow type\n")
@@ -211,18 +213,36 @@ class commutnicate_app():
         return statuscontext
 
     def commamd_complexDeviceINFO(self,type,allIP): #get initIP connect&get device info& print ini
-        for ip in allIP:
-            statusconnect = self.connnection_brige(type,ip) #connect device
-            #print(statusconnect)
-            if(statusconnect == "connect"):
-                mac,id,st,ver= self.getInfo_device() #get info
+        if type == "Modbus":
+            for ip in allIP:
+                statusconnect = self.connnection_brige(type,ip) #connect device
+                #print(statusconnect)
+                if(statusconnect == "connect"):
+                    mac,id,st,ver= self.getInfo_device() #get info
                 
-                self.setPrintData([ip,mac,id,st[0],st[1],st[2],st[3],ver]) #compack info
-                self.command_print_ini("device","INI_config/ini_storage/") #write ini
-                self.disconnect_brige()
-            else:
-                print(statusconnect)
+                    self.setPrintData([ip,mac,id,st[0],st[1],st[2],st[3],ver])  #compack info
+                    self.command_print_ini("device","INI_config/ini_storage/") #write ini
+                    self.disconnect_brige()
+                else:
+                    print(statusconnect)
+        elif type == "MQTT":
+            statusconnect = self.connnection_brige(type,"")
+            
+            info = commu.getInfo_device()
+            print(info)
+            #print(type(info))
+            # print(st)
+            # print(id)
+            # print(ver)
+            # /////print info to 
+            # if(ip !=""):
+            #     pass
+                # self.setPrintData([ip,mac,id,st["mes"],st["sdc"],st["ntp"],st["tcp"],ver])#compack info
+                # self.command_print_ini("device","INI_config/ini_storage/") #write ini
+            # self.disconnect_brige()
+
         self.setClearMod_ip()
+        
             
 if __name__ == "__main__":
     ip = '*****'
@@ -298,4 +318,12 @@ if __name__ == "__main__":
     # Table_data,Table_head = c.getINI_file("INI_config/ini_storage/logFTP.ini")
     # list_obj= c.command_unpack_json(Table_data)
     # print(list_obj)
-
+    print(commu.MQTT_ip)
+    print(commu.MQTT_user)
+    print(commu.MQTT_psw)
+    print(commu.MQTT_port)
+    commu.commamd_complexDeviceINFO("MQTT","")
+    # commu.connnection_brige("MQTT","")
+    # commu.setDeviceIP_connect("127.0.10.1")
+    # commu.command_update_firmware()
+    # commu.disconnect_brige()
