@@ -13,7 +13,7 @@ from PySide2.QtGui import QGuiApplication
 from PySide2.QtQml import QQmlApplicationEngine
 from PySide2.QtCore import *
 
-class countTime(th):
+class countTime(th): #count down timer
 
     def __init__(self):
         th.__init__(self)
@@ -28,13 +28,13 @@ class countTime(th):
         logging.basicConfig(filename="config_debug.txt", level=logging.DEBUG,
                         format='%(asctime)s:%(levelname)s:%(message)s')
 
-    def setupdatefunction(self,update,listIP,type):
+    def setupdatefunction(self,update,listIP,type): #get init function & value
         self.conType = type  #connect type
         self.listIP = listIP #get all update ip
         #pass function
         self.updateDevice = update #update
 
-    def settime(self):
+    def settime(self): #set time form main class
         if(self.bufferTimer == []):
             self.hour =0
             self.min =0
@@ -50,12 +50,12 @@ class countTime(th):
             self.sec = int(delta[2])
             self.status = "alraedy set"
 
-    def setbufferTimer(self,tdelta):
+    def setbufferTimer(self,tdelta): # buffering click button more than 1 times
         self.bufferTimer.append(str(tdelta))
         self.status = "wait"
         #print("list timer : ",self.bufferTimer)
         
-    def countdown(self):
+    def countdown(self): #main function timer
         
         self.status = "clock running"
         t = self.hour*60*60+self.min*60+self.sec
@@ -65,14 +65,14 @@ class countTime(th):
         # unit you need to add
             if(self.stoptime == True):
                 break
-            mins, secs = divmod(t, 60) 
+            mins, secs = divmod(t, 60)  #convert time unit
             hours, mins = divmod(mins, 60)
             days, hours = divmod(hours, 24)
-            self.timer = '{:02d}:{:02d}:{:02d}'.format(hours, mins, secs) 
+            self.timer = '{:02d}:{:02d}:{:02d}'.format(hours, mins, secs) #set form
             print(self.timer, end="\r") 
             time.sleep(1) 
             t -= 1
-        if(self.stoptime == True):
+        if(self.stoptime == True): #instant stop timer
             self.status = "cancle"
             logging.info("cancle")
         else:
@@ -85,7 +85,7 @@ class countTime(th):
     def getstatusTimer(self):
         return self.status
 
-    def run(self):
+    def run(self): #runing in thread
         print("thread run")
         self.settime()
         print("settime")
@@ -96,7 +96,7 @@ class countTime(th):
         self.bufferTimer =[]
         logging.info("timer done")
 
-class TableModel(QAbstractTableModel): #model view prototype
+class TableModel(QAbstractTableModel): #model view prototype, this basic set Model for displaying data in QT form
     def __init__(self, data):
         super(TableModel, self).__init__()
         self._data = data
@@ -141,29 +141,29 @@ class Connect_page(QObject):
         self.updateIP = []
         self.hour = []
         self.min = []
-        self.listSetData("hour")
-        self.listSetData("min")
-        self.dataHour = pd.DataFrame(self.hour,columns=["hour"])
-        self.dataMin = pd.DataFrame(self.min,columns=["min"])
-        self.timer = countTime()
+        self.listSetData("hour") #reset tumbler timer
+        self.listSetData("min")  #reset tumbler timer
+        self.dataHour = pd.DataFrame(self.hour,columns=["hour"]) #set data for tumbler
+        self.dataMin = pd.DataFrame(self.min,columns=["min"]) #set data for tumbler
+        self.timer = countTime() #inherite countdown class 
         #self.timer = countTime(self.testfunc)
           
         logging.basicConfig(filename="config_debug.txt", level=logging.DEBUG,
                         format='%(asctime)s:%(levelname)s:%(message)s')
         self.commu = commu.commutnicate_app()
-        self.commu.setDevice_name("EMU-B20MC")
+        self.commu.setDevice_name("EMU-B20MC") 
         
         #create TabelModel section
-        self.devicetopic =['ip','mac','id','mes','sdc','ntp','tcp','c_version']
-        self.devicecData = pd.DataFrame(columns=self.devicetopic)
+        self.devicetopic =['ip','mac','id','mes','sdc','ntp','tcp','c_version'] #init table columns
+        self.devicecData = pd.DataFrame(columns=self.devicetopic) #create table with columns
         self.statustopic=['ip','mac','date','error'] 
         self.statusData = pd.DataFrame(columns=self.statustopic)
         self.logtopic=['mac','date','version'] 
         self.logData = pd.DataFrame(columns=self.logtopic)
-        
-        self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/log.ini")
-        self.list_obj = self.commu.command_unpack_json(self.Table_data)
-        self.tableSetData("status",self.list_obj)
+        #read old log from inifile
+        self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/log.ini") #read INI file 
+        self.list_obj = self.commu.command_unpack_json(self.Table_data) #convert data form
+        self.tableSetData("status",self.list_obj) #push data in table
 
         self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/logFTP.ini")
         self.list_obj = self.commu.command_unpack_json(self.Table_data)
@@ -178,7 +178,7 @@ class Connect_page(QObject):
         self.list_obj = self.commu.command_unpack_json(self.Table_data)
         self.tableSetData("device",self.list_obj)
 
-        self.deviceTable = TableModel(self.devicecData)
+        self.deviceTable = TableModel(self.devicecData) #convert table to model form
         self.statusTable = TableModel(self.statusData)
         self.logTable = TableModel(self.logData)
     
@@ -187,7 +187,7 @@ class Connect_page(QObject):
         self.commu.setFTP_connect()
         self.commu.connection_FTP()
         
-    def listSetData(self,type):
+    def listSetData(self,type): #set hour&min for tumbler timer
         num = ""
         if(type == "hour"):
             for i in range(12):
@@ -196,17 +196,17 @@ class Connect_page(QObject):
             for i in range(60):
                 self.min.append(i)
 
-    def settimer(self,h,m):
+    def settimer(self,h,m): #set basic timer info
         self.timer = countTime()
         #self.timer = countTime(self.testfunc)
         
-        FMT = "%d-%m %H:%M"
-        currentDateTime = datetime.now()
+        FMT = "%d-%m %H:%M" #date form 
+        currentDateTime = datetime.now() #get current date
         #print(currentDateTime.strftime("%D:%H:%M"))
-        now = currentDateTime.strftime(FMT)
+        now = currentDateTime.strftime(FMT) #init date form to current date
         #print(now)
-        nowHour = currentDateTime.hour
-        if(h == "-1"):
+        nowHour = currentDateTime.hour #get current hour
+        if(h == "-1"): #in case none set timer
             tdelta = datetime.strptime(now,FMT)-datetime.strptime(now,FMT)
             print(tdelta)
         else:
@@ -221,11 +221,11 @@ class Connect_page(QObject):
                 nowDay = currentDateTime.day
                 nowMonth = currentDateTime.month
                 date2 = str(nowDay)+"-"+str(nowMonth)+" "+h+":"+m
-            tdelta = datetime.strptime(date2,FMT)-datetime.strptime(now,FMT)
+            tdelta = datetime.strptime(date2,FMT)-datetime.strptime(now,FMT) #find period
         self.timer.setbufferTimer(tdelta)
 
     @Slot(int,int,int)
-    def setTimeupdate(self,hour,min,posfix):
+    def setTimeupdate(self,hour,min,posfix): #init basic timer from UI 
         if(hour == -1):
             self.settimer(str(-1),str(-1))
         else:
@@ -247,17 +247,17 @@ class Connect_page(QObject):
                 self.settimer(str(hour+12),min_str)
         
     @Slot(bool)
-    def cancleTimer(self,stop):
+    def cancleTimer(self,stop): #clear timer setting
         self.timer.stoptime = stop
         self.timer.bufferTimer = []
         self.timer.hour = 0
         self.timer.min = 0
         self.timer.sec = 0
 
-    def starCount(self):
+    def starCount(self): #start timer thread
         self.timer.start()
 
-    def tableSetData(self,table,data):
+    def tableSetData(self,table,data): #insert data to table
         for i in data:
             if(table == "device"):
                 self.devicecData = self.devicecData.append(i,ignore_index=True)
@@ -268,29 +268,41 @@ class Connect_page(QObject):
             else:
                 logging.info("unmatch table")
 
-    def findIP(self,mac):
+    def findIP(self,mac): #find ip form mac in table
         index = self.devicecData[self.devicecData['mac']== mac].index.values.astype(int)[0]
         ip = self.devicecData.iat[index,1]
         return ip
 
-    def findMacUpdate(self,updateIP):
+    def findMacUpdate(self,updateIP): #find mac from ip use in update device
         index = self.devicecData[self.devicecData['ip']== updateIP].index.values.astype(int)[0] #find index
         updateMac = self.devicecData.iat[index,1] #get device mac
         return updateMac
     
-    def getALLdeviceIP(self):
+    def getALLdeviceIP(self): #get ip from table
         listIP = self.devicecData['ip'].tolist()
         return listIP
     
+    def getALLLdeviceMAC(self): #get mac from table
+        listMAC = self.devicecData['mac'].tolist()
+        return listMAC
+    
+    def getALLDIP_MAC(self): # use for match ip&mac when fetch 
+        listDevice = []
+        listIP = self.getALLdeviceIP()
+        listMac = self.getALLLdeviceMAC()
+        for index in range(len(listIP)):
+            listDevice.append(listIP[index],listMac[index])
+        return listDevice 
+    
     @Slot(bool)
-    def appendToListCheck(self, isState):
+    def appendToListCheck(self, isState): #get ip from table & push to select IP section
         self.setClearListcheck.emit(True)
         listIP = self.getALLdeviceIP()
         for ip in listIP:
             self.setContextListcheck.emit(ip)
         
     @Slot(bool)
-    def refreshmentStatus(self, isState):
+    def refreshmentStatus(self, isState): #update status info
         self.statusData = self.statusData.iloc[0:0] #clear old data
         self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/log.ini")
         list_obj = self.commu.command_unpack_json(self.Table_data)
@@ -306,7 +318,7 @@ class Connect_page(QObject):
         print(updatecontext)
 
     @Slot(str)
-    def updateFirmware(self, type):
+    def updateFirmware(self, type): #update device for Modbus
         if(type == ""):
             logging.info("type connection from QML is NULL")
             self.setContexNoti.emit("type connection from QML is NULL")
@@ -325,7 +337,7 @@ class Connect_page(QObject):
             self.setContexNoti.emit("update commit done")
 
     @Slot(str)        
-    def getUpdateIP(self, ip):
+    def getUpdateIP(self, ip): #check receive ip from update section
         if(ip == ""):
             logging.info("ip is NULL")
         else:
@@ -333,7 +345,7 @@ class Connect_page(QObject):
             logging.info("IP rev.")
     
     @Slot(bool)
-    def refreshmentLog(self, isState):
+    def refreshmentLog(self, isState): #update log table
         #fetch newdata from device section
         self.commu.conmmand_clearINI("logFTP","INI_config/ini_storage/logFTP.ini","INI_config/ini_storage/")
         self.commu.connection_FTP()
@@ -364,7 +376,7 @@ class Connect_page(QObject):
             self.setContexNoti.emit("update log FTP table")
 
     @Slot(bool)
-    def refreshmentTable(self, isState): #refresh table
+    def refreshmentTable(self, isState): #update device info table for Modbus
         #fetch newdata from device section
         self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
         self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20SM.ini","INI_config/ini_storage/")
@@ -390,8 +402,37 @@ class Connect_page(QObject):
         self.appendToListCheck(True)
         self.setContexNoti.emit("refresh device table done")
     
+    @Slot(bool)
+    def refreshmentTableMQTT(self, isState): #update device table for MQTT
+        #fetch newdata from device section
+        self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20MC.ini","INI_config/ini_storage/")
+        self.commu.conmmand_clearINI("device","INI_config/ini_storage/config_EMU-B20SM.ini","INI_config/ini_storage/")
+        self.commu.setMatchIP_MAC(self.getALLDIP_MAC())
+        self.commu.setDeviceIP_connect("MC")
+        self.commu.setTypeMatchIP("MC")
+        self.commu.setDeviceIP_connect("SM")
+        self.commu.setTypeMatchIP("SM")
+        self.commu.commamd_complexDeviceINFO("MQTT","")
+
+        #read data from ini file section
+        self.devicecData = self.devicecData.iloc[0:0] #clear old data
+        self.commu.setDevice_name("EMU-B20MC")
+        self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/config_EMU-B20MC.ini")
+        self.list_obj = self.commu.command_unpack_json(self.Table_data)
+        self.tableSetData("device",self.list_obj)
+        self.commu.setDevice_name("EMU-B20SM")
+        self.Table_data,self.Table_head = self.commu.getINI_file("INI_config/ini_storage/config_EMU-B20SM.ini")
+        self.list_obj = self.commu.command_unpack_json(self.Table_data)
+        self.tableSetData("device",self.list_obj)
+
+        self.deviceTable._data = self.devicecData
+        self.deviceTable.layoutChanged.emit()
+        #change ip in List checkbox
+        self.appendToListCheck(True)
+        self.setContexNoti.emit("refresh device table done")
+
     @Slot(str,str)
-    def registDevice(self, ip,device):
+    def registDevice(self, ip,device): #add new deivce to iniconfig.ini
         self.commu.setPrintData([ip,device])
         self.commu.command_print_ini("initConfig","INI_config/ini_storage/")
         self.setContexNoti.emit("regist device done")
@@ -402,8 +443,8 @@ if __name__ == "__main__":
 
     #get context to page
     backEnd = Connect_page()
-    
-    engine.rootContext().setContextProperty('LogFTPModel', backEnd.logTable)
+    #blinding model & backEnd to QML
+    engine.rootContext().setContextProperty('LogFTPModel', backEnd.logTable) 
     engine.rootContext().setContextProperty('StatusModel', backEnd.statusTable)
     engine.rootContext().setContextProperty('DeviceModel', backEnd.deviceTable)
     engine.rootContext().setContextProperty("backend", backEnd)

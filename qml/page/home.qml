@@ -18,7 +18,7 @@ Item {
             timer.start()
         }
 
-        function getFirstIndex(model) {
+        function getFirstIndex(model) { //get ip from select update devices
             if(internal.notiset | model.count>1){
                 //console.log("toggole 1")
                 var contex = model.get(1).data
@@ -77,7 +77,7 @@ Item {
             anchors.bottomMargin: 0
         }
 
-        Rectangle {
+        Rectangle { //create device table
             id: tableDevice
             x: 77
             y: 70
@@ -119,7 +119,7 @@ Item {
                     clip: true
                 }
 
-                model: DeviceModel
+                model: DeviceModel //model name
 
                 delegate:  DelegateChooser{
                     DelegateChoice{
@@ -163,8 +163,8 @@ Item {
             anchors.bottom: tableLog.top
             anchors.bottomMargin: 0
         }
-        Rectangle {
-            id: nitoUpStatus
+        Rectangle { //create notification bar
+            id: nitoUpStatus 
             x: tableDevice.x
             width: 500
             height: 40
@@ -185,7 +185,7 @@ Item {
             }
         }
 
-        Rectangle {
+        Rectangle { //text notification bar
             id: nitoUpStatuscontext
             y: nitoUpStatus.y
             height: 40
@@ -207,7 +207,7 @@ Item {
                 font.pointSize: 20
             }
         }
-        Rectangle{
+        Rectangle{ //create log table
             id: tableLog
             x: tableDevice.x
             height: 460
@@ -259,7 +259,7 @@ Item {
             }
         }
 
-        Rectangle {
+        Rectangle { //add devices section
             id: regist
             y: tableLog.y
             height: 450
@@ -283,7 +283,7 @@ Item {
                 anchors.rightMargin: 38
                 anchors.topMargin: 8
 
-                TextInput {
+                TextInput { //input box type device
                     id: textDN
                     x: 20
                     y: 181
@@ -321,7 +321,7 @@ Item {
                 anchors.rightMargin: 38
                 anchors.topMargin: 8
 
-                TextInput {
+                TextInput { //input Ip device
                     id: textIP
                     x: 20
                     y: 7
@@ -467,7 +467,7 @@ Item {
     Connections{
         target: homeBackend
 
-        function onSetContexNoti(context){
+        function onSetContexNoti(context){ //get noti
             contextNotitext.append({"data": context})
             internal.notiset = true
             //contextNoti.text = context

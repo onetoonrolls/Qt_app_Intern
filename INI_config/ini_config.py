@@ -22,40 +22,40 @@ class ini_config():
         logging.basicConfig(filename="config_debug.txt", level=logging.DEBUG,
                         format='%(asctime)s:%(levelname)s:%(message)s')
 
-    def setDevice_name(self,device):
+    def setDevice_name(self,device): #set deivce type
         self.device_name = device
 
-    def setStatus(self,status_rev):
+    def setStatus(self,status_rev): #set status info device
         self.value4.append(status_rev[0])
         self.value5.append(status_rev[1])
         self.value6.append(status_rev[2])
         self.value7.append(status_rev[3])
 
-    def setFTP_data(self,FTP):
+    def setFTP_data(self,FTP): #set initConfig port
         self.FTP_data["port"]= FTP
 
-    def setVersion(self,ver):
+    def setVersion(self,ver): #set device version
         self.value8.append(ver)
 
-    def setDate(self,date):
+    def setDate(self,date): #set log date
         self.value3.append(date)
 
-    def setError(self,error):
+    def setError(self,error): #set log error
         self.value4.append(error)
 
-    def setIP(self,ip):
+    def setIP(self,ip): #set device ip
         self.value1.append(ip)
 
-    def setMac(self,mac):
+    def setMac(self,mac): #set deivce mac
         self.value2.append(mac)
 
-    def setID(self,id):
+    def setID(self,id): #set device id
         self.value3.append(id)
 
-    def setTime(self,time):
+    def setTime(self,time): #set log time
         self.value4.append(time)
 
-    def setLog(self,ip,mac,date,error):
+    def setLog(self,ip,mac,date,error): #pack of log command for update log 
         self.setIP(ip)
         self.setMac(mac)
         self.setDate(date)
@@ -64,24 +64,24 @@ class ini_config():
     def setInitconfig(self,ip):
         self.setIP(ip)
 
-    def setLogFTP(self,mac,date,time,ver):
+    def setLogFTP(self,mac,date,time,ver): #pack of log command for FTP
         #self.setIP(ip)
         self.setMac(mac)
         self.setDate(date)
         self.setTime(time)
         self.setVersion(ver)
 
-    def setDevice_basicDetail(self,id,ip,mac):
+    def setDevice_basicDetail(self,id,ip,mac): 
         self.setIP(ip)
         self.setMac(mac)
         self.setID(id)
     
-    def setDevice_info(self,ip,mac,id,sta,C_ver):
+    def setDevice_info(self,ip,mac,id,sta,C_ver): #pack of device info command 
         self.setDevice_basicDetail(id,ip,mac)
         self.setStatus(sta)
         self.setVersion(C_ver)
 
-    def setClear(self):
+    def setClear(self): #clear value in ini_config
         self.value1 = [] 
         self.value2 =[] 
         self.value3 = [] 
@@ -91,7 +91,7 @@ class ini_config():
         self.value7 = [] 
         self.value8 = []
         
-    def clearAllsection(self,type):
+    def clearAllsection(self,type): #clear all section in ini.file
         data =  configparser.ConfigParser()
         logging.info("current read file: "+self.path_read)
         data.read(os.path.abspath(self.path_read))
@@ -130,7 +130,7 @@ class ini_config():
         self.path_read = read
         self.path_write = write
 
-    def ini_print(self,type):
+    def ini_print(self,type): #write INI file classify from type
         data =  configparser.ConfigParser() #inherit parser object
         logging.info("write path :"+self.path_write)
         if(type == "device"):
@@ -212,8 +212,7 @@ class ini_config():
         self.setClear()
         logging.info("clear done")
 
-    #convert .ini file to Json
-    def read_INI_to_Json(self):
+    def read_INI_to_Json(self): #convert .ini file to dic form
         data =  configparser.ConfigParser() #inherit parser object
         key_obj = []
         logging.info("current read file: "+self.path_read)

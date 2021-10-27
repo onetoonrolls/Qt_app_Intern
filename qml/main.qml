@@ -25,7 +25,7 @@ Window {
 
     QtObject{
         id:internal
-        function changeIcon(){
+        function changeIcon(){ //change icon window
             if(windowStatus ==1){
                 maximize.iconsource = "../icon/restore.png"
             }
@@ -84,14 +84,14 @@ Window {
         }
 
     }
-    Rectangle {
+    Rectangle { //frame background
         id: bg
         width: 990
         height: 570
         color: "#3e4242"
         radius: 3
         border.width: 9
-        anchors.left: parent.left
+        anchors.left: parent.left //fix position with parent
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
@@ -99,7 +99,7 @@ Window {
         anchors.bottomMargin: windowMargin
         anchors.leftMargin: windowMargin
         anchors.topMargin: windowMargin
-        z:1
+        z:1 //init layer
 
         Rectangle {
             id: app_content
@@ -125,7 +125,7 @@ Window {
                 anchors.leftMargin: 0
                 anchors.topMargin: 0
 
-                PropertyAnimation{
+                PropertyAnimation{ //init animation slide menubar
                     id:animateMenu
                     target: menubar
                     property: "width"
@@ -134,10 +134,10 @@ Window {
                     easing.type: Easing.InOutQuint
                 }
 
-                Column {
-                    id: menu
+                Column { //init menu icon & animation
+                    id: menu 
                     width: 70
-                    anchors.left: parent.left
+                    anchors.left: parent.left 
                     anchors.right: parent.right
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
@@ -156,10 +156,10 @@ Window {
                         width: menubar.width
                         text: qsTr("home")
                         onClicked: {
-                            update.isActMenu = false
+                            update.isActMenu = false //toggle color function 
                             btnHome.isActMenu = true
 
-                            stackView.replace(Qt.createComponent(Qt.resolvedUrl("../qml/page/home.qml")))
+                            stackView.replace(Qt.createComponent(Qt.resolvedUrl("../qml/page/home.qml"))) //change page
                             internal.delay(5000)
                             //backend.refreshmentTable(btnHome.autoRepeat)
                         }
@@ -176,7 +176,7 @@ Window {
                         onClicked: {
                             btnHome.isActMenu = false
                             update.isActMenu = true
-                            stackView.replace(Qt.createComponent(Qt.resolvedUrl("../qml/page/update.qml")))
+                            stackView.replace(Qt.createComponent(Qt.resolvedUrl("../qml/page/update.qml"))) //change page
                             //stackView.replace(Qt.resolvedUrl("../qml/page/update.qml"))
                             internal.delay(5000)
                             //backend.refreshmentTable(update.autoRepeat)
@@ -210,7 +210,7 @@ Window {
                     anchors.right: parent.right
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
-                    spacing: 15
+                    spacing: 15 //init distance between icon
                     anchors.rightMargin: 0
                     anchors.bottomMargin: 0
                     anchors.topMargin: 0
@@ -245,7 +245,7 @@ Window {
                 }
             }
 
-            Rectangle {
+            Rectangle { //frame show page
                 id: display
                 y: 81
                 color: "#ffffff"
@@ -265,9 +265,9 @@ Window {
                     z:2
                     id: stackView
                     anchors.fill: parent
-                    initialItem: Qt.createComponent(Qt.resolvedUrl("../qml/page/home.qml"))
+                    initialItem: Qt.createComponent(Qt.resolvedUrl("../qml/page/home.qml")) //set init page show
                     
-                    BusyIndicator {
+                    BusyIndicator { //show loading screen
                             width: 500
                             height: 500
                             anchors.centerIn: parent
@@ -311,7 +311,7 @@ Window {
                         
                         onClicked: {
                             internal.delay(5000)
-                            backend.refreshmentTable(reDevice.autoRepeat)
+                            backend.refreshmentTable(reDevice.autoRepeat) //call update table
                         }
 
                     }
@@ -328,7 +328,7 @@ Window {
 
                         onClicked: {
                             internal.delay(5000)
-                            backend.refreshmentStatus(reStatus.autoRepeat)
+                            backend.refreshmentStatus(reStatus.autoRepeat) //call update table
                         }
                     }
 
@@ -344,7 +344,7 @@ Window {
 
                         onClicked: {
                             internal.delay(5000)
-                            backend.refreshmentLog(reNoti.autoRepeat)
+                            backend.refreshmentLog(reNoti.autoRepeat) //call update table
                         }
                     }
                 }
@@ -404,7 +404,7 @@ Window {
 
         DragHandler{
             target: null
-            onActiveChanged: if(active){window.startSystemResize(Qt.LeftEdge)}
+            onActiveChanged: if(active){window.startSystemResize(Qt.LeftEdge)} //resize window
         }
     }
 
@@ -420,7 +420,7 @@ Window {
         anchors.topMargin: 10
         DragHandler {
             target: null
-            onActiveChanged: if(active){window.startSystemResize(Qt.RightEdge)}
+            onActiveChanged: if(active){window.startSystemResize(Qt.RightEdge)} //resize window
         }
     }
 
@@ -436,7 +436,7 @@ Window {
         anchors.rightMargin: 10
         DragHandler {
             target: null
-            onActiveChanged: if(active){window.startSystemResize(Qt.BottomEdge)}
+            onActiveChanged: if(active){window.startSystemResize(Qt.BottomEdge)} //resize window
         }
     }
 
@@ -474,7 +474,7 @@ Window {
 
         DragHandler {
             target: null
-            onActiveChanged: if(active){window.startSystemResize(Qt.BottomEdge|Qt.RightEdge)}
+            onActiveChanged: if(active){window.startSystemResize(Qt.BottomEdge|Qt.RightEdge)} //resize window
         }
 
     }
@@ -494,7 +494,7 @@ Window {
         cursorShape: Qt.SizeVerCursor
         DragHandler {
             target: null
-            onActiveChanged: if(active){window.startSystemResize(Qt.TopEdge)}
+            onActiveChanged: if(active){window.startSystemResize(Qt.TopEdge)} //resize window
         }
     }
     //Component.onCompleted: console.log("main page created ")

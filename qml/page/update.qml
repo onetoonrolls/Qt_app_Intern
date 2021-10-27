@@ -13,7 +13,7 @@ Item {
         id: internal
         property string typeConnect: ""
         property bool notiset: false
-        function findIndex(myModel,searchedId){
+        function findIndex(myModel,searchedId){  //get index item
             for(var i = 0; i < myModel.count; i++) {
                 var elemCur = myModel.get(i).name;
                 if(searchedId == elemCur) {
@@ -22,25 +22,25 @@ Item {
             }
         }
 
-        function formatText(count, modelData) {
+        function formatText(count, modelData) { //init text
             var data = count === 12 ? modelData + 1 : modelData;
             return data.toString().length < 2 ? "0" + data : data;
         }
         
-        function getAllitemlist(myModel){
+        function getAllitemlist(myModel){ //get item from model
             for(var i = 0; i < myModel.count; i++){
                 //print("Item list : ",myModel.get(i).name)
                 UpdatbackEnd.getUpdateIP(myModel.get(i).name)
             }
         }
 
-        function unCheckBox(myModel){
+        function unCheckBox(myModel){ //function toggle checkbox
             for(var i=0; i< myModel.count;i++){
                 myModel.setProperty(i, "ischecked", false)
             }
         }
 
-        function getFirstIndex(model) {
+        function getFirstIndex(model) { //get ip from select update devices
             if(internal.notiset | model.count>1){
                 //console.log("toggole 1")
                 var contex = model.get(1).data
@@ -98,11 +98,11 @@ Item {
                 height: 65
                 text: "confirm"
                 onClicked: {
-                    internal.getAllitemlist(listmodelId)
+                    internal.getAllitemlist(listmodelId) //get IP to value
                     contextNotitext.append({"data":"Processing to python backend"})
                     internal.notiset = true
                     //contextNoti.text = "Processing to python backend"
-                    UpdatbackEnd.updateFirmware(internal.typeConnect)
+                    UpdatbackEnd.updateFirmware(internal.typeConnect) //update device
                     //UpdatbackEnd.starCount(true)
                 }
             }
@@ -117,10 +117,10 @@ Item {
                 var min = minutesTumbler.currentIndex
                 var posfix = amPmTumbler.currentIndex
                 if(timer.visible){
-                    UpdatbackEnd.setTimeupdate(hour,min,posfix)
+                    UpdatbackEnd.setTimeupdate(hour,min,posfix) //set time
                 }
                 else{
-                    UpdatbackEnd.setTimeupdate(-1,-1,-1)
+                    UpdatbackEnd.setTimeupdate(-1,-1,-1) //none setting time
                 }
             }
             }
@@ -131,8 +131,8 @@ Item {
                 id: cancle
                 text: "cancle"
                 onClicked: {
-                    internal.unCheckBox(comboList)
-                    UpdatbackEnd.cancleTimer(true)
+                    internal.unCheckBox(comboList) //cancle setting timer
+                    UpdatbackEnd.cancleTimer(true) //cancle to backEnd
                 }
             }
         }
@@ -207,7 +207,7 @@ Item {
             anchors.bottomMargin: 0
         }
 
-        Rectangle {
+        Rectangle { //create device table
             id: deviceTable
             height: 190
             color: "#00000000"
@@ -288,7 +288,7 @@ Item {
             anchors.bottomMargin: 0
         }
 
-        Rectangle {
+        Rectangle { //create log FTP table
             id: notiTable
             width: 1264
             height: 180
@@ -345,7 +345,7 @@ Item {
             }
         }
 
-        Rectangle {
+        Rectangle { //update section
             id: updateOption
             y: 612
             width: 1500
@@ -357,7 +357,7 @@ Item {
             anchors.leftMargin: 73
             anchors.topMargin: 13
 
-            Rectangle {
+            Rectangle { //select device
                 id: selectDevice
                 x: 0
                 width: 425
@@ -374,11 +374,11 @@ Item {
                     height: 50
                     font.pointSize: 15
                     displayText: "Select IP Devices"
-                    model: ListModel {
+                    model: ListModel { //store ip from python
                         id : comboList
                     }
 
-                    delegate: Item {
+                    delegate: Item { //form check box
                         width: 100
                         height: 50
                         Row {
@@ -392,7 +392,7 @@ Item {
                                 checked: ischecked
                                 //onPressed: checked = !checked
                                 onCheckedChanged: {
-                                    if(checked)
+                                    if(checked) //toggle check box
                                     {
                                         ischecked = true
                                         listmodelId.append({ "name": name})
@@ -418,7 +418,7 @@ Item {
                     }
                 }
                 ListModel {
-                    id: listmodelId
+                    id: listmodelId //store update IP in list form
                     Component.onCompleted :{
                         UpdatbackEnd.appendToListCheck(true)
 
@@ -453,7 +453,7 @@ Item {
                 }
             }
 
-            Rectangle {
+            Rectangle { //method select section
                 id: typeCheck
                 width: 301
                 height: 170
@@ -560,7 +560,7 @@ Item {
                 }
             }
 
-            Rectangle {
+            Rectangle { //set time section
                 id: timeUpdate
                 x: 828
                 y: 0
@@ -596,7 +596,7 @@ Item {
                         anchors.leftMargin: 20
                     }
 
-                    CheckBox {
+                    CheckBox { //checkbox for enable timer
                         id: checktimer
                         anchors.left: parent.left
                         anchors.top: parent.top
@@ -630,11 +630,11 @@ Item {
                     }
                 }
 
-                FontMetrics {
+                FontMetrics { //number series form
                     id: fontMetrics
                 }
 
-                Rectangle {
+                Rectangle { //create timbler timer
                     id: timer
                     width: 250
                     height: 152
@@ -692,7 +692,7 @@ Item {
         }
     }
 
-    ListModel {
+    ListModel { //notification buffer
         id: contextNotitext
         ListElement {
             data: ""

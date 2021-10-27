@@ -121,7 +121,7 @@ def run():
     mq = connect_mqtt()
     mq.loop_start()
     while(True):
-        time.sleep(5)
+        time.sleep(10)
         if(discon == 1):
             time.sleep(15)
             mq.disconnect()
